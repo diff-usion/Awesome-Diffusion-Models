@@ -6,7 +6,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
 
-*If there are any missing valuable resource or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
+*If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
 ## Introductory Material
 **What are Diffusion Models?** \
@@ -140,8 +140,12 @@ arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 **Deep Unsupervised Learning using Nonequilibrium Thermodynamics** \
 *Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli* \
 ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
-2 Mar 2015 
+2 Mar 2015
 
+**A Connection Between Score Matching and Denoising Autoencoders** \
+*Pascal Vincent* \
+Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
+7 Jul 2011
 
 ## Super Resolution
 
