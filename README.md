@@ -13,7 +13,8 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 **What are Diffusion Models?** \
 *Lilian Weng* \
 2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
-11 Jul 2021 
+11 Jul 2021
+
 
 ## Papers
 ## Image Generation
@@ -148,6 +149,7 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
 7 Jul 2011
 
+
 ## Super Resolution
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
@@ -210,7 +212,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 
 **Symbolic Music Generation with Diffusion Models** \
 *Gautam Mittal, Jesse Engel, Curtis Hawthorne, Ian Simon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Code](https://github.com/magenta/symbolic-music-diffusion)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Code](https://github.com/magenta/symbolic-music-diffusion)] \
 30 Mar 2021 
 
 **DiffWave with Continuous-time Variational Diffusion Models** \
