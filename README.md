@@ -8,7 +8,8 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 *If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
-## Introductory Material
+## Resources
+## Introductory Post
 **What are Diffusion Models?** \
 *Lilian Weng* \
 2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
@@ -55,7 +56,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.06819)] [[Project](https://d2c-m
 **Learning to Efficiently Sample from Diffusion Probabilistic Models** \
 *Daniel Watson, Jonathan Ho, Mohammad Norouzi, William Chan* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.03802)] \
-07 Jun 2021 
+7 Jun 2021 
 
 **A Variational Perspective on Diffusion-Based Generative Models and Score Matching** \
 *Chin-Wei Huang, Jae Hyun Lim, Aaron Courville* \
@@ -178,7 +179,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 12 Apr 2021
 
 
-## Image Inpainting
+## Image Editing
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
 ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
@@ -202,6 +203,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.06406)] [[Project](https://speechresearch.github.io/priorgrad/)] \
 11 Jun 2021 
 
+**DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism** \
+*Jinglin Liu<sup>1</sup>, Chengxi Li<sup>1</sup>, Yi Ren<sup>1</sup>, Feiyang Chen, Peng Liu, Zhou Zhao* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffsinger.github.io/)] [[Github](https://github.com/keonlee9420/DiffSinger)] \
+6 May 2021
+
 **Symbolic Music Generation with Diffusion Models** \
 *Gautam Mittal, Jesse Engel, Curtis Hawthorne, Ian Simon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Code](https://github.com/magenta/symbolic-music-diffusion)]
@@ -209,7 +215,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Code](https://github.c
 
 **DiffWave with Continuous-time Variational Diffusion Models** \
 *Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro* \
-ICLR 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Project](https://diffwave-demo.github.io/)] [[Github](https://github.com/lmnt-com/diffwave)]
+ICLR 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Project](https://diffwave-demo.github.io/)] [[Github](https://github.com/lmnt-com/diffwave)] \
 21 Sep 2020
 
 **DiffWave: A Versatile Diffusion Model for Audio Synthesis** \
@@ -250,6 +256,21 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github
 
 
 ## Text-to-Speech
+
+**WaveGrad 2: Iterative Refinement for Text-to-Speech Synthesis** \
+*Nanxin Chen, Yu Zhang, Heiga Zen, Ron J. Weiss, Mohammad Norouzi, Najim Dehak, William Chan* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.09660)] [[Project](https://mindslab-ai.github.io/wavegrad2/)] [[Github](https://github.com/keonlee9420/WaveGrad2)] [[Github2](https://github.com/mindslab-ai/wavegrad2)] \
+17 Jun 2021 
+
+**Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech** \
+*Vadim Popov<sup>1</sup>, Ivan Vovk<sup>1</sup>, Vladimir Gogoryan, Tasnima Sadekova, Mikhail Kudinov* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2105.06337)] [[Project](https://grad-tts.github.io/)] [[Github](https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS)] \
+13 May 2021
+
+**DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism** \
+*Jinglin Liu<sup>1</sup>, Chengxi Li<sup>1</sup>, Yi Ren<sup>1</sup>, Feiyang Chen, Peng Liu, Zhou Zhao* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffsinger.github.io/)] [[Github](https://github.com/keonlee9420/DiffSinger)] \
+6 May 2021
 
 **Diff-TTS: A Denoising Diffusion Model for Text-to-Speech**  \
 *Myeonghun Jeong, Hyeongju Kim, Sung Jun Cheon, Byoung Jin Choi, Nam Soo Kim* \
