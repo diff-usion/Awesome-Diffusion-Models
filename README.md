@@ -212,6 +212,12 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
 
+## Adversarial Attack and Defense
+**Adversarial purification with Score-based generative models** \
+*Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
+11 Jun 2021
+
 
 ## Audio Generation
 
