@@ -17,6 +17,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 
 ## Papers
+
 ## Image Generation
 
 **Bilateral Denoising Diffusion Models** \
@@ -44,6 +45,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github.com/revsic/jax-variational-diffwave)] \
 1 Jul 2021 
 
+**Deep Generative Learning via Schrödinger Bridge** \
+*Gefei Wang, Yuling Jiao, Qian Xu, Yang Wang, Can Yang* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2106.10410)]
+19 Jun 2021
+
 **Non Gaussian Denoising Diffusion Models** \
 *Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.07582)] [[Project](https://enk100.github.io/Non-Gaussian-Denoising-Diffusion-Models/)] \
@@ -63,6 +69,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.03802)] \
 *Chin-Wei Huang, Jae Hyun Lim, Aaron Courville* \
 ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2106.02808)] [[Github](https://github.com/CW-Huang/sdeflow-light)] \
 5 Jun 2021 
+
+**Diffusion Schrödinger Bridge with Applications to Score-Based Generative Modeling** \
+*Valentin De Bortoli, James Thornton, Jeremy Heng, Arnaud Doucet* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.01357)] [[Project](https://jtt94.github.io/papers/schrodinger_bridge)] [[Github](https://github.com/JTT94/diffusion_schrodinger_bridge)] \
+1 Jun 2021
 
 **On Fast Sampling of Diffusion Probabilistic Models** \
 *Zhifeng Kong, Wei Ping* \
@@ -119,6 +130,11 @@ ICLR 2021 (Oral). [[Paper](https://arxiv.org/abs/2011.13456)] [[Github](https://
 ICLR 2021. [[Paper](https://arxiv.org/abs/2010.02502)] [[Github](https://github.com/ermongroup/ddim)] \
 6 Oct 2020
 
+**Adversarial score matching and improved sampling for image generation** \
+*Alexia Jolicoeur-Martineau<sup>1</sup>, Rémi Piché-Taillefer<sup>1</sup>, Rémi Tachet des Combes, Ioannis Mitliagkas* \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2009.05475)] [[Github](https://github.com/AlexiaJM/AdversarialConsistentScoreMatching)] \
+11 Sep 2020
+
 **Denoising Diffusion Probabilistic Models** \
 *Jonathan Ho, Ajay Jain, Pieter Abbeel* \
 NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)] [[Github](https://github.com/hojonathanho/diffusion)] [[Github](https://github.com/pesser/pytorch_diffusion)] \
@@ -149,6 +165,10 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
 7 Jul 2011
 
+**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
+*Max Welling, Yee Whye Teh* \
+ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
+28 June 2011
 
 ## Super Resolution
 
@@ -302,3 +322,5 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 *Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
 13 Nov 2020 
+
+##
