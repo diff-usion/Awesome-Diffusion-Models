@@ -6,6 +6,25 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 *If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
+## Contents
+- [Resources](#resources)
+  - [Introductory Post](#introductory-post)
+- [Papers](#papers)
+  - [Image](#image)
+    - [Image Generation](#image-generation)
+    - [Super Resolution](#super-resolution)
+    - [Image-to-Image Translation](#image-to-image-translation)
+    - [Image Editing](#image-editing)
+    - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
+  - [Audio](#audio)
+    - [Audio Generation](#audio-generation)
+    - [Audio Enhancement](#audio-enhancement)
+    - [Audio Conversion](#audio-conversion)
+    - [Text-to-Speech](#text-to-speech)
+  - [Misc](#misc)
+    - [Time-Series Forecasting](#time-series-forecasting)
+    - [Data Imputation](#data-imputation)
+    - [Handwriting Synthesis](#handwriting-synthesis)  
 # Resources
 ## Introductory Post
 **What are Diffusion Models?** \
@@ -216,7 +235,7 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
 
-## Adversarial Attack and Defense
+### Adversarial Attack and Defense
 **Adversarial purification with Score-based generative models** \
 *Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
@@ -316,7 +335,7 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 ##
 
 ## Misc
-### Time-series Forecasting
+### Time-Series Forecasting
 
 **Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
 *Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
