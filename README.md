@@ -1,5 +1,3 @@
-# Awesome-Diffusion-Models
-
 This repository contains a collection of resources and papers on ***Diffusion Models***.
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models) 
@@ -8,7 +6,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 *If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
-## Resources
+# Resources
 ## Introductory Post
 **What are Diffusion Models?** \
 *Lilian Weng* \
@@ -16,9 +14,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 11 Jul 2021
 
 
-## Papers
+# Papers
 
-## Image Generation
+## Image
+### Image Generation
 
 **Bilateral Denoising Diffusion Models** \
 *Max W. Y. Lam, Jun Wang, Rongjie Huang, Dan Su, Dong Yu* \
@@ -170,7 +169,7 @@ Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publicat
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
 28 June 2011
 
-## Super Resolution
+### Super Resolution
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
@@ -182,13 +181,18 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.15282)] [[Project](https://cascaded-diffusion.github.io/)] \
 30 May 2021
 
+**SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models** \
+*SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2104.14951)] \
+30 Apr 2021
+
 **Image Super-Resolution via Iterative Refinement**  \
 *Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J. Fleet, Mohammad Norouzi* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
 
 
-## Image-to-Image Translation
+### Image-to-Image Translation
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
@@ -201,7 +205,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 12 Apr 2021
 
 
-## Image Editing
+### Image Editing
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
 ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
@@ -218,8 +222,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
 
+##
 
-## Audio Generation
+
+
+## Audio
+### Audio Generation
 
 **Variational Diffusion Models** \
 *Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho* \
@@ -257,7 +265,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2009.00713)] [[Project](https://wavegr
 2 Sep 2020 
 
 
-## Audio Enhancement
+### Audio Enhancement
 
 **A Study on Speech Enhancement Based on Diffusion Probabilistic Model** \
 *Yen-Ju Lu<sup>1</sup>, Yu Tsao<sup>1</sup>, Shinji Watanabe* \
@@ -275,7 +283,7 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 6 Apr 2021
 
 
-## Audio Conversion
+### Audio Conversion
 
 **DiffSVC: A Diffusion Probabilistic Model for Singing Voice Conversion**  \
 *Songxiang Liu<sup>1</sup>, Yuewen Cao<sup>1</sup>, Dan Su, Helen Meng* \
@@ -283,7 +291,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github
 28 May 2021
 
 
-## Text-to-Speech
+### Text-to-Speech
 
 **WaveGrad 2: Iterative Refinement for Text-to-Speech Synthesis** \
 *Nanxin Chen, Yu Zhang, Heiga Zen, Ron J. Weiss, Mohammad Norouzi, Najim Dehak, William Chan* \
@@ -305,8 +313,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 3 Apr 2021
 
+##
 
-## Time-series Forecasting
+## Misc
+### Time-series Forecasting
 
 **Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
 *Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
@@ -314,7 +324,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
 2 Feb 2021 
 
 
-## Data Imputation
+### Data Imputation
 
 **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
@@ -322,7 +332,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 7 Jul 2021 
 
 
-## Handwriting Synthesis
+### Handwriting Synthesis
 
 **Diffusion models for Handwriting Generation** \
 *Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
