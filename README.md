@@ -15,6 +15,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Super Resolution](#super-resolution)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Image Editing](#image-editing)
+    - [Text-to-Image](#text-to-image)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
@@ -37,6 +38,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ## Image
 ### Image Generation
+
 
 **Bilateral Denoising Diffusion Models** \
 *Max W. Y. Lam, Jun Wang, Rongjie Huang, Dan Su, Dong Yu* \
@@ -65,7 +67,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github
 
 **Deep Generative Learning via Schrödinger Bridge** \
 *Gefei Wang, Yuling Jiao, Qian Xu, Yang Wang, Can Yang* \
-ICML 2021. [[Paper](https://arxiv.org/abs/2106.10410)]
+ICML 2021. [[Paper](https://arxiv.org/abs/2106.10410)] \
 19 Jun 2021
 
 **Non Gaussian Denoising Diffusion Models** \
@@ -155,7 +157,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2009.05475)] [[Github](https://github.
 
 **Denoising Diffusion Probabilistic Models** \
 *Jonathan Ho, Ajay Jain, Pieter Abbeel* \
-NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)] [[Github](https://github.com/hojonathanho/diffusion)] [[Github](https://github.com/pesser/pytorch_diffusion)] \
+NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)] [[Github](https://github.com/hojonathanho/diffusion)] [[Github2](https://github.com/pesser/pytorch_diffusion)] \
 19 Jun 2020 
 
 **Improved Techniques for Training Score-Based Generative Models** \
@@ -189,6 +191,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 28 June 2011
 
 ### Super Resolution
+
+
+**Autoregressive Diffusion Models** \
+*Emiel Hoogeboom, Alexey A. Gritsenko, Jasmijn Bastings, Ben Poole, Rianne van den Berg, Tim Salimans* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02037)] \
+5 Oct 2021
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
@@ -234,6 +242,13 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
+
+
+### Text-to-Image
+**DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
+*Gwanghyun Kim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)]
+6 Oct 2021
 
 ### Adversarial Attack and Defense
 **Adversarial purification with Score-based generative models** \
