@@ -12,20 +12,21 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - [Papers](#papers)
   - [Image](#image)
     - [Image Generation](#image-generation)
-    - [Super Resolution](#super-resolution)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Image Editing](#image-editing)
+    - [Super Resolution](#super-resolution)
     - [Text-to-Image](#text-to-image)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
-    - [Audio Enhancement](#audio-enhancement)
     - [Audio Conversion](#audio-conversion)
+    - [Audio Enhancement](#audio-enhancement)
     - [Text-to-Speech](#text-to-speech)
-  - [Misc](#misc)
-    - [Time-Series Forecasting](#time-series-forecasting)
+  - [Miscellaneous](#miscellaneous)
     - [Data Imputation](#data-imputation)
     - [Handwriting Synthesis](#handwriting-synthesis)  
+    - [Time-Series Forecasting](#time-series-forecasting)
+
 # Resources
 ## Introductory Post
 **What are Diffusion Models?** \
@@ -190,6 +191,31 @@ Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publicat
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
 28 June 2011
 
+
+### Image-to-Image Translation
+
+**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
+*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
+ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
+6 Aug 2021
+
+**UNIT-DDPM: UNpaired Image Translation with Denoising Diffusion Probabilistic Models**  \
+*Hiroshi Sasaki, Chris G. Willcocks, Toby P. Breckon* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
+12 Apr 2021
+
+
+### Image Editing
+**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
+*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
+ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
+6 Aug 2021
+
+**SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**  \
+*Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
+2 Aug 2021
+
 ### Super Resolution
 
 
@@ -219,35 +245,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 15 Apr 2021
 
 
-### Image-to-Image Translation
-
-**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
-*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
-ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
-6 Aug 2021
-
-**UNIT-DDPM: UNpaired Image Translation with Denoising Diffusion Probabilistic Models**  \
-*Hiroshi Sasaki, Chris G. Willcocks, Toby P. Breckon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
-12 Apr 2021
-
-
-### Image Editing
-**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
-*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
-ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
-6 Aug 2021
-
-**SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**  \
-*Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
-2 Aug 2021
-
 
 ### Text-to-Image
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
 *Gwanghyun Kim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Adversarial Attack and Defense
@@ -299,6 +301,14 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2009.00713)] [[Project](https://wavegr
 2 Sep 2020 
 
 
+### Audio Conversion
+
+**DiffSVC: A Diffusion Probabilistic Model for Singing Voice Conversion**  \
+*Songxiang Liu<sup>1</sup>, Yuewen Cao<sup>1</sup>, Dan Su, Helen Meng* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github.com/liusongxiang/diffsvc)] \
+28 May 2021
+
+
 ### Audio Enhancement
 
 **A Study on Speech Enhancement Based on Diffusion Probabilistic Model** \
@@ -315,14 +325,6 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.11347)] \
 *Junhyeok Lee, Seungu Han* \
 Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https://mindslab-ai.github.io/nuwave/)] [[Github](https://github.com/mindslab-ai/nuwave)] \
 6 Apr 2021
-
-
-### Audio Conversion
-
-**DiffSVC: A Diffusion Probabilistic Model for Singing Voice Conversion**  \
-*Songxiang Liu<sup>1</sup>, Yuewen Cao<sup>1</sup>, Dan Su, Helen Meng* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github.com/liusongxiang/diffsvc)] \
-28 May 2021
 
 
 ### Text-to-Speech
@@ -349,14 +351,7 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ##
 
-## Misc
-### Time-Series Forecasting
-
-**Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
-*Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
-ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
-2 Feb 2021 
-
+## Miscellaneous
 
 ### Data Imputation
 
@@ -372,5 +367,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 *Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
 13 Nov 2020 
+
+### Time-Series Forecasting
+
+**Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
+*Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
+2 Feb 2021 
+
 
 ##
