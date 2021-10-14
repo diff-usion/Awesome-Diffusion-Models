@@ -17,6 +17,8 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Super Resolution](#super-resolution)
     - [Text-to-Image](#text-to-image)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
+    - [Medical Imaging](#medical-imaging)
+    - [Graph Generation](#graph-generation)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
@@ -40,6 +42,20 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 ## Image
 ### Image Generation
 
+**Denoising Diffusion Gamma Models** \
+*Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05948)] \
+10 Oct 2021
+
+**Score-based Generative Neural Networks for Large-Scale Optimal Transport** \
+*Max Daniels, Tyler Maunu, Paul Hand* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.03237)] \
+7 Oct 2021
+
+**Score-Based Generative Classifiers** \
+*Roland S. Zimmermann, Lukas Schott, Yang Song, Benjamin A. Dunn, David A. Klindt* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)]
+1 Oct 2021
 
 **Bilateral Denoising Diffusion Models** \
 *Max W. Y. Lam, Jun Wang, Rongjie Huang, Dan Su, Dong Yu* \
@@ -54,7 +70,12 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 **SDEdit: Image Synthesis and Editing with Stochastic Differential Equations** \
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
-2 Aug 2021 
+2 Aug 2021
+
+**Score-Based Point Cloud Denoising** \
+*Shitong Luo, Wei Hu*\
+arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
+23 Jul 2021
 
 **Structured Denoising Diffusion Models in Discrete State-Spaces** \
 *Jacob Austin<sup>1</sup>, Daniel D. Johnson<sup>1</sup>, Jonathan Ho, Daniel Tarlow, Rianne van den Berg* \
@@ -79,7 +100,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.07582)] [[Project](https://enk10
 **D2C: Diffusion-Denoising Models for Few-shot Conditional Generation** \
 *Abhishek Sinha<sup>1</sup>, Jiaming Song<sup>1</sup>, Chenlin Meng, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.06819)] [[Project](https://d2c-model.github.io/)] [[Github](https://github.com/d2c-model/d2c-model.github.io)] \
-12 Jun 2021 
+12 Jun 2021
+
+**Score-based Generative Modeling in Latent Space** \
+*Arash Vahdat<sup>1</sup>, Karsten Kreis<sup>1</sup>, Jan Kautz* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.05931)]
+10 Jun 2021
 
 **Learning to Efficiently Sample from Diffusion Probabilistic Models** \
 *Daniel Watson, Jonathan Ho, Mohammad Norouzi, William Chan* \
@@ -105,6 +131,11 @@ ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2106.00132)] [[Github](https:
 *Jonathan Ho<sup>1</sup>, Chitwan Saharia<sup>1</sup>, William Chan, David J. Fleet, Mohammad Norouzi, Tim Salimans* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.15282)] [[Project](https://cascaded-diffusion.github.io/)] \
 30 May 2021 
+
+**Gotta Go Fast When Generating Data with Score-Based Models** \
+*Alexia Jolicoeur-Martineau, Ke Li, Rémi Piché-Taillefer, Tal Kachman, Ioannis Mitliagkas* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.14080)] [[Github](https://github.com/AlexiaJM/score_sde_fast_sampling)]
+28 May 2021
 
 **Diffusion Models Beat GANs on Image Synthesis** \
 *Prafulla Dhariwal<sup>1</sup>, Alex Nichol<sup>1</sup>* \
@@ -145,6 +176,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2012.08125)] [[Github](https://github.
 *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole* \
 ICLR 2021 (Oral). [[Paper](https://arxiv.org/abs/2011.13456)] [[Github](https://github.com/yang-song/score_sde)] \
 26 Nov 2020 
+
+**Variational (Gradient) Estimate of the Score Function in Energy-based Latent Variable Models** \
+*Fan Bao, Kun Xu, Chongxuan Li, Lanqing Hong, Jun Zhu, Bo Zhang* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2010.08258)] \
+16 Oct 2020
 
 **Denoising Diffusion Implicit Models**  \
 *Jiaming Song, Chenlin Meng, Stefano Ermon* \
@@ -218,7 +254,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Super Resolution
 
-
 **Autoregressive Diffusion Models** \
 *Emiel Hoogeboom, Alexey A. Gritsenko, Jasmijn Bastings, Ben Poole, Rianne van den Berg, Tim Salimans* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02037)] \
@@ -235,7 +270,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.15282)] [[Project](https://casca
 30 May 2021
 
 **SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models** \
-*SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models* \
+*Haoying Li, Yifan Yang, Meng Chang, Huajun Feng, Zhihai Xu, Qi Li, Yueting Chen* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.14951)] \
 30 Apr 2021
 
@@ -243,8 +278,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.14951)] \
 *Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J. Fleet, Mohammad Norouzi* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
-
-
 
 ### Text-to-Image
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
@@ -258,17 +291,37 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
 
-##
+### Medical Imaging
+**Score-based diffusion models for accelerated MRI** \
+*Hyungjin Chung, Jong chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
+8 Oct 2021
+
+### Graph Generation
+**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
+*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
+AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
+2 Mar 2020
 
 
 
 ## Audio
 ### Audio Generation
 
+**Denoising Diffusion Gamma Models** \
+*Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05948)] \
+10 Oct 2021
+
 **Variational Diffusion Models** \
 *Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github.com/revsic/jax-variational-diffwave)] \
 1 Jul 2021 
+
+**CRASH: Raw Audio Score-based Generative Modeling for Controllable High-resolution Drum Sound Synthesis** \
+*Simon Rouard<sup>1</sup>, Gaëtan Hadjeres<sup>1</sup>* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.07431)] [[Project](https://crash-diffusion.github.io/crash/)] \
+14 Jun 2021
 
 **PriorGrad: Improving Conditional Denoising Diffusion Models with Data-Driven Adaptive Prior** \
 *Sang-gil Lee, Heeseung Kim, Chaehun Shin, Xu Tan, Chang Liu, Qi Meng, Tao Qin, Wei Chen, Sungroh Yoon, Tie-Yan Liu* \
@@ -329,6 +382,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 ### Text-to-Speech
 
+**EdiTTS: Score-based Editing for Controllable Text-to-Speech** \
+*Jaesung Tae<sup>1</sup>, Hyeongju Kim<sup>1</sup>, Taesu Kim* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02584)] \
+6 Oct 2021
+
 **WaveGrad 2: Iterative Refinement for Text-to-Speech Synthesis** \
 *Nanxin Chen, Yu Zhang, Heiga Zen, Ron J. Weiss, Mohammad Norouzi, Najim Dehak, William Chan* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2106.09660)] [[Project](https://mindslab-ai.github.io/wavegrad2/)] [[Github](https://github.com/keonlee9420/WaveGrad2)] [[Github2](https://github.com/mindslab-ai/wavegrad2)] \
@@ -359,7 +417,6 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 7 Jul 2021 
-
 
 ### Handwriting Synthesis
 
