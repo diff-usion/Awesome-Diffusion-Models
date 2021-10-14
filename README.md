@@ -1,8 +1,8 @@
-This repository contains a collection of resources and papers on ***Diffusion Models***.
-
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
+
+This repository contains a collection of resources and papers on ***Diffusion Models and Score-based Models***.
 
 *If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
@@ -54,7 +54,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.03237)] \
 
 **Score-Based Generative Classifiers** \
 *Roland S. Zimmermann, Lukas Schott, Yang Song, Benjamin A. Dunn, David A. Klindt* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)] \
 1 Oct 2021
 
 **Bilateral Denoising Diffusion Models** \
@@ -104,7 +104,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.06819)] [[Project](https://d2c-m
 
 **Score-based Generative Modeling in Latent Space** \
 *Arash Vahdat<sup>1</sup>, Karsten Kreis<sup>1</sup>, Jan Kautz* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2106.05931)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.05931)] \
 10 Jun 2021
 
 **Learning to Efficiently Sample from Diffusion Probabilistic Models** \
@@ -407,8 +407,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 3 Apr 2021
 
-##
-
 ## Miscellaneous
 
 ### Data Imputation
@@ -431,6 +429,5 @@ arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github
 *Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
 2 Feb 2021 
-
 
 ##
