@@ -62,6 +62,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.11514)] [[Project](https://bilateral-denoising-diffusion-model.github.io)] \
 26 Aug 2021
 
+**ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis** \
+*Patrick Esser<sup>1</sup>, Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Björn Ommer* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2108.08827)] [[Project](https://compvis.github.io/imagebart/)] \
+19 Aug 2021
+
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
 ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
