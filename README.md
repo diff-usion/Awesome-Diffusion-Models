@@ -27,6 +27,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Miscellaneous](#miscellaneous)
     - [Data Imputation](#data-imputation)
     - [Handwriting Synthesis](#handwriting-synthesis)  
+    - [Natural Language Processing](#natural-language-processing)
     - [Time-Series Forecasting](#time-series-forecasting)
 
 # Resources
@@ -36,11 +37,30 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
 11 Jul 2021
 
+**A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
+*Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
+24 Nov 2021
 
 # Papers
 
 ## Image
 ### Image Generation
+
+**Conditional Image Generation with Score-Based Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
+26 Nov 2021
+
+**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
+*Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
+24 Nov 2021
+
+**Diffusion Normalizing Flow** \
+*Qinsheng Zhang, Yongxin Chen* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2110.07579)] [[Github](https://github.com/qsh-zh/DiffFlow)] \
+14 Oct 2021
 
 **Denoising Diffusion Gamma Models** \
 *Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf* \
@@ -139,7 +159,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.15282)] [[Project](https://casca
 
 **Gotta Go Fast When Generating Data with Score-Based Models** \
 *Alexia Jolicoeur-Martineau, Ke Li, Rémi Piché-Taillefer, Tal Kachman, Ioannis Mitliagkas* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2105.14080)] [[Github](https://github.com/AlexiaJM/score_sde_fast_sampling)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.14080)] [[Github](https://github.com/AlexiaJM/score_sde_fast_sampling)] \
 28 May 2021
 
 **Diffusion Models Beat GANs on Image Synthesis** \
@@ -235,6 +255,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ### Image-to-Image Translation
 
+**Conditional Image Generation with Score-Based Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
+26 Nov 2021
+
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
 ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
@@ -247,6 +272,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 
 ### Image Editing
+
+**Conditional Image Generation with Score-Based Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)]
+26 Nov 2021
+
+**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
+*Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
+24 Nov 2021
+
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
 ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
@@ -258,6 +294,16 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 2 Aug 2021
 
 ### Super Resolution
+
+**Conditional Image Generation with Score-Based Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)]
+26 Nov 2021
+
+**S3RP: Self-Supervised Super-Resolution and Prediction for Advection-Diffusion Process** \
+*Chulin Wang, Kyongmin Yeo, Xiao Jin, Andres Codas, Levente J. Klein, Bruce Elmegreen* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.04639)] \
+8 Nov 2021
 
 **Autoregressive Diffusion Models** \
 *Emiel Hoogeboom, Alexey A. Gritsenko, Jasmijn Bastings, Ben Poole, Rianne van den Berg, Tim Salimans* \
@@ -285,6 +331,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 15 Apr 2021
 
 ### Text-to-Image
+
+**Vector Quantized Diffusion Model for Text-to-Image Synthesis** \
+*Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14822)] [[Github](https://github.com/microsoft/VQ-Diffusion)] \
+29 Nov 2021
+
+**Blended Diffusion for Text-driven Editing of Natural Images** \
+*Omri Avrahami, Dani Lischinski, Ohad Fried* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github.com/omriav/blended-diffusion)] \
+29 Nov 2021
+
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
 *Gwanghyun Kim, Jong Chul Ye* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
@@ -387,6 +444,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 ### Text-to-Speech
 
+**Guided-TTS:Text-to-Speech with Untranscribed Speech** \
+*Heeseung Kim, Sungwon Kim, Sungroh Yoon* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.11755)] \
+32 Nov 2021
+
 **EdiTTS: Score-based Editing for Controllable Text-to-Speech** \
 *Jaesung Tae<sup>1</sup>, Hyeongju Kim<sup>1</sup>, Taesu Kim* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02584)] \
@@ -428,6 +490,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
 13 Nov 2020 
 
+### Natural Language Processing
+
+**Zero-Shot Translation using Diffusion Models** \
+*Eliya Nachmani<sup>1</sup>, Shaked Dovrat<sup>1</sup>* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
+2 Nov 2021
+
 ### Time-Series Forecasting
 
 **Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
@@ -435,4 +504,19 @@ arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
 2 Feb 2021 
 
-##
+### Application
+
+**Deep Diffusion Models for Robust Channel Estimation** \
+*Marius Arvinte, Jonathan I Tamir* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.08177)] [[Github](https://github.com/utcsilab/diffusion-channels)] \
+16 Nov 2021
+
+**Deep diffusion-based forecasting of COVID-19 by incorporating network-level mobility information** \
+*Padmaksha Roy, Shailik Sarkar, Subhodip Biswas, Fanglan Chen, Zhiqian Chen, Naren Ramakrishnan, Chang-Tien Lu* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.05199)] \
+9 Nov 2021
+
+**Crystal Diffusion Variational Autoencoder for Periodic Material Generation** \
+*Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkola*\
+arXiv 2021. [[Paper](https://arxiv.org/abs/2110.06197)] \
+12 Oct 2021
