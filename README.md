@@ -29,18 +29,36 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Handwriting Synthesis](#handwriting-synthesis)  
     - [Natural Language Processing](#natural-language-processing)
     - [Time-Series Forecasting](#time-series-forecasting)
+    - [Applications](#applications)
 
 # Resources
 ## Introductory Post
-**What are Diffusion Models?** \
-*Lilian Weng* \
-2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
-11 Jul 2021
+
 
 **A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
 *Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 24 Nov 2021
+
+**Introduction to deep generative modeling: Diffusion-based Deep Generative Models** \
+*Jakub Tomczak* \
+[[Website](https://jmtomczak.github.io/blog/10/10_ddgms_lvm_p2.html)] \
+30 Aug 2021
+
+**What are Diffusion Models?** \
+*Lilian Weng* \
+2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
+11 Jul 2021
+
+**Diffusion Models as a kind of VAE** \
+*Angus Turner* \
+[[Website](https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html)] \
+29 June 2021
+
+**Generative Modeling by Estimating Gradients of the Data Distribution**\
+*Yang Song* \
+[[Website](https://yang-song.github.io/blog/2021/score/)] \
+5 May 2021
 
 # Papers
 
@@ -504,7 +522,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
 2 Feb 2021 
 
-### Application
+### Applications
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
