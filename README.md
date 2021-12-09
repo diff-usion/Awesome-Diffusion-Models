@@ -14,6 +14,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Image Generation](#image-generation)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Image Editing](#image-editing)
+    - [Segmentation](#segmentation)
     - [Super Resolution](#super-resolution)
     - [Text-to-Image](#text-to-image)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
@@ -64,6 +65,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 
 ## Image
 ### Image Generation
+
+**Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation** \
+*Minghui Hu, Yujie Wang, Tat-Jen Cham, Jianfei Yang, P.N.Suganthan* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.01799)] \
+3 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -310,6 +316,22 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
+
+### Segmentation
+**Diffusion Models for Implicit Image Segmentation Ensembles** \
+*Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
+6 Dec 2021
+
+**Label-Efficient Semantic Segmentation with Diffusion Models** \
+*Dmitry Baranchuk, Ivan Rubachev, Andrey Voynov, Valentin Khrulkov, Artem Babenko* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03126)] [[Github](https://github.com/yandex-research/ddpm-segmentation)] \
+6 Dec 2021
+
+**SegDiff: Image Segmentation with Diffusion Probabilistic Models** \
+*Tomer Amit, Eliya Nachmani, Tal Shaharbany, Lior Wolf* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
+1 Dec 2021
 
 ### Super Resolution
 
