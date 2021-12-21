@@ -17,6 +17,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Segmentation](#segmentation)
     - [Super Resolution](#super-resolution)
     - [Text-to-Image](#text-to-image)
+    - [Point Cloud](#point-cloud)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Medical Imaging](#medical-imaging)
     - [Graph Generation](#graph-generation)
@@ -34,7 +35,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 # Resources
 ## Introductory Post
-
 
 **A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
 *Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
@@ -56,20 +56,55 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 [[Website](https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html)] \
 29 June 2021
 
-**Generative Modeling by Estimating Gradients of the Data Distribution**\
-*Yang Song* \
-[[Website](https://yang-song.github.io/blog/2021/score/)] \
-5 May 2021
+**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
+*Max Welling, Yee Whye Teh* \
+ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
+28 June 2011
 
 # Papers
 
 ## Image
 ### Image Generation
 
+**GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models** \
+*Alex Nichol<sup>1</sup>, Prafulla Dhariwal<sup>1</sup>, Aditya Ramesh<sup>1</sup>, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10741)] \
+20 Dec 2021
+
+**High-Resolution Image Synthesis with Latent Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+20 Dec 2021
+
+**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
+*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
+15 Dec 2021
+
+**Score-Based Generative Modeling with Critically-Damped Langevin Diffusion** \
+*Tim Dockhorn, Arash Vahdat, Karsten Kreis* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07068)] [[Project](https://nv-tlabs.github.io/CLD-SGM/)] \
+14 Dec 2021
+
+**More Control for Free! Image Synthesis with Semantic Diffusion Guidance** \
+*Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
+10 Dec 2021
+
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
+*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+9 Dec 2021
+
 **Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation** \
 *Minghui Hu, Yujie Wang, Tat-Jen Cham, Jianfei Yang, P.N.Suganthan* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.01799)] \
 3 Dec 2021
+
+**Diffusion Autoencoders: Toward a Meaningful and Decodable Representation** \
+*Konpat Preechakul, Nattanat Chatthee, Suttisak Wizadwongsa, Supasorn Suwajanakorn* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.15640)] [[Project](https://diff-ae.github.io/)] \
+30 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -120,11 +155,6 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
-
-**Score-Based Point Cloud Denoising** \
-*Shitong Luo, Wei Hu*\
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
-23 Jul 2021
 
 **Structured Denoising Diffusion Models in Discrete State-Spaces** \
 *Jacob Austin<sup>1</sup>, Daniel D. Johnson<sup>1</sup>, Jonathan Ho, Daniel Tarlow, Rianne van den Berg* \
@@ -201,11 +231,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.02600)] \
 6 Apr 2021 
 
-**Diffusion Probabilistic Models for 3D Point Cloud Generation** \
-*Shitong Luo, Wei Hu* \
-CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
-2 Mar 2021 
-
 **Improved Denoising Diffusion Probabilistic Models** \
 *Alex Nichol<sup>1</sup>, Prafulla Dhariwal<sup>1</sup>* \
 ICLR 2021. [[Paper](https://arxiv.org/abs/2102.09672)] [[Github](https://github.com/openai/improved-diffusion)] \
@@ -271,13 +296,18 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
 7 Jul 2011
 
-**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
-*Max Welling, Yee Whye Teh* \
-ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
-28 June 2011
-
 
 ### Image-to-Image Translation
+
+**DiffuseMorph: Unsupervised Deformable Image Registration Along Continuous Trajectory Using Diffusion Models** \
+*Boah Kim, Inhwa Han, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05149)] \
+9 Dec 2021
+
+**Diffusion Autoencoders: Toward a Meaningful and Decodable Representation** \
+*Konpat Preechakul, Nattanat Chatthee, Suttisak Wizadwongsa, Supasorn Suwajanakorn* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.15640)] [[Project](https://diff-ae.github.io/)] \
+30 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -296,6 +326,21 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 
 ### Image Editing
+
+**High-Resolution Image Synthesis with Latent Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+20 Dec 2021
+
+**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
+*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
+15 Dec 2021
+
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
+*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+9 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -335,6 +380,16 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Super Resolution
 
+**High-Resolution Image Synthesis with Latent Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+20 Dec 2021
+
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
+*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+9 Dec 2021
+
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
@@ -372,6 +427,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Text-to-Image
 
+**More Control for Free! Image Synthesis with Semantic Diffusion Guidance** \
+*Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
+10 Dec 2021
+
 **Vector Quantized Diffusion Model for Text-to-Image Synthesis** \
 *Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14822)] [[Github](https://github.com/microsoft/VQ-Diffusion)] \
@@ -387,6 +447,25 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
+
+
+### Point Cloud
+
+**A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
+*Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
+7 Dec 2021
+
+**Score-Based Point Cloud Denoising** \
+*Shitong Luo, Wei Hu*\
+arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
+23 Jul 2021
+
+**Diffusion Probabilistic Models for 3D Point Cloud Generation** \
+*Shitong Luo, Wei Hu* \
+CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
+2 Mar 2021 
+
 ### Adversarial Attack and Defense
 **Adversarial purification with Score-based generative models** \
 *Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
@@ -394,12 +473,19 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Medical Imaging
+
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
+*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+9 Dec 2021
+
 **Score-based diffusion models for accelerated MRI** \
 *Hyungjin Chung, Jong chul Ye* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
 ### Graph Generation
+
 **Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
 *Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
 AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
