@@ -2,13 +2,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
 
-This repository contains a collection of resources and papers on ***Diffusion Models and Score-based Models***.
+This repository contains a collection of resources and papers on ***Diffusion Models and Score-matching Models***.
 
 *If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
 
 ## Contents
 - [Resources](#resources)
-  - [Introductory Post](#introductory-post)
+  - [Introductory Posts](#introductory-posts)
+  - [Introductory Papers](#introductory-papers)
 - [Papers](#papers)
   - [Image](#image)
     - [Image Generation](#image-generation)
@@ -18,7 +19,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Super Resolution](#super-resolution)
     - [Text-to-Image](#text-to-image)
     - [Point Cloud](#point-cloud)
-    - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Medical Imaging](#medical-imaging)
     - [Graph Generation](#graph-generation)
   - [Audio](#audio)
@@ -27,6 +27,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Audio Enhancement](#audio-enhancement)
     - [Text-to-Speech](#text-to-speech)
   - [Miscellaneous](#miscellaneous)
+    - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Data Imputation](#data-imputation)
     - [Handwriting Synthesis](#handwriting-synthesis)  
     - [Natural Language Processing](#natural-language-processing)
@@ -34,12 +35,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Applications](#applications)
 
 # Resources
-## Introductory Post
-
-**A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
-*Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
-24 Nov 2021
+## Introductory Posts
 
 **Introduction to deep generative modeling: Diffusion-based Deep Generative Models** \
 *Jakub Tomczak* \
@@ -48,13 +44,20 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 
 **What are Diffusion Models?** \
 *Lilian Weng* \
-2021. [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
+[[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
 11 Jul 2021
 
 **Diffusion Models as a kind of VAE** \
 *Angus Turner* \
 [[Website](https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html)] \
 29 June 2021
+
+## Introductory Papers
+
+**A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
+*Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
+24 Nov 2021
 
 **Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
 *Max Welling, Yee Whye Teh* \
@@ -66,6 +69,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
+*Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.13339)] \
+26 Dec 2021
+
 **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models** \
 *Alex Nichol<sup>1</sup>, Prafulla Dhariwal<sup>1</sup>, Aditya Ramesh<sup>1</sup>, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10741)] \
@@ -75,6 +83,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10741)] \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
 20 Dec 2021
+
+**Heavy-tailed denoising score matching** \
+*Jacob Deasy, Nikola Simidjievski, Pietro Liò* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.09788)] \
+17 Dec 2021
 
 **Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
 *Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
@@ -90,11 +103,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07068)] [[Project](https://nv-tl
 *Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
 10 Dec 2021
-
-**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
-*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
-9 Dec 2021
 
 **Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation** \
 *Minghui Hu, Yujie Wang, Tat-Jen Cham, Jianfei Yang, P.N.Suganthan* \
@@ -447,8 +455,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
-
-
 ### Point Cloud
 
 **A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
@@ -466,18 +472,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github
 CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
 2 Mar 2021 
 
-### Adversarial Attack and Defense
-**Adversarial purification with Score-based generative models** \
-*Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
-ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
-11 Jun 2021
-
 ### Medical Imaging
 
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
 *Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
 9 Dec 2021
+
+**Solving Inverse Problems in Medical Imaging with Score-Based Generative Models** \
+*Yang Song<sup>1</sup>, Liyue Shen<sup>1</sup>, Lei Xing, Stefano Ermon* \
+NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2111.08005)] \
+15 Nov 2021
 
 **Score-based diffusion models for accelerated MRI** \
 *Hyungjin Chung, Jong chul Ye* \
@@ -495,6 +500,11 @@ AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://gith
 
 ## Audio
 ### Audio Generation
+
+**Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
+*Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.13339)] \
+26 Dec 2021
 
 **Denoising Diffusion Gamma Models** \
 *Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf* \
@@ -602,11 +612,22 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ## Miscellaneous
 
+### Adversarial Attack and Defense
+**Adversarial purification with Score-based generative models** \
+*Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
+11 Jun 2021
+
+**TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
+*Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
+20 Dec 2021
+
 ### Data Imputation
 
 **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 7 Jul 2021 
 
 ### Handwriting Synthesis
