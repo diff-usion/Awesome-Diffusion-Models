@@ -20,7 +20,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Text-to-Image](#text-to-image)
     - [Point Cloud](#point-cloud)
     - [Medical Imaging](#medical-imaging)
-    - [Graph Generation](#graph-generation)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
@@ -29,6 +28,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Miscellaneous](#miscellaneous)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Data Imputation](#data-imputation)
+    - [Graph Generation](#graph-generation)
     - [Handwriting Synthesis](#handwriting-synthesis)  
     - [Natural Language Processing](#natural-language-processing)
     - [Time-Series Forecasting](#time-series-forecasting)
@@ -489,14 +489,6 @@ NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2111.08005)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
-### Graph Generation
-
-**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
-*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
-AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
-2 Mar 2020
-
-
 
 ## Audio
 ### Audio Generation
@@ -613,15 +605,20 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 ## Miscellaneous
 
 ### Adversarial Attack and Defense
+**TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
+*Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
+20 Dec 2021
+
 **Adversarial purification with Score-based generative models** \
 *Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
 
-**TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
-*Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
-20 Dec 2021
+**Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?** \
+*Vikash Sehwag, Saeed Mahloujifar, Tinashe Handina, Sihui Dai, Chong Xiang, Mung Chiang, Prateek Mittal* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2104.09425)] \
+19 Apr 2021
 
 ### Data Imputation
 
@@ -629,6 +626,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
 NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
 7 Jul 2021 
+
+### Graph Generation
+
+**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
+*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
+AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
+2 Mar 2020
 
 ### Handwriting Synthesis
 
