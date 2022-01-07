@@ -27,7 +27,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Text-to-Speech](#text-to-speech)
   - [Miscellaneous](#miscellaneous)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
-    - [Data Imputation](#data-imputation)
     - [Graph Generation](#graph-generation)
     - [Handwriting Synthesis](#handwriting-synthesis)  
     - [Natural Language Processing](#natural-language-processing)
@@ -59,10 +58,17 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 24 Nov 2021
 
+
+**A Connection Between Score Matching and Denoising Autoencoders** \
+*Pascal Vincent* \
+Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
+7 Jul 2011
+
 **Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
 *Max Welling, Yee Whye Teh* \
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
 28 June 2011
+
 
 # Papers
 
@@ -299,10 +305,6 @@ arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
 2 Mar 2015
 
-**A Connection Between Score Matching and Denoising Autoencoders** \
-*Pascal Vincent* \
-Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
-7 Jul 2011
 
 
 ### Image-to-Image Translation
@@ -352,7 +354,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)]
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
 26 Nov 2021
 
 **Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
@@ -620,13 +622,6 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.09425)] \
 19 Apr 2021
 
-### Data Imputation
-
-**CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
-*Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
-NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] \
-7 Jul 2021 
-
 ### Graph Generation
 
 **Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
@@ -650,9 +645,14 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 
 ### Time-Series Forecasting
 
+**CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
+*Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
+7 Jul 2021 
+
 **Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
 *Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
-ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.com/zalandoresearch/pytorch-ts)] \
 2 Feb 2021 
 
 ### Applications
