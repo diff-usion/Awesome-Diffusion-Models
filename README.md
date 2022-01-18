@@ -75,6 +75,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
+*Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+2 Jan 2022
+
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
 *Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.13339)] \
@@ -94,6 +99,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github
 *Jacob Deasy, Nikola Simidjievski, Pietro Liò* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.09788)] \
 17 Dec 2021
+
+**High Fidelity Visualization of What Your Self-Supervised Representation Knows About** \
+*Florian Bordes, Randall Balestriero, Pascal Vincent* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.09164)] \
+16 Dec 2021
 
 **Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
 *Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
@@ -390,6 +400,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Super Resolution
 
+**DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
+*Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+2 Jan 2022
+
+
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
@@ -649,6 +665,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
 NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
 7 Jul 2021 
+
+**ScoreGrad: Multivariate Probabilistic Time Series Forecasting with Continuous Energy-based Generative Models** \
+*Tijin Yan, Hongwei Zhang, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2106.10121)] [[Github](https://github.com/yantijin/ScoreGradPred)] \
+18 Jun 2021
 
 **Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting** \
 *Kashif Rasul, Calvin Seward, Ingmar Schuster, Roland Vollgraf* \
