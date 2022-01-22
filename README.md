@@ -36,6 +36,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 # Resources
 ## Introductory Posts
 
+**An introduction to Diffusion Probabilistic Models** \
+*Ayan Das* \
+[[Website](https://ayandas.me/blog-tut/2021/12/04/diffusion-prob-models.html)] \
+04 Dec 2021
+
 **Introduction to deep generative modeling: Diffusion-based Deep Generative Models** \
 *Jakub Tomczak* \
 [[Website](https://jmtomczak.github.io/blog/10/10_ddgms_lvm_p2.html)] \
