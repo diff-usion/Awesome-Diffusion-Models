@@ -58,11 +58,15 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ## Introductory Papers
 
+**Deep Unsupervised Learning using Nonequilibrium Thermodynamics** \
+*Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli* \
+ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
+2 Mar 2015
+
 **A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
 *Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
 24 Nov 2021
-
 
 **A Connection Between Score Matching and Denoising Autoencoders** \
 *Pascal Vincent* \
@@ -314,13 +318,6 @@ NeurIPS 2019. [[Paper](https://arxiv.org/abs/1907.05600)] [[Project](https://yan
 *Belinda Tzen, Maxim Raginsky* \
 arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 23 May 2019 
-
-**Deep Unsupervised Learning using Nonequilibrium Thermodynamics** \
-*Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli* \
-ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
-2 Mar 2015
-
-
 
 ### Image-to-Image Translation
 
