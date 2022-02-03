@@ -81,7 +81,7 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 **Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models** \
 *Fan Bao, Chongxuan Li, Jun Zhu, Bo Zhang* \
-arXiv 2021. [[Paper[(https://arxiv.org/abs/2201.06503)] \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2201.06503)] \
 17 Jan 2022
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
