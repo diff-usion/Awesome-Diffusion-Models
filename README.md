@@ -58,11 +58,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ## Introductory Papers
 
-**A Unified Approach to Variational Autoencoders and Stochastic Normalizing Flows via Markov Chains** \
-*Johannes Hertrich, Paul Hagemann, Gabriele Steidl* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12506)] \
-24 Nov 2021
-
 **A Connection Between Score Matching and Denoising Autoencoders** \
 *Pascal Vincent* \
 Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
@@ -79,14 +74,18 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Progressive Distillation for Fast Sampling of Diffusion Models** \
+*Tim Salimans, Jonathan Ho* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2202.00512)] \
+
 **Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models** \
 *Fan Bao, Chongxuan Li, Jun Zhu, Bo Zhang* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.06503)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.06503)] \
 17 Jan 2022
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
 2 Jan 2022
 
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
@@ -330,7 +329,7 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11793)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **DiffuseMorph: Unsupervised Deformable Image Registration Along Continuous Trajectory Using Diffusion Models** \
@@ -363,12 +362,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11793)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
 *Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
 24 Jan 2022
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
@@ -426,12 +425,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11793)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
 2 Jan 2022
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
@@ -522,7 +521,7 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 **Unsupervised Denoising of Retinal OCT with Diffusion Probabilistic Model** \
 *Dewei Hu, Yuankai K. Tao, Ipek Oguz* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11760)] [[Github](https://github.com/DeweiHu/OCT_DDPM)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11760)] [[Github](https://github.com/DeweiHu/OCT_DDPM)] \
 27 Jan 2022
 
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
@@ -625,7 +624,7 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 **DiffGAN-TTS: High-Fidelity and Efficient Text-to-Speech with Denoising Diffusion GANs** \
 *Songxiang Liu, Dan Su, Dong Yu* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2201.11972)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11972)] \
 28 Jan 2022
 
 **Guided-TTS:Text-to-Speech with Untranscribed Speech** \
