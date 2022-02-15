@@ -74,9 +74,15 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality** \
+*Daniel Watson, William Chan, Jonathan Ho, Mohammad Norouzi* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2202.05830)] \
+11 Feb 2022
+
 **Progressive Distillation for Fast Sampling of Diffusion Models** \
 *Tim Salimans, Jonathan Ho* \
 ICLR 2022. [[Paper](https://arxiv.org/abs/2202.00512)] \
+1 Feb 2022
 
 **Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models** \
 *Fan Bao, Chongxuan Li, Jun Zhu, Bo Zhang* \
@@ -519,6 +525,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ### Medical Imaging
 
+**MRI Reconstruction via Data Driven Markov Chain with Joint Uncertainty Estimation** \
+*Guanxiong Luo, Martin Heide, Martin Uecker* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.01479)] \
+3 Feb 2022
+
 **Unsupervised Denoising of Retinal OCT with Diffusion Probabilistic Model** \
 *Dewei Hu, Yuankai K. Tao, Ipek Oguz* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11760)] [[Github](https://github.com/DeweiHu/OCT_DDPM)] \
@@ -604,6 +615,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github
 
 ### Audio Enhancement
 
+**Conditional Diffusion Probabilistic Model for Speech Enhancement** \
+*Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, Yu Tsao* \
+IEEE 2022. [[Paper](https://arxiv.org/abs/2202.05256)] \
+10 Feb 2022
+
+
 **A Study on Speech Enhancement Based on Diffusion Probabilistic Model** \
 *Yen-Ju Lu<sup>1</sup>, Yu Tsao<sup>1</sup>, Shinji Watanabe* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.11876)] \
@@ -621,6 +638,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 
 ### Text-to-Speech
+
+**InferGrad: Improving Diffusion Models for Vocoder by Considering Inference in Training** \
+*Zehua Chen, Xu Tan, Ke Wang, Shifeng Pan, Danilo Mandic, Lei He, Sheng Zhao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.03751)] \
+8 Feb 2022
 
 **DiffGAN-TTS: High-Fidelity and Efficient Text-to-Speech with Denoising Diffusion GANs** \
 *Songxiang Liu, Dan Su, Dong Yu* \
@@ -714,6 +736,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Riemannian Score-Based Generative Modeling** \
+*Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
+6 Feb 2022
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
