@@ -692,11 +692,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
 
-**Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?** \
-*Vikash Sehwag, Saeed Mahloujifar, Tinashe Handina, Sihui Dai, Chong Xiang, Mung Chiang, Prateek Mittal* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2104.09425)] \
-19 Apr 2021
-
 ### Graph Generation
 
 **Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
