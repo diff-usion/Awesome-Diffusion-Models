@@ -28,7 +28,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Miscellaneous](#miscellaneous)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Graph Generation](#graph-generation)
-    - [Handwriting Synthesis](#handwriting-synthesis)  
     - [Natural Language Processing](#natural-language-processing)
     - [Time-Series Forecasting](#time-series-forecasting)
     - [Applications](#applications)
@@ -714,13 +713,6 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
 2 Mar 2020
 
-### Handwriting Synthesis
-
-**Diffusion models for Handwriting Generation** \
-*Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
-arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
-13 Nov 2020 
-
 ### Natural Language Processing
 
 **Zero-Shot Translation using Diffusion Models** \
@@ -728,7 +720,7 @@ arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 2 Nov 2021
 
-### Time-Series Forecasting
+### Time-Series
 
 **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
@@ -756,6 +748,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 *Marius Arvinte, Jonathan I Tamir* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.08177)] [[Github](https://github.com/utcsilab/diffusion-channels)] \
 16 Nov 2021
+
+**Diffusion models for Handwriting Generation** \
+*Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
+arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
+13 Nov 2020 
 
 **Deep diffusion-based forecasting of COVID-19 by incorporating network-level mobility information** \
 *Padmaksha Roy, Shailik Sarkar, Subhodip Biswas, Fanglan Chen, Zhiqian Chen, Naren Ramakrishnan, Chang-Tien Lu* \
