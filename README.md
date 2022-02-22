@@ -74,6 +74,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Diffusion Causal Models for Counterfactual Estimation** \
+*Pedro Sanchez, Sotirios A. Tsaftaris* \
+PMLR 2022. [[Paper](https://arxiv.org/abs/2202.10166)] \
+21 Feb 2022
+
+**Pseudo Numerical Methods for Diffusion Models on Manifolds** \
+*Luping Liu, Yi Ren, Zhijie Lin, Zhou Zhao* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2202.09778)] [[Github](https://github.com/luping-liu/PNDM)] \
+20 Feb 2022
+
+**Truncated Diffusion Probabilistic Models** \
+*Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.09671)] \
+19 Feb 2022
+
 **Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality** \
 *Daniel Watson, William Chan, Jonathan Ho, Mohammad Norouzi* \
 ICLR 2022. [[Paper](https://arxiv.org/abs/2202.05830)] \
