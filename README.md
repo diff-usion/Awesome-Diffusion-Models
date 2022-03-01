@@ -73,6 +73,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Conditional Simulation Using Diffusion Schrödinger Bridges** \
+*Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.13460)] \
+27 Feb 2022
+
 **Diffusion Causal Models for Counterfactual Estimation** \
 *Pedro Sanchez, Sotirios A. Tsaftaris* \
 PMLR 2022. [[Paper](https://arxiv.org/abs/2202.10166)] \
@@ -87,6 +92,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2202.09778)] [[Github](https://github.
 *Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.09671)] \
 19 Feb 2022
+
+**Understanding DDPM Latent Codes Through Optimal Transport** \
+*Valentin Khrulkov, Ivan Oseledets* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.07477)] \
+14 Feb 2022
 
 **Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality** \
 *Daniel Watson, William Chan, Jonathan Ho, Mohammad Norouzi* \
