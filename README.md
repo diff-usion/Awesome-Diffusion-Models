@@ -549,6 +549,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ### Medical Imaging
 
+**Measurement-conditioned Denoising Diffusion Probabilistic Model for Under-sampled Medical Image Reconstruction** \
+*Yutong Xie, Quanzheng Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.03623)] [[Github](https://github.com/Theodore-PKU/MC-DDPM)] \
+5 Mar 2022
+
 **MRI Reconstruction via Data Driven Markov Chain with Joint Uncertainty Estimation** \
 *Guanxiong Luo, Martin Heide, Martin Uecker* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.01479)] \
@@ -748,6 +753,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation** \
+*Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
+6 Mar 2022
 
 **Riemannian Score-Based Generative Modeling** \
 *Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
