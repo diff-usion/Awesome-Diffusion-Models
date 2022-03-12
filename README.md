@@ -73,6 +73,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Image
 ### Image Generation
 
+**Dynamic Dual-Output Diffusion Models** \
+*Yaniv Benny, Lior Wolf* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04304)] \
+8 Mar 2022
+
 **Conditional Simulation Using Diffusion Schrödinger Bridges** \
 *Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.13460)] \
@@ -548,6 +553,16 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 2 Mar 2021 
 
 ### Medical Imaging
+
+**Diffusion Models for Medical Anomaly Detection** \
+*Julia Wolleb, Florentin Bieder, Robin Sandkühler, Philippe C. Cattin* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04306)] \
+8 Mar 2022
+
+**Towards performant and reliable undersampled MR reconstruction via diffusion model sampling** \
+*Cheng Peng, Pengfei Guo, S. Kevin Zhou, Vishal Patel, Rama Chellappa* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04292)] \
+8 Mar 2022
 
 **Measurement-conditioned Denoising Diffusion Probabilistic Model for Under-sampled Medical Image Reconstruction** \
 *Yutong Xie, Quanzheng Li* \
