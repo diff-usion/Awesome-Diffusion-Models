@@ -11,7 +11,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Posts](#introductory-posts)
   - [Introductory Papers](#introductory-papers)
 - [Papers](#papers)
-  - [Image](#image)
+  - [Vision](#vision)
     - [Image Generation](#image-generation)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Image Editing](#image-editing)
@@ -20,6 +20,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Text-to-Image](#text-to-image)
     - [Point Cloud](#point-cloud)
     - [Medical Imaging](#medical-imaging)
+    - [Video Generation](#video-generation)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
@@ -70,7 +71,7 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 # Papers
 
-## Image
+## Vision
 ### Image Generation
 
 **Dynamic Dual-Output Diffusion Models** \
@@ -362,6 +363,11 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 ### Image-to-Image Translation
 
+**Dual Diffusion Implicit Bridges for Image-to-Image Translation** \
+*Xuan Su, Jiaming Song, Chenlin Meng, Stefano Ermon* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.08382)] \
+16 Mar 2022
+
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
@@ -593,6 +599,13 @@ NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2111.08005)] \
 *Hyungjin Chung, Jong chul Ye* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
+
+### Video Generation
+**Diffusion Probabilistic Modeling for Video Generation** \
+*Ruihan Yang, Prakhar Srivastava, Stephan Mandt* \
+arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
+16 Mar 2022
+
 
 
 ## Audio
