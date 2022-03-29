@@ -74,6 +74,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Denoising Likelihood Score Matching for Conditional Score-based Data Generation** \
+*Chen-Hao Chao, Wei-Fang Sun, Bo-Wun Cheng, Yi-Chen Lo, Chia-Che Chang, Yu-Lun Liu, Yu-Lin Chang, Chia-Ping Chen, Chun-Yi Lee* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2203.14206)] \
+27 Mar 2022
+
 **Dynamic Dual-Output Diffusion Models** \
 *Yaniv Benny, Lior Wolf* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04304)] \
@@ -560,6 +565,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ### Medical Imaging
 
+**MR Image Denoising and Super-Resolution Using Regularized Reverse Diffusion** \
+*Hyungjin Chung, Eun Sun Lee, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.12621)] \
+23 Mar 2022
+
 **Diffusion Models for Medical Anomaly Detection** \
 *Julia Wolleb, Florentin Bieder, Robin Sandkühler, Philippe C. Cattin* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04306)] \
@@ -610,6 +620,11 @@ arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
 
 ## Audio
 ### Audio Generation
+
+**BDDM: Bilateral Denoising Diffusion Models for Fast and High-Quality Speech Synthesis** \
+*Max W. Y. Lam, Jun Wang, Dan Su, Dong Yu* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2203.13508)] [[Github](https://github.com/tencent-ailab/bddm)] \
+25 Mar 2022
 
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
 *Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe* \
@@ -781,6 +796,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion** \
+*Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.13777)] \
+25 Mar 2022
 
 **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation** \
 *Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang* \
