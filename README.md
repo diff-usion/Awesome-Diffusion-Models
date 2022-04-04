@@ -30,7 +30,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Graph Generation](#graph-generation)
     - [Natural Language Processing](#natural-language-processing)
-    - [Time-Series Forecasting](#time-series-forecasting)
+    - [Time-Series](#time-series)
     - [Applications](#applications)
 
 # Resources
@@ -533,7 +533,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
 
 **Vector Quantized Diffusion Model for Text-to-Image Synthesis** \
 *Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14822)] [[Github](https://github.com/microsoft/VQ-Diffusion)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2111.14822)] [[Github](https://github.com/microsoft/VQ-Diffusion)] \
 29 Nov 2021
 
 **Blended Diffusion for Text-driven Editing of Natural Images** \
@@ -543,7 +543,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github
 
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
 *Gwanghyun Kim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02711)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Point Cloud
