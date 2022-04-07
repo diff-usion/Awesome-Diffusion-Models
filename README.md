@@ -74,6 +74,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Perception Prioritized Training of Diffusion Models** \
+*Jooyoung Choi, Jungbeom Lee, Chaehun Shin, Sungwon Kim, Hyunwoo Kim, Sungroh Yoon* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.00227)] [[Github](https://github.com/jychoi118/P2-weighting)] \
+1 Apr 2022
+
+**Generating High Fidelity Data from Low-density Regions using Diffusion Models** \
+*Vikash Sehwag, Caner Hazirbas, Albert Gordo, Firat Ozgenel, Cristian Canton Ferrer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17260)] \
+31 Mar 2022
+
+**Diffusion Models for Counterfactual Explanations** \
+*Guillaume Jeanneret, Loïc Simon, Frédéric Jurie* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.15636)] \
+29 Mar 2022
+
 **Denoising Likelihood Score Matching for Conditional Score-based Data Generation** \
 *Chen-Hao Chao, Wei-Fang Sun, Bo-Wun Cheng, Yi-Chen Lo, Chia-Che Chang, Yu-Lun Liu, Yu-Lin Chang, Chia-Ping Chen, Chun-Yi Lee* \
 ICLR 2022. [[Paper](https://arxiv.org/abs/2203.14206)] \
@@ -368,6 +383,11 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 ### Image-to-Image Translation
 
+**The Swiss Army Knife for Image-to-Image Translation: Multi-Task Diffusion Models** \
+*Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe C. Cattin* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02641)] \
+6 Apr 2022
+
 **Dual Diffusion Implicit Bridges for Image-to-Image Translation** \
 *Xuan Su, Jiaming Song, Chenlin Meng, Stefano Ermon* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2203.08382)] \
@@ -526,6 +546,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Text-to-Image
 
+**KNN-Diffusion: Image Generation via Large-Scale Retrieval** \
+*Oron Ashual, Shelly Sheynin, Adam Polyak, Uriel Singer, Oran Gafni, Eliya Nachmani, Yaniv Taigman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02849)] \
+6 Apr 2022
+
 **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** \
 *Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
@@ -564,6 +589,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 2 Mar 2021 
 
 ### Medical Imaging
+
+**The Swiss Army Knife for Image-to-Image Translation: Multi-Task Diffusion Models** \
+*Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe C. Cattin* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02641)] \
+6 Apr 2022
 
 **MR Image Denoising and Super-Resolution Using Regularized Reverse Diffusion** \
 *Hyungjin Chung, Eun Sun Lee, Jong Chul Ye* \
@@ -620,6 +650,11 @@ arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
 
 ## Audio
 ### Audio Generation
+
+**SpecGrad: Diffusion Probabilistic Model based Neural Vocoder with Adaptive Noise Spectral Shaping** \
+*Yuma Koizumi, Heiga Zen, Kohei Yatabe, Nanxin Chen, Michiel Bacchiani* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.16749)] \
+31 Mar 2022
 
 **BDDM: Bilateral Denoising Diffusion Models for Fast and High-Quality Speech Synthesis** \
 *Max W. Y. Lam, Jun Wang, Dan Su, Dong Yu* \
@@ -796,6 +831,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Equivariant Diffusion for Molecule Generation in 3D** \
+*Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] \
+31 Mar 2022
 
 **Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion** \
 *Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
