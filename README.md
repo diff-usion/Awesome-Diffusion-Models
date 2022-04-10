@@ -859,10 +859,7 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
 
-**Realistic galaxy image simulation via score-based generative models** \
-*Michael J. Smith (Hertfordshire), James E. Geach, Ryan A. Jackson, Nikhil Arora, Connor Stone, Stéphane Courteau* \
-MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
-2 Nov 2021
+
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
@@ -878,6 +875,11 @@ arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github
 *Padmaksha Roy, Shailik Sarkar, Subhodip Biswas, Fanglan Chen, Zhiqian Chen, Naren Ramakrishnan, Chang-Tien Lu* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.05199)] \
 9 Nov 2021
+
+**Realistic galaxy image simulation via score-based generative models** \
+*Michael J. Smith (Hertfordshire), James E. Geach, Ryan A. Jackson, Nikhil Arora, Connor Stone, Stéphane Courteau* \
+MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
+2 Nov 2021
 
 **Crystal Diffusion Variational Autoencoder for Periodic Material Generation** \
 *Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkola*\
