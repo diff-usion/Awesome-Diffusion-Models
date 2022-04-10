@@ -627,7 +627,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11760)] [[Github](https://github
 
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
 *Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+CVPR 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
 9 Dec 2021
 
 **Solving Inverse Problems in Medical Imaging with Score-Based Generative Models** \
@@ -641,6 +641,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
 ### Video Generation
+
+**Video Diffusion Models** \
+*Jonathan Ho<sup>1</sup>, Tim Salimans<sup>1</sup>, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
+7 Apr 2022
+
 **Diffusion Probabilistic Modeling for Video Generation** \
 *Ruihan Yang, Prakhar Srivastava, Stephan Mandt* \
 arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
@@ -832,6 +838,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 
 ### Applications
 
+
 **Equivariant Diffusion for Molecule Generation in 3D** \
 *Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] \
@@ -851,6 +858,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 *Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
+
+**Realistic galaxy image simulation via score-based generative models** \
+*Michael J. Smith (Hertfordshire), James E. Geach, Ryan A. Jackson, Nikhil Arora, Connor Stone, Stéphane Courteau* \
+MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
+2 Nov 2021
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
