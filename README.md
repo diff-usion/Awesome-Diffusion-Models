@@ -13,14 +13,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - [Papers](#papers)
   - [Vision](#vision)
     - [Image Generation](#image-generation)
-    - [Image-to-Image Translation](#image-to-image-translation)
-    - [Image Editing](#image-editing)
     - [Segmentation](#segmentation)
+    - [Image-to-Image Translation](#image-to-image-translation)
     - [Super Resolution](#super-resolution)
+    - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
-    - [Point Cloud](#point-cloud)
     - [Medical Imaging](#medical-imaging)
     - [Video Generation](#video-generation)
+    - [Point Cloud](#point-cloud)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
@@ -379,6 +379,21 @@ arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
 2 Mar 2015
 
+### Segmentation
+**Diffusion Models for Implicit Image Segmentation Ensembles** \
+*Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
+6 Dec 2021
+
+**Label-Efficient Semantic Segmentation with Diffusion Models** \
+*Dmitry Baranchuk, Ivan Rubachev, Andrey Voynov, Valentin Khrulkov, Artem Babenko* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03126)] [[Github](https://github.com/yandex-research/ddpm-segmentation)] \
+6 Dec 2021
+
+**SegDiff: Image Segmentation with Diffusion Probabilistic Models** \
+*Tomer Amit, Eliya Nachmani, Tal Shaharbany, Lior Wolf* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
+1 Dec 2021
 
 
 ### Image-to-Image Translation
@@ -422,70 +437,6 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 *Hiroshi Sasaki, Chris G. Willcocks, Toby P. Breckon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 12 Apr 2021
-
-
-### Image Editing
-
-**Denoising Diffusion Restoration Models** \
-*Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
-27 Jan 2022
-
-**RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
-*Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
-24 Jan 2022
-
-**High-Resolution Image Synthesis with Latent Diffusion Models** \
-*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
-20 Dec 2021
-
-**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
-*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
-15 Dec 2021
-
-**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
-*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
-9 Dec 2021
-
-**Conditional Image Generation with Score-Based Diffusion Models** \
-*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
-26 Nov 2021
-
-**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
-*Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
-24 Nov 2021
-
-**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
-*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
-ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
-6 Aug 2021
-
-**SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**  \
-*Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
-2 Aug 2021
-
-### Segmentation
-**Diffusion Models for Implicit Image Segmentation Ensembles** \
-*Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
-6 Dec 2021
-
-**Label-Efficient Semantic Segmentation with Diffusion Models** \
-*Dmitry Baranchuk, Ivan Rubachev, Andrey Voynov, Valentin Khrulkov, Artem Babenko* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03126)] [[Github](https://github.com/yandex-research/ddpm-segmentation)] \
-6 Dec 2021
-
-**SegDiff: Image Segmentation with Diffusion Probabilistic Models** \
-*Tomer Amit, Eliya Nachmani, Tal Shaharbany, Lior Wolf* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
-1 Dec 2021
 
 ### Super Resolution
 
@@ -544,6 +495,53 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.14951)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
 
+### Image Editing
+
+**Denoising Diffusion Restoration Models** \
+*Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
+27 Jan 2022
+
+**RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
+*Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
+24 Jan 2022
+
+**High-Resolution Image Synthesis with Latent Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+20 Dec 2021
+
+**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
+*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
+15 Dec 2021
+
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
+*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+9 Dec 2021
+
+**Conditional Image Generation with Score-Based Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
+26 Nov 2021
+
+**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
+*Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
+24 Nov 2021
+
+**ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
+*Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
+ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://github.com/jychoi118/ilvr_adm)] \
+6 Aug 2021
+
+**SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**  \
+*Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
+2 Aug 2021
+
 ### Text-to-Image
 
 **KNN-Diffusion: Image Generation via Large-Scale Retrieval** \
@@ -570,23 +568,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github
 *Gwanghyun Kim, Jong Chul Ye* \
 CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
-
-### Point Cloud
-
-**A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
-*Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
-7 Dec 2021
-
-**Score-Based Point Cloud Denoising** \
-*Shitong Luo, Wei Hu*\
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
-23 Jul 2021
-
-**Diffusion Probabilistic Models for 3D Point Cloud Generation** \
-*Shitong Luo, Wei Hu* \
-CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
-2 Mar 2021 
 
 ### Medical Imaging
 
@@ -640,6 +621,9 @@ NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2111.08005)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
+
+
+
 ### Video Generation
 
 **Video Diffusion Models** \
@@ -653,6 +637,22 @@ arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
 16 Mar 2022
 
 
+### Point Cloud
+
+**A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
+*Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
+7 Dec 2021
+
+**Score-Based Point Cloud Denoising** \
+*Shitong Luo, Wei Hu*\
+arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
+23 Jul 2021
+
+**Diffusion Probabilistic Models for 3D Point Cloud Generation** \
+*Shitong Luo, Wei Hu* \
+CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
+2 Mar 2021 
 
 ## Audio
 ### Audio Generation
