@@ -29,7 +29,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Miscellaneous](#miscellaneous)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Graph Generation](#graph-generation)
-    - [Natural Language Processing](#natural-language-processing)
+    - [Natural Language](#natural-language)
     - [Time-Series](#time-series)
     - [Applications](#applications)
 
@@ -817,7 +817,7 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
 2 Mar 2020
 
-### Natural Language Processing
+### Natural Language
 
 **Zero-Shot Translation using Diffusion Models** \
 *Eliya Nachmani<sup>1</sup>, Shaked Dovrat<sup>1</sup>* \
