@@ -633,7 +633,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
 
 **Diffusion Probabilistic Modeling for Video Generation** \
 *Ruihan Yang, Prakhar Srivastava, Stephan Mandt* \
-arXiv 2022. [Paper](https://arxiv.org/abs/2203.09481)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
 16 Mar 2022
 
 
@@ -666,6 +666,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.16749)] \
 *Max W. Y. Lam, Jun Wang, Dan Su, Dong Yu* \
 ICLR 2022. [[Paper](https://arxiv.org/abs/2203.13508)] [[Github](https://github.com/tencent-ailab/bddm)] \
 25 Mar 2022
+
+**ItôWave: Itô Stochastic Differential Equation Is All You Need For Wave Generation** \
+*Shoule Wu<sup>1</sup>, Ziqiang Shi<sup>1</sup>* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.12519)] [[Project](https://wushoule.github.io/ItoAudio/)] \
+29 Jan 2022
 
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
 *Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe* \
