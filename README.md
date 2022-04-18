@@ -544,6 +544,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Hierarchical Text-Conditional Image Generation with CLIP Latents** \
+*Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.06125)] \
+13 Apr 2022
+
+
 **KNN-Diffusion: Image Generation via Large-Scale Retrieval** \
 *Oron Ashual, Shelly Sheynin, Adam Polyak, Uriel Singer, Oran Gafni, Eliya Nachmani, Yaniv Taigman* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02849)] \
