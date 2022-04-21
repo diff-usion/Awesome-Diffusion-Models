@@ -849,6 +849,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 
 ### Applications
 
+**A Score-based Geometric Model for Molecular Dynamics Simulations** \
+* Fang Wu<sup>1</sup>, Qiang Zhang<sup>1</sup>, Xurui Jin, Yinghui Jiang, Stan Z. Li * \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.08672)] \
+19 Apr 2022
+
 
 **Equivariant Diffusion for Molecule Generation in 3D** \
 *Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
@@ -869,8 +874,6 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 *Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
-
-
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
