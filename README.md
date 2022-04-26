@@ -74,6 +74,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Retrieval-Augmented Diffusion Models** \
+*Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
+25 Apr 2022
+
 **Perception Prioritized Training of Diffusion Models** \
 *Jooyoung Choi, Jungbeom Lee, Chaehun Shin, Sungwon Kim, Hyunwoo Kim, Sungroh Yoon* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.00227)] [[Github](https://github.com/jychoi118/P2-weighting)] \
@@ -544,6 +549,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Retrieval-Augmented Diffusion Models** \
+*Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
+25 Apr 2022
+
 **Hierarchical Text-Conditional Image Generation with CLIP Latents** \
 *Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.06125)] \
@@ -662,6 +672,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ## Audio
 ### Audio Generation
+
+**FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis** \
+*Rongjie Huang<sup>1</sup>, Max W. Y. Lam<sup>1</sup>, Jun Wang, Dan Su, Dong Yu, Yi Ren, Zhou Zhao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.09934)] [[Project](https://fastdiff.github.io/)] \
+21 Apr 2022
 
 **SpecGrad: Diffusion Probabilistic Model based Neural Vocoder with Adaptive Noise Spectral Shaping** \
 *Yuma Koizumi, Heiga Zen, Kohei Yatabe, Nanxin Chen, Michiel Bacchiani* \
