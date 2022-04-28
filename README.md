@@ -10,6 +10,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - [Resources](#resources)
   - [Introductory Posts](#introductory-posts)
   - [Introductory Papers](#introductory-papers)
+  - [Introductory Videos](#introductory-videos)
 - [Papers](#papers)
   - [Vision](#vision)
     - [Image Generation](#image-generation)
@@ -66,7 +67,14 @@ Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publicat
 **Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
 *Max Welling, Yee Whye Teh* \
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
-28 June 2011
+20 Apr 2022
+
+## Introductory Videos
+
+**What are Diffusion Models?** \
+*Ari Seff* \
+[[Video](https://www.youtube.com/watch?v=fbLgFrlTnGU&list=LL&index=2)] \
+7 Jul 2011
 
 
 # Papers
