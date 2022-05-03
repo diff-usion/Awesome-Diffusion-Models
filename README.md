@@ -82,6 +82,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Fast Sampling of Diffusion Models with Exponential Integrator** \
+*Qinsheng Zhang, Yongxin Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.13902)] \
+29 Apr 2022
+
 **Retrieval-Augmented Diffusion Models** \
 *Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
