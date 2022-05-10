@@ -76,11 +76,15 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 [[Video](https://www.youtube.com/watch?v=fbLgFrlTnGU&list=LL&index=2)] \
 7 Jul 2011
 
-
 # Papers
 
 ## Vision
 ### Image Generation
+
+**Subspace Diffusion Generative Models** \
+*Bowen Jing, Gabriele Corso, Renato Berlinghieri, Tommi Jaakkola* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.01490)] [[Github](https://github.com/bjing2016/subspace-diffusion)] \
+3 May 2022
 
 **Fast Sampling of Diffusion Models with Exponential Integrator** \
 *Qinsheng Zhang, Yongxin Chen* \
