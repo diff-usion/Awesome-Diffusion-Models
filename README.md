@@ -36,6 +36,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 # Resources
 ## Introductory Posts
+**Introduction to Diffusion Models for Machine Learning** \
+*Ryan O'Connor* \
+[[Website](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)] \
+12 May 2022
 
 **An introduction to Diffusion Probabilistic Models** \
 *Ayan Das* \
