@@ -686,6 +686,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
 23 Jul 2021
 
+**3D Shape Generation and Completion through Point-Voxel Diffusion** \
+*Linqi Zhou, Yilun Du, Jiajun Wu* \
+ICCV 2021. [[Paper](https://arxiv.org/abs/2104.03670)] [[Project](https://alexzhou907.github.io/pvd)] \
+8 Apr 2021
+
 **Diffusion Probabilistic Models for 3D Point Cloud Generation** \
 *Shitong Luo, Wei Hu* \
 CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
