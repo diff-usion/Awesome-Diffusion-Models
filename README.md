@@ -85,6 +85,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**On Conditioning the Input Noise for Controlled Image Generation with Diffusion Models** \
+*Vedant Singh<sup>1</sup>, Surgan Jandial<sup>1</sup>, Ayush Chopra, Siddharth Ramesh, Balaji Krishnamurthy, Vineeth N. Balasubramanian* \
+arxiv 2022. [[Paper](https://arxiv.org/abs/2205.03859)] \
+8 May 2022
+
 **Subspace Diffusion Generative Models** \
 *Bowen Jing, Gabriele Corso, Renato Berlinghieri, Tommi Jaakkola* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.01490)] [[Github](https://github.com/bjing2016/subspace-diffusion)] \
@@ -423,6 +428,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 
 ### Image-to-Image Translation
+
+**VQBB: Image-to-image Translation with Vector Quantized Brownian Bridge** \
+*Bo Li, Kaitao Xue, Bin Liu, Yu-Kun Lai* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.07680)] \
+16 May 2022
 
 **The Swiss Army Knife for Image-to-Image Translation: Multi-Task Diffusion Models** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe C. Cattin* \
@@ -847,6 +857,12 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 ## Miscellaneous
 
 ### Adversarial Attack and Defense
+
+**Diffusion Models for Adversarial Purification** \
+*Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project(https://diffpure.github.io/)] \
+16 May 2022
+
 **TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
 *Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
