@@ -882,7 +882,7 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 **Diffusion Models for Adversarial Purification** \
 *Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar* \
-ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project(https://diffpure.github.io/)] \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project](https://diffpure.github.io/)] \
 16 May 2022
 
 **TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
