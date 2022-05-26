@@ -29,7 +29,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Text-to-Speech](#text-to-speech)
   - [Miscellaneous](#miscellaneous)
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
-    - [Graph Generation](#graph-generation)
     - [Natural Language](#natural-language)
     - [Time-Series](#time-series)
     - [Applications](#applications)
@@ -84,6 +83,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ## Vision
 ### Image Generation
+
+**Accelerating Diffusion Models via Early Stop of the Diffusion Process** \
+*Zhaoyang Lyu, Xudong XU, Ceyuan Yang, Dahua Lin, Bo Dai* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.12524)] \
+25 May 2022
 
 **On Conditioning the Input Noise for Controlled Image Generation with Diffusion Models** \
 *Vedant Singh<sup>1</sup>, Surgan Jandial<sup>1</sup>, Ayush Chopra, Siddharth Ramesh, Balaji Krishnamurthy, Vineeth N. Balasubramanian* \
@@ -429,6 +433,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**Pretraining is All You Need for Image-to-Image Translation** \
+*Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.12952)] \
+25 May 2022
+
 **VQBB: Image-to-image Translation with Vector Quantized Brownian Bridge** \
 *Bo Li, Kaitao Xue, Bin Liu, Yu-Kun Lai* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.07680)] \
@@ -580,6 +589,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding** \
+*Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)] 
+23 May 2022
+
 **Retrieval-Augmented Diffusion Models** \
 *Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
@@ -669,9 +683,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
 
-
-
 ### Video Generation
+
+**Flexible Diffusion Modeling of Long Videos** \
+*William Harvey, Saeid Naderiparizi, Vaden Masrani, Christian Weilbach, Frank Wood* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11495)] \
+23 May 2022
+
+**Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation** \
+*Vikram Voleti<sup>1</sup>, Alexia Jolicoeur-Martineau<sup>1</sup>, Christopher Pal* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.09853)] \
+19 May 2022
 
 **Video Diffusion Models** \
 *Jonathan Ho<sup>1</sup>, Tim Salimans<sup>1</sup>, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet* \
@@ -873,12 +895,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
 
-### Graph Generation
-
-**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
-*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
-AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
-2 Mar 2020
 
 ### Natural Language
 
@@ -905,6 +921,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Planning with Diffusion for Flexible Behavior Synthesis** \
+*Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
+arxiv 2022. [[Paper](https://arxiv.org/abs/2205.09991)] \
+20 May 2022
 
 **A Score-based Geometric Model for Molecular Dynamics Simulations** \
 *Fang Wu<sup>1</sup>, Qiang Zhang<sup>1</sup>, Xurui Jin, Yinghui Jiang, Stan Z. Li* \
@@ -936,11 +957,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.08177)] [[Github](https://github.com/utcsilab/diffusion-channels)] \
 16 Nov 2021
 
-**Diffusion models for Handwriting Generation** \
-*Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
-arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
-13 Nov 2020 
-
 **Deep diffusion-based forecasting of COVID-19 by incorporating network-level mobility information** \
 *Padmaksha Roy, Shailik Sarkar, Subhodip Biswas, Fanglan Chen, Zhiqian Chen, Naren Ramakrishnan, Chang-Tien Lu* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.05199)] \
@@ -955,3 +971,13 @@ MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
 *Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkola*\
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.06197)] \
 12 Oct 2021
+
+**Diffusion models for Handwriting Generation** \
+*Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
+arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
+13 Nov 2020 
+
+**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
+*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
+AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
+2 Mar 2020
