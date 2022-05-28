@@ -77,7 +77,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 **What are Diffusion Models?** \
 *Ari Seff* \
 [[Video](https://www.youtube.com/watch?v=fbLgFrlTnGU&list=LL&index=2)] \
-7 Jul 2011
+20 Apr 2022
+
+**Diffusion models explained** \
+*AI Coffee Break with Letitia* \
+[[Video](https://www.youtube.com/watch?v=344w5h24-h8&ab_channel=AICoffeeBreakwithLetitia)] \
+23 Mar 2022
 
 # Papers
 
