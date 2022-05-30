@@ -627,7 +627,7 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2111.14822)] [[Github](https://github.
 
 **Blended Diffusion for Text-driven Editing of Natural Images** \
 *Omri Avrahami, Dani Lischinski, Ohad Fried* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.14818)] [[Github](https://github.com/omriav/blended-diffusion)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2111.14818)] [[Project](https://omriavrahami.com/blended-diffusion-page/)] [[Github](https://github.com/omriav/blended-diffusion)] \
 29 Nov 2021
 
 **DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models** \
