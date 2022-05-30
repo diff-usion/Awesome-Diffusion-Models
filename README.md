@@ -791,14 +791,9 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 arXiv 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Code](https://github.com/magenta/symbolic-music-diffusion)] \
 30 Mar 2021 
 
-**DiffWave with Continuous-time Variational Diffusion Models** \
-*Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro* \
-ICLR 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Project](https://diffwave-demo.github.io/)] [[Github](https://github.com/lmnt-com/diffwave)] \
-21 Sep 2020
-
 **DiffWave: A Versatile Diffusion Model for Audio Synthesis** \
-*Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli* \
-ICML 2021 (Oral) [[Paper](https://arxiv.org/abs/2009.09761)] [[Github](https://github.com/lmnt-com/diffwave)] [[Github2](https://github.com/revsic/jax-variational-diffwave)] \
+*Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro* \
+ICLR 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Github](https://diffwave-demo.github.io/)] \
 21 Sep 2020 
 
 **WaveGrad: Estimating Gradients for Waveform Generation** \
