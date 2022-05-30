@@ -89,6 +89,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Maximum Likelihood Training of Implicit Nonlinear Diffusion Models** \
+*Dongjun Kim, Byeonghu Na, Se Jung Kwon, Dongsoo Lee, Wanmo Kang, Il-Chul Moon* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.13699)] \
+27 May 2022
+
 **Accelerating Diffusion Models via Early Stop of the Diffusion Process** \
 *Zhaoyang Lyu, Xudong XU, Ceyuan Yang, Dahua Lin, Bo Dai* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2205.12524)] \
@@ -440,7 +445,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 **Pretraining is All You Need for Image-to-Image Translation** \
 *Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.12952)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.12952)] [[Project](https://tengfei-wang.github.io/PITI/index.html)] [[Github](https://github.com/PITI-Synthesis/PITI)] \
 25 May 2022
 
 **VQBB: Image-to-image Translation with Vector Quantized Brownian Bridge** \
