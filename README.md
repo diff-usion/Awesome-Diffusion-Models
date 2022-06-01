@@ -89,6 +89,16 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Few-Shot Diffusion Models** \
+*Giorgio Giannone, Didrik Nielsen, Ole Winther* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15463)] \ 
+30 May 2022
+
+**A Continuous Time Framework for Discrete Denoising Models** \
+*Andrew Campbell, Joe Benton, Valentin De Bortoli, Tom Rainforth, George Deligiannidis, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14987)] \
+30 May 2022
+
 **Maximum Likelihood Training of Implicit Nonlinear Diffusion Models** \
 *Dongjun Kim, Byeonghu Na, Se Jung Kwon, Dongsoo Lee, Wanmo Kang, Il-Chul Moon* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.13699)] \
@@ -599,6 +609,16 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Improved Vector Quantized Diffusion Models** \
+*Zhicong Tang, Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.16007)] [[Github](https://github.com/microsoft/VQ-Diffusion)] \
+31 May 2022
+
+**Text2Human: Text-Driven Controllable Human Image Generation** \
+*Yuming Jiang, Shuai Yang, Haonan Qiu, Wayne Wu, Chen Change Loy, Ziwei Liu* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2205.15996)] \
+31 May 2022
+
 **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding** \
 *Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)] 
@@ -741,6 +761,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 ## Audio
 ### Audio Generation
 
+**BinauralGrad: A Two-Stage Conditional Diffusion Probabilistic Model for Binaural Audio Synthesis** \
+*Yichong Leng, Zehua Chen, Junliang Guo, Haohe Liu, Jiawei Chen, Xu Tan, Danilo Mandic, Lei He, Xiang-Yang Li, Tao Qin, Sheng Zhao, Tie-Yan Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14807)] \
+30 May 2022
+
 **FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis** \
 *Rongjie Huang<sup>1</sup>, Max W. Y. Lam<sup>1</sup>, Jun Wang, Dan Su, Dong Yu, Yi Ren, Zhou Zhao* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.09934)] [[Project](https://fastdiff.github.io/)] \
@@ -841,6 +866,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 ### Text-to-Speech
 
+**Guided-TTS 2: A Diffusion Model for High-quality Adaptive Text-to-Speech with Untranscribed Data** \
+*Sungwon Kim<sup>1</sup>, Heeseung Kim<sup>1</sup>, Sungroh Yoon* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15370)] \
+30 May 2022
+
 **InferGrad: Improving Diffusion Models for Vocoder by Considering Inference in Training** \
 *Zehua Chen, Xu Tan, Ke Wang, Shifeng Pan, Danilo Mandic, Lei He, Sheng Zhao* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.03751)] \
@@ -885,6 +915,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ### Adversarial Attack and Defense
 
+**Guided Diffusion Model for Adversarial Purification** \
+*Jinyi Wang<sup>1</sup>, Zhaoyang Lyu<sup>1</sup>, Dahua Lin, Bo Dai, Hongfei Fu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14969)] \
+30 May 2022
+
 **Diffusion Models for Adversarial Purification** \
 *Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project](https://diffpure.github.io/)] \
@@ -902,6 +937,11 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 
 ### Natural Language
+
+**Diffusion-LM Improves Controllable Text Generation** \
+*Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14217)] \
+27 May 2022
 
 **Zero-Shot Translation using Diffusion Models** \
 *Eliya Nachmani<sup>1</sup>, Shaked Dovrat<sup>1</sup>* \
@@ -926,6 +966,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models** \
+*Namrata Anand, Tudor Achim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15019)] [[Project](https://nanand2.github.io/proteins/)] \
+26 May 2022
 
 **Planning with Diffusion for Flexible Behavior Synthesis** \
 *Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
