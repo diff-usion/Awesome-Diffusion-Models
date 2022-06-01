@@ -91,7 +91,7 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 **Few-Shot Diffusion Models** \
 *Giorgio Giannone, Didrik Nielsen, Ole Winther* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15463)] \ 
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15463)] \
 30 May 2022
 
 **A Continuous Time Framework for Discrete Denoising Models** \
@@ -621,7 +621,7 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2205.15996)] \
 
 **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding** \
 *Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)] 
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)]  \
 23 May 2022
 
 **Retrieval-Augmented Diffusion Models** \
