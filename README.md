@@ -11,6 +11,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Posts](#introductory-posts)
   - [Introductory Papers](#introductory-papers)
   - [Introductory Videos](#introductory-videos)
+  - [Introductory Code Example](#introductory-code-example) 
 - [Papers](#papers)
   - [Vision](#vision)
     - [Image Generation](#image-generation)
@@ -83,6 +84,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 *AI Coffee Break with Letitia* \
 [[Video](https://www.youtube.com/watch?v=344w5h24-h8&ab_channel=AICoffeeBreakwithLetitia)] \
 23 Mar 2022
+
+## Introductory Code Example
+
+**Minimal example showcasing forward and reverse flow** \
+*Falak Shah, Infocusp* \
+[Repo link](https://github.com/InFoCusp/diffusion_models) 
 
 # Papers
 
