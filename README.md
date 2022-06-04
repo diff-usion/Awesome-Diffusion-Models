@@ -89,6 +89,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps** \
+*Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00927)] \
+2 Jun 2022
+
+**Elucidating the Design Space of Diffusion-Based Generative Models** \
+*Tero Karras, Miika Aittala, Timo Aila, Samuli Laine* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00364)] \
+1 Jun 2022
+
+**On Analyzing Generative and Denoising Capabilities of Diffusion-based Deep Generative Models** \
+*Kamil Deja, Anna Kuzina, Tomasz Trzciński, Jakub M. Tomczak* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00070)] \
+31 May 2022
+
 **Few-Shot Diffusion Models** \
 *Giorgio Giannone, Didrik Nielsen, Ole Winther* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15463)] \
@@ -562,6 +577,18 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Editing
 
+
+**Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
+*Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
+2 Jun 2022
+
+
+**DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
+*Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00386)] \
+1 Jun 2022
+
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
@@ -608,6 +635,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 2 Aug 2021
 
 ### Text-to-Image
+
+
+**DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
+*Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00386)] \
+1 Jun 2022
 
 **Improved Vector Quantized Diffusion Models** \
 *Zhicong Tang, Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen* \
@@ -661,6 +694,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
+*Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
+2 Jun 2022
 
 **The Swiss Army Knife for Image-to-Image Translation: Multi-Task Diffusion Models** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe C. Cattin* \
