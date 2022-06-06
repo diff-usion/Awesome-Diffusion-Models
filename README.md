@@ -636,6 +636,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Compositional Visual Generation with Composable Diffusion Models** \
+*Nan Liu<sup>1</sup>, Shuang Li<sup>1</sup>, Yilun Du<sup>1</sup>, Antonio Torralba, Joshua B. Tenenbaum* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01714)] [[Project](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)] \
+3 Jun 2022
+
 
 **DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
 *Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
