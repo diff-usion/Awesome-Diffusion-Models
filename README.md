@@ -35,6 +35,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 # Resources
 ## Introductory Posts
+
 **Recent rise of diffusion-based models** \
 *Maciej Domagała* \
 [[Website](https://maciejdomagala.github.io/generative_models/2022/06/06/recent-rise-of-diffusion-based-models.html)] \
@@ -44,6 +45,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 *Ryan O'Connor* \
 [[Website](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)] \
 12 May 2022
+
+**Improving Diffusion Models as an Alternative To GANs** \
+*Arash Vahdat and Karsten Kreis* \
+[[Website-Part 1](https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-1/)] [[Website-Part 2](https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/)] \
+26 Apr 2022
 
 **An introduction to Diffusion Probabilistic Models** \
 *Ayan Das* \
