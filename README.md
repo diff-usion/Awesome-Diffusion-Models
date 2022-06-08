@@ -35,6 +35,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 # Resources
 ## Introductory Posts
+**Recent rise of diffusion-based models** \
+*Maciej Domagała* \
+[[Website](https://maciejdomagala.github.io/generative_models/2022/06/06/recent-rise-of-diffusion-based-models.html)] \
+06 Jun 2022
+
 **Introduction to Diffusion Models for Machine Learning** \
 *Ryan O'Connor* \
 [[Website](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)] \
