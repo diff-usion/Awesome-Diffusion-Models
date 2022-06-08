@@ -222,7 +222,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.06503)] \
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://github.com/kpandey008/DiffuseVAE)] \
 2 Jan 2022
 
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
