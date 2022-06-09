@@ -100,6 +100,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Diffusion-GAN: Training GANs with Diffusion** \
+*Zhendong Wang, Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02262)] \
+5 Jun 2022
+
 **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps** \
 *Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00927)] \
@@ -222,7 +227,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.06503)] \
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://github.com/kpandey008/DiffuseVAE)] \
 2 Jan 2022
 
 **Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives** \
@@ -538,7 +543,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://arxiv.org/abs/2201.00308)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://github.com/kpandey008/DiffuseVAE)] \
 2 Jan 2022
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
@@ -588,6 +593,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Editing
 
+**Blended Latent Diffusion** \
+*Omri Avrahami, Ohad Fried, Dani Lischinski* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
+6 Jun 2022
 
 **Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
 *Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
@@ -646,6 +655,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 2 Aug 2021
 
 ### Text-to-Image
+
+**Blended Latent Diffusion** \
+*Omri Avrahami, Ohad Fried, Dani Lischinski* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
+6 Jun 2022
+
 
 **Compositional Visual Generation with Composable Diffusion Models** \
 *Nan Liu<sup>1</sup>, Shuang Li<sup>1</sup>, Yilun Du<sup>1</sup>, Antonio Torralba, Joshua B. Tenenbaum* \
@@ -710,6 +725,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Fast Unsupervised Brain Anomaly Detection and Segmentation with Diffusion Models** \
+*Walter H. L. Pinaya, Mark S. Graham, Robert Gray, Pedro F Da Costa, Petru-Daniel Tudosiu, Paul Wright, Yee H. Mah, Andrew D. MacKinnon, James T. Teo, Rolf Jager, David Werring, Geraint Rees, Parashkev Nachev, Sebastien Ourselin, M. Jorge Cardos* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03461)] \
+7 Jun 2022
 
 **Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
 *Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
@@ -896,6 +916,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github
 
 ### Audio Enhancement
 
+**Universal Speech Enhancement with Score-based Diffusion** \
+*Joan Serrà, Santiago Pascual, Jordi Pons, R. Oguz Araz, Davide Scaini* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03065)] \
+7 Jun 2022
+
 **Conditional Diffusion Probabilistic Model for Speech Enhancement** \
 *Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, Yu Tsao* \
 IEEE 2022. [[Paper](https://arxiv.org/abs/2202.05256)] \
@@ -1020,6 +1045,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Theory and Algorithms for Diffusion Processes on Riemannian Manifolds** \
+*Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github.com/gcorso/torsional-diffusion)] \
+1 Jun 2022
 
 **Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models** \
 *Namrata Anand, Tudor Achim* \
