@@ -100,6 +100,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Accelerating Score-based Generative Models for High-Resolution Image Synthesis** \
+*Hengyuan Ma, Li Zhang, Xiatian Zhu, Jingfeng Zhang, Jianfeng Feng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04029)] \
+8 Jun 2022
+
 **Diffusion-GAN: Training GANs with Diffusion** \
 *Zhendong Wang, Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02262)] \
@@ -1045,6 +1050,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Applications
+
+**Neural Diffusion Processes** \
+*Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
+8 Jun 2022
 
 **Theory and Algorithms for Diffusion Processes on Riemannian Manifolds** \
 *Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola* \
