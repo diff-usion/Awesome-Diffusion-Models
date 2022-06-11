@@ -31,6 +31,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Natural Language](#natural-language)
     - [Time-Series](#time-series)
+    - [Molecule-Generation](#molecule-generation)
     - [Applications](#applications)
 
 # Resources
@@ -488,6 +489,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 
 ### Image-to-Image Translation
+
+**SAR Despeckling using a Denoising Diffusion Probabilistic Model** \
+*Malsha V. Perera, Nithin Gopalakrishnan Nair, Wele Gedara Chaminda Bandara, Vishal M. Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04514)] \
+9 Jun 2022
 
 **Pretraining is All You Need for Image-to-Image Translation** \
 *Tengfei Wang, Ting Zhang, Bo Zhang, Hao Ouyang, Dong Chen, Qifeng Chen, Fang Wen* \
@@ -1049,6 +1055,33 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.10121)] [[Github](https://github
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.com/zalandoresearch/pytorch-ts)] \
 2 Feb 2021 
 
+### Molecule-Generation
+
+**Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \ 
+*Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04119)] \
+8 Jun 2022
+
+**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models** \
+*Namrata Anand, Tudor Achim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15019)] [[Project](https://nanand2.github.io/proteins/)] \
+26 May 2022
+
+**A Score-based Geometric Model for Molecular Dynamics Simulations** \
+*Fang Wu<sup>1</sup>, Qiang Zhang<sup>1</sup>, Xurui Jin, Yinghui Jiang, Stan Z. Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.08672)] \
+19 Apr 2022
+
+**Equivariant Diffusion for Molecule Generation in 3D** \
+*Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] \
+31 Mar 2022
+
+**GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation** \
+*Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
+6 Mar 2022
+
 ### Applications
 
 **Neural Diffusion Processes** \
@@ -1061,35 +1094,15 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github.com/gcorso/torsional-diffusion)] \
 1 Jun 2022
 
-**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models** \
-*Namrata Anand, Tudor Achim* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15019)] [[Project](https://nanand2.github.io/proteins/)] \
-26 May 2022
-
 **Planning with Diffusion for Flexible Behavior Synthesis** \
 *Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
 arxiv 2022. [[Paper](https://arxiv.org/abs/2205.09991)] \
 20 May 2022
 
-**A Score-based Geometric Model for Molecular Dynamics Simulations** \
-*Fang Wu<sup>1</sup>, Qiang Zhang<sup>1</sup>, Xurui Jin, Yinghui Jiang, Stan Z. Li* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.08672)] \
-19 Apr 2022
-
-**Equivariant Diffusion for Molecule Generation in 3D** \
-*Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] \
-31 Mar 2022
-
 **Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion** \
 *Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
 arXiv 2022. [[Paper](https://arxiv.org/abs/2203.13777)] \
 25 Mar 2022
-
-**GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation** \
-*Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang* \
-ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
-6 Mar 2022
 
 **Riemannian Score-Based Generative Modeling** \
 *Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
