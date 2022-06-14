@@ -101,6 +101,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**gDDIM: Generalized denoising diffusion implicit models** \
+*Qinsheng Zhang, Molei Tao, Yongxin Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05564)] [[Github](https://github.com/qsh-zh/gDDIM)] \
+11 Jun 2022
+
+**How Much is Enough? A Study on Diffusion Times in Score-based Generative Models** \
+*Giulio Franzese, Simone Rossi, Lixuan Yang, Alessandro Finamore, Dario Rossi, Maurizio Filippone, Pietro Michiardi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05173)] \
+10 Jun 2022
+
+**Image Generation with Multimodal Priors using Denoising Diffusion Probabilistic Models** \
+*Nithin Gopalakrishnan Nair, Wele Gedara Chaminda Bandara, Vishal M Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05039)] \
+10 Jun 2022
+
 **Accelerating Score-based Generative Models for High-Resolution Image Synthesis** \
 *Hengyuan Ma, Li Zhang, Xiatian Zhu, Jingfeng Zhang, Jianfeng Feng* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04029)] \
@@ -1028,6 +1043,12 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 ### Natural Language
 
+**Latent Diffusion Energy-Based Model for Interpretable Text Modeling** \
+*Peiyu Yu, Sirui Xie, Xiaojian Ma, Baoxiong Jia, Bo Pang, Ruigi Gao, Yixin Zhu, Song-Chun Zhu, Ying Nian Wu* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2206.05895)] \
+13 Jun 2022
+
+
 **Diffusion-LM Improves Controllable Text Generation** \
 *Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14217)] \
@@ -1083,6 +1104,12 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 6 Mar 2022
 
 ### Applications
+
+**Multi-instrument Music Synthesis with Spectrogram Diffusion** \
+*Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
+11 Jun 2022
+
 
 **Neural Diffusion Processes** \
 *Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson* \
