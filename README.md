@@ -72,6 +72,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 [[Website](https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html)] \
 29 June 2021
 
+**Generative Modeling by Estimating Gradients of the Data Distribution** \
+*Yang Song* \
+[[Website](https://yang-song.github.io/blog/2021/score/)] \
+5 May 2021
+
 ## Introductory Papers
 
 **A Connection Between Score Matching and Denoising Autoencoders** \
