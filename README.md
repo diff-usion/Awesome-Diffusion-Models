@@ -101,6 +101,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching**
+*Cheng Lu, Kaiwen Zheng, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2206.08265)] \
+16 Jun 2022
+
+**Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models** \
+*Fan Bao, Chongxuan Li, Jiacheng Sun, Jun Zhu, Bo Zhang* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2206.07309)] [[Github](https://github.com/baofff/Extended-Analytic-DPM)] \
+15 Jun 2022
+
+**Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
+*Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
+15 Jun 2022
+
 **gDDIM: Generalized denoising diffusion implicit models** \
 *Qinsheng Zhang, Molei Tao, Yongxin Chen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05564)] [[Github](https://github.com/qsh-zh/gDDIM)] \
@@ -505,6 +520,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
+*Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
+15 Jun 2022
+
+
 **SAR Despeckling using a Denoising Diffusion Probabilistic Model** \
 *Malsha V. Perera, Nithin Gopalakrishnan Nair, Wele Gedara Chaminda Bandara, Vishal M. Patel* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04514)] \
@@ -682,6 +703,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 ### Text-to-Image
 
+**Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
+*Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
+15 Jun 2022
+
+
 **Blended Latent Diffusion** \
 *Omri Avrahami, Ohad Fried, Dani Lischinski* \
 ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
@@ -815,6 +842,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 
 ### Video Generation
 
+
+**Diffusion Models for Video Prediction and Infilling** \
+*Tobias Höppe, Arash Mehrjou, Stefan Bauer, Didrik Nielsen, Andrea Dittadi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07696)] \
+15 Jun 2022
+
 **Flexible Diffusion Modeling of Long Videos** \
 *William Harvey, Saeid Naderiparizi, Vaden Masrani, Christian Weilbach, Frank Wood* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11495)] \
@@ -860,6 +893,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ## Audio
 ### Audio Generation
+
+**Adversarial Audio Synthesis with Complex-valued Polynomial Networks** \
+*Yongtao Wu, Grigorios G Chrysos, Volkan Cevher* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.06811)] \
+14 Jun 2022
 
 **BinauralGrad: A Two-Stage Conditional Diffusion Probabilistic Model for Binaural Audio Synthesis** \
 *Yichong Leng, Zehua Chen, Junliang Guo, Haohe Liu, Jiawei Chen, Xu Tan, Danilo Mandic, Lei He, Xiang-Yang Li, Tao Qin, Sheng Zhao, Tie-Yan Liu* \
@@ -1105,11 +1143,20 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 
 ### Applications
 
+**Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
+*Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
+15 Jun 2022
+
+**CARD: Classification and Regression Diffusion Models** \
+*Xizewen Han<sup>1</sup>, Huangjie Zheng<sup>1</sup>, Mingyuan Zhou* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07275)] \
+15 Jun 2022
+
 **Multi-instrument Music Synthesis with Spectrogram Diffusion** \
 *Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
 11 Jun 2022
-
 
 **Neural Diffusion Processes** \
 *Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson* \
