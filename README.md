@@ -346,6 +346,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.03237)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)] \
 1 Oct 2021
 
+**Classifier-Free Diffusion Guidance** \
+*Jonathan Ho, Tim Salimans* \
+NeurIPS poster 2021. [[Paper](https://openreview.net/pdf?id=qw8AKxfYbI)] \
+27 Sep 2021
+
+
 **Bilateral Denoising Diffusion Models** \
 *Max W. Y. Lam, Jun Wang, Rongjie Huang, Dan Su, Dong Yu* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2108.11514)] [[Project](https://bilateral-denoising-diffusion-model.github.io)] \
