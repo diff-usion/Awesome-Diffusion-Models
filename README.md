@@ -11,7 +11,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Posts](#introductory-posts)
   - [Introductory Papers](#introductory-papers)
   - [Introductory Videos](#introductory-videos)
-  - [Lectures](#lectures)
+  - [Introductory Lectures](#introductory-lectures)
 - [Papers](#papers)
   - [Vision](#vision)
     - [Image Generation](#image-generation)
@@ -102,7 +102,7 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 [[Video](https://www.youtube.com/watch?v=344w5h24-h8&ab_channel=AICoffeeBreakwithLetitia)] \
 23 Mar 2022
 
-## Lectures
+## Introductory Lectures
 
 **Diffusion Probabilistic Models** \
 *Jascha Sohl-Dickstein, MIT 6.S192 - Lecture 22* \
