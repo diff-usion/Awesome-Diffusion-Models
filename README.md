@@ -101,6 +101,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Lossy Compression with Gaussian Diffusion** \
+*Lucas Theis, Tim Salimans, Matthew D. Hoffman, Fabian Mentzer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.08889)] \
+17 Jun 2022
+
 **Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching**
 *Cheng Lu, Kaiwen Zheng, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2206.08265)] \
@@ -345,6 +350,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.03237)] \
 *Roland S. Zimmermann, Lukas Schott, Yang Song, Benjamin A. Dunn, David A. Klindt* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)] \
 1 Oct 2021
+
+**Classifier-Free Diffusion Guidance** \
+*Jonathan Ho, Tim Salimans* \
+NeurIPS Workshop 2021. [[Paper](https://openreview.net/pdf?id=qw8AKxfYbI)] \
+28 Sep 2021
+
 
 **Bilateral Denoising Diffusion Models** \
 *Max W. Y. Lam, Jun Wang, Rongjie Huang, Dan Su, Dong Yu* \
@@ -979,6 +990,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github
 
 
 ### Audio Enhancement
+
+**NU-Wave 2: A General Neural Audio Upsampling Model for Various Sampling Rates** \
+*Seungu Han, Junhyeok Lee* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.08545)] [[Project](https://mindslab-ai.github.io/nuwave2/)] \
+17 Jun 2022
 
 **Universal Speech Enhancement with Score-based Diffusion** \
 *Joan Serrà, Santiago Pascual, Jordi Pons, R. Oguz Araz, Davide Scaini* \
