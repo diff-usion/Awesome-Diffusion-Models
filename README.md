@@ -114,6 +114,16 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Diffusion models as plug-and-play priors** \
+*Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
+17 June 2022
+
+**A Flexible Diffusion Model** \
+*Weitao Du, Tao Yang, He Zhang, Yuanqi Du* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10365)] \
+17 Jun 2022
+
 **Lossy Compression with Gaussian Diffusion** \
 *Lucas Theis, Tim Salimans, Matthew D. Hoffman, Fabian Mentzer* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.08889)] \
@@ -526,6 +536,13 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 2 Mar 2015
 
 ### Segmentation
+
+
+**Diffusion models as plug-and-play priors** \
+*Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
+17 June 2022
+
 **Diffusion Models for Implicit Image Segmentation Ensembles** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
@@ -732,18 +749,15 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
 15 Jun 2022
 
-
 **Blended Latent Diffusion** \
 *Omri Avrahami, Ohad Fried, Dani Lischinski* \
 ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
 6 Jun 2022
 
-
 **Compositional Visual Generation with Composable Diffusion Models** \
 *Nan Liu<sup>1</sup>, Shuang Li<sup>1</sup>, Yilun Du<sup>1</sup>, Antonio Torralba, Joshua B. Tenenbaum* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01714)] [[Project](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)] \
 3 Jun 2022
-
 
 **DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
 *Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
@@ -1086,6 +1100,16 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 ## Miscellaneous
 
 ### Adversarial Attack and Defense
+
+**Guided Diffusion Model for Adversarial Purification from Random Noise** \
+*Quanlin Wu, Hang Ye, Yuntian Gu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10875)] \
+17 Jun 2022
+
+**(Certified!!) Adversarial Robustness for Free!** \
+*Nicholas Carlini, Florian Tramer, Krishnamurthy (Dj)Dvijotham, J. Zico Kolter* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10550)] \
+21 Jun 2022
 
 **Guided Diffusion Model for Adversarial Purification** \
 *Jinyi Wang<sup>1</sup>, Zhaoyang Lyu<sup>1</sup>, Dahua Lin, Bo Dai, Hongfei Fu* \
