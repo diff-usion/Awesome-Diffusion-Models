@@ -114,6 +114,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation** \
+*Shengming Li, Guangcong Zheng, Hui Wang, Taiping Yao, Yang Chen, Shoudong Ding, Xi Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11474)] \
+23 Jun 2022
+
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
@@ -129,7 +134,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10365)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.08889)] \
 17 Jun 2022
 
-**Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching**
+**Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching** \
 *Cheng Lu, Kaiwen Zheng, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2206.08265)] \
 16 Jun 2022
@@ -1169,7 +1174,8 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 
 ### Molecule-Generation
 
-**Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \ 
+
+**Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \
 *Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.04119)] \
 8 Jun 2022
@@ -1195,6 +1201,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 6 Mar 2022
 
 ### Applications
+
+**Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
+*Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11892)] [[Github](https://github.com/wgcban/ddpm-cd)] \
+23 Jun 2022
 
 **Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
 *Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
