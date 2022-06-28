@@ -114,10 +114,17 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+
 **Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation** \
 *Shengming Li, Guangcong Zheng, Hui Wang, Taiping Yao, Yang Chen, Shoudong Ding, Xi Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11474)] \
 23 Jun 2022
+
+**Generative Modelling With Inverse Heat Dissipation** \
+*Severi Rissanen, Markus Heinonen, Arno Solin* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13397)] [[Project](https://aaltoml.github.io/generative-inverse-heat-dissipation/)] \
+21 Jun 2022
+
 
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
@@ -822,6 +829,17 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Cross-Modal Transformer GAN: A Brain Structure-Function Deep Fusing Framework for Alzheimer's Disease** \
+*Junren Pan, Shuqiang Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13393)] \
+20 Jun 2022
+
+**Diffusion Deformable Model for 4D Temporal Medical Image Generation** \
+*Boah Kim, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13295)] \
+27 Jun 2022
+
+
 **Fast Unsupervised Brain Anomaly Detection and Segmentation with Diffusion Models** \
 *Walter H. L. Pinaya, Mark S. Graham, Robert Gray, Pedro F Da Costa, Petru-Daniel Tudosiu, Paul Wright, Yee H. Mah, Andrew D. MacKinnon, James T. Teo, Rolf Jager, David Werring, Geraint Rees, Parashkev Nachev, Sebastien Ourselin, M. Jorge Cardos* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03461)] \
@@ -1174,6 +1192,15 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 
 ### Molecule-Generation
 
+**Data-driven discovery of novel 2D materials by deep generative models** \
+*Peder Lyngby, Kristian Sommer Thygesen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.12159)] \
+24 Jun 2022
+
+**Score-based Generative Models for Calorimeter Shower Simulation** \
+*Vinicius Mikuni, Benjamin Nachman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11898)] \
+17 Jun 2022
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \
 *Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola* \
