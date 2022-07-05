@@ -104,6 +104,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ## Introductory Lectures
 
+**Denoising Diffusion-based Generative Modeling: Foundations and Applications** \
+*Karsten Kreis, Ruiqi Gao, Arash Vahdat* \
+[[Page](https://cvpr2022-tutorial-diffusion-models.github.io/)] \
+19 June 2022
+
 **Diffusion Probabilistic Models** \
 *Jascha Sohl-Dickstein, MIT 6.S192 - Lecture 22* \
 [[Video](https://www.youtube.com/watch?v=XCUlnHP1TNM)] \
@@ -113,6 +118,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ## Vision
 ### Image Generation
+
+**SPI-GAN: Distilling Score-based Generative Models with Straight-Path Interpolations** \
+*Jinsung Jeon, Noseong Park* \
+arxiv 2022. [[Paper](https://arxiv.org/abs/2206.14464)] \
+29 Jun 2022
 
 
 **Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation** \
@@ -549,6 +559,10 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 ### Segmentation
 
+**Semantic Image Synthesis via Diffusion Models** \
+*Weilun Wang, Jianmin Bao, Wengang Zhou, Dongdong Chen, Dong Chen, Lu Yuan, Houqiang Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.00050)] \
+30 Jun 2022
 
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
