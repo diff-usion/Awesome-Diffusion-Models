@@ -119,11 +119,15 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling** \
+*Hengyuan Ma, Li Zhang, Xiatian Zhu, Jianfeng Feng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.02196)] \
+5 Jul 2022
+
 **SPI-GAN: Distilling Score-based Generative Models with Straight-Path Interpolations** \
 *Jinsung Jeon, Noseong Park* \
 arxiv 2022. [[Paper](https://arxiv.org/abs/2206.14464)] \
 29 Jun 2022
-
 
 **Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation** \
 *Shengming Li, Guangcong Zheng, Hui Wang, Taiping Yao, Yang Chen, Shoudong Ding, Xi Li* \
@@ -134,7 +138,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11474)] \
 *Severi Rissanen, Markus Heinonen, Arno Solin* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13397)] [[Project](https://aaltoml.github.io/generative-inverse-heat-dissipation/)] \
 21 Jun 2022
-
 
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
@@ -843,6 +846,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**A Novel Unified Conditional Score-based Generative Framework for Multi-modal Medical Image Completion** \
+*Xiangxi Meng, Yuning Gu, Yongsheng Pan, Nizhuan Wang, Peng Xue, Mengkang Lu, Xuming He, Yiqiang Zhan, Dinggang Shen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03430)] \
+7 Jul 2022
+
 **Cross-Modal Transformer GAN: A Brain Structure-Function Deep Fusing Framework for Alzheimer's Disease** \
 *Junren Pan, Shuqiang Wang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13393)] \
@@ -1137,6 +1145,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 ## Miscellaneous
 
 ### Adversarial Attack and Defense
+
+**Back to the Source: Diffusion-Driven Test-Time Adaptation** \
+*Jin Gao<sup>1</sup>, Jialing Zhang<sup>1</sup>, Xihui Liu, Trevor Darrell, Evan Shelhamer, Dequan Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03442)] \
+7 Jul 2022
 
 **Guided Diffusion Model for Adversarial Purification from Random Noise** \
 *Quanlin Wu, Hang Ye, Yuntian Gu* \
