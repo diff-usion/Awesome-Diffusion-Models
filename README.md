@@ -4,8 +4,6 @@
 
 This repository contains a collection of resources and papers on ***Diffusion Models and Score-matching Models***.
 
-*If there are any missing valuable resources or papers or any materials related to diffusion model, please do not hesitate to create or pull request to issues. I am happy to reflect them.*
-
 ## Contents
 - [Resources](#resources)
   - [Introductory Posts](#introductory-posts)
@@ -32,7 +30,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
     - [Natural Language](#natural-language)
     - [Time-Series](#time-series)
-    - [Molecule-Generation](#molecule-generation)
+    - [Molecule Generation](#molecule-generation)
     - [Applications](#applications)
 
 # Resources
@@ -1217,7 +1215,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.10121)] [[Github](https://github
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.com/zalandoresearch/pytorch-ts)] \
 2 Feb 2021 
 
-### Molecule-Generation
+### Molecule Generation
 
 **Data-driven discovery of novel 2D materials by deep generative models** \
 *Peder Lyngby, Kristian Sommer Thygesen* \
