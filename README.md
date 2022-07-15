@@ -117,6 +117,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Improving Diffusion Model Efficiency Through Patching** \
+*Troy Luhman, Eric Luhman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.04316)] [[Github](https://github.com/ericl122333/PatchDiffusion-Pytorch)] \
+9 Jul 2022
+
 **Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling** \
 *Hengyuan Ma, Li Zhang, Xiatian Zhu, Jianfeng Feng* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.02196)] \
@@ -588,6 +593,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations** \
+*Min Zhao, Fan Bao, Chongxuan Li, Jun Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.06635)] \
+14 Jul 2022
+
 **Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
 *Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
@@ -844,6 +854,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Adaptive Diffusion Priors for Accelerated MRI Reconstruction** \
+*Salman UH Dar, Şaban Öztürk, Yilmaz Korkmaz, Gokberk Elmas, Muzaffer Özbey, Alper Güngör, Tolga Çukur* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.05876)] \
+12 Jul 2022
+
 **A Novel Unified Conditional Score-based Generative Framework for Multi-modal Medical Image Completion** \
 *Xiangxi Meng, Yuning Gu, Yongsheng Pan, Nizhuan Wang, Peng Xue, Mengkang Lu, Xuming He, Yiqiang Zhan, Dinggang Shen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03430)] \
@@ -974,6 +989,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ## Audio
 ### Audio Generation
+
+**ProDiff: Progressive Fast Diffusion Model For High-Quality Text-to-Speech** \
+*Rongjie Huang<sup>1</sup>, Zhou Zhao, Huadai Liu<sup>1</sup>, Jinglin Liu, Chenye Cui, Yi Ren* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.06389)] [[Project](https://prodiff.github.io/)] \
+13 Jul 2022
 
 **Adversarial Audio Synthesis with Complex-valued Polynomial Networks** \
 *Yongtao Wu, Grigorios G Chrysos, Volkan Cevher* \
