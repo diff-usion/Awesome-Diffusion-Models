@@ -593,6 +593,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**Unsupervised Medical Image Translation with Adversarial Diffusion Models** \
+*Muzaffer Özbey, Salman UH Dar, Hasan A Bedel, Onat Dalmaz, Şaban Özturk, Alper Güngör, Tolga Çukur* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08208)] \
+17 Jul 2022
+
 **EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations** \
 *Min Zhao, Fan Bao, Chongxuan Li, Jun Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.06635)] \
@@ -853,6 +858,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Unsupervised Medical Image Translation with Adversarial Diffusion Models** \
+*Muzaffer Özbey, Salman UH Dar, Hasan A Bedel, Onat Dalmaz, Şaban Özturk, Alper Güngör, Tolga Çukur* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08208)] \
+17 Jul 2022
 
 **Adaptive Diffusion Priors for Accelerated MRI Reconstruction** \
 *Salman UH Dar, Şaban Öztürk, Yilmaz Korkmaz, Gokberk Elmas, Muzaffer Özbey, Alper Güngör, Tolga Çukur* \
@@ -1164,6 +1174,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ### Adversarial Attack and Defense
 
+**Threat Model-Agnostic Adversarial Defense using Diffusion Models** \
+*Tsachi Blau, Roy Ganz, Bahjat Kawar, Alex Bronstein, Michael Elad* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08089)] \
+17 Jul 2022
+
 **Back to the Source: Diffusion-Driven Test-Time Adaptation** \
 *Jin Gao<sup>1</sup>, Jialing Zhang<sup>1</sup>, Xihui Liu, Trevor Darrell, Evan Shelhamer, Dequan Wang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03442)] \
@@ -1273,6 +1288,12 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 6 Mar 2022
 
 ### Applications
+
+**DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras** \ 
+*Ruizhi Shao, Zerong Zheng, Hongwen Zhang, Jingxiang Sun, Yebin Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08000)] \
+16 Jul 2022
+
 
 **Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
 *Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
