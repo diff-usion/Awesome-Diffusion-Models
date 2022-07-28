@@ -117,6 +117,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis** \
+*Sangyun Lee, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye* \
+arxiv 2022. [[Paper](https://arxiv.org/abs/2207.11192)] [[Github](https://github.com/sangyun884/blur-diffusion)] \
+16 Jul 2022
+
 **Improving Diffusion Model Efficiency Through Patching** \
 *Troy Luhman, Eric Luhman* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.04316)] [[Github](https://github.com/ericl122333/PatchDiffusion-Pytorch)] \
@@ -404,7 +409,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2110.00473)] \
 
 **Classifier-Free Diffusion Guidance** \
 *Jonathan Ho, Tim Salimans* \
-NeurIPS Workshop 2021. [[Paper](https://openreview.net/pdf?id=qw8AKxfYbI)] \
+NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2207.12598)] \
 28 Sep 2021
 
 
@@ -593,6 +598,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**Non-Uniform Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
+20 Jul 2022
+
 **Unsupervised Medical Image Translation with Adversarial Diffusion Models** \
 *Muzaffer Özbey, Salman UH Dar, Hasan A Bedel, Onat Dalmaz, Şaban Özturk, Alper Güngör, Tolga Çukur* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08208)] \
@@ -666,6 +676,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 ### Super Resolution
 
+**Non-Uniform Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
+20 Jul 2022
+
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
@@ -722,6 +737,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 15 Apr 2021
 
 ### Image Editing
+
+**Non-Uniform Diffusion Models** \
+*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
+20 Jul 2022
 
 **Blended Latent Diffusion** \
 *Omri Avrahami, Ohad Fried, Dani Lischinski* \
@@ -785,6 +805,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 2 Aug 2021
 
 ### Text-to-Image
+
+**Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Björn Ommer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.13038)] \
+26 Jul 2022
 
 **Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
 *Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
@@ -858,6 +883,12 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**What is Healthy? Generative Counterfactual Diffusion for Lesion Localization** \
+*Pedro Sanchez, Antanas Kascenas, Xiao Liu, Alison Q. O'Neil, Sotirios A. Tsaftaris* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.12268)] [[Github](https://github.com/vios-s/Diff-SCM)] \
+25 Jul 2022
+
 
 **Unsupervised Medical Image Translation with Adversarial Diffusion Models** \
 *Muzaffer Özbey, Salman UH Dar, Hasan A Bedel, Onat Dalmaz, Şaban Özturk, Alper Güngör, Tolga Çukur* \
@@ -1124,6 +1155,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 
 ### Text-to-Speech
+
+**Diffsound: Discrete Diffusion Model for Text-to-sound Generation** \
+*Dongchao Yang, Jianwei Yu, Helin Wang, Wen Wang, Chao Weng, Yuexian Zou, Dong Yu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09983)] [[Project](http://dongchaoyang.top/text-to-sound-synthesis-demo/)] \
+20 Jul 2022
 
 **Guided-TTS 2: A Diffusion Model for High-quality Adaptive Text-to-Speech with Untranscribed Data** \
 *Sungwon Kim<sup>1</sup>, Heeseung Kim<sup>1</sup>, Sungroh Yoon* \
