@@ -36,9 +36,9 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 # Resources
 ## Introductory Posts
 
-**Recent rise of diffusion-based models** \
+**The recent rise of diffusion-based models** \
 *Maciej Domagała* \
-[[Website](https://maciejdomagala.github.io/generative_models/2022/06/06/recent-rise-of-diffusion-based-models.html)] \
+[[Website](https://maciejdomagala.github.io/generative_models/2022/06/06/The-recent-rise-of-diffusion-based-models.html)] \
 06 Jun 2022
 
 **Introduction to Diffusion Models for Machine Learning** \
@@ -597,6 +597,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 
 ### Image-to-Image Translation
+
+**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
+*Ozan Özdenizci, Robert Legenstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] \
+29 Jul 2022
 
 **Non-Uniform Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -1325,11 +1330,20 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] \
 
 ### Applications
 
+**DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
+*Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
+31 Jul 2022
+
+**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
+*Ozan Özdenizci, Robert Legenstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] \
+29 Jul 2022
+
 **DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras** \ 
 *Ruizhi Shao, Zerong Zheng, Hongwen Zhang, Jingxiang Sun, Yebin Liu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08000)] \
 16 Jul 2022
-
 
 **Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
 *Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
