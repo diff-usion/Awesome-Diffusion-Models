@@ -374,7 +374,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.01799)] \
 
 **Diffusion Autoencoders: Toward a Meaningful and Decodable Representation** \
 *Konpat Preechakul, Nattanat Chatthee, Suttisak Wizadwongsa, Supasorn Suwajanakorn* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.15640)] [[Project](https://diff-ae.github.io/)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2111.15640)] [[Project](https://diff-ae.github.io/)] [[Github](https://github.com/phizaz/diffae)] \
 30 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
@@ -1124,6 +1124,10 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2009.00713)] [[Project](https://wavegr
 arXiv 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github.com/liusongxiang/diffsvc)] \
 28 May 2021
 
+**Diffusion-Based Voice Conversion with Fast Maximum Likelihood Sampling Scheme** \
+*Vadim Popov, Ivan Vovk, Vladimir Gogoryan, Tasnima Sadekova, Mikhail Kudinov, Jiansheng Wei* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2109.13821)] [[Project](https://diffvc-fast-ml-solver.github.io/)] \
+28 Sep 2021
 
 ### Audio Enhancement
 
