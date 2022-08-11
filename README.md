@@ -1344,6 +1344,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] \
 29 Jul 2022
 
+**Recommendation via Collaborative Diffusion Generative Model
+** \ 
+*Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou* \
+KSEM 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_47)] \
+19 Jul 2022
+
 **DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras** \ 
 *Ruizhi Shao, Zerong Zheng, Hongwen Zhang, Jingxiang Sun, Yebin Liu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08000)] \
