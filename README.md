@@ -117,6 +117,17 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning** \
+*Ting Chen, Ruixiang Zhang, Geoffrey Hinton* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.04202)] \
+8 Aug 2022
+
+
+**Pyramidal Denoising Diffusion Probabilistic Models** \
+*Dohoon Ryu, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.01864)] \
+3 Aug 2022
+
 **Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis** \
 *Sangyun Lee, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye* \
 arxiv 2022. [[Paper](https://arxiv.org/abs/2207.11192)] [[Github](https://github.com/sangyun884/blur-diffusion)] \
@@ -1035,6 +1046,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ## Audio
 ### Audio Generation
+
+**DDSP-based Singing Vocoders: A New Subtractive-based Synthesizer and A Comprehensive Evaluation** \
+*Da-Yi Wu<sup>1</sup>, Wen-Yi Hsiao<sup>1</sup>, Fu-Rong Yang, Oscar Friedman, Warren Jackson, Scott Bruzenak, Yi-Wen Liu, Yi-Hsuan Yang* \
+ISMIR 2022. [[Paper](https://arxiv.org/abs/2208.04756)] \
+9 Aug 2022
 
 **ProDiff: Progressive Fast Diffusion Model For High-Quality Text-to-Speech** \
 *Rongjie Huang<sup>1</sup>, Zhou Zhao, Huadai Liu<sup>1</sup>, Jinglin Liu, Chenye Cui, Yi Ren* \
