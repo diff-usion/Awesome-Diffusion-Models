@@ -31,6 +31,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Natural Language](#natural-language)
     - [Time-Series](#time-series)
     - [Molecule Generation](#molecule-generation)
+    - [Theory](#theory)
     - [Applications](#applications)
 
 # Resources
@@ -839,7 +840,7 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavr
 
 **Compositional Visual Generation with Composable Diffusion Models** \
 *Nan Liu<sup>1</sup>, Shuang Li<sup>1</sup>, Yilun Du<sup>1</sup>, Antonio Torralba, Joshua B. Tenenbaum* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01714)] [[Project](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)] \
+ECCV 2022. [[Paper](https://arxiv.org/abs/2206.01714)] [[Project](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)] [[Github](https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch)] \
 3 Jun 2022
 
 **DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
@@ -864,7 +865,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)]  \
 
 **Retrieval-Augmented Diffusion Models** \
 *Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] [[Github](https://github.com/lucidrains/retrieval-augmented-ddpm)] \
 25 Apr 2022
 
 **Hierarchical Text-Conditional Image Generation with CLIP Latents** \
@@ -880,7 +881,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02849)] \
 
 **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** \
 *Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05744)] [[Github](https://xh-liu.github.io/sdg/)] \
 10 Dec 2021
 
 **Vector Quantized Diffusion Model for Text-to-Image Synthesis** \
@@ -900,9 +901,14 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**High-Frequency Space Diffusion Models for Accelerated MRI** \
+*Chentao Cao, Zhuo-Xu Cui, Shaonan Liu, Dong Liang, Yanjie Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05481)] \
+10 Aug 2022
+
 **What is Healthy? Generative Counterfactual Diffusion for Lesion Localization** \
 *Pedro Sanchez, Antanas Kascenas, Xiao Liu, Alison Q. O'Neil, Sotirios A. Tsaftaris* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.12268)] [[Github](https://github.com/vios-s/Diff-SCM)] \
+MICCAI 2022. [[Paper](https://arxiv.org/abs/2207.12268)] [[Github](https://github.com/vios-s/Diff-SCM)] \
 25 Jul 2022
 
 
@@ -989,7 +995,7 @@ NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2111.08005)] \
 
 **Score-based diffusion models for accelerated MRI** \
 *Hyungjin Chung, Jong chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
+MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] \
 8 Oct 2021
 
 
@@ -1013,7 +1019,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.09853)] \
 
 **Video Diffusion Models** \
 *Jonathan Ho<sup>1</sup>, Tim Salimans<sup>1</sup>, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
 7 Apr 2022
 
 **Diffusion Probabilistic Modeling for Video Generation** \
@@ -1031,7 +1037,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
 
 **Score-Based Point Cloud Denoising** \
 *Shitong Luo, Wei Hu*\
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
+ICCV 2021. [[Paper](https://arxiv.org/abs/2107.10981)] [[Github](https://github.com/luost26/score-denoise)] \
 23 Jul 2021
 
 **3D Shape Generation and Completion through Point-Voxel Diffusion** \
@@ -1146,6 +1152,13 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2109.13821)] [[Project](https://diffvc
 28 Sep 2021
 
 ### Audio Enhancement
+
+**Speech Enhancement and Dereverberation with Diffusion-based Generative Models** \
+*Julius Richter, Simon Welker, Jean-Marie Lemercier, Bunlong Lay, Timo Gerkmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05830)] [[Project](https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/sgmse)] [[Github](https://github.com/sp-uhh/sgmse)] \
+11 Aug 2022
+
+
 
 **NU-Wave 2: A General Neural Audio Upsampling Model for Various Sampling Rates** \
 *Seungu Han, Junhyeok Lee* \
@@ -1348,6 +1361,25 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] [[Github](https://github
 ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] [[Github](https://github.com/MinkaiXu/GeoDiff)] \
 6 Mar 2022
 
+### Theory
+
+**Convergence of denoising diffusion models under the manifold hypothesis** \
+*Valentin De Bortoli* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05314)] \
+10 Aug 2022
+
+
+**Theory and Algorithms for Diffusion Processes on Riemannian Manifolds** \
+*Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github.com/gcorso/torsional-diffusion)] \
+1 Jun 2022
+
+
+**Riemannian Score-Based Generative Modeling** \
+*Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
+6 Feb 2022
+
 ### Applications
 
 **DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
@@ -1395,11 +1427,6 @@ ISMIR 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
 8 Jun 2022
 
-**Theory and Algorithms for Diffusion Processes on Riemannian Manifolds** \
-*Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github.com/gcorso/torsional-diffusion)] \
-1 Jun 2022
-
 **Planning with Diffusion for Flexible Behavior Synthesis** \
 *Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.com/jannerm/diffuser)] \
@@ -1409,11 +1436,6 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 *Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
 CVPR 2022. [[Paper](https://arxiv.org/abs/2203.13777)] [[Github](https://github.com/gutianpei/MID)] \
 25 Mar 2022
-
-**Riemannian Score-Based Generative Modeling** \
-*Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
-6 Feb 2022
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
