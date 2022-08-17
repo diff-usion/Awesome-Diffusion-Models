@@ -594,12 +594,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
 
 **Diffusion Models for Implicit Image Segmentation Ensembles** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
+MIDL 2021. [[Paper](https://arxiv.org/abs/2112.03145)] \
 6 Dec 2021
 
 **Label-Efficient Semantic Segmentation with Diffusion Models** \
 *Dmitry Baranchuk, Ivan Rubachev, Andrey Voynov, Valentin Khrulkov, Artem Babenko* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03126)] [[Github](https://github.com/yandex-research/ddpm-segmentation)] \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2112.03126)] [[Github](https://github.com/yandex-research/ddpm-segmentation)] \
 6 Dec 2021
 
 **SegDiff: Image Segmentation with Diffusion Probabilistic Models** \
@@ -634,7 +634,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2207.06635)] \
 *Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Github](https://github.com/L-YeZhu/CDCD)] \
 15 Jun 2022
-
 
 **SAR Despeckling using a Denoising Diffusion Probabilistic Model** \
 *Malsha V. Perera, Nithin Gopalakrishnan Nair, Wele Gedara Chaminda Bandara, Vishal M. Patel* \
@@ -700,7 +699,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
+ICLR 2022 Workshop (Oral). [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
@@ -710,12 +709,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://github
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
 20 Dec 2021
 
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
 *Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.05146)] \
 9 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
@@ -725,12 +724,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
 
 **S3RP: Self-Supervised Super-Resolution and Prediction for Advection-Diffusion Process** \
 *Chulin Wang, Kyongmin Yeo, Xiao Jin, Andres Codas, Levente J. Klein, Bruce Elmegreen* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.04639)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2111.04639)] \
 8 Nov 2021
 
 **Autoregressive Diffusion Models** \
 *Emiel Hoogeboom, Alexey A. Gritsenko, Jasmijn Bastings, Ben Poole, Rianne van den Berg, Tim Salimans* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2110.02037)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2110.02037)] \
 5 Oct 2021
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
@@ -745,7 +744,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.15282)] [[Project](https://casca
 
 **SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models** \
 *Haoying Li, Yifan Yang, Meng Chang, Huajun Feng, Zhihai Xu, Qi Li, Yueting Chen* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2104.14951)] \
+ACM 2022. [[Paper](https://arxiv.org/abs/2104.14951)] \
 30 Apr 2021
 
 **Image Super-Resolution via Iterative Refinement**  \
@@ -770,7 +769,6 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavr
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
 2 Jun 2022
 
-
 **DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
 *Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00386)] \
@@ -778,37 +776,37 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00386)] \
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
+ICLR 2022 Workshop (Oral). [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
 *Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
 24 Jan 2022
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
 20 Dec 2021
 
 **Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
 *Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
+ICLR 2022 (Spotlight). [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
 15 Dec 2021
 
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
 *Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.05146)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.05146)] \
 9 Dec 2021
 
 **Conditional Image Generation with Score-Based Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] [[Github](https://github.com/GBATZOLIS/conditional_score_diffusion)] \
 26 Nov 2021
 
 **Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
 *Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
+ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
 24 Nov 2021
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
@@ -818,14 +816,14 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 
 **SDEdit: Image Synthesis and Editing with Stochastic Differential Equations**  \
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
 
 ### Text-to-Image
 
 **Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models** \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Björn Ommer* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.13038)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.13038)] [[Github](https://github.com/CompVis/latent-diffusion)] \
 26 Jul 2022
 
 **Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
@@ -860,7 +858,7 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2205.15996)] \
 
 **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding** \
 *Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)]  \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)] [[Github](https://github.com/lucidrains/imagen-pytorch)]  \
 23 May 2022
 
 **Retrieval-Augmented Diffusion Models** \
@@ -870,7 +868,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] [[Github](https://github
 
 **Hierarchical Text-Conditional Image Generation with CLIP Latents** \
 *Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.06125)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2204.06125)] [[Github](https://github.com/lucidrains/DALLE2-pytorch)] \
 13 Apr 2022
 
 
