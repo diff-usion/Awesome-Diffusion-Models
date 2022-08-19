@@ -118,6 +118,21 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 ## Vision
 ### Image Generation
 
+**Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance** \
+*Bahjat Kawar, Roy Ganz, Michael Elad* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.08664)] \
+18 Aug 2022
+
+**Your ViT is Secretly a Hybrid Discriminative-Generative Diffusion Model** \
+*Xiulong Yang<sup>1</sup>, Sheng-Min Shih<sup>1</sup>, Yinlin Fu, Xiaoting Zhao, Shihao Ji* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.07791)] [[Github](https://github.com/sndnyang/Diffusion_ViT)] \
+16 Aug 2022
+
+**Applying Regularized Schrödinger-Bridge-Based Stochastic Process in Generative Modeling** \
+*Ki-Ung Song* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.07131)] [[Github](https://github.com/KiUngSong/RSB)] \
+15 Aug 2022
+
 **Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning** \
 *Ting Chen, Ruixiang Zhang, Geoffrey Hinton* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.04202)] \
@@ -1360,6 +1375,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] [[Github](https://github.
 6 Mar 2022
 
 ### Theory
+
+**Riemannian Diffusion Models** \
+*Chin-Wei Huang, Milad Aghajohari, Avishek Joey Bose, Prakash Panangaden, Aaron Courville* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.07949)] \
+16 Aug 2022
 
 **Convergence of denoising diffusion models under the manifold hypothesis** \
 *Valentin De Bortoli* \
