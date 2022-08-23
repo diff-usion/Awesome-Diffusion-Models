@@ -961,6 +961,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03461)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
 2 Jun 2022
 
+**AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise** \
+*Julian Wyatt, Adam Leach, Sebastian M. Schmon, Chris G. Willcocks* \
+CVPR Workshop 2022. [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Wyatt_AnoDDPM_Anomaly_Detection_With_Denoising_Diffusion_Probabilistic_Models_Using_Simplex_CVPRW_2022_paper.pdf)] [[Github](https://github.com/Julian-Wyatt/AnoDDPM)] \
+1 Jun 2022
+
 **The Swiss Army Knife for Image-to-Image Translation: Multi-Task Diffusion Models** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe C. Cattin* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.02641)] \
