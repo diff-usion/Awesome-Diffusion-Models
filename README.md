@@ -1261,6 +1261,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ### Adversarial Attack and Defense
 
+**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
+*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
+21 Aug 2022
+
 **Threat Model-Agnostic Adversarial Defense using Diffusion Models** \
 *Tsachi Blau, Roy Ganz, Bahjat Kawar, Alex Bronstein, Michael Elad* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08089)] \
@@ -1321,6 +1326,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 2 Nov 2021
 
 ### Time-Series
+
+**Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models** \
+*Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09399)] [[Github](https://github.com/AI4HealthUOL/SSSD)] \
+19 Aug 2022
 
 **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
@@ -1399,6 +1409,16 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
 
 ### Applications
+
+**Vector Quantized Diffusion Model with CodeUnet for Text-to-Sign Pose Sequences Generation** \
+*Pan Xie, Qipeng Zhang, Zexian Li, Hao Tang, Yao Du, Xiaohui Hu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09141)] \
+19 Aug 2022
+
+**TopoDiff: A Performance and Constraint-Guided Diffusion Model for Topology Optimization** \
+*François Mazé, Faez Ahmed* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09591)] \
+20 Aug 2022
 
 **DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
 *Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
