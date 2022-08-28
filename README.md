@@ -89,6 +89,11 @@ Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publicat
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
 20 Apr 2022
 
+**Understanding Diffusion Models: A Unified Perspective** \
+*Calvin Luo* \
+arXiv 2022. [[Paper](https://arxiv.org/pdf/2208.11970.pdf)] \
+25 Aug 2022
+
 ## Introductory Videos
 
 **What are Diffusion Models?** \
