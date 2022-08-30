@@ -79,15 +79,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 ## Introductory Papers
 
-**A Connection Between Score Matching and Denoising Autoencoders** \
-*Pascal Vincent* \
-Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
-7 Jul 2011
-
-**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
-*Max Welling, Yee Whye Teh* \
-ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
-20 Apr 2022
+**Understanding Diffusion Models: A Unified Perspective** \
+*Calvin Luo* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
+25 Aug 2022
 
 ## Introductory Videos
 
@@ -117,6 +112,16 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ## Vision
 ### Image Generation
+
+**Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis** \
+*Wan-Cyuan Fan, Yen-Chun Chen, DongDong Chen, Yu Cheng, Lu Yuan, Yu-Chiang Frank Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.13753)] \
+29 Aug 2022
+
+**Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
+*Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
+19 Aug 2022
 
 **Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance** \
 *Bahjat Kawar, Roy Ganz, Michael Elad* \
@@ -595,6 +600,16 @@ arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
 2 Mar 2015
 
+**A Connection Between Score Matching and Denoising Autoencoders** \
+*Pascal Vincent* \
+Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
+7 Jul 2011
+
+**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
+*Max Welling, Yee Whye Teh* \
+ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
+20 Apr 2022
+
 ### Segmentation
 
 **Semantic Image Synthesis via Diffusion Models** \
@@ -707,6 +722,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 ### Super Resolution
 
+**Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
+*Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
+19 Aug 2022
+
+
 **Non-Uniform Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
@@ -768,6 +789,19 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 15 Apr 2021
 
 ### Image Editing
+
+
+
+**Adaptively-Realistic Image Generation from Stroke and Sketch with Diffusion Model** \
+*Shin-I Cheng<sup>1</sup>, Yu-Jie Chen<sup>1</sup>, Wei-Chen Chiu, Hsin-Ying Lee, Hung-Yu Tseng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj407.github.io/DiSS/)] \
+26 Aug 2022
+
+**Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
+*Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
+19 Aug 2022
+
 
 **Non-Uniform Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -835,6 +869,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 2 Aug 2021
 
 ### Text-to-Image
+
+**DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation** \
+*Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12242)] [[Project](https://dreambooth.github.io/)] \
+25 Aug 2022
 
 **Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models** \
 *Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Björn Ommer* \
@@ -1047,6 +1086,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
 
 
 ### Point Cloud
+
+**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
+*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
+21 Aug 2022
 
 **A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
 *Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
@@ -1271,6 +1315,12 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
 21 Aug 2022
 
+
+**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
+*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
+21 Aug 2022
+
 **Threat Model-Agnostic Adversarial Defense using Diffusion Models** \
 *Tsachi Blau, Roy Ganz, Bahjat Kawar, Alex Bronstein, Michael Elad* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08089)] \
@@ -1415,6 +1465,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 
 ### Applications
 
+**AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
+*Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
+24 Aug 2022
+
 **Vector Quantized Diffusion Model with CodeUnet for Text-to-Sign Pose Sequences Generation** \
 *Pan Xie, Qipeng Zhang, Zexian Li, Hao Tang, Yao Du, Xiaohui Hu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09141)] \
@@ -1435,7 +1490,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
 29 Jul 2022
 
-**Recommendation via Collaborative Diffusion Generative Model** \ 
+**Recommendation via Collaborative Diffusion Generative Model** \
 *Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou* \
 KSEM 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_47)] \
 19 Jul 2022
