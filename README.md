@@ -953,6 +953,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images** \
+*Dominik J. E. Waibel, Ernst Röoell, Bastian Rieck, Raja Giryes, Carsten Marr* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14125)] \
+30 Aug 2022
+
 **High-Frequency Space Diffusion Models for Accelerated MRI** \
 *Chentao Cao, Zhuo-Xu Cui, Shaonan Liu, Dong Liang, Yanjie Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05481)] \
