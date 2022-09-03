@@ -113,6 +113,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 ## Vision
 ### Image Generation
 
+**Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
+*Xingchao Liu, Lemeng Wu, Mao Ye, Qiang Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14699)] \
+31 Aug 2022
+
 **Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis** \
 *Wan-Cyuan Fan, Yen-Chun Chen, DongDong Chen, Yu Cheng, Lu Yuan, Yu-Chiang Frank Wang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.13753)] \
@@ -612,6 +617,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ### Segmentation
 
+**Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
+*Xingchao Liu, Lemeng Wu, Mao Ye, Qiang Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14699)] \
+31 Aug 2022
+
+
 **Semantic Image Synthesis via Diffusion Models** \
 *Weilun Wang, Jianmin Bao, Wengang Zhou, Dongdong Chen, Dong Chen, Lu Yuan, Houqiang Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.00050)] \
@@ -1087,6 +1098,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
 
 ### Point Cloud
 
+**Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
+*Xingchao Liu, Lemeng Wu, Mao Ye, Qiang Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14699)] \
+31 Aug 2022
+
+
 **PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
 *Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
@@ -1464,6 +1481,22 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
 
 ### Applications
+
+**FLAME: Free-form Language-based Motion Synthesis & Editing** \
+*Jihoon Kim, Jiseob Kim, Sungjoon Choi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00349)] \
+1 Sep 2022
+
+**MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model** \
+*Mingyuan Zhang, Zhongang Cai, Liang Pan, Fangzhou Hong, Xinying Guo, Lei Yang, Ziwei Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.15001)] [[Project](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html)] \
+31 Aug 2022
+
+**A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images** \
+*Dominik J. E. Waibel, Ernst Röell, Bastian Rieck, Raja Giryes, Carsten Marr* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14125)] \
+30 Aug 2022
+
 
 **AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
 *Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
