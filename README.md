@@ -11,6 +11,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Videos](#introductory-videos)
   - [Introductory Lectures](#introductory-lectures)
 - [Papers](#papers)
+  - [Survey](#survey)
   - [Vision](#vision)
     - [Image Generation](#image-generation)
     - [Segmentation](#segmentation)
@@ -109,6 +110,18 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 19 April 2022
 
 # Papers
+
+## Survey
+
+**A Survey on Generative Diffusion Model** \
+*Hanqun Cao, Cheng Tan, Zhangyang Gao, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02646)] \
+6 Sep 2022
+
+**Diffusion Models: A Comprehensive Survey of Methods and Applications** \
+*Ling Yang<sup>1</sup>, Zhilong Zhang<sup>1</sup>, Shenda Hong, Wentao Zhang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
+2 Sep 2022
 
 ## Vision
 ### Image Generation
@@ -964,6 +977,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Self-Score: Self-Supervised Learning on Score-Based Models for MRI Reconstruction** \
+*Zhuo-Xu Cui, Chentao Cao, Shaonan Liu, Qingyong Zhu, Jing Cheng, Haifeng Wang, Yanjie Zhu, Dong Liang* \
+IEEE TMI 2022. [[Paper](https://arxiv.org/abs/2209.00835)] \
+2 Sep 2022
+
 **High-Frequency Space Diffusion Models for Accelerated MRI** \
 *Chentao Cao, Zhuo-Xu Cui, Shaonan Liu, Dong Liang, Yanjie Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05481)] \
@@ -1097,6 +1115,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
 
 
 ### Point Cloud
+
+**First Hitting Diffusion Models** \
+*Mao Ye, Lemeng Wu, Qiang Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.01170)] \
+2 Sep 2022
 
 **Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
 *Xingchao Liu, Lemeng Wu, Mao Ye, Qiang Liu* \
@@ -1420,6 +1443,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Molecule Generation
+
+**Diffusion-based Molecule Generation with Informative Prior Bridges** \
+*Lemeng Wu<sup>1</sup>, Chengyue Gong<sup>1</sup>, Xingchao Liu, Mao Ye, Qiang Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00865)] \
+2 Sep 2022
 
 **Data-driven discovery of novel 2D materials by deep generative models** \
 *Peder Lyngby, Kristian Sommer Thygesen* \
