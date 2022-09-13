@@ -113,6 +113,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 
 ## Survey
 
+**Diffusion Models in Vision: A Survey** \
+*Florinel-Alin Croitoru, Vlad Hondru, Radu Tudor Ionescu, Mubarak Shah* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.04747)] \
+10 Sep 2022
+
 **A Survey on Generative Diffusion Model** \
 *Hanqun Cao, Cheng Tan, Zhangyang Gao, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02646)] \
