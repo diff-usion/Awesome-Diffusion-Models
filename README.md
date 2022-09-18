@@ -131,6 +131,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**Blurring Diffusion Models** \
+*Emiel Hoogeboom, Tim Salimans* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05557)] \
+12 Sep 2022
+
 **Soft Diffusion: Score Matching for General Corruptions** \
 *Giannis Daras, Mauricio Delbracio, Hossein Talebi, Alexandros G. Dimakis, Peyman Milanfar* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05442)] \
@@ -830,8 +835,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Editing
 
-
-
 **Adaptively-Realistic Image Generation from Stroke and Sketch with Diffusion Model** \
 *Shin-I Cheng<sup>1</sup>, Yu-Jie Chen<sup>1</sup>, Wei-Chen Chiu, Hsin-Ying Lee, Hung-Yu Tseng* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj407.github.io/DiSS/)] \
@@ -841,7 +844,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj40
 *Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
 19 Aug 2022
-
 
 **Non-Uniform Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
@@ -909,6 +911,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 2 Aug 2021
 
 ### Text-to-Image
+
+**Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models** \
+*Chen Henry Wu, Saman Motamed, Shaunak Srivastava, Fernando De la Torre* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.06970)] [[Github](https://github.com/ChenWu98/Generative-Visual-Prompt)] \
+14 Sep 2022
 
 **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation** \
 *Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman* \
@@ -992,6 +999,16 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Brain Imaging Generation with Latent Diffusion Models** \
+*Walter H. L. Pinaya<sup>1</sup>, Petru-Daniel Tudosiu<sup>1</sup>, Jessica Dafflon, Pedro F da Costa, Virginia Fernandez, Parashkev Nachev, Sebastien Ourselin, M. Jorge Cardoso* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.07162)] \
+15 Sep 2022
+
+**PET image denoising based on denoising diffusion probabilistic models** \
+*Kuang Gong, Keith A. Johnson, Georges El Fakhri, Quanzheng Li, Tinsu Pan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.06167)] \
+13 Sep 2022
 
 **Self-Score: Self-Supervised Learning on Score-Based Models for MRI Reconstruction** \
 *Zhuo-Xu Cui, Chentao Cao, Shaonan Liu, Qingyong Zhu, Jing Cheng, Haifeng Wang, Yanjie Zhu, Dong Liang* \
@@ -1454,6 +1471,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 2 Feb 2021 
 
 ### Molecule Generation
+
+**MDM: Molecular Diffusion Model for 3D Molecule Generation** \
+*Lei Huang, Hengtong Zhang, Tingyang Xu, Ka-Chun Wong* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05710)] \
+13 Sep 2022
 
 **Diffusion-based Molecule Generation with Informative Prior Bridges** \
 *Lemeng Wu<sup>1</sup>, Chengyue Gong<sup>1</sup>, Xingchao Liu, Mao Ye, Qiang Liu* \
