@@ -235,7 +235,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.08889)] \
 
 **Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching** \
 *Cheng Lu, Kaiwen Zheng, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
-ICML 2022. [[Paper](https://arxiv.org/abs/2206.08265)] \
+ICML 2022. [[Paper](https://arxiv.org/abs/2206.08265)] [[Github](https://github.com/LuChengTHU/mle_score_ode)] \
 16 Jun 2022
 
 **Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models** \
@@ -514,6 +514,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github.com/revsic/jax-variational-diffwave)] \
 1 Jul 2021 
 
+**Diffusion Priors In Variational Autoencoders** \
+*Antoine Wehenkel<sup>1</sup>, Gilles Louppe<sup>1</sup>* \
+ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2106.15671)] \
+29 Jun 2021
+
 **Deep Generative Learning via Schrödinger Bridge** \
 *Gefei Wang, Yuling Jiao, Qian Xu, Yang Wang, Can Yang* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.10410)] \
@@ -541,7 +546,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.03802)] \
 
 **A Variational Perspective on Diffusion-Based Generative Models and Score Matching** \
 *Chin-Wei Huang, Jae Hyun Lim, Aaron Courville* \
-ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2106.02808)] [[Github](https://github.com/CW-Huang/sdeflow-light)] \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2106.02808)] [[Github](https://github.com/CW-Huang/sdeflow-light)] \
 5 Jun 2021 
 
 **Diffusion Schrödinger Bridge with Applications to Score-Based Generative Modeling** \
@@ -588,6 +593,11 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2102.09672)] [[Github](https://github.
 *Yang Song<sup>1</sup>, Conor Durkan<sup>1</sup>, Iain Murray, Stefano Ermon* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2101.09258)] \
 22 Jan 2021 
+
+**Knowledge Distillation in Iterative Generative Models for Improved Sampling Speed** \
+*Eric Luhman<sup>1</sup>, Troy Luhman<sup>1</sup>* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2101.02388)] [[Github](https://github.com/tcl9876/Denoising_Student)] \
+7 Jan 2021
 
 **Learning Energy-Based Models by Diffusion Recovery Likelihood** \
 *Ruiqi Gao, Yang Song, Ben Poole, Ying Nian Wu, Diederik P. Kingma* \
@@ -666,6 +676,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2207.00050)] \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
 17 June 2022
+
+**Decoder Denoising Pretraining for Semantic Segmentation** \
+*Emmanuel Brempong Asiedu, Simon Kornblith, Ting Chen, Niki Parmar, Matthias Minderer, Mohammad Norouzi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11423)] \
+23 May 2022
 
 **Diffusion Models for Implicit Image Segmentation Ensembles** \
 *Julia Wolleb<sup>1</sup>, Robin Sandkühler<sup>1</sup>, Florentin Bieder, Philippe Valmaggia, Philippe C. Cattin* \
@@ -1252,6 +1267,11 @@ ISMIR 2021. [[Paper](https://arxiv.org/abs/2106.07431)] [[Project](https://crash
 ICLR 2022. [[Paper](https://arxiv.org/abs/2106.06406)] [[Project](https://speechresearch.github.io/priorgrad/)] \
 11 Jun 2021 
 
+**ItôTTS and ItôWave: Linear Stochastic Differential Equation Is All You Need For Audio Generation** \
+*Shoule Wu<sup>1</sup>, Ziqiang Shi<sup>1</sup>* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2105.07583)] [[Project](https://wushoule.github.io/ItoAudio/)] \
+17 May 2021
+
 **DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism** \
 *Jinglin Liu<sup>1</sup>, Chengxi Li<sup>1</sup>, Yi Ren<sup>1</sup>, Feiyang Chen, Peng Liu, Zhou Zhao* \
 AAAI 2022. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffsinger.github.io/)] [[Github](https://github.com/keonlee9420/DiffSinger)] \
@@ -1311,6 +1331,11 @@ IEEE 2022. [[Paper](https://arxiv.org/abs/2202.05256)] [[Github](https://github.
 *Yen-Ju Lu<sup>1</sup>, Yu Tsao<sup>1</sup>, Shinji Watanabe* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.11876)] \
 25 Jul 2021
+
+**Zero-Shot Voice Conditioning for Denoising Diffusion TTS Models** \
+*Alon Levkovitch, Eliya Nachmani, Lior Wolf* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02246)] [[Project](https://alonlevko.github.io/ilvr-tts-diff)] \
+5 Jun 2022
 
 **Restoring degraded speech via a modified diffusion model** \
 *Jianwei Zhang, Suren Jayasuriya, Visar Berisha* \
@@ -1455,6 +1480,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09399)] [[Github](https://github.com/AI4HealthUOL/SSSD)] \
 19 Aug 2022
 
+**Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data** \
+*Sung Woo Park, Kyungjae Lee, Junseok Kwon* \
+ICLR 2022. [[Paper](https://openreview.net/forum?id=7DI6op61AY)] \
+29 Sep 2021
+
 **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
 *Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
 NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
@@ -1497,6 +1527,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11898)] \
 CoRR 2022. [[Paper](https://arxiv.org/abs/2206.04119)] \
 8 Jun 2022
 
+**Torsional Diffusion for Molecular Conformer Generation** \
+*Bowen Jing, Gabriele Corso, Regina Barzilay, Tommi S. Jaakkola* \
+ICLR Workshop 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github.com/gcorso/torsional-diffusion)] \
+1 Jun 2022
+
 **Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models** \
 *Namrata Anand, Tudor Achim* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.15019)] [[Project](https://nanand2.github.io/proteins/)] [[Github](https://github.com/lucidrains/ddpm-ipa-protein-generation)] \
@@ -1516,6 +1551,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] [[Github](https://github
 *Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang* \
 ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] [[Github](https://github.com/MinkaiXu/GeoDiff)] \
 6 Mar 2022
+
+**Predicting Molecular Conformation via Dynamic Graph Score Matching** \
+*Shitong Luo, Chence Shi, Minkai Xu, Jian Tang* \
+NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee0fb7f1f872ab91da18f899-Abstract.html)] \
+22 May 2021
 
 ### Theory
 
@@ -1538,6 +1578,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.01729)] [[Github](https://github
 *Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Michael Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 6 Feb 2022
+
+**Interpreting diffusion score matching using normalizing flow** \
+*Wenbo Gong<sup>1</sup>, Yingzhen Li<sup>1</sup>* \
+ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
+21 Jul 2021
 
 ### Applications
 
