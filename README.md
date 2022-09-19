@@ -85,6 +85,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 25 Aug 2022
 
+**How to Train Your Energy-Based Models** \
+*Yang Song, Diederik P. Kingma* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
+9 Jan 2021
+
 ## Introductory Videos
 
 **What are Diffusion Models?** \
