@@ -136,6 +136,17 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+
+**Neural Wavelet-domain Diffusion for 3D Shape Generation** \
+*Ka-Hei Hui, Ruihui Li, Jingyu Hu, Chi-Wing Fu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08725)] \
+19 Sep 2022
+
+**Can segmentation models be trained with fully synthetically generated data?** \
+*Virginia Fernandez, Walter Hugo Lopez Pinaya, Pedro Borges, Petru-Daniel Tudosiu, Mark S Graham, Tom Vercauteren, M Jorge Cardoso* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08256)] \
+17 Sep 2022
+
 **Blurring Diffusion Models** \
 *Emiel Hoogeboom, Tim Salimans* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05557)] \
@@ -666,6 +677,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ### Segmentation
 
+**Can segmentation models be trained with fully synthetically generated data?** \
+*Virginia Fernandez, Walter Hugo Lopez Pinaya, Pedro Borges, Petru-Daniel Tudosiu, Mark S Graham, Tom Vercauteren, M Jorge Cardoso* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08256)] \
+17 Sep 2022
+
 **Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
 *Xingchao Liu, Lemeng Wu, Mao Ye, Qiang Liu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14699)] \
@@ -704,6 +720,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 
 ### Image-to-Image Translation
+
+
+**T2V-DDPM: Thermal to Visible Face Translation using Denoising Diffusion Probabilistic Models** \
+*Nithin Gopalakrishnan Nair, Vishal M. Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08814)] \
+19 Sep 2022
 
 **Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
 *Ozan Özdenizci, Robert Legenstein* \
@@ -855,6 +877,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Editing
 
+**Delving Globally into Texture and Structure for Image Inpainting** \
+*Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2209.08217)] [[Github](https://github.com/htyjers/DGTS-Inpainting)] \
+17 Sep 2022
+
 **Adaptively-Realistic Image Generation from Stroke and Sketch with Diffusion Model** \
 *Shin-I Cheng<sup>1</sup>, Yu-Jie Chen<sup>1</sup>, Wei-Chen Chiu, Hsin-Ying Lee, Hung-Yu Tseng* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj407.github.io/DiSS/)] \
@@ -931,6 +958,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 2 Aug 2021
 
 ### Text-to-Image
+
+**The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models** \
+*Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08891)] \
+19 Sep 2022
 
 **Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models** \
 *Chen Henry Wu, Saman Motamed, Shaunak Srivastava, Fernando De la Torre* \
