@@ -89,7 +89,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 
 **Diffusion Models | Paper Explanation | Math Explained** \
 *Outlier* \
-[Diffusion Models | Paper Explanation | Math Explained - YouTube](https://www.youtube.com/watch?v=HoKDTa5jHvg) \
+[[Video](https://www.youtube.com/watch?v=HoKDTa5jHvg)] \
 Jun 6 2022
 
 **What are Diffusion Models?** \
