@@ -38,6 +38,11 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 # Resources
 ## Introductory Posts
 
+**The Annotated Diffusion Model** \
+*Niels Rogge, Kashif Rasul* \
+[[Website](https://huggingface.co/blog/annotated-diffusion)] \
+06 Jun 2022
+
 **The recent rise of diffusion-based models** \
 *Maciej Domagała* \
 [[Website](https://maciejdomagala.github.io/generative_models/2022/06/06/The-recent-rise-of-diffusion-based-models.html)] \
@@ -1622,6 +1627,11 @@ ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
 21 Jul 2021
 
 ### Applications
+
+**Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN** \
+*Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10446)] [[Project](https://yinping-cho.github.io/diffwgansvs.github.io/)] \
+21 Sep 2022
 
 **SE(3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion** \
 *Julen Urain, Niklas Funk, Georgia Chalvatzaki, Jan Peters* \
