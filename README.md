@@ -426,7 +426,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.13339)] \
 
 **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models** \
 *Alex Nichol<sup>1</sup>, Prafulla Dhariwal<sup>1</sup>, Aditya Ramesh<sup>1</sup>, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10741)] \
+ICML 2021. [[Paper](https://arxiv.org/abs/2112.10741)] [[Github](https://github.com/openai/glide-text2im)] \
 20 Dec 2021
 
 **High-Resolution Image Synthesis with Latent Diffusion Models** \
@@ -1414,7 +1414,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11972)] [[Github](https://github
 
 **Guided-TTS:Text-to-Speech with Untranscribed Speech** \
 *Heeseung Kim, Sungwon Kim, Sungroh Yoon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.11755)] \
+ICML 2021. [[Paper](https://arxiv.org/abs/2111.11755)] \
 32 Nov 2021
 
 **EdiTTS: Score-based Editing for Controllable Text-to-Speech** \
@@ -1586,7 +1586,7 @@ CoRR 2022. [[Paper](https://arxiv.org/abs/2204.08672)] \
 
 **Equivariant Diffusion for Molecule Generation in 3D** \
 *Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.17003)] [[Github](https://github.com/ehoogeboom/e3_diffusion_for_molecules)] \
+ICML 2022. [[Paper](https://arxiv.org/abs/2203.17003)] [[Github](https://github.com/ehoogeboom/e3_diffusion_for_molecules)] \
 31 Mar 2022
 
 **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation** \
