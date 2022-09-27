@@ -241,7 +241,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13397)] [[Project](https://aalto
 
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.09012)] [[Github](https://github.com/alexgraikos/diffusion_priors)] \
 17 June 2022
 
 **A Flexible Diffusion Model** \
@@ -296,17 +296,17 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02262)] \
 
 **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps** \
 *Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00927)] \
+NeurrIPS 2022. [[Paper](https://arxiv.org/abs/2206.00927)] [[Github](https://github.com/LuChengTHU/dpm-solver)] \
 2 Jun 2022
 
 **Elucidating the Design Space of Diffusion-Based Generative Models** \
 *Tero Karras, Miika Aittala, Timo Aila, Samuli Laine* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00364)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.00364)] \
 1 Jun 2022
 
 **On Analyzing Generative and Denoising Capabilities of Diffusion-based Deep Generative Models** \
 *Kamil Deja, Anna Kuzina, Tomasz Trzciński, Jakub M. Tomczak* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00070)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.00070)] \
 31 May 2022
 
 **Few-Shot Diffusion Models** \
@@ -321,7 +321,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14987)] \
 
 **Maximum Likelihood Training of Implicit Nonlinear Diffusion Models** \
 *Dongjun Kim, Byeonghu Na, Se Jung Kwon, Dongsoo Lee, Wanmo Kang, Il-Chul Moon* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.13699)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.13699)] \
 27 May 2022
 
 **Accelerating Diffusion Models via Early Stop of the Diffusion Process** \
@@ -784,7 +784,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.08382)] \
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
 **DiffuseMorph: Unsupervised Deformable Image Registration Along Continuous Trajectory Using Diffusion Models** \
@@ -1016,7 +1016,7 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2205.15996)] \
 
 **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding** \
 *Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)] [[Github](https://github.com/lucidrains/imagen-pytorch)]  \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.11487)] [[Github](https://github.com/lucidrains/imagen-pytorch)]  \
 23 May 2022
 
 **Retrieval-Augmented Diffusion Models** \
@@ -1190,12 +1190,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11495)] \
 
 **Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation** \
 *Vikram Voleti<sup>1</sup>, Alexia Jolicoeur-Martineau<sup>1</sup>, Christopher Pal* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.09853)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.09853)] \
 19 May 2022
 
 **Video Diffusion Models** \
 *Jonathan Ho<sup>1</sup>, Tim Salimans<sup>1</sup>, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet* \
-ICLR 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
 7 Apr 2022
 
 **Diffusion Probabilistic Modeling for Video Generation** \
@@ -1208,7 +1208,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
 
 **First Hitting Diffusion Models** \
 *Mao Ye, Lemeng Wu, Qiang Liu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.01170)] \
+NeruIPS 2022. [[Paper](https://arxiv.org/abs/2209.01170)] \
 2 Sep 2022
 
 **Let us Build Bridges: Understanding and Extending Diffusion Generative Models** \
@@ -1261,7 +1261,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.06811)] \
 
 **BinauralGrad: A Two-Stage Conditional Diffusion Probabilistic Model for Binaural Audio Synthesis** \
 *Yichong Leng, Zehua Chen, Junliang Guo, Haohe Liu, Jiawei Chen, Xu Tan, Danilo Mandic, Lei He, Xiang-Yang Li, Tao Qin, Sheng Zhao, Tie-Yan Liu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14807)] [[Github](https://speechresearch.github.io/binauralgrad/)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.14807)] [[Github](https://speechresearch.github.io/binauralgrad/)] \
 30 May 2022
 
 **FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis** \
@@ -1507,7 +1507,7 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2206.05895)] [[Github](https://github.
 
 **Diffusion-LM Improves Controllable Text Generation** \
 *Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.14217)] [[Github](https://github.com/XiangLi1999/Diffusion-LM)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.14217)] [[Github](https://github.com/XiangLi1999/Diffusion-LM)] \
 27 May 2022
 
 **Zero-Shot Translation using Diffusion Models** \
@@ -1551,7 +1551,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05710)] \
 
 **Diffusion-based Molecule Generation with Informative Prior Bridges** \
 *Lemeng Wu<sup>1</sup>, Chengyue Gong<sup>1</sup>, Xingchao Liu, Mao Ye, Qiang Liu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00865)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.00865)] \
 2 Sep 2022
 
 **Data-driven discovery of novel 2D materials by deep generative models** \
@@ -1603,7 +1603,7 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 
 **Riemannian Diffusion Models** \
 *Chin-Wei Huang, Milad Aghajohari, Avishek Joey Bose, Prakash Panangaden, Aaron Courville* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.07949)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2208.07949)] \
 16 Aug 2022
 
 **Convergence of denoising diffusion models under the manifold hypothesis** \
@@ -1705,7 +1705,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Project](https://l-yez
 
 **CARD: Classification and Regression Diffusion Models** \
 *Xizewen Han<sup>1</sup>, Huangjie Zheng<sup>1</sup>, Mingyuan Zhou* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07275)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.07275)]  \
 15 Jun 2022
 
 **Multi-instrument Music Synthesis with Spectrogram Diffusion** \
