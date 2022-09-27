@@ -141,6 +141,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**All are Worth Words: a ViT Backbone for Score-based Diffusion Models** \
+*Fan Bao, Chongxuan Li, Yue Cao, Jun Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12152)] \
+25 Sep 2022
+
 
 **Neural Wavelet-domain Diffusion for 3D Shape Generation** \
 *Ka-Hei Hui, Ruihui Li, Jingyu Hu, Chi-Wing Fu* \
@@ -726,6 +731,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**MIDMs: Matching Interleaved Diffusion Models for Exemplar-based Image Translation** \
+* * \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] \
+Junyoung Seo<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Seokju Cho, Jiyoung Lee, Seungryong Kim
+22 Sep 2022
+
 
 **T2V-DDPM: Thermal to Visible Face Translation using Denoising Diffusion Probabilistic Models** \
 *Nithin Gopalakrishnan Nair, Vishal M. Patel* \
@@ -814,6 +825,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 ### Super Resolution
 
+**Face Super-Resolution Using Stochastic Differential Equations** \
+*Marcelo dos Santos<sup>1</sup>, Rayson Laroca<sup>1</sup>, Rafael O. Ribeiro, João Neves, Hugo Proença, David Menotti* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12064)] [[Github](https://github.com/marcelowds/sr-sde)] \
+24 Sep 2022
+
 **Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
 *Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
@@ -886,6 +902,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 15 Apr 2021
 
 ### Image Editing
+
+**JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
+*Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
+23 Sep 2022
 
 **Delving Globally into Texture and Structure for Image Inpainting** \
 *Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
@@ -968,6 +989,16 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 2 Aug 2021
 
 ### Text-to-Image
+
+**Personalizing Text-to-Image Generation via Aesthetic Gradients** \
+*Victor Gallego* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.12330)] \
+25 Sep 2022
+
+**Best Prompts for Text-to-Image Models and How to Find Them** \
+*Nikita Pavlichenko, Dmitry Ustalov* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11711)] \
+23 Sep 2022
 
 **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models** \
 *Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
@@ -1061,6 +1092,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Conversion Between CT and MRI Images Using Diffusion and Score-Matching Models** \
+*Qing Lyu, Ge Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12104)] \
+24 Sep 2022
 
 **Brain Imaging Generation with Latent Diffusion Models** \
 *Walter H. L. Pinaya<sup>1</sup>, Petru-Daniel Tudosiu<sup>1</sup>, Jessica Dafflon, Pedro F da Costa, Virginia Fernandez, Parashkev Nachev, Sebastien Ourselin, M. Jorge Cardoso* \
@@ -1606,6 +1642,17 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 
 ### Theory
 
+**Convergence of score-based generative modeling for general data distributions** \
+*Holden Lee, Jianfeng Lu, Yixin Tan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12381)] \
+26 Sep 2022
+
+
+**Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions** \
+*Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, Anru R. Zhang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11215)] \
+22 Sep 2022
+
 **Riemannian Diffusion Models** \
 *Chin-Wei Huang, Milad Aghajohari, Avishek Joey Bose, Prakash Panangaden, Aaron Courville* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2208.07949)] \
@@ -1632,6 +1679,7 @@ ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
 21 Jul 2021
 
 ### Applications
+
 
 **Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN** \
 *Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu* \
