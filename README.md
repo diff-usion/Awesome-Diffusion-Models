@@ -141,6 +141,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**Denoising MCMC for Accelerating Diffusion-Based Generative Models** \
+*Beomsu Kim, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14593)] [[Github](https://github.com/1202kbs/DMCMC)] \
+29 Sep 2022
+
 **All are Worth Words: a ViT Backbone for Score-based Diffusion Models** \
 *Fan Bao, Chongxuan Li, Yue Cao, Jun Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12152)] \
@@ -687,6 +692,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 ### Segmentation
 
+
+**Diffusion Adversarial Representation Learning for Self-supervised Vessel Segmentation** \
+*Boah Kim<sup>1</sup>, Yujin Oh<sup>1</sup>, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14566)] \
+29 Sep 2022
+
 **Can segmentation models be trained with fully synthetically generated data?** \
 *Virginia Fernandez, Walter Hugo Lopez Pinaya, Pedro Borges, Petru-Daniel Tudosiu, Mark S Graham, Tom Vercauteren, M Jorge Cardoso* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08256)] \
@@ -990,6 +1001,26 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+**DreamFusion: Text-to-3D using 2D Diffusion** \
+*Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14988)] [[Github](https://dreamfusion3d.github.io/)] \
+29 Sep 2022
+
+**Re-Imagen: Retrieval-Augmented Text-to-Image Generator** \
+*Wenhu Chen, Hexiang Hu, Chitwan Saharia, William W. Cohen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14491)] \
+29 Sep 2022
+
+**Creative Painting with Latent Diffusion Models** \
+*Xianchao Wu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14697)] \
+29 Sep 2022
+
+**Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion** \
+*Nisha Huang, Fan Tang, Weiming Dong, Changsheng Xu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.13360)] [[Github](https://github.com/haha-lisa/MGAD-multimodal-guided-artwork-diffusion)] \
+27 Sep 2022
+
 **Personalizing Text-to-Image Generation via Aesthetic Gradients** \
 *Victor Gallego* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.12330)] \
@@ -1092,6 +1123,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Diffusion Adversarial Representation Learning for Self-supervised Vessel Segmentation** \
+*Boah Kim<sup>1</sup>, Yujin Oh<sup>1</sup>, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14566)] \
+29 Sep 2022
 
 **Conversion Between CT and MRI Images Using Diffusion and Score-Matching Models** \
 *Qing Lyu, Ge Wang* \
@@ -1642,6 +1678,11 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 
 ### Theory
 
+**Analyzing Diffusion as Serial Reproduction** \
+*Raja Marjieh, Ilia Sucholutsky, Thomas A. Langlois, Nori Jacoby, Thomas L. Griffiths* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14821)] \
+29 Sep 2022
+
 **Convergence of score-based generative modeling for general data distributions** \
 *Holden Lee, Jianfeng Lu, Yixin Tan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12381)] \
@@ -1681,10 +1722,37 @@ ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
 ### Applications
 
 
+**Denoising Diffusion Probabilistic Models for Styled Walking Synthesis** \
+*Edmund J. C. Findlay, Haozheng Zhang, Ziyi Chang, Hubert P. H. Shum* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14828)] \
+29 Sep 2022
+
+**Human Motion Diffusion Model** \
+*Guy Tevet, Sigal Raab, Brian Gordon, Yonatan Shafir, Amit H. Bermano, Daniel Cohen-Or* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14916)] [[Project](https://guytevet.github.io/mdm-page/)] \
+29 Sep 2022
+
+**Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling** \
+*Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14548)] \
+29 Sep 2022
+
+**DiGress: Discrete Denoising diffusion for graph generation** \
+*Clement Vignac<sup>1</sup>, Igor Krawczuk<sup>1</sup>, Antoine Siraudin, Bohan Wang, Volkan Cevher, Pascal Frossard* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14734)] \
+29 Sep 2022
+
+
 **Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN** \
 *Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10446)] [[Project](https://yinping-cho.github.io/diffwgansvs.github.io/)] \
 21 Sep 2022
+
+
+**Denoising Diffusion Error Correction Codes** \
+*Yoni Choukroun, Lior Wolf* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.13533)] \
+16 Sep 2022
 
 **SE(3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion** \
 *Julen Urain, Niklas Funk, Georgia Chalvatzaki, Jan Peters* \
