@@ -146,6 +146,22 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**Improving Sample Quality of Diffusion Model Using Self-Attention Guidance** \
+*Susung Hong, Gyuseong Lee, Wooseok Jang, Seungryong Kim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00939)] [[Project](https://ku-cvlab.github.io/Self-Attention-Guidance/)] \
+3 Oct 2022
+
+**OCD: Learning to Overfit with Conditional Diffusion Models** \
+*Shahar Shlomo Lutati, Lior Wolf* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00471)] [[Github](https://github.com/ShaharLutatiPersonal/OCD)] \
+2 Oct 2022
+
+**Generated Faces in the Wild: Quantitative Comparison of Stable Diffusion, Midjourney and DALL-E 2** \
+*Ali Borji* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00586)] [[Github](https://github.com/aliborji/GFW)] \
+2 Oct 2022
+
+
 **Denoising MCMC for Accelerating Diffusion-Based Generative Models** \
 *Beomsu Kim, Jong Chul Ye* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14593)] [[Github](https://github.com/1202kbs/DMCMC)] \
@@ -747,10 +763,15 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Image-to-Image Translation
 
+**Diffusion-based Image Translation using Disentangled Style and Content Representation** \
+*Gihyun Kwon, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15264)] \
+30 Sep 2022
+
+
 **MIDMs: Matching Interleaved Diffusion Models for Exemplar-based Image Translation** \
-* * \
+*Junyoung Seo<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Seokju Cho, Jiyoung Lee, Seungryong Kim* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] \
-Junyoung Seo<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Seokju Cho, Jiyoung Lee, Seungryong Kim
 22 Sep 2022
 
 
@@ -840,6 +861,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 12 Apr 2021
 
 ### Super Resolution
+
+**Diffusion Posterior Sampling for General Noisy Inverse Problems** \
+*Hyungjin Chung<sup>1</sup>, Jeongsol Kim<sup>1</sup>, Michael T. Mccann, Marc L. Klasky, Jong Chul Ye* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14687)] [[Github](https://github.com/DPS2022/diffusion-posterior-sampling)] \
+29 Sep 2022
 
 **Face Super-Resolution Using Stochastic Differential Equations** \
 *Marcelo dos Santos<sup>1</sup>, Rayson Laroca<sup>1</sup>, Rafael O. Ribeiro, João Neves, Hugo Proença, David Menotti* \
@@ -1006,6 +1032,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+**Membership Inference Attacks Against Text-to-image Generation Models** \
+*Yixin Wu, Ning Yu, Zheng Li, Michael Backes, Yang Zhang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00968)] \
+3 Oct 2022
+
 **DreamFusion: Text-to-3D using 2D Diffusion** \
 *Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14988)] [[Github](https://dreamfusion3d.github.io/)] \
@@ -1128,6 +1159,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Low-Dose CT Using Denoising Diffusion Probabilistic Model for 20× Speedup** \
+*Wenjun Xia, Qing Lyu, Ge Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15136)] \
+29 Sep 2022
 
 **Diffusion Adversarial Representation Learning for Self-supervised Vessel Segmentation** \
 *Boah Kim<sup>1</sup>, Yujin Oh<sup>1</sup>, Jong Chul Ye* \
@@ -1626,6 +1662,21 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 
 ### Molecule Generation
 
+**Dynamic-Backbone Protein-Ligand Structure Prediction with Multiscale Generative Diffusion Models** \
+*Zhuoran Qiao, Weili Nie, Arash Vahdat, Thomas F. Miller III, Anima Anandkumar* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15171)] \
+30 sep 2022
+
+**Equivariant Energy-Guided SDE for Inverse Molecular Design** \
+*Fan Bao<sup>1</sup>, Min Zhao<sup>1</sup>, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15408)] \
+30 Sep 2022
+
+**Protein structure generation via folding diffusion** \
+*Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15611)] \
+30 Sep 2022
+
 **MDM: Molecular Diffusion Model for 3D Molecule Generation** \
 *Lei Huang, Hengtong Zhang, Tingyang Xu, Ka-Chun Wong* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05710)] \
@@ -1726,6 +1777,10 @@ ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
 
 ### Applications
 
+**TabDDPM: Modelling Tabular Data with Diffusion Models** \
+*Akim Kotelnikov, Dmitry Baranchuk, Ivan Rubachev, Artem Babenko* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github.com/rotot0/tab-ddpm)] \
+30 Sep 2022
 
 **Denoising Diffusion Probabilistic Models for Styled Walking Synthesis** \
 *Edmund J. C. Findlay, Haozheng Zhang, Ziyi Chang, Hubert P. H. Shum* \
