@@ -17,23 +17,32 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Segmentation](#segmentation)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Super Resolution](#super-resolution)
+    - [Inverse Problem](#inverse-problem)
     - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
     - [Medical Imaging](#medical-imaging)
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
+    - [Human Motion Syntheis](#human-motion-synthesis)
+    - [Adversarial Attack](#adversarial-attack)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
     - [Audio Enhancement](#audio-enhancement)
     - [Text-to-Speech](#text-to-speech)
-  - [Miscellaneous](#miscellaneous)
-    - [Adversarial Attack and Defense](#adversarial-attack-and-defense)
-    - [Natural Language](#natural-language)
-    - [Time-Series](#time-series)
-    - [Molecule Generation](#molecule-generation)
-    - [Theory](#theory)
-    - [Applications](#applications)
+    - [Music Generation](#music-generation)
+  - [Natural Language](#natural-language)
+    - [Natural Language Generation](#natural-language-generation)
+  - [Tabular and Time-Series](#tabular-and-time-series)
+    - [Tabular Generation](#tabular-generation)
+    - [Time Series Forecasting](#time-series-forecasting)
+    - [Time Series Imputation](#time-series-imputation)
+  - [Graph](#graph)
+    - [Graph Generation](#graph-generation)
+    - [Molecular and Material Generation](#molecular-and-material-generation)
+  - [Theory](#theory)
+  - [Applications](#applications)
+
 
 # Resources
 ## Introductory Posts
@@ -160,7 +169,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00471)] [[Github](https://github
 *Ali Borji* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00586)] [[Github](https://github.com/aliborji/GFW)] \
 2 Oct 2022
-
 
 **Denoising MCMC for Accelerating Diffusion-Based Generative Models** \
 *Beomsu Kim, Jong Chul Ye* \
@@ -558,7 +566,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-i
 
 **Structured Denoising Diffusion Models in Discrete State-Spaces** \
 *Jacob Austin<sup>1</sup>, Daniel D. Johnson<sup>1</sup>, Jonathan Ho, Daniel Tarlow, Rianne van den Berg* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
 7 Jul 2021 
 
 **Variational Diffusion Models** \
@@ -701,15 +709,6 @@ arXiv 2019. [[Paper](https://arxiv.org/abs/1905.09883)] \
 ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
 2 Mar 2015
 
-**A Connection Between Score Matching and Denoising Autoencoders** \
-*Pascal Vincent* \
-Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
-7 Jul 2011
-
-**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
-*Max Welling, Yee Whye Teh* \
-ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
-20 Apr 2022
 
 ### Segmentation
 
@@ -943,12 +942,34 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2104.14951)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
 
-### Image Editing
+### Inverse Problem
+
 
 **JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
 *Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
 23 Sep 2022
+
+
+**AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
+*Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
+24 Aug 2022
+
+**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
+*Ozan Özdenizci, Robert Legenstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
+29 Jul 2022
+
+
+**Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
+*Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11892)] [[Github](https://github.com/wgcban/ddpm-cd)] \
+23 Jun 2022
+
+
+### Image Editing
+
 
 **Delving Globally into Texture and Structure for Image Inpainting** \
 *Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
@@ -1359,6 +1380,101 @@ ICCV 2021. [[Paper](https://arxiv.org/abs/2104.03670)] [[Project](https://alexzh
 CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
 2 Mar 2021 
 
+### Human Motion Synthesis
+
+**Denoising Diffusion Probabilistic Models for Styled Walking Synthesis** \
+*Edmund J. C. Findlay, Haozheng Zhang, Ziyi Chang, Hubert P. H. Shum* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14828)] \
+29 Sep 2022
+
+**Human Motion Diffusion Model** \
+*Guy Tevet, Sigal Raab, Brian Gordon, Yonatan Shafir, Amit H. Bermano, Daniel Cohen-Or* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14916)] [[Project](https://guytevet.github.io/mdm-page/)] \
+29 Sep 2022
+
+**SE(3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion** \
+*Julen Urain, Niklas Funk, Georgia Chalvatzaki, Jan Peters* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.03855)] \
+8 Sep 2022
+
+
+**FLAME: Free-form Language-based Motion Synthesis & Editing** \
+*Jihoon Kim, Jiseob Kim, Sungjoon Choi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00349)] \
+1 Sep 2022
+
+**MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model** \
+*Mingyuan Zhang, Zhongang Cai, Liang Pan, Fangzhou Hong, Xinying Guo, Lei Yang, Ziwei Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.15001)] [[Project](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html)] \
+31 Aug 2022
+
+
+**Planning with Diffusion for Flexible Behavior Synthesis** \
+*Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.com/jannerm/diffuser)] \
+20 May 2022
+
+**Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion** \
+*Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
+CVPR 2022. [[Paper](https://arxiv.org/abs/2203.13777)] [[Github](https://github.com/gutianpei/MID)] \
+25 Mar 2022
+
+
+**DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras** \
+*Ruizhi Shao, Zerong Zheng, Hongwen Zhang, Jingxiang Sun, Yebin Liu* \
+ECCV 2022. [[Paper](https://arxiv.org/abs/2207.08000)] [[Project](http://liuyebin.com/diffustereo/diffustereo.html)] [[Github](https://github.com/DSaurus/DiffuStereo)] \
+16 Jul 2022
+
+
+### Adversarial Attack
+
+**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
+*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
+21 Aug 2022
+
+
+**Threat Model-Agnostic Adversarial Defense using Diffusion Models** \
+*Tsachi Blau, Roy Ganz, Bahjat Kawar, Alex Bronstein, Michael Elad* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08089)] \
+17 Jul 2022
+
+**Back to the Source: Diffusion-Driven Test-Time Adaptation** \
+*Jin Gao<sup>1</sup>, Jialing Zhang<sup>1</sup>, Xihui Liu, Trevor Darrell, Evan Shelhamer, Dequan Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03442)] \
+7 Jul 2022
+
+**Guided Diffusion Model for Adversarial Purification from Random Noise** \
+*Quanlin Wu, Hang Ye, Yuntian Gu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10875)] \
+17 Jun 2022
+
+**(Certified!!) Adversarial Robustness for Free!** \
+*Nicholas Carlini, Florian Tramer, Krishnamurthy (Dj)Dvijotham, J. Zico Kolter* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10550)] \
+21 Jun 2022
+
+**Guided Diffusion Model for Adversarial Purification** \
+*Jinyi Wang<sup>1</sup>, Zhaoyang Lyu<sup>1</sup>, Dahua Lin, Bo Dai, Hongfei Fu* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.14969)] [[Github](https://github.com/jinyiw/guideddiffusionpur)] \
+30 May 2022
+
+**Diffusion Models for Adversarial Purification** \
+*Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar* \
+ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project](https://diffpure.github.io/)] [[Github](https://github.com/NVlabs/DiffPure)] \
+16 May 2022
+
+**TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
+*Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
+20 Dec 2021
+
+**Adversarial purification with Score-based generative models** \
+*Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
+ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
+11 Jun 2021
+
+
 ## Audio
 ### Audio Generation
 
@@ -1492,10 +1608,6 @@ IEEE 2022. [[Paper](https://arxiv.org/abs/2202.05256)] [[Github](https://github.
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.11876)] \
 25 Jul 2021
 
-**Zero-Shot Voice Conditioning for Denoising Diffusion TTS Models** \
-*Alon Levkovitch, Eliya Nachmani, Lior Wolf* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02246)] [[Project](https://alonlevko.github.io/ilvr-tts-diff)] \
-5 Jun 2022
 
 **Restoring degraded speech via a modified diffusion model** \
 *Jianwei Zhang, Suren Jayasuriya, Visar Berisha* \
@@ -1514,6 +1626,12 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 *Dongchao Yang, Jianwei Yu, Helin Wang, Wen Wang, Chao Weng, Yuexian Zou, Dong Yu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09983)] [[Project](http://dongchaoyang.top/text-to-sound-synthesis-demo/)] \
 20 Jul 2022
+
+
+**Zero-Shot Voice Conditioning for Denoising Diffusion TTS Models** \
+*Alon Levkovitch, Eliya Nachmani, Lior Wolf* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.02246)] [[Project](https://alonlevko.github.io/ilvr-tts-diff)] \
+5 Jun 2022
 
 **Guided-TTS 2: A Diffusion Model for High-quality Adaptive Text-to-Speech with Untranscribed Data** \
 *Sungwon Kim<sup>1</sup>, Heeseung Kim<sup>1</sup>, Sungroh Yoon* \
@@ -1534,6 +1652,8 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11972)] [[Github](https://github
 *Heeseung Kim, Sungwon Kim, Sungroh Yoon* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2111.11755)] \
 32 Nov 2021
+
+
 
 **EdiTTS: Score-based Editing for Controllable Text-to-Speech** \
 *Jaesung Tae<sup>1</sup>, Hyeongju Kim<sup>1</sup>, Taesu Kim* \
@@ -1560,68 +1680,38 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 3 Apr 2021
 
-## Miscellaneous
+### Music Generation
 
-### Adversarial Attack and Defense
+**Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN** \
+*Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10446)] [[Project](https://yinping-cho.github.io/diffwgansvs.github.io/)] \
+21 Sep 2022
 
-**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
-*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
-21 Aug 2022
+**Instrument Separation of Symbolic Music by Explicitly Guided Diffusion Model** \
+*Sangjun Han, Hyeongrae Ihm, DaeHan Ahn, Woohyung Lim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
+5 Sep 2022
 
-**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
-*Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
-21 Aug 2022
-
-**Threat Model-Agnostic Adversarial Defense using Diffusion Models** \
-*Tsachi Blau, Roy Ganz, Bahjat Kawar, Alex Bronstein, Michael Elad* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.08089)] \
-17 Jul 2022
-
-**Back to the Source: Diffusion-Driven Test-Time Adaptation** \
-*Jin Gao<sup>1</sup>, Jialing Zhang<sup>1</sup>, Xihui Liu, Trevor Darrell, Evan Shelhamer, Dequan Wang* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.03442)] \
-7 Jul 2022
-
-**Guided Diffusion Model for Adversarial Purification from Random Noise** \
-*Quanlin Wu, Hang Ye, Yuntian Gu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10875)] \
-17 Jun 2022
-
-**(Certified!!) Adversarial Robustness for Free!** \
-*Nicholas Carlini, Florian Tramer, Krishnamurthy (Dj)Dvijotham, J. Zico Kolter* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.10550)] \
-21 Jun 2022
-
-**Guided Diffusion Model for Adversarial Purification** \
-*Jinyi Wang<sup>1</sup>, Zhaoyang Lyu<sup>1</sup>, Dahua Lin, Bo Dai, Hongfei Fu* \
-ICML 2022. [[Paper](https://arxiv.org/abs/2205.14969)] [[Github](https://github.com/jinyiw/guideddiffusionpur)] \
-30 May 2022
-
-**Diffusion Models for Adversarial Purification** \
-*Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar* \
-ICML 2022. [[Paper](https://arxiv.org/abs/2205.07460)] [[Project](https://diffpure.github.io/)] [[Github](https://github.com/NVlabs/DiffPure)] \
-16 May 2022
-
-**TFDPM: Attack detection for cyber-physical systems with diffusion probabilistic models** \
-*Tijin Yan, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
-20 Dec 2021
-
-**Adversarial purification with Score-based generative models** \
-*Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
-ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
-11 Jun 2021
+**Multi-instrument Music Synthesis with Spectrogram Diffusion** \
+*Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel* \
+ISMIR 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
+11 Jun 2022
 
 
-### Natural Language
+
+## Natural Language
+
+### Natural Language Generation
+
+**Structured Denoising Diffusion Models in Discrete State-Spaces** \
+*Jacob Austin<sup>1</sup>, Daniel D. Johnson<sup>1</sup>, Jonathan Ho, Daniel Tarlow, Rianne van den Berg* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
+7 Jul 2021 
 
 **Latent Diffusion Energy-Based Model for Interpretable Text Modeling** \
 *Peiyu Yu, Sirui Xie, Xiaojian Ma, Baoxiong Jia, Bo Pang, Ruigi Gao, Yixin Zhu, Song-Chun Zhu, Ying Nian Wu* \
 ICML 2022. [[Paper](https://arxiv.org/abs/2206.05895)] [[Github](https://github.com/yuPeiyu98/LDEBM)] \
 13 Jun 2022
-
 
 **Diffusion-LM Improves Controllable Text Generation** \
 *Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto* \
@@ -1633,22 +1723,22 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.14217)] [[Github](https://gith
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 2 Nov 2021
 
-### Time-Series
+
+## Tabular and Time Series
+
+### Tabular Generation
+
+**TabDDPM: Modelling Tabular Data with Diffusion Models** \
+*Akim Kotelnikov, Dmitry Baranchuk, Ivan Rubachev, Artem Babenko* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github.com/rotot0/tab-ddpm)] \
+30 Sep 2022
+
+### Time Series Forecasting
 
 **Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models** \
 *Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09399)] [[Github](https://github.com/AI4HealthUOL/SSSD)] \
 19 Aug 2022
-
-**Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data** \
-*Sung Woo Park, Kyungjae Lee, Junseok Kwon* \
-ICLR 2022. [[Paper](https://openreview.net/forum?id=7DI6op61AY)] \
-29 Sep 2021
-
-**CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
-*Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
-NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
-7 Jul 2021 
 
 **ScoreGrad: Multivariate Probabilistic Time Series Forecasting with Continuous Energy-based Generative Models** \
 *Tijin Yan, Hongwei Zhang, Tong Zhou, Yufeng Zhan, Yuanqing Xia* \
@@ -1660,12 +1750,44 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.10121)] [[Github](https://github
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.com/zalandoresearch/pytorch-ts)] \
 2 Feb 2021 
 
-### Molecule Generation
+### Time Series Imputation
+
+**Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data** \
+*Sung Woo Park, Kyungjae Lee, Junseok Kwon* \
+ICLR 2022. [[Paper](https://openreview.net/forum?id=7DI6op61AY)] \
+29 Sep 2021
+
+**Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models** \
+*Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09399)] [[Github](https://github.com/AI4HealthUOL/SSSD)] \
+19 Aug 2022
+
+**CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation** \
+*Yusuke Tashiro, Jiaming Song, Yang Song, Stefano Ermon* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
+7 Jul 2021 
+
+
+## Graph
+
+### Graph Generation
+
+**DiGress: Discrete Denoising diffusion for graph generation** \
+*Clement Vignac<sup>1</sup>, Igor Krawczuk<sup>1</sup>, Antoine Siraudin, Bohan Wang, Volkan Cevher, Pascal Frossard* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14734)] \
+29 Sep 2022
+
+**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
+*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
+AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
+2 Mar 2020
+
+### Molecular and Material Generation
 
 **Dynamic-Backbone Protein-Ligand Structure Prediction with Multiscale Generative Diffusion Models** \
 *Zhuoran Qiao, Weili Nie, Arash Vahdat, Thomas F. Miller III, Anima Anandkumar* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15171)] \
-30 sep 2022
+30 Sep 2022
 
 **Equivariant Energy-Guided SDE for Inverse Molecular Design** \
 *Fan Bao<sup>1</sup>, Min Zhao<sup>1</sup>, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu* \
@@ -1687,6 +1809,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05710)] \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.00865)] \
 2 Sep 2022
 
+
+**Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models** \
+*Shitong Luo<sup>1</sup>, Yufeng Su<sup>1</sup>, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma* \
+BioRXiv 2022. [[Paper](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)] \
+11 July 2022
+
 **Data-driven discovery of novel 2D materials by deep generative models** \
 *Peder Lyngby, Kristian Sommer Thygesen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.12159)] \
@@ -1700,7 +1828,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11898)] \
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \
 *Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola* \
 CoRR 2022. [[Paper](https://arxiv.org/abs/2206.04119)] \
-8 Jun 2022
+8 Jun 2022'
 
 **Torsional Diffusion for Molecular Conformer Generation** \
 *Bowen Jing, Gabriele Corso, Regina Barzilay, Tommi S. Jaakkola* \
@@ -1727,12 +1855,19 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2203.17003)] [[Github](https://github.
 ICLR 2022. [[Paper](https://arxiv.org/abs/2203.02923)] [[Github](https://github.com/MinkaiXu/GeoDiff)] \
 6 Mar 2022
 
+
+**Crystal Diffusion Variational Autoencoder for Periodic Material Generation** \
+*Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkola*\
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2110.06197)] [[Github](https://github.com/txie-93/cdvae)] \
+12 Oct 2021
+
+
 **Predicting Molecular Conformation via Dynamic Graph Score Matching** \
 *Shitong Luo, Chence Shi, Minkai Xu, Jian Tang* \
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee0fb7f1f872ab91da18f899-Abstract.html)] \
 22 May 2021
 
-### Theory
+## Theory
 
 **Analyzing Diffusion as Serial Reproduction** \
 *Raja Marjieh, Ilia Sucholutsky, Thomas A. Langlois, Nori Jacoby, Thomas L. Griffiths* \
@@ -1743,7 +1878,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14821)] \
 *Holden Lee, Jianfeng Lu, Yixin Tan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12381)] \
 26 Sep 2022
-
 
 **Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions** \
 *Sitan Chen, Sinho Chewi, Jerry Li, Yuanzhi Li, Adil Salim, Anru R. Zhang* \
@@ -1775,74 +1909,33 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.02763)] \
 ICML Workshop 2021. [[Paper](https://arxiv.org/abs/2107.10072)] \
 21 Jul 2021
 
-### Applications
+**A Connection Between Score Matching and Denoising Autoencoders** \
+*Pascal Vincent* \
+Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf)] \
+7 Jul 2011
 
-**TabDDPM: Modelling Tabular Data with Diffusion Models** \
-*Akim Kotelnikov, Dmitry Baranchuk, Ivan Rubachev, Artem Babenko* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github.com/rotot0/tab-ddpm)] \
-30 Sep 2022
+**Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
+*Max Welling, Yee Whye Teh* \
+ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
+20 Apr 2022
 
-**Denoising Diffusion Probabilistic Models for Styled Walking Synthesis** \
-*Edmund J. C. Findlay, Haozheng Zhang, Ziyi Chang, Hubert P. H. Shum* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14828)] \
-29 Sep 2022
-
-**Human Motion Diffusion Model** \
-*Guy Tevet, Sigal Raab, Brian Gordon, Yonatan Shafir, Amit H. Bermano, Daniel Cohen-Or* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14916)] [[Project](https://guytevet.github.io/mdm-page/)] \
-29 Sep 2022
+## Applications
 
 **Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling** \
 *Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14548)] \
 29 Sep 2022
 
-**DiGress: Discrete Denoising diffusion for graph generation** \
-*Clement Vignac<sup>1</sup>, Igor Krawczuk<sup>1</sup>, Antoine Siraudin, Bohan Wang, Volkan Cevher, Pascal Frossard* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14734)] \
-29 Sep 2022
-
-
-**Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN** \
-*Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10446)] [[Project](https://yinping-cho.github.io/diffwgansvs.github.io/)] \
-21 Sep 2022
-
-
 **Denoising Diffusion Error Correction Codes** \
 *Yoni Choukroun, Lior Wolf* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.13533)] \
 16 Sep 2022
-
-**SE(3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion** \
-*Julen Urain, Niklas Funk, Georgia Chalvatzaki, Jan Peters* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.03855)] \
-8 Sep 2022
-
-**Instrument Separation of Symbolic Music by Explicitly Guided Diffusion Model** \
-*Sangjun Han, Hyeongrae Ihm, DaeHan Ahn, Woohyung Lim* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
-5 Sep 2022
-
-**FLAME: Free-form Language-based Motion Synthesis & Editing** \
-*Jihoon Kim, Jiseob Kim, Sungjoon Choi* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00349)] \
-1 Sep 2022
-
-**MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model** \
-*Mingyuan Zhang, Zhongang Cai, Liang Pan, Fangzhou Hong, Xinying Guo, Lei Yang, Ziwei Liu* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.15001)] [[Project](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html)] \
-31 Aug 2022
 
 **A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images** \
 *Dominik J. E. Waibel, Ernst Röell, Bastian Rieck, Raja Giryes, Carsten Marr* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14125)] \
 30 Aug 2022
 
-**AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
-*Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
-24 Aug 2022
 
 **Vector Quantized Diffusion Model with CodeUnet for Text-to-Sign Pose Sequences Generation** \
 *Pan Xie, Qipeng Zhang, Zexian Li, Hao Tang, Yao Du, Xiaohui Hu* \
@@ -1859,25 +1952,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09591)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
 31 Jul 2022
 
-**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
-*Ozan Özdenizci, Robert Legenstein* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
-29 Jul 2022
 
 **Recommendation via Collaborative Diffusion Generative Model** \
 *Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou* \
 KSEM 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_47)] \
 19 Jul 2022
-
-**DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras** \
-*Ruizhi Shao, Zerong Zheng, Hongwen Zhang, Jingxiang Sun, Yebin Liu* \
-ECCV 2022. [[Paper](https://arxiv.org/abs/2207.08000)] [[Project](http://liuyebin.com/diffustereo/diffustereo.html)] [[Github](https://github.com/DSaurus/DiffuStereo)] \
-16 Jul 2022
-
-**Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
-*Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11892)] [[Github](https://github.com/wgcban/ddpm-cd)] \
-23 Jun 2022
 
 **Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation** \
 *Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan* \
@@ -1889,25 +1968,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07771)] [[Project](https://l-yez
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.07275)]  \
 15 Jun 2022
 
-**Multi-instrument Music Synthesis with Spectrogram Diffusion** \
-*Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel* \
-ISMIR 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
-11 Jun 2022
-
 **Neural Diffusion Processes** \
 *Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
 8 Jun 2022
-
-**Planning with Diffusion for Flexible Behavior Synthesis** \
-*Michael Janner, Yilun Du, Joshua B. Tenenbaum, Sergey Levine* \
-ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.com/jannerm/diffuser)] \
-20 May 2022
-
-**Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion** \
-*Tianpei Gu<sup>1</sup>, Guangyi Chen<sup>1</sup>, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, Jiwen Lu*\
-CVPR 2022. [[Paper](https://arxiv.org/abs/2203.13777)] [[Github](https://github.com/gutianpei/MID)] \
-25 Mar 2022
 
 **Deep Diffusion Models for Robust Channel Estimation** \
 *Marius Arvinte, Jonathan I Tamir* \
@@ -1924,17 +1988,7 @@ ASONAM 2021. [[Paper](https://arxiv.org/abs/2111.05199)] \
 MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
 2 Nov 2021
 
-**Crystal Diffusion Variational Autoencoder for Periodic Material Generation** \
-*Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkola*\
-NeurIPS 2021. [[Paper](https://arxiv.org/abs/2110.06197)] [[Github](https://github.com/txie-93/cdvae)] \
-12 Oct 2021
-
 **Diffusion models for Handwriting Generation** \
 *Troy Luhman<sup>1</sup>, Eric Luhman<sup>1</sup>* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
 13 Nov 2020 
-
-**Permutation Invariant Graph Generation via Score-Based Generative Modeling** \
-*Chenhao Niu, Yang Song, Jiaming Song, Shengjia Zhao, Aditya Grover, Stefano Ermon* \
-AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://github.com/ermongroup/GraphScoreMatching)] \
-2 Mar 2020
