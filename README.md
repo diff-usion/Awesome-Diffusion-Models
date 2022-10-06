@@ -23,7 +23,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Medical Imaging](#medical-imaging)
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
-    - [Human Motion Syntheis](#human-motion-synthesis)
+    - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
@@ -33,7 +33,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Music Generation](#music-generation)
   - [Natural Language](#natural-language)
     - [Natural Language Generation](#natural-language-generation)
-  - [Tabular and Time-Series](#tabular-and-time-series)
+  - [Tabular and Time Series](#tabular-and-time-series)
     - [Tabular Generation](#tabular-generation)
     - [Time Series Forecasting](#time-series-forecasting)
     - [Time Series Imputation](#time-series-imputation)
@@ -1324,12 +1324,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07696)] \
 
 **Flexible Diffusion Modeling of Long Videos** \
 *William Harvey, Saeid Naderiparizi, Vaden Masrani, Christian Weilbach, Frank Wood* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11495)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11495)] [[Github](https://github.com/plai-group/flexible-video-diffusion-modeling)] \
 23 May 2022
 
-**Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation** \
+**MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation** \
 *Vikram Voleti<sup>1</sup>, Alexia Jolicoeur-Martineau<sup>1</sup>, Christopher Pal* \
-NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.09853)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.09853)] [[Github](https://github.com/voletiv/mcvd-pytorch)] \
 19 May 2022
 
 **Video Diffusion Models** \
@@ -1339,7 +1339,7 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.03458)] \
 
 **Diffusion Probabilistic Modeling for Video Generation** \
 *Ruihan Yang, Prakhar Srivastava, Stephan Mandt* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] [[Github](https://github.com/buggyyang/rvd)] \
 16 Mar 2022
 
 
@@ -1362,7 +1362,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
 
 **A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
 *Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] [[Github](https://github.com/zhaoyanglyu/point_diffusion_refinement)] \
 7 Dec 2021
 
 **Score-Based Point Cloud Denoising** \
@@ -1394,7 +1394,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14916)] [[Project](https://guyte
 
 **SE(3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion** \
 *Julen Urain, Niklas Funk, Georgia Chalvatzaki, Jan Peters* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.03855)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.03855)] [[Github](https://github.com/TheCamusean/grasp_diffusion)] \
 8 Sep 2022
 
 
