@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-red.svg)](https://github.com/chetanraj/awesome-github-badges)
 
-This repository contains a collection of resources and papers on ***Diffusion Models and Score-matching Models***.
+This repository contains a collection of resources and papers on ***Diffusion Models***.
 
 ## Contents
 - [Resources](#resources)
