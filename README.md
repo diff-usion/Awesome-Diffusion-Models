@@ -713,6 +713,13 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 ### Segmentation
 
 
+**Anatomically constrained CT image translation for heterogeneous blood vessel segmentation** \
+*Giammarco La Barbera, Haithem Boussaid, Francesco Maso, Sabine Sarnacki, Laurence Rouet, Pietro Gori, Isabelle Bloch* \
+BMVC 2022. [[Paper](https://arxiv.org/abs/2210.01713)] \
+4 Oct 2022
+
+
+
 **Diffusion Adversarial Representation Learning for Self-supervised Vessel Segmentation** \
 *Boah Kim<sup>1</sup>, Yujin Oh<sup>1</sup>, Jong Chul Ye* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14566)] \
@@ -767,6 +774,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 
 ### Image-to-Image Translation
+
+
+**Anatomically constrained CT image translation for heterogeneous blood vessel segmentation** \
+*Giammarco La Barbera, Haithem Boussaid, Francesco Maso, Sabine Sarnacki, Laurence Rouet, Pietro Gori, Isabelle Bloch* \
+BMVC 2022. [[Paper](https://arxiv.org/abs/2210.01713)] \
+4 Oct 2022
+
 
 **Diffusion-based Image Translation using Disentangled Style and Content Representation** \
 *Gihyun Kwon, Jong Chul Ye* \
@@ -1033,6 +1047,17 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+
+**LDEdit: Towards Generalized Text Guided Image Manipulation via Latent Diffusion Models** \
+*Paramanand Chandramouli, Kanchana Vaishnavi Gandikota* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02249)] \
+5 Oct 2022
+
+**clip2latent: Text driven sampling of a pre-trained StyleGAN using denoising diffusion and CLIP** \
+*Justin N. M. Pinkney, Chuan Li* \
+BMVC 2022. [[Paper](https://arxiv.org/abs/2210.02347)] [[Github](https://github.com/justinpinkney/clip2latent)] \
+5 Oct 2022
+
 **Membership Inference Attacks Against Text-to-image Generation Models** \
 *Yixin Wu, Ning Yu, Zheng Li, Michael Backes, Yang Zhang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.00968)] \
@@ -1160,6 +1185,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Anatomically constrained CT image translation for heterogeneous blood vessel segmentation** \
+*Giammarco La Barbera, Haithem Boussaid, Francesco Maso, Sabine Sarnacki, Laurence Rouet, Pietro Gori, Isabelle Bloch* \
+BMVC 2022. [[Paper](https://arxiv.org/abs/2210.01713)] \
+4 Oct 2022
 
 **Low-Dose CT Using Denoising Diffusion Probabilistic Model for 20× Speedup** \
 *Wenjun Xia, Qing Lyu, Ge Wang* \
@@ -1296,6 +1326,10 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### Video Generation
 
+**Imagen Video: High Definition Video Generation with Diffusion Models** \
+*Jonathan Ho<sup>1</sup>, William Chan<sup>1</sup>, Chitwan Saharia<sup>1</sup>, Jay Whang<sup>1</sup>, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02303)] \
+5 Oct 2022
 
 **Diffusion Models for Video Prediction and Infilling** \
 *Tobias Höppe, Arash Mehrjou, Stefan Bauer, Didrik Nielsen, Andrea Dittadi* \
@@ -1619,6 +1653,11 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 ### Text-to-Speech
 
+**WaveFit: An Iterative and Non-autoregressive Neural Vocoder based on Fixed-Point Iteration** \
+*Yuma Koizumi, Kohei Yatabe, Heiga Zen, Michiel Bacchiani* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.01029)] [[Project](https://google.github.io/df-conformer/wavefit/)] \
+3 Oct 2022
+
 **Diffsound: Discrete Diffusion Model for Text-to-sound Generation** \
 *Dongchao Yang, Jianwei Yu, Helin Wang, Wen Wang, Chao Weng, Yuexian Zou, Dong Yu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09983)] [[Project](http://dongchaoyang.top/text-to-sound-synthesis-demo/)] \
@@ -1769,6 +1808,11 @@ NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://gith
 
 ### Graph Generation
 
+**Diffusion Models for Graphs Benefit From Discrete State Spaces** \
+*Kilian Konstantin Haefeli, Karolis Martinkus, Nathanaël Perraudin, Roger Wattenhofer* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2210.01549)] \
+4 Oct 2022
+
 **DiGress: Discrete Denoising diffusion for graph generation** \
 *Clement Vignac<sup>1</sup>, Igor Krawczuk<sup>1</sup>, Antoine Siraudin, Bohan Wang, Volkan Cevher, Pascal Frossard* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14734)] \
@@ -1917,6 +1961,12 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 20 Apr 2022
 
 ## Applications
+
+
+**DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics** \
+*Ivan Kapelyukh, Vitalis Vosylius, Edward Johns* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02438)] \
+5 Oct 2022
 
 **Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling** \
 *Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu* \
