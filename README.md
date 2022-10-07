@@ -17,6 +17,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Segmentation](#segmentation)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Super Resolution](#super-resolution)
+    - [Image Inpainting](#image-inpainting)
     - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
     - [Medical Imaging](#medical-imaging)
@@ -961,19 +962,12 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2104.14951)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
 
-
-### Image Editing
-
+### Image Inpainting
 
 **Delving Globally into Texture and Structure for Image Inpainting** \
 *Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
 ACM 2022. [[Paper](https://arxiv.org/abs/2209.08217)] [[Github](https://github.com/htyjers/DGTS-Inpainting)] \
 17 Sep 2022
-
-**Adaptively-Realistic Image Generation from Stroke and Sketch with Diffusion Model** \
-*Shin-I Cheng<sup>1</sup>, Yu-Jie Chen<sup>1</sup>, Wei-Chen Chiu, Hsin-Ying Lee, Hung-Yu Tseng* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj407.github.io/DiSS/)] \
-26 Aug 2022
 
 **Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
 *Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
@@ -985,20 +979,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
 20 Jul 2022
 
-**Blended Latent Diffusion** \
-*Omri Avrahami, Ohad Fried, Dani Lischinski* \
-ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
-6 Jun 2022
-
 **Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
 *Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
 2 Jun 2022
-
-**DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder** \
-*Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00386)] \
-1 Jun 2022
 
 **Denoising Diffusion Restoration Models** \
 *Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
@@ -1015,11 +999,6 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.
 CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
 20 Dec 2021
 
-**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
-*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
-ICLR 2022 (Spotlight). [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
-15 Dec 2021
-
 **Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
 *Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
 CVPR 2022. [[Paper](https://arxiv.org/abs/2112.05146)] \
@@ -1034,6 +1013,28 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] [[Github](https://github
 *Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
 ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
 24 Nov 2021
+
+### Image Editing
+
+**Adaptively-Realistic Image Generation from Stroke and Sketch with Diffusion Model** \
+*Shin-I Cheng<sup>1</sup>, Yu-Jie Chen<sup>1</sup>, Wei-Chen Chiu, Hsin-Ying Lee, Hung-Yu Tseng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12675)] [[Project](https://cyj407.github.io/DiSS/)] \
+26 Aug 2022
+
+**Blended Latent Diffusion** \
+*Omri Avrahami, Ohad Fried, Dani Lischinski* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2206.02779)] [[Project](https://omriavrahami.com/blended-latent-diffusion-page/)] [[Github](https://github.com/omriav/blended-latent-diffusion)] \
+6 Jun 2022
+
+**High-Resolution Image Synthesis with Latent Diffusion Models** \
+*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
+20 Dec 2021
+
+**Tackling the Generative Learning Trilemma with Denoising Diffusion GANs** \
+*Zhisheng Xiao, Karsten Kreis, Arash Vahdat* \
+ICLR 2022 (Spotlight). [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlabs.github.io/denoising-diffusion-gan)] \
+15 Dec 2021
 
 **ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models** \
 *Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, Sungroh Yoon* \
@@ -1998,7 +1999,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09591)] \
 *Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
 31 Jul 2022
-
 
 **Recommendation via Collaborative Diffusion Generative Model** \
 *Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou* \
