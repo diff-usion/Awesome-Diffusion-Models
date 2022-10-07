@@ -734,10 +734,16 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14699)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.00050)] \
 30 Jun 2022
 
+
+**Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
+*Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11892)] [[Github](https://github.com/wgcban/ddpm-cd)] \
+23 Jun 2022
+
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.09012)] \
-17 June 2022
+17 Jun 2022
 
 **Decoder Denoising Pretraining for Semantic Segmentation** \
 *Emmanuel Brempong Asiedu, Simon Kornblith, Ting Chen, Niki Parmar, Matthias Minderer, Mohammad Norouzi* \
@@ -944,7 +950,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Inverse Problem
 
-
 **JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
 *Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
@@ -960,12 +965,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
 *Ozan Özdenizci, Robert Legenstein* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
 29 Jul 2022
-
-
-**Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models** \
-*Wele Gedara Chaminda Bandara, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11892)] [[Github](https://github.com/wgcban/ddpm-cd)] \
-23 Jun 2022
 
 
 ### Image Editing
