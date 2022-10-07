@@ -17,7 +17,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Segmentation](#segmentation)
     - [Image-to-Image Translation](#image-to-image-translation)
     - [Super Resolution](#super-resolution)
-    - [Inverse Problem](#inverse-problem)
     - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
     - [Medical Imaging](#medical-imaging)
@@ -25,6 +24,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Point Cloud](#point-cloud)
     - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
+    - [Miscellaneous](#miscellaneous)
   - [Audio](#audio)
     - [Audio Generation](#audio-generation)
     - [Audio Conversion](#audio-conversion)
@@ -882,7 +882,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.12064)] [[Github](https://github
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
 19 Aug 2022
 
-
 **Non-Uniform Diffusion Models** \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
@@ -947,24 +946,6 @@ ACM 2022. [[Paper](https://arxiv.org/abs/2104.14951)] \
 *Chitwan Saharia, Jonathan Ho, William Chan, Tim Salimans, David J. Fleet, Mohammad Norouzi* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://iterative-refinement.github.io/)] [[Github](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)] \
 15 Apr 2021
-
-### Inverse Problem
-
-**JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
-*Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
-23 Sep 2022
-
-
-**AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
-*Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
-24 Aug 2022
-
-**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
-*Ozan Özdenizci, Robert Legenstein* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
-29 Jul 2022
 
 
 ### Image Editing
@@ -1472,6 +1453,23 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.10774)] \
 *Jongmin Yoon, Sung Ju Hwang, Juho Lee* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.com/jmyoon1/adp)] \
 11 Jun 2021
+
+### Miscellaneous
+
+**JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
+*Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
+23 Sep 2022
+
+**AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
+*Nithin Gopalakrishnan Nair, Kangfu Mei, Vishal M Patel* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
+24 Aug 2022
+
+**Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models** \
+*Ozan Özdenizci, Robert Legenstein* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
+29 Jul 2022
 
 
 ## Audio
