@@ -1337,6 +1337,11 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02303)] \
 5 Oct 2022
 
+**Make-A-Video: Text-to-Video Generation without Text-Video Data** \
+*Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14792)] \
+29 Sep 2022
+
 **Diffusion Models for Video Prediction and Infilling** \
 *Tobias Höppe, Arash Mehrjou, Stefan Bauer, Didrik Nielsen, Andrea Dittadi* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07696)] \
