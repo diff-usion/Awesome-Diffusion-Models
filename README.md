@@ -23,6 +23,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Medical Imaging](#medical-imaging)
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
+    - [Mesh](#mesh)
     - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
     - [Miscellaneous](#miscellaneous)
@@ -160,6 +161,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 
 ## Vision
 ### Image Generation
+
+**On Distillation of Guided Diffusion Models** \
+*Chenlin Meng, Ruiqi Gao, Diederik P. Kingma, Stefano Ermon, Jonathan Ho, Tim Salimans* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.03142)] \
+6 Oct 2022
 
 **Improving Sample Quality of Diffusion Model Using Self-Attention Guidance** \
 *Susung Hong, Gyuseong Lee, Wooseok Jang, Seungryong Kim* \
@@ -1337,6 +1343,11 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.02303)] \
 5 Oct 2022
 
+**Make-A-Video: Text-to-Video Generation without Text-Video Data** \
+*Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14792)] \
+29 Sep 2022
+
 **Diffusion Models for Video Prediction and Infilling** \
 *Tobias Höppe, Arash Mehrjou, Stefan Bauer, Didrik Nielsen, Andrea Dittadi* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.07696)] \
@@ -1399,6 +1410,13 @@ ICCV 2021. [[Paper](https://arxiv.org/abs/2104.03670)] [[Project](https://alexzh
 *Shitong Luo, Wei Hu* \
 CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.com/luost26/diffusion-point-cloud)] \
 2 Mar 2021 
+
+### Mesh
+
+**Neural Volumetric Mesh Generator** \
+*Yan Zheng, Lemeng Wu, Xingchao Liu, Zhen Chen, Qiang Liu, Qixing Huang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.03158)] \
+6 Oct 2022
 
 ### Human Motion Synthesis
 
