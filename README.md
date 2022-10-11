@@ -24,6 +24,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
     - [Mesh](#mesh)
+    - [3D View](#3d-view)
     - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
     - [Miscellaneous](#miscellaneous)
@@ -1198,6 +1199,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Adapting Pretrained Vision-Language Foundational Models to Medical Imaging Domains** \
+*Pierre Chambon<sup>1</sup>, Christian Bluethgen<sup>1</sup>, Curtis P. Langlotz, Akshay Chaudhari* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04133)] \
+9 Oct 2022
+
 **Anatomically constrained CT image translation for heterogeneous blood vessel segmentation** \
 *Giammarco La Barbera, Haithem Boussaid, Francesco Maso, Sabine Sarnacki, Laurence Rouet, Pietro Gori, Isabelle Bloch* \
 BMVC 2022. [[Paper](https://arxiv.org/abs/2210.01713)] \
@@ -1418,6 +1424,13 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.03158)] \
 6 Oct 2022
 
+### 3D 
+
+**Novel View Synthesis with Diffusion Models** \
+*Daniel Watson, William Chan, Ricardo Martin-Brualla, Jonathan Ho, Andrea Tagliasacchi, Mohammad Norouzi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04628)] \
+6 Oct 2022
+
 ### Human Motion Synthesis
 
 **Denoising Diffusion Probabilistic Models for Styled Walking Synthesis** \
@@ -1513,6 +1526,16 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+**What the DAAM: Interpreting Stable Diffusion Using Cross Attention** \
+*Raphael Tang, Akshat Pandey, Zhiying Jiang, Gefei Yang, Karun Kumar, Jimmy Lin, Ferhan Ture* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04885)] [[Github](https://github.com/castorini/daam)] \
+10 Oct 2022
+
+**CLIP-Diffusion-LM: Apply Diffusion Model on Image Captioning** \
+*Shitong Xu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04559)] [[Github](https://github.com/xu-shitong/diffusion-image-captioning)] \
+10 Oct 2022
 
 **JPEG Artifact Correction using Denoising Diffusion Restoration Models** \
 *Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
@@ -1933,6 +1956,16 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 22 May 2021
 
 ## Theory
+
+**Regularizing Score-based Models with Score Fokker-Planck Equations** \
+*Chieh-Hsin Lai, Yuhta Takida, Naoki Murata, Toshimitsu Uesaka, Yuki Mitsufuji, Stefano Ermon* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04296)] \
+9 Oct 2022
+
+**Sequential Neural Score Estimation: Likelihood-Free Inference with Conditional Score Based Diffusion Models** \
+*Louis Sharrock, Jack Simons, Song Liu, Mark Beaumont* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04872)] \
+10 Oct 2022
 
 **Analyzing Diffusion as Serial Reproduction** \
 *Raja Marjieh, Ilia Sucholutsky, Thomas A. Langlois, Nori Jacoby, Thomas L. Griffiths* \
