@@ -1128,7 +1128,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.13360)] [[Github](https://github
 
 **Personalizing Text-to-Image Generation via Aesthetic Gradients** \
 *Victor Gallego* \
-NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.12330)] \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.12330)] [[Github](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients)] \
 25 Sep 2022
 
 **Best Prompts for Text-to-Image Models and How to Find Them** \
