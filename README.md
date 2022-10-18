@@ -24,7 +24,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
     - [Mesh](#mesh)
-    - [3D View](#3d-view)
+    - [3D](#3d)
     - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
     - [Miscellaneous](#miscellaneous)
