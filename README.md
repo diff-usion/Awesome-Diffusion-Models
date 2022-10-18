@@ -24,7 +24,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Video Generation](#video-generation)
     - [Point Cloud](#point-cloud)
     - [Mesh](#mesh)
-    - [3D View](#3d-view)
+    - [3D](#3d)
     - [Human Motion Synthesis](#human-motion-synthesis)
     - [Adversarial Attack](#adversarial-attack)
     - [Miscellaneous](#miscellaneous)
@@ -1434,6 +1434,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] [[Github](https://github
 
 ### Point Cloud
 
+**LION: Latent Point Diffusion Models for 3D Shape Generation** \
+*Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis* \
+NeurIPS 2022. [[Paper](https://arxiv.org/pdf/2210.06978.pdf)] [[Project](https://nv-tlabs.github.io/LION/)] \
+12 Oct 2022
 
 **First Hitting Diffusion Models** \
 *Mao Ye, Lemeng Wu, Qiang Liu* \
@@ -1478,11 +1482,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.03158)] \
 6 Oct 2022
 
 ### 3D 
-
-**LION: Latent Point Diffusion Models for 3D Shape Generation** \
-*Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis* \
-NeurIPS 2022. [[Paper](https://arxiv.org/pdf/2210.06978.pdf)] [[Project](https://nv-tlabs.github.io/LION/)] \
-12 Oct 2022
 
 **Novel View Synthesis with Diffusion Models** \
 *Daniel Watson, William Chan, Ricardo Martin-Brualla, Jonathan Ho, Andrea Tagliasacchi, Mohammad Norouzi* \
