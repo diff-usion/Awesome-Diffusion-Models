@@ -1102,6 +1102,16 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+**UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image** \
+*Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09477)] \
+18 Oct 2022
+
+**Swinv2-Imagen: Hierarchical Vision Transformer Diffusion Models for Text-to-Image Generation** \
+*Ruijun Li, Weihua Li, Yi Yang, Hanyu Wei, Jianhua Jiang, Quan Bai* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09549)] \
+18 Oct 2022
+
 **Imagic: Text-Based Real Image Editing with Diffusion Models** \
 *Bahjat Kawar<sup>1</sup>, Shiran Zada<sup>1</sup>, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, Michal Irani* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09276)] \
@@ -1434,6 +1444,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.09481)] [[Github](https://github
 
 ### Point Cloud
 
+**LION: Latent Point Diffusion Models for 3D Shape Generation** \
+*Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis* \
+NeurIPS 2022. [[Paper](https://arxiv.org/pdf/2210.06978.pdf)] [[Project](https://nv-tlabs.github.io/LION/)] \
+12 Oct 2022
 
 **First Hitting Diffusion Models** \
 *Mao Ye, Lemeng Wu, Qiang Liu* \
@@ -1477,7 +1491,7 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.03158)] \
 6 Oct 2022
 
-### 3D 
+### 3D View
 
 **LION: Latent Point Diffusion Models for 3D Shape Generation** \
 *Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis* \
@@ -1543,6 +1557,16 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2207.08000)] [[Project](http://liuyebi
 
 ### Adversarial Attack
 
+**Improving Adversarial Robustness by Contrastive Guided Diffusion Process** \
+*Yidong Ouyang, Liyan Xie, Guang Cheng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09643)] \
+18 Oct 2022
+
+**Differentially Private Diffusion Models** \
+*Tim Dockhorn, Tianshi Cao, Arash Vahdat, Karsten Kreis* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09929)] [[Project](https://nv-tlabs.github.io/DPDM/)] \
+18 Oct 2022
+
 **PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
 *Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
@@ -1590,6 +1614,11 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+**Deep Data Augmentation for Weed Recognition Enhancement: A Diffusion Probabilistic Model and Transfer Learning Based Approach** \
+*Dong Chen, Xinda Qi, Yu Zheng, Yuzhen Lu, Zhaojian Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.09509)] [[Github](https://github.com/DongChen06/DMWeeds)] \
+18 Oct 2022
 
 **Meta-Learning via Classifier(-free) Guidance** \
 *Elvis Nava<sup>1</sup>, Seijin Kobayashi<sup>1</sup>, Yifei Yin, Robert K. Katzschmann, Benjamin F. Grewe* \
