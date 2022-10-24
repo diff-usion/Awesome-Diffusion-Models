@@ -1058,7 +1058,10 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 
 ### Image Editing
 
-
+**DiffEdit: Diffusion-based semantic image editing with mask guidance** \
+*Guillaume Couairon, Jakob Verbeek, Holger Schwenk, Matthieu Cord* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11427)] \
+20 Oct 2022
 
 **Imagic: Text-Based Real Image Editing with Diffusion Models** \
 *Bahjat Kawar<sup>1</sup>, Shiran Zada<sup>1</sup>, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, Michal Irani* \
@@ -1101,6 +1104,16 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 2 Aug 2021
 
 ### Text-to-Image
+
+**Diffusion Models already have a Semantic Latent Space** \
+*Mingi Kwon, Jaeseok Jeong, Youngjung Uh* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.10960)] [[Project](https://kwonminki.github.io/Asyrp/)] \
+20 Oct 2022
+
+**DiffEdit: Diffusion-based semantic image editing with mask guidance** \
+*Guillaume Couairon, Jakob Verbeek, Holger Schwenk, Matthieu Cord* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11427)] \
+20 Oct 2022
 
 **UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image** \
 *Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan* \
@@ -1260,6 +1273,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Multitask Brain Tumor Inpainting with Diffusion Models: A Methodological Report** \
+*Pouria Rouzrokh<sup>1</sup>, Bardia Khosravi<sup>1</sup>, Shahriar Faghani, Mana Moassefi, Sanaz Vahdati, Bradley J. Erickson* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.12113)] [[Github](https://github.com/Mayo-Radiology-Informatics-Lab/MBTI)] \
+21 Oct 2022
 
 **Adapting Pretrained Vision-Language Foundational Models to Medical Imaging Domains** \
 *Pierre Chambon<sup>1</sup>, Christian Bluethgen<sup>1</sup>, Curtis P. Langlotz, Akshay Chaudhari* \
@@ -1614,6 +1632,11 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+**Boomerang: Local sampling on image manifolds using diffusion models** \
+*Lorenzo Luzi, Ali Siahkoohi, Paul M Mayer, Josue Casco-Rodriguez, Richard Baraniuk* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.12100)] [[Colab](https://colab.research.google.com/drive/1PV5Z6b14HYZNx1lHCaEVhId-Y4baKXwt)] \
+21 Oct 2022
 
 **Deep Data Augmentation for Weed Recognition Enhancement: A Diffusion Probabilistic Model and Transfer Learning Based Approach** \
 *Dong Chen, Xinda Qi, Yu Zheng, Yuzhen Lu, Zhaojian Li* \
