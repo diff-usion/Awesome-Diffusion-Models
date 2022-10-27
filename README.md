@@ -10,6 +10,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Papers](#introductory-papers)
   - [Introductory Videos](#introductory-videos)
   - [Introductory Lectures](#introductory-lectures)
+  - [Jupyter Notebooks](#jupyter-notebook)
 - [Papers](#papers)
   - [Survey](#survey)
   - [Vision](#vision)
@@ -141,6 +142,33 @@ Jun 6 2022
 *Jascha Sohl-Dickstein, MIT 6.S192 - Lecture 22* \
 [[Video](https://www.youtube.com/watch?v=XCUlnHP1TNM)] \
 19 April 2022
+
+## Jupyter Notebooks
+
+# **Centipede Diffusion** \
+[[Notebook](https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb)]
+
+**Deforum Stable Diffusion** \
+[[Notebook](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)]
+
+**Stable Diffusion Interpolation** \
+[[Notebook](https://colab.research.google.com/drive/1EHZtFjQoRr-bns1It5mTcOVyZzZD9bBc?usp=sharing)]
+
+**Huemin Jax Diffusion** \
+[[Notebook](https://colab.research.google.com/github/huemin-art/jax-guided-diffusion/blob/v2.7/Huemin_Jax_Diffusion_2_7.ipynb)]
+
+**Disco Diffusion** \
+[[Notebook](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb)]
+
+**Simplified Disco Diffusion** \
+[[Notebook](https://colab.research.google.com/github/entmike/disco-diffusion-1/blob/main/Simplified_Disco_Diffusion.ipynb)]
+
+**WAS's Disco Diffusion - Portrait Generator Playground** \
+[[Notebook](https://colab.research.google.com/github/WASasquatch/disco-diffusion-portrait-playground/blob/main/WAS's_Disco_Diffusion_v5_6_9_%5BPortrait_Generator_Playground%5D.ipynb)]
+
+**Diffusers - Hugging Face** \
+[[Notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)] 
+
 
 # Papers
 
@@ -420,7 +448,7 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.12524)] \
 
 **On Conditioning the Input Noise for Controlled Image Generation with Diffusion Models** \
 *Vedant Singh<sup>1</sup>, Surgan Jandial<sup>1</sup>, Ayush Chopra, Siddharth Ramesh, Balaji Krishnamurthy, Vineeth N. Balasubramanian* \
-arxiv 2022. [[Paper](https://arxiv.org/abs/2205.03859)] \
+CVPR Workshop 2022. [[Paper](https://arxiv.org/abs/2205.03859)] \
 8 May 2022
 
 **Subspace Diffusion Generative Models** \
@@ -440,7 +468,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
 
 **Perception Prioritized Training of Diffusion Models** \
 *Jooyoung Choi, Jungbeom Lee, Chaehun Shin, Sungwon Kim, Hyunwoo Kim, Sungroh Yoon* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.00227)] [[Github](https://github.com/jychoi118/P2-weighting)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2204.00227)] [[Github](https://github.com/jychoi118/P2-weighting)] \
 1 Apr 2022
 
 **Generating High Fidelity Data from Low-density Regions using Diffusion Models** \
@@ -460,7 +488,7 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2203.14206)] \
 
 **Dynamic Dual-Output Diffusion Models** \
 *Yaniv Benny, Lior Wolf* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04304)] \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2203.04304)] \
 8 Mar 2022
 
 **Conditional Simulation Using Diffusion Schrödinger Bridges** \
@@ -506,7 +534,7 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2202.00512)] \
 
 **Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models** \
 *Fan Bao, Chongxuan Li, Jun Zhu, Bo Zhang* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2201.06503)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2201.06503)] \
 17 Jan 2022
 
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
@@ -546,7 +574,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07804)] [[Project](https://nvlab
 
 **Score-Based Generative Modeling with Critically-Damped Langevin Diffusion** \
 *Tim Dockhorn, Arash Vahdat, Karsten Kreis* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.07068)] [[Project](https://nv-tlabs.github.io/CLD-SGM/)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2112.07068)] [[Project](https://nv-tlabs.github.io/CLD-SGM/)] \
 14 Dec 2021
 
 **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** \
@@ -617,7 +645,7 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 
 **SDEdit: Image Synthesis and Editing with Stochastic Differential Equations** \
 *Chenlin Meng, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
+ICLR  2021. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-image-editing.github.io/)] [[Github](https://github.com/ermongroup/SDEdit)] \
 2 Aug 2021
 
 **Structured Denoising Diffusion Models in Discrete State-Spaces** \
@@ -647,7 +675,7 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.07582)] [[Project](https://enk10
 
 **D2C: Diffusion-Denoising Models for Few-shot Conditional Generation** \
 *Abhishek Sinha<sup>1</sup>, Jiaming Song<sup>1</sup>, Chenlin Meng, Stefano Ermon* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2106.06819)] [[Project](https://d2c-model.github.io/)] [[Github](https://github.com/d2c-model/d2c-model.github.io)] \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2106.06819)] [[Project](https://d2c-model.github.io/)] [[Github](https://github.com/d2c-model/d2c-model.github.io)] \
 12 Jun 2021
 
 **Score-based Generative Modeling in Latent Space** \
@@ -843,7 +871,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.08573)]
 
 **Unifying Diffusion Models' Latent Space, with Applications to CycleDiffusion and Guidance** \
 *Chen Henry Wu, Fernando De la Torre* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2210.05559)] [[Github-1](https://github.com/ChenWu98/cycle-diffusion)] [[Github-2(https://github.com/ChenWu98/unified-generative-zoo)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.05559)] [[Github-1](https://github.com/ChenWu98/cycle-diffusion)] [[Github-2](https://github.com/ChenWu98/unified-generative-zoo)] \
 11 Oct 2022
 
 
@@ -1533,7 +1561,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
 
 **A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion** \
 *Zhaoyang Lyu, Zhifeng Kong, Xudong Xu, Liang Pan, Dahua Lin* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2112.03530)] [[Github](https://github.com/zhaoyanglyu/point_diffusion_refinement)] \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2112.03530)] [[Github](https://github.com/zhaoyanglyu/point_diffusion_refinement)] \
 7 Dec 2021
 
 **Score-Based Point Cloud Denoising** \
@@ -1681,6 +1709,9 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 ### Miscellaneous
 
+
+
+
 **Boomerang: Local sampling on image manifolds using diffusion models** \
 *Lorenzo Luzi, Ali Siahkoohi, Paul M Mayer, Josue Casco-Rodriguez, Richard Baraniuk* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.12100)] [[Colab](https://colab.research.google.com/drive/1PV5Z6b14HYZNx1lHCaEVhId-Y4baKXwt)] \
@@ -1732,6 +1763,17 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11284)] \
 *Ozan Özdenizci, Robert Legenstein* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14626)] [[Github](https://github.com/IGITUGraz/WeatherDiffusion)] \
 29 Jul 2022
+
+
+**Deep Diffusion Models for Seismic Processing** \
+*Ricard Durall, Ammar Ghanim, Mario Fernandez, Norman Ettrich, Janis Keuper* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2207.10451)] \
+21 Jul 2022
+
+**Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions** \
+*Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forré, Max Welling* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2102.05379)] \
+10 Feb 2021
 
 
 ## Audio
@@ -1992,11 +2034,17 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2206.05895)] [[Github](https://github.
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2205.14217)] [[Github](https://github.com/XiangLi1999/Diffusion-LM)] \
 27 May 2022
 
+
+**Step-unrolled Denoising Autoencoders for Text Generation** \
+*Nikolay Savinov, Junyoung Chung, Mikolaj Binkowski, Erich Elsen, Aaron van den Oord* \
+ICLR 2022. [[Paper](https://arxiv.org/abs/2112.06749)] [[Github](https://github.com/vvvm23/sundae)] \
+13 Dec 2021
+
+
 **Zero-Shot Translation using Diffusion Models** \
 *Eliya Nachmani<sup>1</sup>, Shaked Dovrat<sup>1</sup>* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 2 Nov 2021
-
 
 ## Tabular and Time Series
 
