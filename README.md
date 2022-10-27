@@ -145,7 +145,7 @@ Jun 6 2022
 
 ## Jupyter Notebooks
 
-# **Centipede Diffusion** \
+**Centipede Diffusion** \
 [[Notebook](https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb)]
 
 **Deforum Stable Diffusion** \
