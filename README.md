@@ -2378,11 +2378,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.08177)] [[Github](https://github.com/utcsilab/diffusion-channels)] \
 16 Nov 2021
 
-**Deep diffusion-based forecasting of COVID-19 by incorporating network-level mobility information** \
-*Padmaksha Roy, Shailik Sarkar, Subhodip Biswas, Fanglan Chen, Zhiqian Chen, Naren Ramakrishnan, Chang-Tien Lu* \
-ASONAM 2021. [[Paper](https://arxiv.org/abs/2111.05199)] \
-9 Nov 2021
-
 **Realistic galaxy image simulation via score-based generative models** \
 *Michael J. Smith (Hertfordshire), James E. Geach, Ryan A. Jackson, Nikhil Arora, Connor Stone, Stéphane Courteau* \
 MNRAS 2022. [[Paper](https://arxiv.org/abs/2111.01713)] \
