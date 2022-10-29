@@ -1167,6 +1167,23 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+
+**How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?** \
+*Hritik Bansal<sup>1</sup>, Da Yin<sup>1</sup>, Masoud Monajatipoor, Kai-Wei Chang* \
+EMNLP 2022. [[Paper(https://arxiv.org/abs/2210.15230)] [[Github](https://github.com/Hritikbansal/entigen_emnlp)] \
+27 Oct 2022
+
+**ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts** \
+*Zhida Feng<sup>1</sup>, Zhenyu Zhang<sup>1</sup>, Xintong Yu<sup>1</sup>, Yewei Fang, Lanxin Li, Xuyi Chen, Yuxiang Lu, Jiaxiang Liu, Weichong Yin, Shikun Feng, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.15257)] \
+27 Oct 2022
+
+
+**DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models** \
+*Zijie J. Wang, Evan Montoya, David Munechika, Haoyang Yang, Benjamin Hoover, Duen Horng Chau* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14896)] [[Project](https://poloclub.github.io/diffusiondb/)] \
+26 Oct 2022
+
 **Lafite2: Few-shot Text-to-Image Generation** \
 *Yufan Zhou, Chunyuan Li, Changyou Chen, Jianfeng Gao, Jinhui Xu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14124)] \
@@ -1709,7 +1726,10 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 ### Miscellaneous
 
-
+**Towards the Detection of Diffusion Model Deepfakes** \
+*Jonas Ricker, Simon Damm, Thorsten Holz, Asja Fischer* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14571)] \
+26 Oct 2022
 
 
 **Boomerang: Local sampling on image manifolds using diffusion models** \
@@ -1778,6 +1798,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2102.05379)] \
 
 ## Audio
 ### Audio Generation
+
+**Full-band General Audio Synthesis with Score-based Diffusion** \
+*Santiago Pascual, Gautam Bhattacharya, Chunghsin Yeh, Jordi Pons, Joan Serrà* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14661)] \
+26 Oct 2022
 
 **Hierarchical Diffusion Models for Singing Voice Neural Vocoder** \
 *Naoya Takahashi, Mayank Kumar, Singh, Yuki Mitsufuji* \
@@ -1888,6 +1913,11 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2109.13821)] [[Project](https://diffvc
 28 Sep 2021
 
 ### Audio Enhancement
+
+**Solving Audio Inverse Problems with a Diffusion Model** \
+*Eloi Moliner, Jaakko Lehtinen, Vesa Välimäki* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.15228)] \
+27 Oct 2022
 
 **Speech Enhancement and Dereverberation with Diffusion-based Generative Models** \
 *Julius Richter, Simon Welker, Jean-Marie Lemercier, Bunlong Lay, Timo Gerkmann* \
@@ -2298,6 +2328,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 20 Apr 2022
 
 ## Applications
+
+**Categorical SDEs with Simplex Diffusion** \
+*Pierre H. Richemond, Sander Dieleman, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14784)] \
+26 Oct 2022
 
 **From Points to Functions: Infinite-dimensional Representations in Diffusion Models** \
 *Sarthak Mittal, Guillaume Lajoie, Stefan Bauer, Arash Mehrjou* \
