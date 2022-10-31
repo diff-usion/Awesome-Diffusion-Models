@@ -1260,7 +1260,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11711)] \
 
 **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models** \
 *Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08891)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08891)] [[Github](https://github.com/LukasStruppek/The-Biased-Artist)] \
 19 Sep 2022
 
 **Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models** \
