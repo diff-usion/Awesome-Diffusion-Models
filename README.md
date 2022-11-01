@@ -35,6 +35,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Audio Enhancement](#audio-enhancement)
     - [Text-to-Speech](#text-to-speech)
     - [Music Generation](#music-generation)
+    - [Separation](#separation)
   - [Natural Language](#natural-language)
     - [Natural Language Generation](#natural-language-generation)
   - [Tabular and Time Series](#tabular-and-time-series)
@@ -1062,6 +1063,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Inpainting
 
+**Intelligent Painter: Picture Composition With Resampling Diffusion Model** \
+*Wing-Fung Ku, Wan-Chi Siu, Xi Cheng, H. Anthony Chan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17106)] \
+31 Oct 2022
+
 **Delving Globally into Texture and Structure for Image Inpainting** \
 *Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
 ACM 2022. [[Paper](https://arxiv.org/abs/2209.08217)] [[Github](https://github.com/htyjers/DGTS-Inpainting)] \
@@ -1167,6 +1173,15 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+**MagicMix: Semantic Mixing with Diffusion Models** \ 
+*Jun Hao Liew, Hanshu Yan, Daquan Zhou, Jiashi Feng* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.16056)] [[Project](https://magicmix.github.io/)] \
+28 Oct 2022
+
+**UPainting: Unified Text-to-Image Diffusion Generation with Cross-modal Guidance** \
+*Wei Li, Xue Xu, Xinyan Xiao, Jiachen Liu, Hu Yang, Guohao Li, Zhanpeng Wang, Zhifan Feng, Qiaoqiao She, Yajuan Lyu, Hua Wu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.16031)] \
+28 Oct 2022
 
 **How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?** \
 *Hritik Bansal<sup>1</sup>, Da Yin<sup>1</sup>, Masoud Monajatipoor, Kai-Wei Chang* \
@@ -1277,7 +1292,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11711)] \
 
 **The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models** \
 *Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08891)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08891)]  [[Github](https://github.com/LukasStruppek/The-Biased-Artist)] \
 19 Sep 2022
 
 **Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models** \
@@ -1367,6 +1382,11 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 6 Oct 2021
 
 ### Medical Imaging
+
+**Accelerating Diffusion Models via Pre-segmentation Diffusion Sampling for Medical Image Segmentation** \
+*Xutao Guo, Yanwu Yang, Chenfei Ye, Shang Lu, Yang Xiang, Ting Ma* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17408)] \
+27 Oct 2022
 
 **Multitask Brain Tumor Inpainting with Diffusion Models: A Methodological Report** \
 *Pouria Rouzrokh<sup>1</sup>, Bardia Khosravi<sup>1</sup>, Shahriar Faghani, Mana Moassefi, Sanaz Vahdati, Bradley J. Erickson* \
@@ -1726,6 +1746,11 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 ### Miscellaneous
 
+**A simple, efficient and scalable contrastive masked autoencoder for learning visual representations** \
+*Shlok Mishra, Joshua Robinson, Huiwen Chang, David Jacobs, Aaron Sarna, Aaron Maschinot, Dilip Krishnan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.16870)] \
+30 Oct 2022
+
 **Towards the Detection of Diffusion Model Deepfakes** \
 *Jonas Ricker, Simon Damm, Thorsten Holz, Asja Fischer* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14571)] \
@@ -1771,7 +1796,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.04559)] [[Github](https://github
 *Bahjat Kawar<sup>1</sup>, Jiaming Song<sup>1</sup>, Stefano Ermon, Michael Elad* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
 23 Sep 2022
-
 
 
 **AT-DDPM: Restoring Faces degraded by Atmospheric Turbulence using Denoising Diffusion Probabilistic Models** \
@@ -1914,6 +1938,21 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2109.13821)] [[Project](https://diffvc
 
 ### Audio Enhancement
 
+**SRTNet: Time Domain Speech Enhancement Via Stochastic Refinement** \
+*Zhibin Qiu, Mengfan Fu, Yinfeng Yu, LiLi Yin, Fuchun Sun, Hao Huang* \
+ICASSP 2022. [[Paper](https://arxiv.org/abs/2210.16805)] [[Github](https://github.com/zhibinQiu/SRTNet)] \
+30 Oct 2022
+
+**A Versatile Diffusion-based Generative Refiner for Speech Enhancement** \
+*Ryosuke Sawata, Naoki Murata, Yuhta Takida, Toshimitsu Uesaka, Takashi Shibuya, Shusuke Takahashi, Yuki Mitsufuji* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17287)] \
+27 Oct 2022
+
+**Conditioning and Sampling in Variational Diffusion Models for Speech Super-resolution** \
+*Chin-Yun Yu, Sung-Lin Yeh, György Fazekas, Hao Tang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.15793)] [[Project](https://yoyololicon.github.io/diffwave-sr/)] [[Github](https://github.com/yoyololicon/diffwave-sr)] \
+27 Oct 2022
+
 **Solving Audio Inverse Problems with a Diffusion Model** \
 *Eloi Moliner, Jaakko Lehtinen, Vesa Välimäki* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.15228)] \
@@ -2028,21 +2067,38 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.10446)] [[Project](https://yinping-cho.github.io/diffwgansvs.github.io/)] \
 21 Sep 2022
 
-**Instrument Separation of Symbolic Music by Explicitly Guided Diffusion Model** \
-*Sangjun Han, Hyeongrae Ihm, DaeHan Ahn, Woohyung Lim* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
-5 Sep 2022
 
 **Multi-instrument Music Synthesis with Spectrogram Diffusion** \
 *Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel* \
 ISMIR 2022. [[Paper](https://arxiv.org/abs/2206.05408)] \
 11 Jun 2022
 
+### Separation
+**Diffusion-based Generative Speech Source Separation** \
+*Robin Scheibler, Youna Ji, Soo-Whan Chung, Jaeuk Byun, Soyeon Choe, Min-Seok Choi* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17327)] \
+31 Oct 2022
+
+**Instrument Separation of Symbolic Music by Explicitly Guided Diffusion Model** \
+*Sangjun Han, Hyeongrae Ihm, DaeHan Ahn, Woohyung Lim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
+5 Sep 2022
 
 
 ## Natural Language
 
 ### Natural Language Generation
+
+**DiffusER: Discrete Diffusion via Edit-based Reconstruction** \
+*Machel Reid, Vincent J. Hellendoorn, Graham Neubig* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.16886)] \
+30 Oct 2022
+
+**SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control** \
+*Xiaochuang Han, Sachin Kumar, Yulia Tsvetkov* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17432)] \
+31 Oct 2022
+
 
 **DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models** \
 *Shansan Gong<sup>1</sup>, Mukai Li<sup>1</sup>, Jiangtao Feng, Zhiyong Wu, LingPeng Kong* \
@@ -2078,14 +2134,14 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 
 ## Tabular and Time Series
 
-### Tabular Generation
+### Generation
 
 **TabDDPM: Modelling Tabular Data with Diffusion Models** \
 *Akim Kotelnikov, Dmitry Baranchuk, Ivan Rubachev, Artem Babenko* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github.com/rotot0/tab-ddpm)] \
 30 Sep 2022
 
-### Time Series Forecasting
+### Forecasting
 
 **Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models** \
 *Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
@@ -2102,7 +2158,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2106.10121)] [[Github](https://github
 ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.com/zalandoresearch/pytorch-ts)] \
 2 Feb 2021 
 
-### Time Series Imputation
+### Imputation
+
+**Diffusion models for missing value imputation in tabular data** \
+*Shuhan Zheng, Nontawat Charoenphakdee* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2210.17128)] \
+31 Oct 2022
 
 **Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data** \
 *Sung Woo Park, Kyungjae Lee, Junseok Kwon* \
@@ -2240,6 +2301,13 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 22 May 2021
 
 ## Reinforcement Learning
+
+**LAD: Language Augmented Diffusion for Reinforcement Learning** \
+*Edwin Zhang, Yujie Lu, William Wang, Amy Zhang* \
+NeurIPS Workshop 2022. [[Paper(https://arxiv.org/abs/2210.15629)] \
+27 Oct 2022
+
+
 
 **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning** \
 *Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou* \
