@@ -151,7 +151,7 @@ Jun 6 2022
 [[Github](https://github.com/ozanciga/diffusion-for-beginners)]
 
 **Beyond Diffusion: What is Personalized Image Generation and How Can You Customize Image Synthesis?** \
-*J. Rafid Siddiqui* \ 
+*J. Rafid Siddiqui* \
 [[Github](https://github.com/azad-academy/personalized-diffusion)] [[Medium](https://medium.com/mlearning-ai/beyond-diffusion-what-is-personalized-image-generation-and-how-can-you-customize-image-synthesis-26a89d5b335)]
 
 **Diffusion_models_tutorial** \
