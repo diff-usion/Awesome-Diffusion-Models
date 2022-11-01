@@ -2336,7 +2336,7 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 
 **LAD: Language Augmented Diffusion for Reinforcement Learning** \
 *Edwin Zhang, Yujie Lu, William Wang, Amy Zhang* \
-NeurIPS Workshop 2022. [[Paper(https://arxiv.org/abs/2210.15629)] \
+NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2210.15629)] \
 27 Oct 2022
 
 
