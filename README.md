@@ -10,7 +10,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Introductory Papers](#introductory-papers)
   - [Introductory Videos](#introductory-videos)
   - [Introductory Lectures](#introductory-lectures)
-  - [Jupyter Notebooks](#jupyter-notebook)
+  - [Tutorial and Jupyter Notebook](#tutorial-and-jupyter-notebook)
 - [Papers](#papers)
   - [Survey](#survey)
   - [Vision](#vision)
@@ -39,9 +39,9 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
   - [Natural Language](#natural-language)
     - [Natural Language Generation](#natural-language-generation)
   - [Tabular and Time Series](#tabular-and-time-series)
-    - [Tabular Generation](#tabular-generation)
-    - [Time Series Forecasting](#time-series-forecasting)
-    - [Time Series Imputation](#time-series-imputation)
+    - [Generation](#generation)
+    - [Forecasting](#forecasting)
+    - [Imputation](#imputation)
   - [Graph](#graph)
     - [Graph Generation](#graph-generation)
     - [Molecular and Material Generation](#molecular-and-material-generation)
@@ -144,7 +144,36 @@ Jun 6 2022
 [[Video](https://www.youtube.com/watch?v=XCUlnHP1TNM)] \
 19 April 2022
 
-## Jupyter Notebooks
+## Tutorial and Jupyter Notebook
+
+**diffusion-for-beginners** \
+*ozanciga* \
+[[Github](https://github.com/ozanciga/diffusion-for-beginners)]
+
+**Beyond Diffusion: What is Personalized Image Generation and How Can You Customize Image Synthesis?** \
+*J. Rafid Siddiqui* \ 
+[[Github](https://github.com/azad-academy/personalized-diffusion)] [[Medium](https://medium.com/mlearning-ai/beyond-diffusion-what-is-personalized-image-generation-and-how-can-you-customize-image-synthesis-26a89d5b335)]
+
+**Diffusion_models_tutorial** \
+*FilippoMB* \
+[[Github](https://github.com/FilippoMB/Diffusion_models_tutorial)]
+
+**ScoreDiffusionModel** \
+*JeongJiHeon* \
+[[Github](https://github.com/JeongJiHeon/ScoreDiffusionModel)]
+
+**Minimal implementation of diffusion models** \
+*VSehwag* \
+[[Github](https://github.com/VSehwag/minimal-diffusion)]
+
+**diffusion_tutorial** \
+*sunlin-ai* \
+[[Github](https://github.com/sunlin-ai/diffusion_tutorial)] 
+
+**Denoising diffusion probabilistic models** \
+*acids-ircam* \
+[[Github](https://github.com/acids-ircam/diffusion_models)] 
+
 
 **Centipede Diffusion** \
 [[Notebook](https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb)]
@@ -154,6 +183,9 @@ Jun 6 2022
 
 **Stable Diffusion Interpolation** \
 [[Notebook](https://colab.research.google.com/drive/1EHZtFjQoRr-bns1It5mTcOVyZzZD9bBc?usp=sharing)]
+
+**Keras Stable Diffusion: GPU starter example** \
+[[Notebook](https://colab.research.google.com/drive/1zVTa4mLeM_w44WaFwl7utTaa6JcaH1zK)]
 
 **Huemin Jax Diffusion** \
 [[Notebook](https://colab.research.google.com/github/huemin-art/jax-guided-diffusion/blob/v2.7/Huemin_Jax_Diffusion_2_7.ipynb)]
@@ -211,7 +243,7 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2210.12867)] [[Github](https://gith
 
 **Representation Learning with Diffusion Models** \
 *Jeremias Traub* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11058)] [[Github](https://github.com/jeremiastraub/diffusion)] \ 
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11058)] [[Github](https://github.com/jeremiastraub/diffusion)] \
 20 Oct 2022
 
 **Self-Guided Diffusion Models** \
@@ -1302,7 +1334,7 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.06970)] [[Github](https://gith
 
 **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation** \
 *Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12242)] [[Project](https://dreambooth.github.io/)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.12242)] [[Project](https://dreambooth.github.io/)] [[Github](https://github.com/Victarry/stable-dreambooth)] \
 25 Aug 2022
 
 **Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models** \
