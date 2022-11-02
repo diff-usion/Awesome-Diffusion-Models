@@ -1504,7 +1504,7 @@ MICCAI 2022. [[Paper](https://arxiv.org/abs/2206.13295)] [[Github](https://githu
 
 **Fast Unsupervised Brain Anomaly Detection and Segmentation with Diffusion Models** \
 *Walter H. L. Pinaya, Mark S. Graham, Robert Gray, Pedro F Da Costa, Petru-Daniel Tudosiu, Paul Wright, Yee H. Mah, Andrew D. MacKinnon, James T. Teo, Rolf Jager, David Werring, Geraint Rees, Parashkev Nachev, Sebastien Ourselin, M. Jorge Cardos* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03461)] \
+MICCAI 2022. [[Paper](https://arxiv.org/abs/2206.03461)] \
 7 Jun 2022
 
 **Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
@@ -1529,7 +1529,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.12621)] \
 
 **Diffusion Models for Medical Anomaly Detection** \
 *Julia Wolleb, Florentin Bieder, Robin Sandkühler, Philippe C. Cattin* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04306)] [[Github](https://github.com/JuliaWolleb/diffusion-anomaly)] \
+MICCAI 2022. [[Paper](https://arxiv.org/abs/2203.04306)] [[Github](https://github.com/JuliaWolleb/diffusion-anomaly)] \
 8 Mar 2022
 
 **Towards performant and reliable undersampled MR reconstruction via diffusion model sampling** \
@@ -1539,7 +1539,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2203.04292)] [[Github](https://github
 
 **Measurement-conditioned Denoising Diffusion Probabilistic Model for Under-sampled Medical Image Reconstruction** \
 *Yutong Xie, Quanzheng Li* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2203.03623)] [[Github](https://github.com/Theodore-PKU/MC-DDPM)] \
+MICCAI 2022. [[Paper](https://arxiv.org/abs/2203.03623)] [[Github](https://github.com/Theodore-PKU/MC-DDPM)] \
 5 Mar 2022
 
 **MRI Reconstruction via Data Driven Markov Chain with Joint Uncertainty Estimation** \
