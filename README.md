@@ -1189,7 +1189,7 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 ### Image Editing
 
 **Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models** \
-*Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
+*Muyang Li, Ji Lin, Chenlin Meng, Stefano Ermon, Song Han, Jun-Yan Zhu* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2211.02048)] [[Github](https://github.com/lmxyy/sige)] \
 4 Nov 2022
 
@@ -1253,7 +1253,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.05105)] [[Github](https://github
 
 **Rickrolling the Artist: Injecting Invisible Backdoors into Text-Guided Image Generation Models** \
 *Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.02408)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.02408)] [[Github](https://github.com/LukasStruppek/Rickrolling-the-Artist)] \
 4 Nov 2022
 
 **eDiffi: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers** \
