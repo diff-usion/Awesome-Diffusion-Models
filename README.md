@@ -230,6 +230,16 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**Extreme Generative Image Compression by Learning Text Embedding from Diffusion Models** \
+*Zhihong Pan, Xin Zhou, Hao Tian* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.07793)] \
+14 Nov 2022
+
+**Arbitrary Style Guidance for Enhanced Diffusion-Based Text-to-Image Generation** \
+*Zhihong Pan, Xin Zhou, Hao Tian* \
+WACV 2023. [[Paper](https://arxiv.org/abs/2211.07751)] \
+14 Nov 2022
+
 **Few-shot Image Generation with Diffusion Models** \
 *Jingyuan Zhu, Huimin Ma, Jiansheng Chen, Jian Yuan* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.03264)] \
@@ -326,6 +336,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08725)] \
 *Virginia Fernandez, Walter Hugo Lopez Pinaya, Pedro Borges, Petru-Daniel Tudosiu, Mark S Graham, Tom Vercauteren, M Jorge Cardoso* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08256)] \
 17 Sep 2022
+
+**Lossy Image Compression with Conditional Diffusion Models** \
+*Ruihan Yang, Stephan Mandt* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.06950)] \
+14 Sep 2022
 
 **Blurring Diffusion Models** \
 *Emiel Hoogeboom, Tim Salimans* \
