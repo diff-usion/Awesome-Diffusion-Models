@@ -1049,6 +1049,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 ### Super Resolution
 
 
+**Conffusion: Confidence Intervals for Diffusion Models** \
+*Eliahu Horwitz, Yedid Hoshen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09795)] \
+17 Nov 2022
+
+
 **From Denoising Diffusions to Denoising Markov Models** \
 *Joe Benton, Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.03595)] [[Github](https://github.com/yuyang-shi/generalized-diffusion)] \
@@ -1136,6 +1142,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Inpainting
 
+**Conffusion: Confidence Intervals for Diffusion Models** \
+*Eliahu Horwitz, Yedid Hoshen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09795)] \
+17 Nov 2022
+
 **From Denoising Diffusions to Denoising Markov Models** \
 *Joe Benton, Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.03595)] [[Github](https://github.com/yuyang-shi/generalized-diffusion)] \
@@ -1198,6 +1209,17 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 
 ### Image Editing
 
+
+**Null-text Inversion for Editing Real Images using Guided Diffusion Models**\
+*Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09794)] \
+17 Nov 2022
+
+**InstructPix2Pix: Learning to Follow Image Editing Instructions** \
+*Tim Brooks, Aleksander Holynski, Alexei A. Efros* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09800)] \
+17 Nov 2022
+
 **Versatile Diffusion: Text, Images and Variations All in One Diffusion Model** \
 *Xingqian Xu, Zhangyang Wang, Eric Zhang, Kai Wang, Humphrey Shi* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.08332)] [[Github](https://github.com/SHI-Labs/Versatile-Diffusion)] \
@@ -1209,7 +1231,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.07825)] \
 15 Nov 2022
 
 **Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models** \
-*Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
+*Muyang Li, Ji Lin, Chenlin Meng, Stefano Ermon, Song Han, Jun-Yan Zhu* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2211.02048)] [[Github](https://github.com/lmxyy/sige)] \
 4 Nov 2022
 
@@ -1266,6 +1288,16 @@ ICLR 2022. [[Paper](https://arxiv.org/abs/2108.01073)] [[Project](https://sde-im
 
 ### Text-to-Image
 
+**Null-text Inversion for Editing Real Images using Guided Diffusion Models**\
+*Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09794)] \
+17 Nov 2022
+
+**InstructPix2Pix: Learning to Follow Image Editing Instructions** \
+*Tim Brooks, Aleksander Holynski, Alexei A. Efros* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09800)] \
+17 Nov 2022
+
 
 **Versatile Diffusion: Text, Images and Variations All in One Diffusion Model** \
 *Xingqian Xu, Zhangyang Wang, Eric Zhang, Kai Wang, Humphrey Shi* \
@@ -1285,7 +1317,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.05105)] [[Github](https://github
 
 **Rickrolling the Artist: Injecting Invisible Backdoors into Text-Guided Image Generation Models** \
 *Lukas Struppek, Dominik Hintersdorf, Kristian Kersting* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.02408)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.02408)] [[Github](https://github.com/LukasStruppek/Rickrolling-the-Artist)] \
 4 Nov 2022
 
 **eDiffi: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers** \
@@ -1807,6 +1839,13 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14125)] \
 
 ### Human Motion Synthesis
 
+
+
+**Listen, denoise, action! Audio-driven motion synthesis with diffusion models** \
+*Simon Alexanderson, Rajmund Nagy, Jonas Beskow, Gustav Eje Henter* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09707)] [[Github](https://www.speech.kth.se/research/listen-denoise-action/)] \
+17 Nov 2022
+
 **ReFu: Refine and Fuse the Unobserved View for Detail-Preserving Single-Image 3D Human Reconstruction** \
 *Gyumin Shim<sup>1</sup>, Minsoo Lee<sup>1</sup>, Jaegul Choo* \
 ACM 2022. [[Paper](https://arxiv.org/abs/2211.04753)] \
@@ -1856,6 +1895,11 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2207.08000)] [[Project](http://liuyebi
 
 
 ### Adversarial Attack
+
+**Fight Fire With Fire: Reversing Skin Adversarial Examples by Multiscale Diffusive and Denoising Aggregation Mechanism** \
+*Yongwei Wang<sup>1</sup>, Yuan Li<sup>1</sup>, Zhiqi Shen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.10373)] \
+22 Aug 2022
 
 **DensePure: Understanding Diffusion Models towards Adversarial Robustness** \
 *Chaowei Xiao<sup>1</sup>, Zhongzhu Chen<sup>1</sup>, Kun Jin<sup>1</sup>, Jiongxiao Wang<sup>1</sup>, Weili Nie, Mingyan Liu, Anima Anandkumar, Bo Li, Dawn Song* \
@@ -1919,6 +1963,18 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+
+**DiffusionDet: Diffusion Model for Object Detection** \
+*Shoufa Chen, Peize Sun, Yibing Song, Ping Luo* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09788)] [[Github](https://github.com/ShoufaChen/DiffusionDet)] \
+17 Nov 2022
+
+
+**Learning to Kindle the Starlight** \
+*Yu Yuan, Jiaqi Wu, Lindong Wang, Zhongliang Jing, Henry Leung, Shuyuan Zhu, Han Pan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09206)] \
+16 Nov 2022
 
 
 **CaDM: Codec-aware Diffusion Modeling for Neural-enhanced Video Streaming** \
@@ -2247,6 +2303,16 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 
 ### Text-to-Speech
+
+**Any-speaker Adaptive Text-To-Speech Synthesis with Diffusion Models** \
+*Minki Kang, Dongchan Min, Sung Ju Hwang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09383)] [[Project](https://nardien.github.io/grad-stylespeech-demo/)] \
+17 Nov 2022
+
+**EmoDiff: Intensity Controllable Emotional Text-to-Speech with Soft-Label Guidance** \
+*Yiwei Guo, Chenpeng Du, Xie Chen, Kai Yu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09496)] [[Project](https://cantabile-kwok.github.io/EmoDiff-intensity-ctrl/)] \
+17 Nov 2022
 
 **NoreSpeech: Knowledge Distillation based Conditional Diffusion Model for Noise-robust Expressive TTS** \
 *Dongchao Yang, Songxiang Liu, Jianwei Yu, Helin Wang, Chao Weng, Yuexian Zou* \
@@ -2617,6 +2683,11 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 
 ## Theory
+
+**Neural Langevin Dynamics: towards interpretable Neural Stochastic Differential Equations** \
+*Simon M. Koop, Mark A. Peletier, Jacobus W. Portegies, Vlado Menkovski* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09537)] \
+17 Nov 2022
 
 **Improved Analysis of Score-based Generative Modeling: User-Friendly Bounds under Minimal Smoothness Assumptions** \
 *Hongrui Chen, Holden Lee, Jianfeng Lu* \
