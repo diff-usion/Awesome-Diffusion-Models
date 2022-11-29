@@ -55,7 +55,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 **How diffusion models work: the math from scratch** \
 *Sergios Karagiannakos,Nikolas Adaloglou* \
-[[Website](https://theaisummer.com/diffusion-models/?fbclid=IwAR1BIeNHqa3NtC8SL0sKXHATHklJYphNH-8IGNoO3xZhSKM_GYcvrrQgB0o)]
+[[Website](https://theaisummer.com/diffusion-models/?fbclid=IwAR1BIeNHqa3NtC8SL0sKXHATHklJYphNH-8IGNoO3xZhSKM_GYcvrrQgB0o)] \
 24 Sep 2022
 
 **A Path to the Variational Diffusion Loss** \
