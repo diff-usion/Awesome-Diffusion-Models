@@ -55,7 +55,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 
 **A Path to the Variational Diffusion Loss** \
 *Alex Alemi* \
-[[Website]](https://blog.alexalemi.com/diffusion.html) [[Colab]](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb) \
+[[Website](https://blog.alexalemi.com/diffusion.html)] [[Colab](https://colab.research.google.com/github/google-research/vdm/blob/main/colab/SimpleDiffusionColab.ipynb)] \
 15 Sep 2022
 
 **The Annotated Diffusion Model** \
