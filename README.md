@@ -240,12 +240,15 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Image Generation
 
+**Diffusion Probabilistic Model Made Slim** \
+*Xingyi Yang, Daquan Zhou, Jiashi Feng, Xinchao Wang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.17106)] \
+1 Dec 2022
 
 **Why Are Conditional Generative Models Better Than Unconditional Ones?** \
 *Fan Bao, Chongxuan Li, Jiacheng Sun, Jun Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.00362)] \
 1 Dec 2022
-
 
 **High-Fidelity Guided Image Synthesis with Latent Diffusion Models** \
 *Jaskirat Singh, Stephen Gould, Liang Zheng* \
