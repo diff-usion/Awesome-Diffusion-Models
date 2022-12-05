@@ -2015,7 +2015,7 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 **VIDM: Video Implicit Diffusion Models** \
 *Kangfu Mei, Vishal M. Patel* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2212.00235)] [[Project](https://kfmei.page/vidm/)] \
+AAAI 2023. [[Paper](https://arxiv.org/abs/2212.00235)] [[Project](https://kfmei.page/vidm/)] [[Github](https://github.com/MKFMIKU/VIDM)] \
 1 Dec 2022
 
 **Latent Video Diffusion Models for High-Fidelity Video Generation with Arbitrary Lengths** \
