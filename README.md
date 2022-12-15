@@ -172,8 +172,7 @@ Jun 6 2022
 
 **Denoising diffusion probabilistic models** \
 *acids-ircam* \
-[[Github](https://github.com/acids-ircam/diffusion_models)] 
-
+[[Github](https://github.com/acids-ircam/diffusion_models)]
 
 **Centipede Diffusion** \
 [[Notebook](https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb)]
@@ -202,6 +201,8 @@ Jun 6 2022
 **Diffusers - Hugging Face** \
 [[Notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)] 
 
+**Detextify**
+[[Github](https://github.com/iuliaturc/detextify)]
 
 # Papers
 
