@@ -2565,7 +2565,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09707)] \
 
 **RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation** \
 *Titas Anciukevičius, Zexiang Xu, Matthew Fisher, Paul Henderson, Hakan Bilen, Niloy J. Mitra, Paul Guerrero* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09869)] [[Github](https://github.com/Anciukevicius/RenderDiffusion)]\
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09869)] [[Github](https://github.com/Anciukevicius/RenderDiffusion)] \
 17 Nov 2022
 
 **Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures** \
