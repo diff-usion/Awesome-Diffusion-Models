@@ -14,7 +14,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 - [Papers](#papers)
   - [Survey](#survey)
   - [Vision](#vision)
-    - [Image and Video Generation](#image-and-video-generation)
+    - [Generation](#generation)
     - [Segmentation](#segmentation)
     - [Inverse Problem](#inverse-problem)
     - [Image Translation](#image-translation)
@@ -25,19 +25,19 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Adversarial Attack](#adversarial-attack)
     - [Miscellaneous](#miscellaneous)
   - [Audio](#audio)
-    - [Audio Generation](#audio-generation)
-    - [Audio Conversion](#audio-conversion)
-    - [Audio Enhancement](#audio-enhancement)
-    - [Audio Separation](#separation)
+    - [Generation](#generation)
+    - [Conversion](#conversion)
+    - [Enhancement](#enhancement)
+    - [Separation](#separation)
     - [Text-to-Speech](#text-to-speech)
   - [Natural Language](#natural-language)
-    - [Natural Language Generation](#natural-language-generation)
+    - [Generation](#generation)
   - [Tabular and Time Series](#tabular-and-time-series)
     - [Generation](#generation)
     - [Forecasting](#forecasting)
     - [Imputation](#imputation)
   - [Graph](#graph)
-    - [Graph Generation](#graph-generation)
+    - [Generation](#generation)
     - [Molecular and Material Generation](#molecular-and-material-generation)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Theory](#theory)
@@ -238,7 +238,37 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 2 Sep 2022
 
 ## Vision
-### Image and Video Generation
+### Generation
+
+**Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models** \
+*Zijian Zhang, Zhou Zhao, Zhijie Lin* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12990)] \
+26 Dec 2022
+
+
+**Hierarchically branched diffusion models for efficient and interpretable multi-class conditional generation** \
+*Alex M. Tseng, Tommaso Biancalani, Max Shen, Gabriele Scalia* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.10777)] \
+21 Dec 2022
+
+
+**MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** \
+*Ludan Ruan, Yiyang Ma, Huan Yang, Huiguo He, Bei Liu, Jianlong Fu, Nicholas Jing Yuan, Qin Jin, Baining Guo* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09478)] [[Github](https://github.com/researchmm/MM-Diffusion)] \
+19 Dec 2022
+
+
+**Scalable Diffusion Models with Transformers** \
+*William Peebles, Saining Xie* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09748)] [[Project](https://www.wpeebles.com/DiT)] [[Github](https://github.com/facebookresearch/DiT)] \
+19 Dec 2022
+
+
+**DAG: Depth-Aware Guidance with Denoising Diffusion Probabilistic Models** \
+*Gyeongnyeon Kim<sup>1</sup>, Wooseok Jang<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Susung Hong, Junyoung Seo, Seungryong Kim* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08861)] [[Project](https://ku-cvlab.github.io/DAG/)] \
+17 Dec 2022
+
 
 **Towards Practical Plug-and-Play Diffusion Models** \
 *Hyojun Go<sup>1</sup>, Yunsung Lee<sup>1</sup>, Jin-Young Kim<sup>1</sup>, Seunghyun Lee, Myeongho Jeong, Hyun Seung Lee, Seungtaek Choi* \
@@ -1138,11 +1168,21 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Inverse Problem
 
+
+**Towards Blind Watermarking: Combining Invertible and Non-invertible Mechanisms** \
+*Rui Ma, Mengxi Guo, Yi Hou, Fan Yang, Yuan Li, Huizhu Jia, Xiaodong Xie* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12678)] [[Github](https://github.com/rmpku/CIN)] \
+24 Dec 2022
+
 **Bi-Noising Diffusion: Towards Conditional Diffusion Models with Generative Restoration Priors** \
 *Kangfu Mei, Nithin Gopalakrishnan Nair, Vishal M. Patel* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07352)] [[Project](https://kfmei.page/bi-noising/)] \
 14 Dec 2022
 
+**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \ 
+*Chentao Cao, Zhuo-Xu Cui, Jing Cheng, Sen Jia, Hairong Zheng, Dong Liang, Yanjie Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11274)] \
+14 Dec 2022
 
 **Universal Generative Modeling in Dual-domain for Dynamic MR Imaging** \
 *Chuanming Yu, Yu Guan, Ziwen Ke, Dong Liang, Qiegen Liu* \
@@ -1656,6 +1696,21 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 
 ### Text driven Image Generation and Editing
 
+**Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation** \
+*Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11565)] [[Project](https://tuneavideo.github.io/)] \
+22 Dec 2022
+
+**Optimizing Prompts for Text-to-Image Generation** \
+*Yaru Hao<sup>1</sup>, Zewen Chi<sup>1</sup>, Li Dong, Furu Wei* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09611)] [[Project](https://huggingface.co/spaces/microsoft/Promptist)] [[Github](https://github.com/microsoft/LMOps/tree/main/promptist)] \
+19 Dec 2022
+
+**Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models** \
+*Qiucheng Wu, Yujian Liu, Handong Zhao, Ajinkya Kale, Trung Bui, Tong Yu, Zhe Lin, Yang Zhang, Shiyu Chang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08698)] [[Github](https://github.com/UCSB-NLP-Chang/DiffusionDisentanglement)] \
+16 Dec 2022
+
 **TeTIm-Eval: a novel curated evaluation data set for comparing text-to-image models** \
 *Federico A. Galatolo, Mario G. C. A. Cimino, Edoardo Cogotti* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07839)] \
@@ -2153,6 +2208,8 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+
+
 **SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation** \
 *Jee Seok Yoon, Chenghao Zhang, Heung-Il Suk, Jia Guo, Xiaoxiao Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08228)] \
@@ -2162,6 +2219,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08228)] \
 *Chuanming Yu, Yu Guan, Ziwen Ke, Dong Liang, Qiegen Liu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07599)] \
 15 Dec 2022
+
+
+**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \ 
+*Chentao Cao, Zhuo-Xu Cui, Jing Cheng, Sen Jia, Hairong Zheng, Dong Liang, Yanjie Zhu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11274)] \
+14 Dec 2022
 
 **Diffusion Probabilistic Models beat GANs on Medical Images** \
 *Gustav Müller-Franzes, Jan Moritz Niehues, Firas Khader, Soroosh Tayebi Arasteh, Christoph Haarburger, Christiane Kuhl, Tianci Wang, Tianyu Han, Sven Nebelung, Jakob Nikolas Kather, Daniel Truhn* \
@@ -2400,6 +2463,16 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### 3D Vision
 
+**Point-E: A System for Generating 3D Point Clouds from Complex Prompts** \
+*Alex Nichol<sup>1</sup>, Heewoo Jun<sup>1</sup>, Prafulla Dhariwal, Pamela Mishkin, Mark Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08751)] [[Github](https://github.com/openai/point-e)] \
+16 Dec 2022
+
+**Real-Time Rendering of Arbitrary Surface Geometries using Learnt Transfer** \
+*Sirikonda Dhawal, Aakash KT, P.J. Narayanan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09315)] \
+19 Dec 2022
+
 **Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models** \
 *Ziyi Chang, Edmund J. C. Findlay, Haozheng Zhang, Hubert P. H. Shum* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08526)] \
@@ -2565,7 +2638,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09707)] \
 
 **RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation** \
 *Titas Anciukevičius, Zexiang Xu, Matthew Fisher, Paul Henderson, Hakan Bilen, Niloy J. Mitra, Paul Guerrero* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09869)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09869)] [[Github](https://github.com/Anciukevicius/RenderDiffusion)] \
 17 Nov 2022
 
 **Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures** \
@@ -2765,6 +2838,22 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+**Contrastive Language-Vision AI Models Pretrained on Web-Scraped Multimodal Data Exhibit Sexual Objectification Bias** \
+*Robert Wolfe, Yiwei Yang, Bill Howe, Aylin Caliskan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11261)] \
+21 Dec 2022
+
+
+**AI Art in Architecture** \
+*Joern Ploennigs, Markus Berger* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09399)] \
+19 Dec 2022
+
+**Diffusing Surrogate Dreams of Video Scenes to Predict Video Memorability** \
+*Lorin Sweeney, Graham Healy, Alan F. Smeaton* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09308)] \
+19 Dec 2022
 
 **Fake it till you make it: Learning(s) from a synthetic ImageNet clone** \
 *Mert Bulent Sariyildiz, Karteek Alahari, Diane Larlus, Yannis Kalantidis* \
@@ -3055,7 +3144,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2102.05379)] \
 
 
 ## Audio
-### Audio Generation
+### Generation
+
+**MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** \
+*Ludan Ruan, Yiyang Ma, Huan Yang, Huiguo He, Bei Liu, Jianlong Fu, Nicholas Jing Yuan, Qin Jin, Baining Guo* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09478)] [[Github](https://github.com/researchmm/MM-Diffusion)] \
+19 Dec 2022
 
 **SDMuse: Stochastic Differential Music Editing and Generation via Hybrid Representation** \
 *Chen Zhang, Yi Ren, Kejun Zhang, Shuicheng Yan* \
@@ -3185,7 +3279,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2009.00713)] [[Project](https://wavegr
 2 Sep 2020 
 
 
-### Audio Conversion
+### Conversion
 
 **DiffSVC: A Diffusion Probabilistic Model for Singing Voice Conversion**  \
 *Songxiang Liu<sup>1</sup>, Yuewen Cao<sup>1</sup>, Dan Su, Helen Meng* \
@@ -3197,7 +3291,12 @@ IEEE 2021. [[Paper](https://arxiv.org/abs/2105.13871)] [[Github](https://github.
 ICLR 2022. [[Paper](https://arxiv.org/abs/2109.13821)] [[Project](https://diffvc-fast-ml-solver.github.io/)] \
 28 Sep 2021
 
-### Audio Enhancement
+### Enhancement
+
+**StoRM: A Diffusion-based Stochastic Regeneration Model for Speech Enhancement and Dereverberation** \
+*Jean-Marie Lemercier, Julius Richter, Simon Welker, Timo Gerkmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11851)] \
+22 Dec 2022
 
 
 **Unsupervised vocal dereverberation with diffusion-based generative models** \
@@ -3286,7 +3385,12 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.02321)] [[Project](https:/
 
 
 
-### Audio Separation
+### Separation
+
+**StoRM: A Diffusion-based Stochastic Regeneration Model for Speech Enhancement and Dereverberation** \
+*Jean-Marie Lemercier, Julius Richter, Simon Welker, Timo Gerkmann* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11851)] \
+22 Dec 2022
 
 **Diffusion-based Generative Speech Source Separation** \
 *Robin Scheibler, Youna Ji, Soo-Whan Chung, Jaeuk Byun, Soyeon Choe, Min-Seok Choi* \
@@ -3386,7 +3490,32 @@ Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 
 ## Natural Language
 
-### Natural Language Generation
+### Generation
+
+**GENIE: Large Scale Pre-training for Text Generation with Diffusion Model** \
+*Zhenghao Lin, Yeyun Gong, Yelong Shen, Tong Wu, Zhihao Fan, Chen Lin, Weizhu Chen, Nan Duan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11685)] \
+22 Dec 2022
+
+**Diff-Glat: Diffusion Glancing Transformer for Parallel Sequence to Sequence Learning** \
+*Lihua Qian, Mingxuan Wang, Yang Liu, Hao Zhou* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.10240)] \
+20 Dec 2022
+
+**SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers** \
+*Hongyi Yuan, Zheng Yuan, Chuanqi Tan, Fei Huang, Songfang Huang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.10325)] \
+20 Dec 2022
+
+**Latent Diffusion for Language Generation** \
+*Justin Lovelace, Varsha Kishore, Chao Wan, Eliot Shekhtman, Kilian Weinberger* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09462)] \
+19 Dec 2022
+
+**Difformer: Empowering Diffusion Model on Embedding Space for Text Generation** \
+*Zhujin Gao<sup>1</sup>, Junliang Guo<sup>1</sup>, Xu Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, Linli Xu* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.09412)] \
+19 Dec 2022
 
 **DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models** \
 *Zhengfu He<sup>1</sup>, Tianxiang Sun<sup>1</sup>, Kuanning Wang, Xuanjing Huang, Xipeng Qiu* \
@@ -3530,7 +3659,7 @@ NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://gith
 
 ## Graph
 
-### Graph Generation
+### Generation
 
 **GraphGDP: Generative Diffusion Processes for Permutation Invariant Graph Generation** \
 *Han Huang, Leilei Sun, Bowen Du, Yanjie Fu, Weifeng Lv* \
@@ -3705,6 +3834,11 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 ## Theory
 
+**Your diffusion model secretly knows the dimension of the data manifold** \
+*Georgios Batzolis<sup>1</sup>, Jan Stanczuk<sup>1</sup>, Carola-Bibiane Schönlieb* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12611)] \
+23 Dec 2022
+
 **Score-based Generative Modeling Secretly Minimizes the Wasserstein Distance** \
 *Dohyun Kwon, Ying Fan, Kangwook Lee* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2212.06359)] [[Github](https://github.com/UW-Madison-Lee-Lab/score-wasserstein)] \
@@ -3805,6 +3939,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 
 ## Applications
+
+**Scalable Adaptive Computation for Iterative Generation** \
+*Allan Jabri, David Fleet, Ting Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11972)] \
+22 Dec 2022
 
 **Denoising Diffusion for Sampling SAT Solutions** \
 *Karlis Freivalds, Sergejs Kozlovics* \
