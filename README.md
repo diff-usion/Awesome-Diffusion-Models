@@ -1504,6 +1504,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Translation
 
+**DiffFace: Diffusion-based Face Swapping with Facial Guidance** \
+*Kihong Kim<sup>1</sup>, Yunho Kim<sup>1</sup>,, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim*, Kwang Hee Lee* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.13344)] [[Project](https://hxngiee.github.io/DiffFace/)] \
+22 Sep 2022
+
 **HS-Diffusion: Learning a Semantic-Guided Diffusion Model for Head Swapping** \
 *Qinghe Wang, Lijie Liu, Miao Hua, Qian He, Pengfei Zhu, Bing Cao, Qinghua Hu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.06458)] \
@@ -1530,7 +1535,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15264)] \
 
 **MIDMs: Matching Interleaved Diffusion Models for Exemplar-based Image Translation** \
 *Junyoung Seo<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Seokju Cho, Jiyoung Lee, Seungryong Kim* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] [[Project](https://ku-cvlab.github.io/MIDMs/)] \
 22 Sep 2022
 
 
