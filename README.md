@@ -240,6 +240,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**Exploring Transformer Backbones for Image Diffusion Models** \
+*Princy Chahal* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14678)] \
+27 Dec 2022
+
 **Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models** \
 *Zijian Zhang, Zhou Zhao, Zhijie Lin* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12990)] \
@@ -1169,6 +1174,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 ### Inverse Problem
 
 
+
+**Exploring Vision Transformers as Diffusion Learners** \
+*He Cao, Jianan Wang, Tianhe Ren, Xianbiao Qi, Yihao Chen, Yuan Yao, Lei Zhang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.13771)] \
+28 Dec 2022
+
+
 **Towards Blind Watermarking: Combining Invertible and Non-invertible Mechanisms** \
 *Rui Ma, Mengxi Guo, Yi Hou, Fan Yang, Yuan Li, Huizhu Jia, Xiaodong Xie* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12678)] [[Github](https://github.com/rmpku/CIN)] \
@@ -1179,7 +1191,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12678)] [[Github](https://github
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07352)] [[Project](https://kfmei.page/bi-noising/)] \
 14 Dec 2022
 
-**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \ 
+**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \
 *Chentao Cao, Zhuo-Xu Cui, Jing Cheng, Sen Jia, Hairong Zheng, Dong Liang, Yanjie Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11274)] \
 14 Dec 2022
@@ -1504,6 +1516,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 ### Image Translation
 
+**DiffFace: Diffusion-based Face Swapping with Facial Guidance** \
+*Kihong Kim, Yunho Kim, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim, KwangHee Lee* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.13344)] [[Project](https://hxngiee.github.io/DiffFace/)] \
+27 Dec 2022
+
 **HS-Diffusion: Learning a Semantic-Guided Diffusion Model for Head Swapping** \
 *Qinghe Wang, Lijie Liu, Miao Hua, Qian He, Pengfei Zhu, Bing Cao, Qinghua Hu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.06458)] \
@@ -1530,7 +1547,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15264)] \
 
 **MIDMs: Matching Interleaved Diffusion Models for Exemplar-based Image Translation** \
 *Junyoung Seo<sup>1</sup>, Gyuseong Lee<sup>1</sup>, Seokju Cho, Jiyoung Lee, Seungryong Kim* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11047)] [[Project](https://ku-cvlab.github.io/MIDMs/)] \
 22 Sep 2022
 
 
@@ -1695,6 +1712,21 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 24 Nov 2021
 
 ### Text driven Image Generation and Editing
+
+**Muse: Text-To-Image Generation via Masked Generative Transformers** \
+*Huiwen Chang<sup>1</sup>, Han Zhang<sup>1</sup>, Jarred Barber, AJ Maschinot, Jose Lezama, Lu Jiang, Ming-Hsuan Yang, Kevin Murphy, William T. Freeman, Michael Rubinstein, Yuanzhen Li, Dilip Krishnan* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.00704)] [[Project](https://muse-model.github.io/)] \
+2 Jan 2023
+
+**Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models** \
+*Jiale Xu, Xintao Wang, Weihao Cheng, Yan-Pei Cao, Ying Shan, Xiaohu Qie, Shenghua Gao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14704)] [[Project](https://bluestyle97.github.io/dream3d/)] \
+28 Dec 2022
+
+**Exploring Vision Transformers as Diffusion Learners** \
+*He Cao, Jianan Wang, Tianhe Ren, Xianbiao Qi, Yihao Chen, Yuan Yao, Lei Zhang* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.13771)] \
+28 Dec 2022
 
 **Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation** \
 *Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou* \
@@ -2208,6 +2240,10 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Diffusion Model based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification** \
+*Shizhan Gong, Cheng Chen, Yuqi Gong, Nga Yan Chan, Wenao Ma, Calvin Hoi-Kwan Mak, Jill Abrigo, Qi Dou* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.00409)] \
+1 Jan 2023
 
 
 **SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation** \
@@ -2221,7 +2257,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07599)] \
 15 Dec 2022
 
 
-**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \ 
+**SPIRiT-Diffusion: SPIRiT-driven Score-Based Generative Modeling for Vessel Wall imaging** \
 *Chentao Cao, Zhuo-Xu Cui, Jing Cheng, Sen Jia, Hairong Zheng, Dong Liang, Yanjie Zhu* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11274)] \
 14 Dec 2022
@@ -2462,6 +2498,16 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 
 ### 3D Vision
+
+**Diffusion Probabilistic Models for Scene-Scale 3D Categorical Data** \
+*Jumin Lee, Woobin Im, Sebin Lee, Sung-Eui Yoon* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.00527)] [[Github](https://github.com/zoomin-lee/scene-scale-diffusion)] \
+2 Jan 2023
+
+**Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models** \
+*Jiale Xu, Xintao Wang, Weihao Cheng, Yan-Pei Cao, Ying Shan, Xiaohu Qie, Shenghua Gao* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14704)] [[Project](https://bluestyle97.github.io/dream3d/)] \
+28 Dec 2022
 
 **Point-E: A System for Generating 3D Point Clouds from Complex Prompts** \
 *Alex Nichol<sup>1</sup>, Heewoo Jun<sup>1</sup>, Prafulla Dhariwal, Pamela Mishkin, Mark Chen* \
@@ -2736,7 +2782,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.15001)] [[Project](https://mingy
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.14125)] \
 30 Aug 2022
 
-**PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition** \
+**PointDP: Diffusion-driven Purification against Adversarial Attacks on \ Point Cloud Recognition** \
 *Jiachen Sun, Weili Nie, Zhiding Yu, Z. Morley Mao, Chaowei Xiao* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09801)] \
 21 Aug 2022
@@ -3405,6 +3451,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
 
 
 ### Text-to-Speech
+
+**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech** \
+*Zehua Chen, Yihan Wu, Yichong Leng, Jiawei Chen, Haohe Liu, Xu Tan, Yang Cui, Ke Wang, Lei He, Sheng Zhao, Jiang Bian, Danilo Mandic* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14518)] [[Project](https://resgrad1.github.io/)] \
+30 Dec 2022
+
 
 **Text-to-speech synthesis based on latent variable conversion using diffusion probabilistic model and variational autoencoder** \
 *Yusuke Yasuda, Tomoki Toda* \
