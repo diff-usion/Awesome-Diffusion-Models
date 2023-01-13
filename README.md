@@ -1174,6 +1174,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 ### Inverse Problem
 
 
+**Annealed Score-Based Diffusion Model for MR Motion Artifact Reduction** \
+*Gyutaek Oh, Jeong Eun Lee, Jong Chul Ye* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03027)] \
+8 Jan 2023
 
 **Exploring Vision Transformers as Diffusion Learners** \
 *He Cao, Jianan Wang, Tianhe Ren, Xianbiao Qi, Yihao Chen, Yuan Yao, Lei Zhang* \
@@ -1713,6 +1717,12 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 
 ### Text driven Image Generation and Editing
 
+
+**Visual Story Generation Based on Emotion and Keywords** \
+*Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si* \
+AAAI 2022. [[Paper](https://arxiv.org/abs/2301.02777)] \
+7 Jan 2023
+
 **Muse: Text-To-Image Generation via Masked Generative Transformers** \
 *Huiwen Chang<sup>1</sup>, Han Zhang<sup>1</sup>, Jarred Barber, AJ Maschinot, Jose Lezama, Lu Jiang, Ming-Hsuan Yang, Kevin Murphy, William T. Freeman, Michael Rubinstein, Yuanzhen Li, Dilip Krishnan* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.00704)] [[Project](https://muse-model.github.io/)] \
@@ -2240,6 +2250,12 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+**Annealed Score-Based Diffusion Model for MR Motion Artifact Reduction** \
+*Gyutaek Oh, Jeong Eun Lee, Jong Chul Ye* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03027)] \
+8 Jan 2023
+
+
 **Diffusion Model based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification** \
 *Shizhan Gong, Cheng Chen, Yuqi Gong, Nga Yan Chan, Wenao Ma, Calvin Hoi-Kwan Mak, Jill Abrigo, Qi Dou* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.00409)] \
@@ -2498,6 +2514,12 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 
 ### 3D Vision
+
+**Modiff: Action-Conditioned 3D Motion Generation with Denoising Diffusion Probabilistic Models** \
+*Mengyi Zhao, Mengyuan Liu, Bin Ren, Shuling Dai, Nicu Sebe* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03949)] \
+10 Jan 2023
+
 
 **Diffusion Probabilistic Models for Scene-Scale 3D Categorical Data** \
 *Jumin Lee, Woobin Im, Sebin Lee, Sung-Eui Yoon* \
@@ -2884,6 +2906,28 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+
+
+**Diffusion Models For Stronger Face Morphing Attacks** \
+*Zander Blasingame, Chen Liu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.04218)] \
+10 Jan 2023
+
+**DiffTalk: Crafting Diffusion Models for Generalized Talking Head Synthesis** \
+*Shuai Shen, Wenliang Zhao, Zibin Meng, Wanhua Li, Zheng Zhu, Jie Zhou, Jiwen Lu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03786)] \
+10 Jan 2023
+
+**Speech Driven Video Editing via an Audio-Conditioned Diffusion Model** \
+*Dan Bigioi, Shubhajit Basak, Hugh Jordan, Rachel McDonnell, Peter Corcoran* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.04474)] \
+10 Jan 2023
+
+**Diffused Heads: Diffusion Models Beat GANs on Talking-Face Generation** \
+*Michał Stypułkowski, Konstantinos Vougioukas, Sen He, Maciej Zięba, Stavros Petridis, Maja Pantic* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03396)] [[Project](https://mstypulkowski.github.io/diffusedheads/)] \
+6 Jan 2023
 
 **Contrastive Language-Vision AI Models Pretrained on Web-Scraped Multimodal Data Exhibit Sexual Objectification Bias** \
 *Robert Wolfe, Yiwei Yang, Bill Howe, Aylin Caliskan* \
@@ -3644,6 +3688,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github
 30 Sep 2022
 
 ### Forecasting
+
+**Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement** \
+*Yan Li, Xinjiang Lu, Yaqing Wang, Dejing Dou* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2301.03028)] [[Github](https://github.com/PaddlePaddle/PaddleSpatial/tree/main/research/D3VAE)] \
+8 Jan 2023
 
 **Denoising diffusion probabilistic models for probabilistic energy forecasting** \
 *Esteban Hernandez, Jonathan Dumas* \
