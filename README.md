@@ -2790,7 +2790,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.14916)] [[Project](https://guyte
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.03855)] [[Github](https://github.com/TheCamusean/grasp_diffusion)] \
 8 Sep 2022
 
-**First Hitting Diffusion Models** \
+**First Hitting Diffusion Models for Generating Manifold, Graph and Categorical Data** \
 *Mao Ye, Lemeng Wu, Qiang Liu* \
 NeruIPS 2022. [[Paper](https://arxiv.org/abs/2209.01170)] \
 2 Sep 2022
