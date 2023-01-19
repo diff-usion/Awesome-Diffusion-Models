@@ -1173,6 +1173,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Inverse Problem
 
+**Targeted Image Reconstruction by Sampling Pre-trained Diffusion Model** \
+*Jiageng Zheng* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.07557)] \
+18 Jan 2023
 
 **Annealed Score-Based Diffusion Model for MR Motion Artifact Reduction** \
 *Gyutaek Oh, Jeong Eun Lee, Jong Chul Ye* \
@@ -1717,6 +1721,10 @@ ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.
 
 ### Text driven Image Generation and Editing
 
+**Guiding Text-to-Image Diffusion Model Towards Grounded Generation** \
+*Ziyi Li, Qinye Zhou, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang, Weidi Xie* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05221)] [[Project](https://lipurple.github.io/Grounded_Diffusion/)] \
+12 Jan 2023
 
 **Visual Story Generation Based on Emotion and Keywords** \
 *Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si* \
@@ -2515,6 +2523,11 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### 3D Vision
 
+**Diffusion-based Generation, Optimization, and Planning in 3D Scenes** \
+*Siyuan Huang<sup>1</sup>, Zan Wang<sup>1</sup>, Puhao Li, Baoxiong Jia, Tengyu Liu, Yixin Zhu, Wei Liang, Song-Chun Zhu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.06015)] [[Project](https://scenediffuser.github.io/)] \
+15 Jan 2023
+
 **Modiff: Action-Conditioned 3D Motion Generation with Denoising Diffusion Probabilistic Models** \
 *Mengyi Zhao, Mengyuan Liu, Bin Ren, Shuling Dai, Nicu Sebe* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03949)] \
@@ -2839,6 +2852,11 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ### Adversarial Attack
 
+**Denoising Diffusion Probabilistic Models as a Defense against Adversarial Attacks** \
+*Lars Lien Ankile, Anna Midgley, Sebastian Weisshaar* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.06871)] [[Github](https://github.com/ankile/Adversarial-Diffusion)] \
+17 Jan 2023
+
 **Fight Fire With Fire: Reversing Skin Adversarial Examples by Multiscale Diffusive and Denoising Aggregation Mechanism** \
 *Yongwei Wang<sup>1</sup>, Yuan Li<sup>1</sup>, Zhiqi Shen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.10373)] \
@@ -2908,6 +2926,20 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 ### Miscellaneous
 
 
+**Neural Image Compression with a Diffusion-Based Decoder** \
+*Noor Fathima Goose<sup>1</sup>, Jens Petersen<sup>1</sup>, Auke Wiggers<sup>1</sup>, Tianlin Xu, Guillaume Sautière* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05489)] \
+13 Jan 2023
+
+**Diffusion-based Data Augmentation for Skin Disease Classification: Impact Across Original Medical Datasets to Fully Synthetic Images** \
+*Mohamed Akrout<sup>1</sup>, Bálint Gyepesi<sup>1</sup>, Péter Holló, Adrienn Poór, Blága Kincső, Stephen Solis, Katrina Cirone, Jeremy Kawahara, Dekker Slade, Latif Abid, Máté Kovács, István Fazekas* \
+arXiv 2023/ [[Paper](https://arxiv.org/abs/2301.04802)] \
+12 Jan 2023
+
+**Speech Driven Video Editing via an Audio-Conditioned Diffusion Model** \
+*Dan Bigioi, Shubhajit Basak, Hugh Jordan, Rachel McDonnell, Peter Corcoran* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.04474)] [[Project](https://danbigioi.github.io/DiffusionVideoEditing/)] [[Github](https://github.com/DanBigioi/DiffusionVideoEditing)] \
+10 Jan 2023
 
 **Diffusion Models For Stronger Face Morphing Attacks** \
 *Zander Blasingame, Chen Liu* \
@@ -3689,6 +3721,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github
 
 ### Forecasting
 
+**TDSTF: Transformer-based Diffusion probabilistic model for Sparse Time series Forecasting** \
+*Ping Chang, Huayu Li, Stuart F. Quan, Janet Roveda, Ao Li* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.06625)] [[Github](https://github.com/PingChang818/TDSTF)] \
+16 Jan 2023
+
 **Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement** \
 *Yan Li, Xinjiang Lu, Yaqing Wang, Dejing Dou* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2301.03028)] [[Github](https://github.com/PaddlePaddle/PaddleSpatial/tree/main/research/D3VAE)] \
@@ -3934,6 +3971,11 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 
 ## Theory
+
+**Thompson Sampling with Diffusion Generative Prior** \
+*Yu-Guan Hsieh, Shiva Prasad Kasiviswanathan, Branislav Kveton, Patrick Blöbaum* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05182)] \
+12 Jan 2023
 
 **Your diffusion model secretly knows the dimension of the data manifold** \
 *Georgios Batzolis<sup>1</sup>, Jan Stanczuk<sup>1</sup>, Carola-Bibiane Schönlieb* \
