@@ -240,6 +240,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**Fast Inference in Denoising Diffusion Models via MMD Finetuning** \
+*Emanuele Aiello, Diego Valsesia, Enrico Magli* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.07969)] [[Github](https://github.com/diegovalsesia/MMD-DDM)] \
+19 Jan 2023
+
 **Exploring Transformer Backbones for Image Diffusion Models** \
 *Princy Chahal* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14678)] \
@@ -1172,6 +1177,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 1 Dec 2021
 
 ### Inverse Problem
+
+**Dif-Fusion: Towards High Color Fidelity in Infrared and Visible Image Fusion with Diffusion Models** \
+*Mingqiang Wei, Yiyang Shen, Yongzhen Wang, Haoran Xie, Fu Lee Wang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.09430)] \
+23 Jan 2023
+
+
+**DiffusionCT: Latent Diffusion Model for CT Image Standardization** \
+*Md Selim, Jie Zhang, Michael A. Brooks, Ge Wang, Jin Chen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08815)] \
+20 Jan 2023
 
 **Targeted Image Reconstruction by Sampling Pre-trained Diffusion Model** \
 *Jiageng Zheng* \
@@ -2258,6 +2274,17 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 ### Medical Imaging
 
+
+**DiffusionCT: Latent Diffusion Model for CT Image Standardization** \
+*Md Selim, Jie Zhang, Michael A. Brooks, Ge Wang, Jin Chen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08815)] \
+20 Jan 2023
+
+**The role of noise in denoising models for anomaly detection in medical images** \
+*Antanas Kascenas, Pedro Sanchez, Patrick Schrempf, Chaoyang Wang, William Clackett, Shadia S. Mikhael, Jeremy P. Voisey, Keith Goatman, Alexander Weir, Nicolas Pugeault, Sotirios A. Tsaftaris, Alison Q. O'Neil* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08330)] [[Github](https://github.com/AntanasKascenas/DenoisingAE)] \
+19 Jan 2023
+
 **Annealed Score-Based Diffusion Model for MR Motion Artifact Reduction** \
 *Gyutaek Oh, Jeong Eun Lee, Jong Chul Ye* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.03027)] \
@@ -2924,6 +2951,18 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+
+**LEGO-Net: Learning Regular Rearrangements of Objects in Rooms** \
+*Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.09629)] [[Project](https://ivl.cs.brown.edu/#/projects/lego-net)] \
+23 Jan 2023
+
+**Dif-Fusion: Towards High Color Fidelity in Infrared and Visible Image Fusion with Diffusion Models** \
+*Jun Yue, Leyuan Fang, Shaobo Xia, Yue Deng, Jiayi Ma* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08072)] \
+19 Jan 2023
+
 
 
 **Neural Image Compression with a Diffusion-Based Decoder** \
@@ -3972,6 +4011,11 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 ## Theory
 
+**Understanding the diffusion models by conditional expectations** \
+*Yubin Lu, Zhongjian Wang, Guillaume Bal* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.07882)] \
+19 Jan 2023
+
 **Thompson Sampling with Diffusion Generative Prior** \
 *Yu-Guan Hsieh, Shiva Prasad Kasiviswanathan, Branislav Kveton, Patrick Blöbaum* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05182)] \
@@ -4082,6 +4126,13 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 
 ## Applications
+
+
+
+**Diffusion-based Conditional ECG Generation with Structured State Space Models** \
+*Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08227)] \
+19 Jan 2023
 
 **Scalable Adaptive Computation for Iterative Generation** \
 *Allan Jabri, David Fleet, Ting Chen* \
