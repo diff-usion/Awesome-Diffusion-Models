@@ -4065,6 +4065,10 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 
 ## Theory
+**Input Perturbation Reduces Exposure Bias in Diffusion Models** \
+*Mang Ning, Enver Sangineto, Angelo Porrello, Simone Calderara, Rita Cucchiara* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.11706)] [[Github](https://github.com/forever208/DDPM-IP)]\
+27 Jan 2023
 
 **On the Mathematics of Diffusion Models** \
 *David McAllester* \
