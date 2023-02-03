@@ -3346,6 +3346,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2102.05379)] \
 
 ## Audio
 ### Generation
+**Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models** \
+*Rongjie Huang, Jiawei Huang, Dongchao Yang, Yi Ren, Luping Liu, Mingze Li, Zhenhui Ye, Jinglin Liu, Xiang Yin, Zhou Zhao* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12661)] [[Project](https://text-to-audio.github.io/)] \
+29 Jan 2023
 
 **MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** \
 *Ludan Ruan, Yiyang Ma, Huan Yang, Huiguo He, Bei Liu, Jianlong Fu, Nicholas Jing Yuan, Qin Jin, Baining Guo* \
