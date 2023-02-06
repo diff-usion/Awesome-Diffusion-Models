@@ -1877,11 +1877,6 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12073)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.11280)] \
 26 Jan 2023
 
-**Imitating Human Behaviour with Diffusion Models** \
-*Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin* \
-ICLR 2023. [[Paper](https://arxiv.org/abs/2301.10677)] \
-25 Jan 2023
-
 **Guiding Text-to-Image Diffusion Model Towards Grounded Generation** \
 *Ziyi Li, Qinye Zhou, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang, Weidi Xie* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05221)] [[Project](https://lipurple.github.io/Grounded_Diffusion/)] \
@@ -4297,6 +4292,11 @@ NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee
 
 ## Reinforcement Learning
 
+**Imitating Human Behaviour with Diffusion Models** \
+*Tim Pearce, Tabish Rashid, Anssi Kanervisto, Dave Bignell, Mingfei Sun, Raluca Georgescu, Sergio Valcarcel Macua, Shan Zheng Tan, Ida Momennejad, Katja Hofmann, Sam Devlin* \
+ICLR 2023. [[Paper](https://arxiv.org/abs/2301.10677)] \
+25 Jan 2023
+
 **Is Conditional Generative Modeling all you need for Decision-Making?** \
 *Anurag Ajay<sup>1</sup>, Yilun Du<sup>1</sup>, Abhi Gupta<sup>1</sup>, Joshua Tenenbaum, Tommi Jaakkola, Pulkit Agrawal* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.15657)] \
@@ -4307,12 +4307,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.15657)] \
 NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2210.15629)] \
 27 Oct 2022
 
-
 **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning** \
 *Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.06193)] [[Github](https://github.com/zhendong-wang/diffusion-policies-for-offline-rl)] \
 12 Oct 2022
-
 
 **Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling** \
 *Huayu Chen, Cheng Lu, Chengyang Ying, Hang Su, Jun Zhu* \
