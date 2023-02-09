@@ -30,12 +30,14 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Enhancement](#enhancement)
     - [Separation](#separation)
     - [Text-to-Speech](#text-to-speech)
+    - [Miscellaneous](#miscellaneous-1)
   - [Natural Language](#natural-language)
     - [Generation](#generation-2)
   - [Tabular and Time Series](#tabular-and-time-series)
     - [Generation](#generation-3)
     - [Forecasting](#forecasting)
     - [Imputation](#imputation)
+    - [Miscellaneous](#miscellaneous-2)
   - [Graph](#graph)
     - [Generation](#generation-4)
     - [Molecular and Material Generation](#molecular-and-material-generation)
@@ -333,6 +335,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.14678)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.12990)] \
 26 Dec 2022
 
+
+**Scalable Adaptive Computation for Iterative Generation** \
+*Allan Jabri, David Fleet, Ting Chen* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11972)] \
+22 Dec 2022
 
 **Hierarchically branched diffusion models for efficient and interpretable multi-class conditional generation** \
 *Alex M. Tseng, Tommaso Biancalani, Max Shen, Gabriele Scalia* \
@@ -4096,6 +4103,13 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2105.02446)] [[Project](https://diffs
 Interspeech 2021. [[Paper](https://arxiv.org/abs/2104.01409)] \
 3 Apr 2021
 
+### Miscellaneous
+
+**TransFusion: Transcribing Speech with Multinomial Diffusion** \
+*Matthew Baas, Kevin Eloff, Herman Kamper* \
+SACAIR 2022. [[Paper](https://arxiv.org/abs/2210.07677)] [[Github](https://github.com/RF5/transfusion-asr)] \
+14 Oct 2022
+
 ## Natural Language
 
 ### Generation
@@ -4200,10 +4214,17 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 
 ### Generation
 
+**Diffusion-based Conditional ECG Generation with Structured State Space Models** \
+*Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08227)] \
+19 Jan 2023
+
 **TabDDPM: Modelling Tabular Data with Diffusion Models** \
 *Akim Kotelnikov, Dmitry Baranchuk, Ivan Rubachev, Artem Babenko* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.15421)] [[Github](https://github.com/rotot0/tab-ddpm)] \
 30 Sep 2022
+
+
 
 ### Forecasting
 
@@ -4280,6 +4301,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09399)] [[Github](https://github
 NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://github.com/ermongroup/csdi)]\
 7 Jul 2021 
 
+### Miscellaneous
+
+**DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
+*Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
+31 Jul 2022
 
 ## Graph
 
@@ -4516,7 +4543,6 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.01394)] \
 26 Jan 2023
 
-
 **Information-Theoretic Diffusion** \
 *Xianghao Kong, Rob Brekelmans, Greg Ver Steeg* \
 ICLR 2023. [[Paper](https://arxiv.org/abs/2302.03792)] [[Github](https://github.com/gregversteeg/InfoDiffusionSimple)] \
@@ -4577,6 +4603,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09537)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01916)] \
 3 Nov 2022
 
+**Categorical SDEs with Simplex Diffusion** \
+*Pierre H. Richemond, Sander Dieleman, Arnaud Doucet* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14784)] \
+26 Oct 2022
+
 **Diffusion Models for Causal Discovery via Topological Ordering** \
 *Pedro Sanchez, Xiao Liu, Alison Q O'Neil, Sotirios A. Tsaftaris* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.06201)] [[Github](https://github.com/vios-s/DiffAN)] \
@@ -4618,7 +4649,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.05314)] \
 10 Aug 2022
 
 
-
 **Neural Diffusion Processes** \
 *Vincent Dutordoir, Alan Saul, Zoubin Ghahramani, Fergus Simpson* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2206.03992)] \
@@ -4647,7 +4677,7 @@ Neural Computation 2011. [[Paper](http://www.iro.umontreal.ca/~vincentp/Publicat
 **Bayesian Learning via Stochastic Gradient Langevin Dynamics** \
 *Max Welling, Yee Whye Teh* \
 ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf)] [[Github](https://github.com/JavierAntoran/Bayesian-Neural-Networks#stochastic-gradient-langevin-dynamics-sgld)] \
-20 Apr 2022
+20 Apr 2011
 
 
 
@@ -4658,46 +4688,20 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.00860)] \
 2 Feb 2023
 
-
-**Diffusion-based Conditional ECG Generation with Structured State Space Models** \
-*Juan Miguel Lopez Alcaraz, Nils Strodthoff* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2301.08227)] \
-19 Jan 2023
-
-**Scalable Adaptive Computation for Iterative Generation** \
-*Allan Jabri, David Fleet, Ting Chen* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2212.11972)] \
-22 Dec 2022
-
 **Denoising Diffusion for Sampling SAT Solutions** \
 *Karlis Freivalds, Sergejs Kozlovics* \
 NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2212.00121)] \
 30 Nov 2022
-
-**Categorical SDEs with Simplex Diffusion** \
-*Pierre H. Richemond, Sander Dieleman, Arnaud Doucet* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2210.14784)] \
-26 Oct 2022
 
 **Graphically Structured Diffusion Models** \
 *Christian Weilbach, William Harvey, Frank Wood* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11633)] \
 20 Oct 2022
 
-**TransFusion: Transcribing Speech with Multinomial Diffusion** \
-*Matthew Baas, Kevin Eloff, Herman Kamper* \
-SACAIR 2022. [[Paper](https://arxiv.org/abs/2210.07677)] [[Github](https://github.com/RF5/transfusion-asr)] \
-14 Oct 2022
-
 **Denoising Diffusion Error Correction Codes** \
 *Yoni Choukroun, Lior Wolf* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.13533)] \
 16 Sep 2022
-
-**DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
-*Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
-31 Jul 2022
 
 **Recommendation via Collaborative Diffusion Generative Model** \
 *Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou* \
