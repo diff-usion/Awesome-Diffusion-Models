@@ -18,7 +18,6 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Segmentation](#segmentation)
     - [Inverse Problem](#inverse-problem)
     - [Image Translation](#image-translation)
-    - [Image Inpainting](#image-inpainting)
     - [Text driven Image Generation and Editing](#text-driven-image-generation-and-editing)
     - [Medical Imaging](#medical-imaging)
     - [3D Vision](#3d-vision)
@@ -1303,10 +1302,20 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2302.03791)] \
 ICLR 2023. [[Paper](https://arxiv.org/abs/2302.03018)] [[Github](https://github.com/StanfordMIMI/DDM2)] \
 6 Feb 2023
 
+
+
+
 **Diffusion Model for Generative Image Denoising** \
 *Yutong Xie, Minne Yuan, Bin Dong, Quanzheng Li* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.02398)] \
 5 Feb 2023
+
+
+
+**A Theoretical Justification for Image Inpainting using Denoising Diffusion Probabilistic Models** \
+*Litu Rout, Advait Parulekar, Constantine Caramanis, Sanjay Shakkottai* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2302.01217)] \
+2 Feb 2023
 
 **GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration** \
 *Naoki Murata, Koichi Saito, Chieh-Hsin Lai, Yuhta Takida, Toshimitsu Uesaka, Yuki Mitsufuji, Stefano Ermon* \
@@ -1401,6 +1410,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.04711)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.03630)] \
 7 Dec 2022
 
+**SDM: Spatial Diffusion Model for Large Hole Image Inpainting** \
+*Wenbo Li, Xin Yu, Kun Zhou, Yibing Song, Zhe Lin, Jiaya Jia* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.02963)] \
+6 Dec 2022
+
 **ADIR: Adaptive Diffusion for Image Reconstruction** \
 *Shady Abu-Hussein, Tom Tirer, Raja Giryes* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.03221)] [[Project](https://shadyabh.github.io/ADIR/)] \
@@ -1457,6 +1471,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10388)] \
 18 Nov 2022
 
 
+**A Structure-Guided Diffusion Model for Large-Hole Diverse Image Completion** \
+*Daichi Horita, Jiaolong Yang, Dong Chen, Yuki Koyama, Kiyoharu Aizawa* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10437)] \
+18 Nov 2022
+
+
 **Conffusion: Confidence Intervals for Diffusion Models** \
 *Eliahu Horwitz, Yedid Hoshen* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09795)] \
@@ -1476,6 +1496,13 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.06757)] \
 *Joe Benton, Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.03595)] [[Github](https://github.com/yuyang-shi/generalized-diffusion)] \
 7 Nov 2022
+
+
+
+**Intelligent Painter: Picture Composition With Resampling Diffusion Model** \
+*Wing-Fung Ku, Wan-Chi Siu, Xi Cheng, H. Anthony Chan* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17106)] \
+31 Oct 2022
 
 **Multitask Brain Tumor Inpainting with Diffusion Models: A Methodological Report** \
 *Pouria Rouzrokh<sup>1</sup>, Bardia Khosravi<sup>1</sup>, Shahriar Faghani, Mana Moassefi, Sanaz Vahdati, Bradley J. Erickson* \
@@ -1516,6 +1543,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.11888)] \
 *Nithin Gopalakrishnan Nair, Vishal M. Patel* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.08814)] \
 19 Sep 2022
+
+
+**Delving Globally into Texture and Structure for Image Inpainting** \
+*Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
+ACM 2022. [[Paper](https://arxiv.org/abs/2209.08217)] [[Github](https://github.com/htyjers/DGTS-Inpainting)] \
+17 Sep 2022
 
 
 **PET image denoising based on denoising diffusion probabilistic models** \
@@ -1625,6 +1658,13 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11760)] [[Github](https://github
 ICLR 2022 Workshop (Oral). [[Paper](https://arxiv.org/abs/2201.11793)] \
 27 Jan 2022
 
+
+
+**RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
+*Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
+24 Jan 2022
+
 **DiffuseVAE: Efficient, Controllable and High-Fidelity Generation from Low-Dimensional Latents** \
 *Kushagra Pandey, Avideep Mukherjee, Piyush Rai, Abhishek Kumar* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2201.00308)] [[Github](https://github.com/kpandey008/DiffuseVAE)] \
@@ -1650,7 +1690,6 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2112.02475)]  \
 *Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
 arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] \
 26 Nov 2021
-
 
 **Solving Inverse Problems in Medical Imaging with Score-Based Generative Models** \
 *Yang Song<sup>1</sup>, Liyue Shen<sup>1</sup>, Lei Xing, Stefano Ermon* \
@@ -1699,8 +1738,6 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 
 ### Image Translation
-
-
 
 **Zero-shot-Learning Cross-Modality Data Translation Through Mutual Information Guided Stochastic Diffusion** \
 *Zihao Wang, Yingyu Yang, Maxime Sermesant, Hervé Delingette, Ona Wu* \
@@ -1818,94 +1855,6 @@ ICCV 2021 (Oral). [[Paper](https://arxiv.org/abs/2108.02938)] [[Github](https://
 arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 12 Apr 2021
 
-
-
-### Image Inpainting
-
-**A Theoretical Justification for Image Inpainting using Denoising Diffusion Probabilistic Models** \
-*Litu Rout, Advait Parulekar, Constantine Caramanis, Sanjay Shakkottai* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2302.01217)] \
-2 Feb 2023
-
-**SDM: Spatial Diffusion Model for Large Hole Image Inpainting** \
-*Wenbo Li, Xin Yu, Kun Zhou, Yibing Song, Zhe Lin, Jiaya Jia* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2212.02963)] \
-6 Dec 2022
-
-**Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model** \
-*Yinhuai Wang<sup>1</sup>, Jiwen Yu<sup>1</sup>, Jian Zhang* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2212.00490)] [[Github](https://github.com/wyhuai/DDNM)] \
-1 Dec 2022
-
-**A Structure-Guided Diffusion Model for Large-Hole Diverse Image Completion** \
-*Daichi Horita, Jiaolong Yang, Dong Chen, Yuki Koyama, Kiyoharu Aizawa* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10437)] \
-18 Nov 2022
-
-**Conffusion: Confidence Intervals for Diffusion Models** \
-*Eliahu Horwitz, Yedid Hoshen* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09795)] \
-17 Nov 2022
-
-**From Denoising Diffusions to Denoising Markov Models** \
-*Joe Benton, Yuyang Shi, Valentin De Bortoli, George Deligiannidis, Arnaud Doucet* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.03595)] [[Github](https://github.com/yuyang-shi/generalized-diffusion)] \
-7 Nov 2022
-
-**Intelligent Painter: Picture Composition With Resampling Diffusion Model** \
-*Wing-Fung Ku, Wan-Chi Siu, Xi Cheng, H. Anthony Chan* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2210.17106)] \
-31 Oct 2022
-
-**Delving Globally into Texture and Structure for Image Inpainting** \
-*Haipeng Liu, Yang Wang, Meng Wang, Yong Rui* \
-ACM 2022. [[Paper](https://arxiv.org/abs/2209.08217)] [[Github](https://github.com/htyjers/DGTS-Inpainting)] \
-17 Sep 2022
-
-**Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise** \
-*Arpit Bansal, Eitan Borgnia, Hong-Min Chu, Jie S. Li, Hamid Kazemi, Furong Huang, Micah Goldblum, Jonas Geiping, Tom Goldstein* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2208.09392)] [[Github](https://github.com/arpitbansal297/Cold-Diffusion-Models)] \
-19 Aug 2022
-
-**Non-Uniform Diffusion Models** \
-*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2207.09786)] \
-20 Jul 2022
-
-**Improving Diffusion Models for Inverse Problems using Manifold Constraints** \
-*Hyungjin Chung<sup>1</sup>, Byeongsu Sim<sup>1</sup>, Dohoon Ryu, Jong Chul Ye* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00941)] \
-2 Jun 2022
-
-**Denoising Diffusion Restoration Models** \
-*Bahjat Kawar, Michael Elad, Stefano Ermon, Jiaming Song* \
-ICLR 2022 Workshop (Oral). [[Paper](https://arxiv.org/abs/2201.11793)] \
-27 Jan 2022
-
-**RePaint: Inpainting using Denoising Diffusion Probabilistic Models** \
-*Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool* \
-CVPR 2022. [[Paper](https://arxiv.org/abs/2201.09865)] [[Github](https://github.com/andreas128/RePaint)] \
-24 Jan 2022
-
-**High-Resolution Image Synthesis with Latent Diffusion Models** \
-*Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer* \
-CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] [[Github](https://github.com/CompVis/latent-diffusion)] \
-20 Dec 2021
-
-**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction** \
-*Hyungjin Chung, Byeongsu Sim, Jong Chul Ye* \
-CVPR 2022. [[Paper](https://arxiv.org/abs/2112.05146)] \
-9 Dec 2021
-
-**Conditional Image Generation with Score-Based Diffusion Models** \
-*Georgios Batzolis, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2111.13606)] [[Github](https://github.com/GBATZOLIS/conditional_score_diffusion)] \
-26 Nov 2021
-
-**Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes** \
-*Sam Bond-Taylor<sup>1</sup>, Peter Hessey<sup>1</sup>, Hiroshi Sasaki, Toby P. Breckon, Chris G. Willcocks* \
-ECCV 2022. [[Paper](https://arxiv.org/abs/2111.12701)] [[Github](https://github.com/samb-t/unleashing-transformers)] \
-24 Nov 2021
 
 ### Text driven Image Generation and Editing
 
