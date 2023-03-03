@@ -1951,7 +1951,10 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 ### Text driven Image Generation and Editing
 
-
+**Collage Diffusion** \
+*Vishnu Sarukkai, Linden Li, Arden Ma, Christopher Ré, Kayvon Fatahalian* \
+arXic 2023.[[Paper](https://arxiv.org/abs/2303.00262)] \
+1 Mar 2023
 
 **Region-Aware Diffusion for Zero-shot Text-driven Image Editing** \
 *Nisha Huang, Fan Tang, Weiming Dong, Tong-Yee Lee, Changsheng Xu* \
