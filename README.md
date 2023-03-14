@@ -213,6 +213,11 @@ Jun 6 2022
 
 ## Survey
 
+**Diffusion Models for Non-autoregressive Text Generation: A Survey** \
+*Yifan Li, Kun Zhou, Wayne Xin Zhao, Ji-Rong Wen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06574)] \
+12 Mar 2023
+
 **Diffusion Models in Bioinformatics: A New Wave of Deep Learning Revolution in Action** \
 *Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Cheng* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.10907)] \
@@ -251,6 +256,32 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**Regularized Vector Quantization for Tokenized Image Synthesis** \
+*Jiahui Zhang, Fangneng Zhan, Christian Theobalt, Shijian Lu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06424)] \
+11 Mar 2023
+
+
+**PARASOL: Parametric Style Control for Diffusion Image Synthesis** \
+*Gemma Canet Tarrés, Dan Ruta, Tu Bui, John Collomosse* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06464)] \
+11 Mar 2023
+
+**Brain-Diffuser: Natural scene reconstruction from fMRI signals using generative latent diffusion** \
+*Furkan Ozcelik, Rufin VanRullen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05334)] \
+9 Mar 2023
+
+**Multilevel Diffusion: Infinite Dimensional Score-Based Diffusion Models for Image Generation** \
+*Paul Hagemann, Lars Ruthotto, Gabriele Steidl, Nicole Tianjiao Yang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04772)] \
+8 Mar 2023
+
+
+**TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation** \
+*David Berthelot, Arnaud Autef, Jierui Lin, Dian Ang Yap, Shuangfei Zhai, Siyuan Hu, Daniel Zheng, Walter Talbott, Eric Gu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04248)] \
+7 Mar 2023
 
 **Generative Diffusions in Augmented Spaces: A Complete Recipe** \
 *Kushagra Pandey, Stephan Mandt* \
@@ -296,6 +327,14 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2302.10586)] \
 *Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.10167)] [[Github](https://github.com/cross-domain-compositing/cross-domain-compositing)] \
 20 Feb 2023
+
+
+
+**Restoration based Generative Models** \
+*Jaemoo Choi<sup>1</sup>, Yesom Park<sup>1</sup>, Myungjoo Kang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05456)] \
+20 Feb 2023
+
 
 
 **Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent** \
@@ -1271,6 +1310,24 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 ### Segmentation
 
+
+
+**Importance of Aligning Training Strategy with Evaluation for Diffusion Models in 3D Multiclass Segmentation** \
+*Yunguan Fu, Yiwen Li, Shaheer U. Saeed, Matthew J. Clarkson, Yipeng Hu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06040)] [[Github](https://github.com/mathpluscode/ImgX-DiffSeg)] \
+10 Mar 2023
+
+**MaskDiff: Modeling Mask Distribution with Diffusion Probabilistic Model for Few-Shot Instance Segmentation** \
+*Minh-Quan Le, Tam V. Nguyen, Trung-Nghia Le, Thanh-Toan Do, Minh N. Do, Minh-Triet Tran* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05105)] \
+9 Mar 2023
+
+
+**Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models** \
+*Jiarui Xu, Sifei Liu, Arash Vahdat, Wonmin Byeon, Xiaolong Wang, Shalini De Mello* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04803)] [[Project](https://jerryxu.net/ODISE/)] \
+8 Mar 2023
+
 **Semantic Diffusion Network for Semantic Segmentation** \
 *Haoru Tan<sup>1</sup>, Sitong Wu<sup>1</sup>, Jimin Pi* \
 NeurIPS 2022. [Paper](https://arxiv.org/abs/2302.02057)] \
@@ -1379,6 +1436,42 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2112.00390)] \
 
 ### Inverse Problem
 
+**Synthesizing Realistic Image Restoration Training Pairs: A Diffusion Approach** \
+*Tao Yang, Peiran Ren, Xuansong xie, Lei Zhang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06994)] \
+13 Mar 2023
+
+**DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration** \
+*Zhixin Wang, Xiaoyun Zhang, Ziying Zhang, Huangjie Zheng, Mingyuan Zhou, Ya Zhang, Yanfeng Wang* \
+CVPR 2023. [[Paper](https://arxiv.org/abs/2303.06885)] \
+13 Mar 2023
+
+**DDS2M: Self-Supervised Denoising Diffusion Spatio-Spectral Model for Hyperspectral Image Restoration** \
+*Yuchun Miao, Lefei Zhang, Liangpei Zhang, Dacheng Tao* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06682)] \
+12 Mar 2023
+
+
+**Fast Diffusion Sampler for Inverse Problems by Geometric Decomposition** \
+*Hyungjin Chung, Suhyeon Lee, Jong Chul Ye* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05754)] \
+10 Mar 2023
+
+**Generalized Diffusion MRI Denoising and Super-Resolution using Swin Transformers** \
+*Amir Sadikov, Jamie Wren-Jarvis, Xinlei Pan, Lanya T. Cai, Pratik Mukherjee* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05686)] \
+10 Mar 2023
+
+**DiffusionDepth: Diffusion Denoising Approach for Monocular Depth Estimation** \
+*Yiqun Duan, Zheng Zhu, Xianda Guo* \
+arxiv 2023. [[Paper](https://arxiv.org/abs/2303.05021)] [[Github](https://github.com/duanyiqun/DiffusionDepth)] \
+9 Mar 2023
+
+**Learning Enhancement From Degradation: A Diffusion Model For Fundus Image Enhancement** \
+*Puijin Cheng, Li Lin, Yijin Huang, Huaqing He, Wenhan Luo, Xiaoying Tang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04603)] [[Github](https://github.com/QtacierP/LED)] \
+8 Mar 2023
+
 **Unlimited-Size Diffusion Restoration** \
 *Yinhuai Wang, Jiwen Yu, Runyi Yu, Jian Zhang* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.00354)] \
@@ -1389,6 +1482,10 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.00354)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.10326)] \
 20 Feb 2023
 
+**Restoration based Generative Models** \
+*Jaemoo Choi<sup>1</sup>, Yesom Park<sup>1</sup>, Myungjoo Kang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05456)] \
+20 Feb 2023
 
 **Explicit Diffusion of Gaussian Mixture Model Based Image Priors** \
 *Martin Zach, Thomas Pock, Erich Kobler, Antonin Chambolle* \
@@ -1988,6 +2085,43 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 
 ### Text driven Image Generation and Editing
+
+**Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models** \
+*Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, Zecheng Tang, Nan Duan* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04671)] [[Github](https://github.com/microsoft/visual-chatgpt)] \
+8 Mar 2023
+
+**Video-P2P: Video Editing with Cross-attention Control** \
+*Shaoteng Liu, Yuechen Zhang, Wenbo Li, Zhe Lin, Jiaya Jia* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04761)] [[Project](https://video-p2p.github.io/)] \
+8 Mar 2023
+
+**Erasing Concepts from Diffusion Models** \
+*Rohit Gandikota<sup>1</sup>, Joanna Materzynska<sup>1</sup>, Jaden Fiotto-Kaufman, David Bau* \
+arXiv 2023. [[Paper]()https://arxiv.org/abs/2303.07345] [[Project](https://erasing.baulab.info/)] [[Github](https://github.com/rohitgandikota/erasing)] \
+13 Mar 2023
+
+
+**One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale** \
+*Fan Bao, Shen Nie, Kaiwen Xue, Chongxuan Li, Shi Pu, Yaole Wang, Gang Yue, Yue Cao, Hang Su, Jun Zhu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06555)] [[Github](https://github.com/thu-ml/unidiffuser)] \
+12 Mar 2023
+
+**Cones: Concept Neurons in Diffusion Models for Customized Generation** \
+*Zhiheng Liu<sup>1</sup>, Ruili Feng<sup>1</sup>, Kai Zhu, Yifei Zhang, Kecheng Zheng, Yu Liu, Deli Zhao, Jingren Zhou, Yang Cao* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05125)] \
+9 Mar 2023
+
+**A Prompt Log Analysis of Text-to-Image Generation Systems** \
+*Yutong Xie, Zhaoying Pan, Jinge Ma, Jie Luo, Qiaozhu Mei* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04587)] \
+8 Mar 2023
+
+**Zeroth-Order Optimization Meets Human Feedback: Provable Learning via Ranking Oracles** \
+*Zhiwei Tang, Dmitry Rybin, Tsung-Hui Chang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.03751)] [[Github](https://github.com/TZW1998/Taming-Stable-Diffusion-with-Human-Ranking-Feedback)] \
+7 Mar 2023
+
 
 **Unleashing Text-to-Image Diffusion Models for Visual Perception** \
 *Wenliang Zhao<sup>1</sup>, Yongming Rao<sup>1</sup>, Zuyan Liu<sup>1</sup>, Benlin Liu, Jie Zhou, Jiwen Lu* \
@@ -2749,6 +2883,42 @@ CVPR 2022. [[Paper](https://arxiv.org/abs/2110.02711)] \
 
 
 
+**Diffusion-Based Hierarchical Multi-Label Object Detection to Analyze Panoramic Dental X-rays** \
+*Ibrahim Ethem Hamamci, Sezgin Er, Enis Simsar, Anjany Sekuboyina, Mustafa Gundogar, Bernd Stadlinger, Albert Mehl, Bjoern Menze* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06500)] \
+11 Mar 2023
+
+**AugDiff: Diffusion based Feature Augmentation for Multiple Instance Learning in Whole Slide Image** \
+*Zhuchen Shao, Liuxi Dai, Yifeng Wang, Haoqian Wang, Yongbing Zhang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06371)] \
+11 Mar 2023
+
+**Brain Diffuser: An End-to-End Brain Image to Brain Network Pipeline** \
+*Xuhang Chen, Baiying Lei, Chi-Man Pun, Shuqiang Wang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06410)] \
+11 Mar 2023
+
+**Fast Diffusion Sampler for Inverse Problems by Geometric Decomposition** \
+*Hyungjin Chung, Suhyeon Lee, Jong Chul Ye* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05754)] \
+10 Mar 2023
+
+**Generalized Diffusion MRI Denoising and Super-Resolution using Swin Transformers** \
+*Amir Sadikov, Jamie Wren-Jarvis, Xinlei Pan, Lanya T. Cai, Pratik Mukherjee* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05686)] \
+10 Mar 2023
+
+**Importance of Aligning Training Strategy with Evaluation for Diffusion Models in 3D Multiclass Segmentation** \
+*Yunguan Fu, Yiwen Li, Shaheer U. Saeed, Matthew J. Clarkson, Yipeng Hu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06040)] [[Github](https://github.com/mathpluscode/ImgX-DiffSeg)] \
+10 Mar 2023
+
+**Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI** \
+*Finn Behrendt, Debayan Bhattacharya, Julia Krüger, Roland Opfer, Alexander Schlaefer* \
+MIDL 2023. [[Paper](https://arxiv.org/abs/2303.03758)] \
+7 Mar 2023
+
+
 **Bi-parametric prostate MR image synthesis using pathology and sequence-conditioned stable diffusion** \
 *Shaheer U. Saeed, Tom Syer, Wen Yan, Qianye Yang, Mark Emberton, Shonit Punwani, Matthew J. Clarkson, Dean C. Barratt, Yipeng Hu* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.02094)] \
@@ -3059,9 +3229,21 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### 3D Vision
 
+**GECCO: Geometrically-Conditioned Point Diffusion Models** \
+*Michał J. Tyszkiewicz, Pascal Fua, Eduard Trulls* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05916)] \
+10 Mar 2023
+
+
+
+**3DGen: Triplane Latent Diffusion for Textured Mesh Generation** \
+*Anchit Gupta, Wenhan Xiong, Yixin Nie, Ian Jones, Barlas Oğuz* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05371)] \
+9 Mar 2023
+
 **Human Motion Diffusion as a Generative Prior** \
 *Yonatan Shafir<sup>1</sup>, Guy Tevet<sup>1</sup>, Roy Kapon, Amit H. Bermano* \
-arXiv 2023. [[Paper]()] \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.01418)] \
 2 Mar 2023
 
 **Can We Use Diffusion Probabilistic Models for 3D Motion Prediction?** \
@@ -3460,6 +3642,16 @@ CVPR 2021. [[Paper](https://arxiv.org/abs/2103.01458)] [[Github](https://github.
 
 ### Adversarial Attack
 
+**TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets** \
+*Weixin Chen, Dawn Song, Bo Li* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05762)] [[Github](https://github.com/chenweixin107/TrojDiff)] \
+10 Mar 2023
+
+**Generative Model-Based Attack on Learnable Image Encryption for Privacy-Preserving Deep Learning** \
+*AprilPyone MaungMaung, Hitoshi Kiya* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05036)] \
+9 Mar 2023
+
 **Differentially Private Diffusion Models Generate Useful Synthetic Images** \
 *Sahra Ghalebikesabi, Leonard Berrada, Sven Gowal, Ira Ktena, Robert Stanforth, Jamie Hayes, Soham De, Samuel L. Smith, Olivia Wiles, Borja Balle* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13861)] \
@@ -3594,6 +3786,39 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 11 Jun 2021
 
 ### Miscellaneous
+
+**Parallel Vertex Diffusion for Unified Visual Grounding** \
+*Zesen Cheng, Kehan Li, Peng Jin, Xiangyang Ji, Li Yuan, Chang Liu, Jie Chen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.07216)] \
+13 Mar 2023
+
+**DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion** \
+*Zixiang Zhao, Haowen Bai, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06840)] \
+13 Mar 2023
+
+
+**Detecting Images Generated by Diffusers** \
+*Davide Alessandro Coccomini, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro, Giuseppe Amato* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05275)] \
+9 Mar 2023
+
+**Unifying Layout Generation with a Decoupled Diffusion Model** \
+*Mude Hui, Zhizheng Zhang, Xiaoyi Zhang, Wenxuan Xie, Yuwang Wang, Yan Lu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05049)] \
+9 Mar 2023
+
+
+**DLT: Conditioned layout generation with Joint Discrete-Continuous Diffusion Layout Transformer** \
+*Elad Levi, Eli Brosh, Mykola Mykhailych, Meir Perez* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.03755)] \
+7 Mar 2023
+
+
+**Diffusion in the Dark: A Diffusion Model for Low-Light Text Recognition** \
+*Cindy M. Nguyen, Eric R. Chan, Alexander W. Bergman, Gordon Wetzstein* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04291)] [[Project](https://ccnguyen.github.io/diffusion-in-the-dark/)] \
+7 Mar 2023
 
 **Word-As-Image for Semantic Typography** \
 *Shir Iluz<sup>1</sup>, Yael Vinker<sup>1</sup>, Amir Hertz, Daniel Berio, Daniel Cohen-Or, Ariel Shamir* \
@@ -4581,6 +4806,16 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 
 ### Generation
 
+**Diffusing Gaussian Mixtures for Generating Categorical Data** \
+*Florence Regol, Mark Coates* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04635)] \
+8 Mar 2023
+
+**EHRDiff: Exploring Realistic EHR Synthesis with Diffusion Models** \
+*Hongyi Yuan<sup>1</sup>, Songchi Zhou<sup>1</sup>, Sheng Yu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05656)] [[Github](https://github.com/sczzz3/ehrdiff)] \
+10 Mar 2023
+
 **Synthesizing Mixed-type Electronic Health Records using Diffusion Models** \
 *Taha Ceritli, Ghadeer O. Ghosheh, Vinod Kumar Chauhan, Tingting Zhu, Andrew P. Creagh, David A. Clifton* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.14679)] \
@@ -4685,6 +4920,12 @@ NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03502)] [[Github](https://gith
 
 ### Miscellaneous
 
+**EEG Synthetic Data Generation Using Probabilistic Diffusion Models** \
+*Giulio Tosato, Cesare M. Dalbagno, Francesco Fumagalli* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.06068)] \
+6 Mar 2023
+
+
 **DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal** \
 *Huayu Li, Gregory Ditzler, Janet Roveda, Ao Li* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.00542)] \
@@ -4750,6 +4991,11 @@ AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://gith
 2 Mar 2020
 
 ### Molecular and Material Generation
+
+**3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction** \
+*Jiaqi Guan, Wesley Wei Qian, Xingang Peng, Yufeng Su, Jian Peng, Jianzhu Ma* \
+ICLR 2023. [[Paper](https://arxiv.org/abs/2303.03543)] \
+6 Mar 2023
 
 **Denoising diffusion algorithm for inverse design of microstructures with fine-tuned nonlinear material properties** \
 *Nikolaos N. Vlassis, WaiChing Sun* \
@@ -4968,6 +5214,11 @@ ICML 2022. [[Paper](https://arxiv.org/abs/2205.09991)] [[Github](https://github.
 
 ## Theory
 
+**Restoration-Degradation Beyond Linear Diffusions: A Non-Asymptotic Analysis For DDIM-Type Samplers** \
+*Sitan Chen, Giannis Daras, Alexandros G. Dimakis* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.03384)] \
+6 Mar 2023
+
 **Diffusion Models are Minimax Optimal Distribution Estimators** \
 *Kazusato Oko, Shunta Akiyama, Taiji Suzuki* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.01861)] \
@@ -5163,6 +5414,11 @@ ICML 2011. [[Paper](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh201
 
 
 ## Applications
+
+**PC-JeDi: Diffusion for Particle Cloud Generation in High Energy Physics** \
+*Matthew Leigh, Debajyoti Sengupta, Guillaume Quétant, John Andrew Raine, Knut Zoch, Tobias Golling* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05376)] \
+9 Mar 2023
 
 **Generating Initial Conditions for Ensemble Data Assimilation of Large-Eddy Simulations with Latent Diffusion Models** \
 *Alex Rybchuk, Malik Hassanaly, Nicholas Hamilton, Paula Doubrawa, Mitchell J. Fulton, Luis A. Martínez-Tossas* \
