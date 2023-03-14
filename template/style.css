@@ -1,0 +1,75 @@
+/* Show it is fixed to the top */
+body {
+    padding-top: 4.5rem;
+}
+
+/* sidebar */
+
+.bd-sidebar {
+    -ms-flex-order: 0;
+    order: 0;
+}
+
+@media (min-width: 768px) {
+    @supports ((position:-webkit-sticky) or (position:sticky)) {
+        .bd-sidebar {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 4.5rem;
+            z-index: 1000;
+            height: calc(100vh - 4.5rem)
+        }
+    }
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+    padding: 2rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+/*
+* flex
+*/
+
+.list-item-flex {
+    flex: 1;
+    overflow: hidden;
+}
+
+.list-item-flex .paper-main {
+    flex: 1;
+    word-break: break-word; /*重点加这句，换行*/
+}
+
+.list-item-flex .paper-date {
+    flex: 0 0 95px;
+}
+
+.paper-date-inner {
+    display: block;
+}
+
+.paper-date {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .paper-date-inner {
+        display: none;
+    }
+
+    .paper-date {
+        display: block;
+    }
+}
