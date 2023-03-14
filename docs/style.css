@@ -8,6 +8,7 @@ body {
 .bd-sidebar {
     -ms-flex-order: 0;
     order: 0;
+    overflow-y:scroll
 }
 
 @media (min-width: 768px) {
