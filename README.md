@@ -48,6 +48,10 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 # Resources
 ## Introductory Posts
 
+**:fast_forward: DiffusionFastForward: 01-Diffusion-Theory** \
+*Mikolaj Czerkawski (@mikonvergence)* \
+[[Website](https://github.com/mikonvergence/DiffusionFastForward/blob/master/notes/01-Diffusion-Theory.md)] \
+4 Feb 2023
 
 **How diffusion models work: the math from scratch** \
 *Sergios Karagiannakos,Nikolas Adaloglou* \
@@ -118,6 +122,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 
 ## Introductory Videos
 
+**:fast_forward: DiffusionFastForward** \
+*Mikolaj Czerkawski (@mikonvergence)* \
+[[Video](https://www.youtube.com/playlist?list=PL5RHjmn-MVHDMcqx-SI53mB7sFOqPK6gN)] \
+4 Mar 2023
+
 **Diffusion models from scratch in PyTorch** \
 *DeepFindr* \
 [[Video](https://www.youtube.com/watch?v=a4Yfz2FxXiY)] \
@@ -151,6 +160,11 @@ Jun 6 2022
 19 April 2022
 
 ## Tutorial and Jupyter Notebook
+
+**:fast_forward: DiffusionFastForward: train from scratch in colab** \
+*Mikolaj Czerkawski (@mikonvergence)* \
+[[Github](https://github.com/mikonvergence/DiffusionFastForward)]
+[[notebook](https://github.com/mikonvergence/DiffusionFastForward#computer-code)]
 
 **diffusion-for-beginners** \
 *ozanciga* \
