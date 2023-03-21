@@ -1618,6 +1618,10 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2302.01217)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12686)] \
 30 Jan 2023
 
+**Image Restoration with Mean-Reverting Stochastic Differential Equations** \
+*Ziwei Luo, Fredrik K. Gustafsson, Zheng Zhao, Jens Sjölund, Thomas B. Schön* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.11699)] [[Github](https://github.com/Algolzw/image-restoration-sde)] [[Project](https://algolzw.github.io/ir-sde/index.html)]
+
 **Accelerating Guided Diffusion Sampling with Splitting Numerical Methods** \
 *Suttisak Wizadwongsa, Supasorn Suwajanakorn* \
 ICLR 2023. [[Paper](https://arxiv.org/abs/2301.11558)] \
