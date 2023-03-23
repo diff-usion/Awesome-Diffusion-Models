@@ -5821,6 +5821,11 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05376)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.00836)] \
 1 Mar 2023
 
+**ReorientDiff: Diffusion Model based Reorientation for Object Manipulation** \
+*Utkarsh A. Mishra, Yongxin Chen* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.12700)] \
+28 Feb 2023
+
 **Interventional and Counterfactual Inference with Diffusion Models** \
 *Patrick Chao, Patrick Blöbaum, Shiva Prasad Kasiviswanathan* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2302.00860)] \
