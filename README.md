@@ -5831,6 +5831,11 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2302.00860)] \
 NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2212.00121)] \
 30 Nov 2022
 
+**Generating astronomical spectra from photometry with conditional diffusion models** \
+*Lars Doorenbos, Stefano Cavuoti, Giuseppe Longo, Massimo Brescia, Raphael Sznitman, Pablo Márquez-Neila* \
+NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2211.05556)] \
+10 Nov 2022
+
 **Graphically Structured Diffusion Models** \
 *Christian Weilbach, William Harvey, Frank Wood* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11633)] \
