@@ -5833,7 +5833,7 @@ NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2212.00121)] \
 
 **Generating astronomical spectra from photometry with conditional diffusion models** \
 *Lars Doorenbos, Stefano Cavuoti, Giuseppe Longo, Massimo Brescia, Raphael Sznitman, Pablo Márquez-Neila* \
-NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2211.05556)] \
+NeurIPS Workshop 2022. [[Paper](https://arxiv.org/abs/2211.05556)] [[Github](https://github.com/LarsDoorenbos/generate-spectra)] \
 10 Nov 2022
 
 **Graphically Structured Diffusion Models** \
