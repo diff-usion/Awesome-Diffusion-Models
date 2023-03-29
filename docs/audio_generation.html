@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author"
+          content="Zeqiang Lai"
+    />
+    <title>Awesome Diffusion</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet"/>
+    <link href="sidebars.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top bg-light">
+    <div class="container">
+        <button
+                class="navbar-toggler float-left"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bd-docs-nav"
+                aria-controls="bd-docs-nav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Awesome Diffusion Models</a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Paper</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="resource.html">Resources</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="#" onclick="toggle_counter()"
+                       rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-disc navbar-nav-svg" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        <small class="d-lg-none ms-2">Toggle Counter</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/heejkoo/Awesome-Diffusion-Models" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
+                             viewBox="0 0 512 499.36" role="img"><title>GitHub</title>
+                            <path fill="currentColor" fill-rule="evenodd"
+                                  d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
+                        </svg>
+                        <small class="d-lg-none ms-2">GitHub</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 bd-sidebar" style="padding-right: 2rem">
+                <!-- <nav class="collapse show" id="bd-docs-nav"> -->
+                    <ol class="list-unstyled">
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="vision.html">
+                                        <strong>Vision</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 708 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">196</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_segmentation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Segmentation
+                                                    </a>
+                                                    <div class="counter">20</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_inverse_problem.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Inverse Problem
+                                                    </a>
+                                                    <div class="counter">85</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_image_translation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Image Translation
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_text_driven_image_generation_and_editing.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text driven Image Generation and Editing
+                                                    </a>
+                                                    <div class="counter">144</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_medical_imaging.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Medical Imaging
+                                                    </a>
+                                                    <div class="counter">58</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_3d_vision.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >3D Vision
+                                                    </a>
+                                                    <div class="counter">74</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_adversarial_attack.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Adversarial Attack
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">80</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="audio.html">
+                                        <strong>Audio</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 79 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_generation.html"
+                                                       class="a-toggle link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_conversion.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Conversion
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_enhancement.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Enhancement
+                                                    </a>
+                                                    <div class="counter">19</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_separation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Separation
+                                                    </a>
+                                                    <div class="counter">5</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_text-to-speech.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text-to-Speech
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="natural_language.html">
+                                        <strong>Natural Language</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 21 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="natural_language_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">21</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="tabular_and_time_series.html">
+                                        <strong>Tabular and Time Series</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 19 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">4</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_forecasting.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Forecasting
+                                                    </a>
+                                                    <div class="counter">8</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_imputation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Imputation
+                                                    </a>
+                                                    <div class="counter">6</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">1</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="graph.html">
+                                        <strong>Graph</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 42 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">11</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_molecular_and_material_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Molecular and Material Generation
+                                                    </a>
+                                                    <div class="counter">31</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                    </ul>
+
+                <!-- </nav> -->
+            </div>
+            <main class='col-md-9 bd-content' role="main">
+                <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Multi-Source Diffusion Models for Simultaneous Music Generation and Separation  </div>
+                                <div> Giorgio Mariani<sup>1</sup>, Irene Tallini<sup>1</sup>, Emilian Postolache<sup>1</sup>, Michele Mancusi<sup>1</sup>, Luca Cosmo, Emanuele Rodolà </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02257"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://gladia-research-group.github.io/multi-source-diffusion-models/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-04</div>
+                            </div>
+                            <div class="paper-date">2023-02-04</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation  </div>
+                                <div> Ludan Ruan, Yiyang Ma, Huan Yang, Huiguo He, Bei Liu, Jianlong Fu, Nicholas Jing Yuan, Qin Jin, Baining Guo </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.09478"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/researchmm/MM-Diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-19</div>
+                            </div>
+                            <div class="paper-date">2022-12-19</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SDMuse: Stochastic Differential Music Editing and Generation via Hybrid Representation  </div>
+                                <div> Chen Zhang, Yi Ren, Kejun Zhang, Shuicheng Yan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.00222"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://sdmuse.github.io/posts/sdmuse/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-01</div>
+                            </div>
+                            <div class="paper-date">2022-11-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Full-band General Audio Synthesis with Score-based Diffusion  </div>
+                                <div> Santiago Pascual, Gautam Bhattacharya, Chunghsin Yeh, Jordi Pons, Joan Serrà </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.14661"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-26</div>
+                            </div>
+                            <div class="paper-date">2022-10-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Hierarchical Diffusion Models for Singing Voice Neural Vocoder  </div>
+                                <div> Naoya Takahashi, Mayank Kumar, Singh, Yuki Mitsufuji </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.07508"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-14</div>
+                            </div>
+                            <div class="paper-date">2022-10-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Mandarin Singing Voice Synthesis with Denoising Diffusion Probabilistic Wasserstein GAN  </div>
+                                <div> Yin-Ping Cho, Yu Tsao, Hsin-Min Wang, Yi-Wen Liu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.10446"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://yinping-cho.github.io/diffwgansvs.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-21</div>
+                            </div>
+                            <div class="paper-date">2022-09-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DDSP-based Singing Vocoders: A New Subtractive-based Synthesizer and A Comprehensive Evaluation  </div>
+                                <div> Da-Yi Wu<sup>1</sup>, Wen-Yi Hsiao<sup>1</sup>, Fu-Rong Yang, Oscar Friedman, Warren Jackson, Scott Bruzenak, Yi-Wen Liu, Yi-Hsuan Yang </div>
+                                <div>
+                                        ISMIR 2022.
+
+                                        <a href="https://arxiv.org/abs/2208.04756"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/YatingMusic/ddsp-singing-vocoders/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-08-09</div>
+                            </div>
+                            <div class="paper-date">2022-08-09</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ProDiff: Progressive Fast Diffusion Model For High-Quality Text-to-Speech  </div>
+                                <div> Rongjie Huang<sup>1</sup>, Zhou Zhao, Huadai Liu<sup>1</sup>, Jinglin Liu, Chenye Cui, Yi Ren </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2207.06389"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://prodiff.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-07-13</div>
+                            </div>
+                            <div class="paper-date">2022-07-13</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> CARD: Classification and Regression Diffusion Models  </div>
+                                <div> Xizewen Han<sup>1</sup>, Huangjie Zheng<sup>1</sup>, Mingyuan Zhou </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.07275"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-15</div>
+                            </div>
+                            <div class="paper-date">2022-06-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Adversarial Audio Synthesis with Complex-valued Polynomial Networks  </div>
+                                <div> Yongtao Wu, Grigorios G Chrysos, Volkan Cevher </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.06811"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-14</div>
+                            </div>
+                            <div class="paper-date">2022-06-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Multi-instrument Music Synthesis with Spectrogram Diffusion  </div>
+                                <div> Curtis Hawthorne, Ian Simon, Adam Roberts, Neil Zeghidour, Josh Gardner, Ethan Manilow, Jesse Engel </div>
+                                <div>
+                                        ISMIR 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.05408"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-11</div>
+                            </div>
+                            <div class="paper-date">2022-06-11</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> BinauralGrad: A Two-Stage Conditional Diffusion Probabilistic Model for Binaural Audio Synthesis  </div>
+                                <div> Yichong Leng, Zehua Chen, Junliang Guo, Haohe Liu, Jiawei Chen, Xu Tan, Danilo Mandic, Lei He, Xiang-Yang Li, Tao Qin, Sheng Zhao, Tie-Yan Liu </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2205.14807"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://speechresearch.github.io/binauralgrad/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-05-30</div>
+                            </div>
+                            <div class="paper-date">2022-05-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis  </div>
+                                <div> Rongjie Huang<sup>1</sup>, Max W. Y. Lam<sup>1</sup>, Jun Wang, Dan Su, Dong Yu, Yi Ren, Zhou Zhao </div>
+                                <div>
+                                        IJCAI 2022.
+
+                                        <a href="https://arxiv.org/abs/2204.09934"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://fastdiff.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/Rongjiehuang/FastDiff"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-04-21</div>
+                            </div>
+                            <div class="paper-date">2022-04-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SpecGrad: Diffusion Probabilistic Model based Neural Vocoder with Adaptive Noise Spectral Shaping  </div>
+                                <div> Yuma Koizumi, Heiga Zen, Kohei Yatabe, Nanxin Chen, Michiel Bacchiani </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2203.16749"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-03-31</div>
+                            </div>
+                            <div class="paper-date">2022-03-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> BDDM: Bilateral Denoising Diffusion Models for Fast and High-Quality Speech Synthesis  </div>
+                                <div> Max W. Y. Lam, Jun Wang, Dan Su, Dong Yu </div>
+                                <div>
+                                        ICLR 2022.
+
+                                        <a href="https://arxiv.org/abs/2203.13508"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/tencent-ailab/bddm"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-03-25</div>
+                            </div>
+                            <div class="paper-date">2022-03-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ItôWave: Itô Stochastic Differential Equation Is All You Need For Wave Generation  </div>
+                                <div> Shoule Wu<sup>1</sup>, Ziqiang Shi<sup>1</sup> </div>
+                                <div>
+                                        CoRR 2022.
+
+                                        <a href="https://arxiv.org/abs/2201.12519"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://wushoule.github.io/ItoAudio/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-01-29</div>
+                            </div>
+                            <div class="paper-date">2022-01-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Itô-Taylor Sampling Scheme for Denoising Diffusion Probabilistic Models using Ideal Derivatives  </div>
+                                <div> Hideyuki Tachibana, Mocho Go, Muneyoshi Inahara, Yotaro Katayama, Yotaro Watanabe </div>
+                                <div>
+                                        arXiv 2021.
+
+                                        <a href="https://arxiv.org/abs/2112.13339"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-12-26</div>
+                            </div>
+                            <div class="paper-date">2021-12-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Denoising Diffusion Gamma Models  </div>
+                                <div> Eliya Nachmani<sup>1</sup>, Robin San Roman<sup>1</sup>, Lior Wolf </div>
+                                <div>
+                                        arXiv 2021.
+
+                                        <a href="https://arxiv.org/abs/2110.05948"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-10-10</div>
+                            </div>
+                            <div class="paper-date">2021-10-10</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Variational Diffusion Models  </div>
+                                <div> Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho </div>
+                                <div>
+                                        NeurIPS 2021.
+
+                                        <a href="https://arxiv.org/abs/2107.00630"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/revsic/jax-variational-diffwave"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-07-01</div>
+                            </div>
+                            <div class="paper-date">2021-07-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> CRASH: Raw Audio Score-based Generative Modeling for Controllable High-resolution Drum Sound Synthesis  </div>
+                                <div> Simon Rouard<sup>1</sup>, Gaëtan Hadjeres<sup>1</sup> </div>
+                                <div>
+                                        ISMIR 2021.
+
+                                        <a href="https://arxiv.org/abs/2106.07431"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://crash-diffusion.github.io/crash/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-06-14</div>
+                            </div>
+                            <div class="paper-date">2021-06-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> PriorGrad: Improving Conditional Denoising Diffusion Models with Data-Driven Adaptive Prior  </div>
+                                <div> Sang-gil Lee, Heeseung Kim, Chaehun Shin, Xu Tan, Chang Liu, Qi Meng, Tao Qin, Wei Chen, Sungroh Yoon, Tie-Yan Liu </div>
+                                <div>
+                                        ICLR 2022.
+
+                                        <a href="https://arxiv.org/abs/2106.06406"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://speechresearch.github.io/priorgrad/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-06-11</div>
+                            </div>
+                            <div class="paper-date">2021-06-11</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ItôTTS and ItôWave: Linear Stochastic Differential Equation Is All You Need For Audio Generation  </div>
+                                <div> Shoule Wu<sup>1</sup>, Ziqiang Shi<sup>1</sup> </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2105.07583"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://wushoule.github.io/ItoAudio/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-05-17</div>
+                            </div>
+                            <div class="paper-date">2021-05-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism  </div>
+                                <div> Jinglin Liu<sup>1</sup>, Chengxi Li<sup>1</sup>, Yi Ren<sup>1</sup>, Feiyang Chen, Peng Liu, Zhou Zhao </div>
+                                <div>
+                                        AAAI 2022.
+
+                                        <a href="https://arxiv.org/abs/2105.02446"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://diffsinger.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/keonlee9420/DiffSinger"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-05-06</div>
+                            </div>
+                            <div class="paper-date">2021-05-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Symbolic Music Generation with Diffusion Models  </div>
+                                <div> Gautam Mittal, Jesse Engel, Curtis Hawthorne, Ian Simon </div>
+                                <div>
+                                        ISMIR 2021.
+
+                                        <a href="https://arxiv.org/abs/2103.16091"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/magenta/symbolic-music-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-03-30</div>
+                            </div>
+                            <div class="paper-date">2021-03-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffWave: A Versatile Diffusion Model for Audio Synthesis  </div>
+                                <div> Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro </div>
+                                <div>
+                                        ICLR 2021.
+
+                                        <a href="https://arxiv.org/abs/2009.09761"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://diffwave-demo.github.io/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2020-09-21</div>
+                            </div>
+                            <div class="paper-date">2020-09-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> WaveGrad: Estimating Gradients for Waveform Generation  </div>
+                                <div> Nanxin Chen, Yu Zhang, Heiga Zen, Ron J. Weiss, Mohammad Norouzi, William Cha </div>
+                                <div>
+                                        ICLR 2021.
+
+                                        <a href="https://arxiv.org/abs/2009.00713"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://wavegrad.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/ivanvovk/WaveGrad"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2020-09-02</div>
+                            </div>
+                            <div class="paper-date">2020-09-02</div>
+                        </li>
+                </ol>
+                <div class="mt-3 mb-3 text-center text-secondary">Counts - 26 &nbsp <a href="#">Back to
+                    top</a></div>
+            </main>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="sidebars.js"></script>
+<script>
+    function toggle_counter() {
+        const elements = document.getElementsByClassName("counter");
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].style.display === "none") {
+                console.log(elements[i].style.display)
+                elements[i].style.display = "block";
+            } else {
+                elements[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

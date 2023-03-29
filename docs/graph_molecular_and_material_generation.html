@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author"
+          content="Zeqiang Lai"
+    />
+    <title>Awesome Diffusion</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet"/>
+    <link href="sidebars.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top bg-light">
+    <div class="container">
+        <button
+                class="navbar-toggler float-left"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bd-docs-nav"
+                aria-controls="bd-docs-nav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Awesome Diffusion Models</a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Paper</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="resource.html">Resources</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="#" onclick="toggle_counter()"
+                       rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-disc navbar-nav-svg" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        <small class="d-lg-none ms-2">Toggle Counter</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/heejkoo/Awesome-Diffusion-Models" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
+                             viewBox="0 0 512 499.36" role="img"><title>GitHub</title>
+                            <path fill="currentColor" fill-rule="evenodd"
+                                  d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
+                        </svg>
+                        <small class="d-lg-none ms-2">GitHub</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 bd-sidebar" style="padding-right: 2rem">
+                <!-- <nav class="collapse show" id="bd-docs-nav"> -->
+                    <ol class="list-unstyled">
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="vision.html">
+                                        <strong>Vision</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 708 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">196</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_segmentation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Segmentation
+                                                    </a>
+                                                    <div class="counter">20</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_inverse_problem.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Inverse Problem
+                                                    </a>
+                                                    <div class="counter">85</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_image_translation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Image Translation
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_text_driven_image_generation_and_editing.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text driven Image Generation and Editing
+                                                    </a>
+                                                    <div class="counter">144</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_medical_imaging.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Medical Imaging
+                                                    </a>
+                                                    <div class="counter">58</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_3d_vision.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >3D Vision
+                                                    </a>
+                                                    <div class="counter">74</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_adversarial_attack.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Adversarial Attack
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">80</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="audio.html">
+                                        <strong>Audio</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 79 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_conversion.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Conversion
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_enhancement.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Enhancement
+                                                    </a>
+                                                    <div class="counter">19</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_separation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Separation
+                                                    </a>
+                                                    <div class="counter">5</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_text-to-speech.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text-to-Speech
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="natural_language.html">
+                                        <strong>Natural Language</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 21 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="natural_language_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">21</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="tabular_and_time_series.html">
+                                        <strong>Tabular and Time Series</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 19 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">4</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_forecasting.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Forecasting
+                                                    </a>
+                                                    <div class="counter">8</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_imputation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Imputation
+                                                    </a>
+                                                    <div class="counter">6</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">1</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="graph.html">
+                                        <strong>Graph</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 42 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">11</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_molecular_and_material_generation.html"
+                                                       class="a-toggle link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Molecular and Material Generation
+                                                    </a>
+                                                    <div class="counter">31</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                    </ul>
+
+                <!-- </nav> -->
+            </div>
+            <main class='col-md-9 bd-content' role="main">
+                <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Denoising diffusion algorithm for inverse design of microstructures with fine-tuned nonlinear material properties  </div>
+                                <div> Nikolaos N. Vlassis, WaiChing Sun </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.12881"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-24</div>
+                            </div>
+                            <div class="paper-date">2023-02-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Aligned Diffusion Schrödinger Bridges  </div>
+                                <div> Vignesh Ram Somnath<sup>1</sup>, Matteo Pariset<sup>1</sup>, Ya-Ping Hsieh, Maria Rodriguez Martinez, Andreas Krause, Charlotte Bunne </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.11419"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-22</div>
+                            </div>
+                            <div class="paper-date">2023-02-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MiDi: Mixed Graph and 3D Denoising Diffusion for Molecule Generation  </div>
+                                <div> Clement Vignac, Nagham Osman, Laura Toni, Pascal Frossard </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.09048"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-17</div>
+                            </div>
+                            <div class="paper-date">2023-02-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Geometry-Complete Diffusion for 3D Molecule Generation  </div>
+                                <div> Alex Morehead, Jianlin Cheng </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.04313"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/BioinfoMachineLearning/bio-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-08</div>
+                            </div>
+                            <div class="paper-date">2023-02-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Data-Efficient Protein 3D Geometric Pretraining via Refinement of Diffused Protein Structure Decoy  </div>
+                                <div> Yufei Huang, Lirong Wu, Haitao Lin, Jiangbin Zheng, Ge Wang, Stan Z. Li </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.10888"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-05</div>
+                            </div>
+                            <div class="paper-date">2023-02-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SE(3) diffusion model with application to protein backbone generation  </div>
+                                <div> Jason Yim<sup>1</sup>, Brian L. Trippe<sup>1</sup>, Valentin De Bortoli<sup>1</sup>, Emile Mathieu<sup>1</sup>, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02277"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-05</div>
+                            </div>
+                            <div class="paper-date">2023-02-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Two for One: Diffusion Models and Force Fields for Coarse-Grained Molecular Dynamics  </div>
+                                <div> Marloes Arts, Victor Garcia Satorras, Chin-Wei Huang, Daniel Zuegner, Marco Federici, Cecilia Clementi, Frank Noé, Robert Pinsler, Rianne van den Berg </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.00600"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-01</div>
+                            </div>
+                            <div class="paper-date">2023-02-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds  </div>
+                                <div> Yeqing Lin, Mohammed AlQuraishi </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12485"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-29</div>
+                            </div>
+                            <div class="paper-date">2023-01-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Physics-Inspired Protein Encoder Pre-Training via Siamese Sequence-Structure Diffusion Trajectory Prediction  </div>
+                                <div> Zuobai Zhang<sup>1</sup>, Minghao Xu<sup>1</sup>, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Jian Tang </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12068"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-28</div>
+                            </div>
+                            <div class="paper-date">2023-01-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffSDS: A language diffusion model for protein backbone inpainting under geometric conditions and constraints  </div>
+                                <div> Zhangyang Gao, Cheng Tan, Stan Z. Li </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.09642"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-22</div>
+                            </div>
+                            <div class="paper-date">2023-01-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding  </div>
+                                <div> Haitao Lin<sup>1</sup>, Yufei Huang<sup>1</sup>, Meng Liu, Xuanjing Li, Shuiwang Ji, Stan Z. Li </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.11214"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-21</div>
+                            </div>
+                            <div class="paper-date">2022-11-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ParticleGrid: Enabling Deep Learning using 3D Representation of Materials  </div>
+                                <div> Shehtab Zaman, Ethan Ferguson, Cecile Pereira, Denis Akhiyarov, Mauricio Araya-Polo, Kenneth Chiu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.08506"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-15</div>
+                            </div>
+                            <div class="paper-date">2022-11-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Structure-based Drug Design with Equivariant Diffusion Models  </div>
+                                <div> Arne Schneuing<sup>1</sup>, Yuanqi Du<sup>1</sup>, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.13695"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-24</div>
+                            </div>
+                            <div class="paper-date">2022-10-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Protein Sequence and Structure Co-Design with Equivariant Translation  </div>
+                                <div> Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.08761"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-17</div>
+                            </div>
+                            <div class="paper-date">2022-10-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design  </div>
+                                <div> Ilia Igashov, Hannes Stärk, Clément Vignac, Victor Garcia Satorras, Pascal Frossard, Max Welling, Michael Bronstein, Bruno Correia </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.05274"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-11</div>
+                            </div>
+                            <div class="paper-date">2022-10-11</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Protein structure generation via folding diffusion  </div>
+                                <div> Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.15611"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-30</div>
+                            </div>
+                            <div class="paper-date">2022-09-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Equivariant Energy-Guided SDE for Inverse Molecular Design  </div>
+                                <div> Fan Bao<sup>1</sup>, Min Zhao<sup>1</sup>, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.15408"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-30</div>
+                            </div>
+                            <div class="paper-date">2022-09-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Dynamic-Backbone Protein-Ligand Structure Prediction with Multiscale Generative Diffusion Models  </div>
+                                <div> Zhuoran Qiao, Weili Nie, Arash Vahdat, Thomas F. Miller III, Anima Anandkumar </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.15171"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-30</div>
+                            </div>
+                            <div class="paper-date">2022-09-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MDM: Molecular Diffusion Model for 3D Molecule Generation  </div>
+                                <div> Lei Huang, Hengtong Zhang, Tingyang Xu, Ka-Chun Wong </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.05710"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-13</div>
+                            </div>
+                            <div class="paper-date">2022-09-13</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion-based Molecule Generation with Informative Prior Bridges  </div>
+                                <div> Lemeng Wu<sup>1</sup>, Chengyue Gong<sup>1</sup>, Xingchao Liu, Mao Ye, Qiang Liu </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.00865"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-02</div>
+                            </div>
+                            <div class="paper-date">2022-09-02</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models  </div>
+                                <div> Shitong Luo<sup>1</sup>, Yufeng Su<sup>1</sup>, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma </div>
+                                <div>
+                                        BioRXiv 2022.
+
+                                        <a href="https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-07-11</div>
+                            </div>
+                            <div class="paper-date">2022-07-11</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Data-driven discovery of novel 2D materials by deep generative models  </div>
+                                <div> Peder Lyngby, Kristian Sommer Thygesen </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.12159"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-24</div>
+                            </div>
+                            <div class="paper-date">2022-06-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Score-based Generative Models for Calorimeter Shower Simulation  </div>
+                                <div> Vinicius Mikuni, Benjamin Nachman </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.11898"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-17</div>
+                            </div>
+                            <div class="paper-date">2022-06-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem  </div>
+                                <div> Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola </div>
+                                <div>
+                                        CoRR 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.04119"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-08</div>
+                            </div>
+                            <div class="paper-date">2022-06-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Torsional Diffusion for Molecular Conformer Generation  </div>
+                                <div> Bowen Jing, Gabriele Corso, Regina Barzilay, Tommi S. Jaakkola </div>
+                                <div>
+                                        ICLR Workshop 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.01729"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/gcorso/torsional-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-01</div>
+                            </div>
+                            <div class="paper-date">2022-06-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models  </div>
+                                <div> Namrata Anand, Tudor Achim </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2205.15019"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://nanand2.github.io/proteins/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/lucidrains/ddpm-ipa-protein-generation"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-05-26</div>
+                            </div>
+                            <div class="paper-date">2022-05-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> A Score-based Geometric Model for Molecular Dynamics Simulations  </div>
+                                <div> Fang Wu<sup>1</sup>, Qiang Zhang<sup>1</sup>, Xurui Jin, Yinghui Jiang, Stan Z. Li </div>
+                                <div>
+                                        CoRR 2022.
+
+                                        <a href="https://arxiv.org/abs/2204.08672"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-04-19</div>
+                            </div>
+                            <div class="paper-date">2022-04-19</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Equivariant Diffusion for Molecule Generation in 3D  </div>
+                                <div> Emiel Hoogeboom<sup>1</sup>, Victor Garcia Satorras<sup>1</sup>, Clément Vignac, Max Welling </div>
+                                <div>
+                                        ICML 2022.
+
+                                        <a href="https://arxiv.org/abs/2203.17003"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/ehoogeboom/e3_diffusion_for_molecules"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-03-31</div>
+                            </div>
+                            <div class="paper-date">2022-03-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation  </div>
+                                <div> Minkai Xu, Lantao Yu, Yang Song, Chence Shi, Stefano Ermon, Jian Tang </div>
+                                <div>
+                                        ICLR 2022.
+
+                                        <a href="https://arxiv.org/abs/2203.02923"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/MinkaiXu/GeoDiff"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-03-06</div>
+                            </div>
+                            <div class="paper-date">2022-03-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Crystal Diffusion Variational Autoencoder for Periodic Material Generation  </div>
+                                <div> Tian Xie<sup>1</sup>, Xiang Fu<sup>1</sup>, Octavian-Eugen Ganea<sup>1</sup>, Regina Barzilay, Tommi Jaakkol </div>
+                                <div>
+                                        NeurIPS 2021.
+
+                                        <a href="https://arxiv.org/abs/2110.06197"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/txie-93/cdvae"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-10-12</div>
+                            </div>
+                            <div class="paper-date">2021-10-12</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Predicting Molecular Conformation via Dynamic Graph Score Matching  </div>
+                                <div> Shitong Luo, Chence Shi, Minkai Xu, Jian Tang </div>
+                                <div>
+                                        NeurIPS 2021.
+
+                                        <a href="https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee0fb7f1f872ab91da18f899-Abstract.html"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-05-22</div>
+                            </div>
+                            <div class="paper-date">2021-05-22</div>
+                        </li>
+                </ol>
+                <div class="mt-3 mb-3 text-center text-secondary">Counts - 31 &nbsp <a href="#">Back to
+                    top</a></div>
+            </main>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="sidebars.js"></script>
+<script>
+    function toggle_counter() {
+        const elements = document.getElementsByClassName("counter");
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].style.display === "none") {
+                console.log(elements[i].style.display)
+                elements[i].style.display = "block";
+            } else {
+                elements[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

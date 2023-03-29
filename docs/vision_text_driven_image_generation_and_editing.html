@@ -1,0 +1,2560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author"
+          content="Zeqiang Lai"
+    />
+    <title>Awesome Diffusion</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet"/>
+    <link href="sidebars.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top bg-light">
+    <div class="container">
+        <button
+                class="navbar-toggler float-left"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bd-docs-nav"
+                aria-controls="bd-docs-nav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Awesome Diffusion Models</a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Paper</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="resource.html">Resources</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="#" onclick="toggle_counter()"
+                       rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-disc navbar-nav-svg" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        <small class="d-lg-none ms-2">Toggle Counter</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-lg-auto">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/heejkoo/Awesome-Diffusion-Models" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
+                             viewBox="0 0 512 499.36" role="img"><title>GitHub</title>
+                            <path fill="currentColor" fill-rule="evenodd"
+                                  d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
+                        </svg>
+                        <small class="d-lg-none ms-2">GitHub</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 bd-sidebar" style="padding-right: 2rem">
+                <!-- <nav class="collapse show" id="bd-docs-nav"> -->
+                    <ol class="list-unstyled">
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="vision.html">
+                                        <strong>Vision</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 708 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">196</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_segmentation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Segmentation
+                                                    </a>
+                                                    <div class="counter">20</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_inverse_problem.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Inverse Problem
+                                                    </a>
+                                                    <div class="counter">85</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_image_translation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Image Translation
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_text_driven_image_generation_and_editing.html"
+                                                       class="a-toggle link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text driven Image Generation and Editing
+                                                    </a>
+                                                    <div class="counter">144</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_medical_imaging.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Medical Imaging
+                                                    </a>
+                                                    <div class="counter">58</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_3d_vision.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >3D Vision
+                                                    </a>
+                                                    <div class="counter">74</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_adversarial_attack.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Adversarial Attack
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="vision_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">80</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="audio.html">
+                                        <strong>Audio</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 79 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">26</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_conversion.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Conversion
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_enhancement.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Enhancement
+                                                    </a>
+                                                    <div class="counter">19</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_separation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Separation
+                                                    </a>
+                                                    <div class="counter">5</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_text-to-speech.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Text-to-Speech
+                                                    </a>
+                                                    <div class="counter">25</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="audio_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">2</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="natural_language.html">
+                                        <strong>Natural Language</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 21 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="natural_language_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">21</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="tabular_and_time_series.html">
+                                        <strong>Tabular and Time Series</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 19 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">4</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_forecasting.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Forecasting
+                                                    </a>
+                                                    <div class="counter">8</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_imputation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Imputation
+                                                    </a>
+                                                    <div class="counter">6</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="tabular_and_time_series_miscellaneous.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Miscellaneous
+                                                    </a>
+                                                    <div class="counter">1</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn rounded border-0 collapsed" href="graph.html">
+                                        <strong>Graph</strong>
+                                    </a>
+                                    <span class="badge rounded-pill text-bg-secondary counter"> 42 </span>
+                                </div>
+                                <div class="collapse show" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Generation
+                                                    </a>
+                                                    <div class="counter">11</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="graph_molecular_and_material_generation.html"
+                                                       class="link-dark d-inline-flex text-decoration-none rounded"
+                                                    >Molecular and Material Generation
+                                                    </a>
+                                                    <div class="counter">31</div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </li>
+                    </ul>
+
+                <!-- </nav> -->
+            </div>
+            <main class='col-md-9 bd-content' role="main">
+                <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Unleashing Text-to-Image Diffusion Models for Visual Perception  </div>
+                                <div> Wenliang Zhao<sup>1</sup>, Yongming Rao<sup>1</sup>, Zuyan Liu<sup>1</sup>, Benlin Liu, Jie Zhou, Jiwen Lu </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2303.02153"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/wl-zhao/VPD"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-03-03</div>
+                            </div>
+                            <div class="paper-date">2023-03-03</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Collage Diffusion  </div>
+                                <div> Vishnu Sarukkai, Linden Li, Arden Ma, Christopher Ré, Kayvon Fatahalian </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2303.00262"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-03-01</div>
+                            </div>
+                            <div class="paper-date">2023-03-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Towards Enhanced Controllability of Diffusion Models  </div>
+                                <div> Wonwoong Cho, Hareesh Ravi, Midhun Harikumar, Vinh Khuc, Krishna Kumar Singh, Jingwan Lu, David I. Inouye, Ajinkya Kale </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.14368"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-28</div>
+                            </div>
+                            <div class="paper-date">2023-02-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Directed Diffusion: Direct Control of Object Placement through Attention Guidance  </div>
+                                <div> Wan-Duo Kurt Ma, J.P. Lewis, W. Bastiaan Kleijn, Thomas Leung </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.13153"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-25</div>
+                            </div>
+                            <div class="paper-date">2023-02-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Modulating Pretrained Diffusion Models for Multimodal Image Synthesis  </div>
+                                <div> Cusuh Ham, James Hays, Jingwan Lu, Krishna Kumar Singh, Zhifei Zhang, Tobias Hinz </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.12764"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-24</div>
+                            </div>
+                            <div class="paper-date">2023-02-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Region-Aware Diffusion for Zero-shot Text-driven Image Editing  </div>
+                                <div> Nisha Huang, Fan Tang, Weiming Dong, Tong-Yee Lee, Changsheng Xu </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.11797"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/haha-lisa/RDM-Region-Aware-Diffusion-Model"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-23</div>
+                            </div>
+                            <div class="paper-date">2023-02-23</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Controlled and Conditional Text to Image Generation with Diffusion Prior  </div>
+                                <div> Pranav Aggarwal, Hareesh Ravi, Naveen Marri, Sachin Kelkar, Fengbin Chen, Vinh Khuc, Midhun Harikumar, Ritiz Tambi, Sudharshan Reddy Kakumanu, Purvak Lapsiya, Alvin Ghouas, Sarah Saber, Malavika Ramprasad, Baldo Faieta, Ajinkya Kale </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.11710"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-23</div>
+                            </div>
+                            <div class="paper-date">2023-02-23</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC  </div>
+                                <div> Yilun Du, Conor Durkan, Robin Strudel, Joshua B. Tenenbaum, Sander Dieleman, Rob Fergus, Jascha Sohl-Dickstein, Arnaud Doucet, Will Grathwohl </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.11552"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://energy-based-model.github.io/reduce-reuse-recycle/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-22</div>
+                            </div>
+                            <div class="paper-date">2023-02-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Learning 3D Photography Videos via Self-supervised Diffusion on Single Images  </div>
+                                <div> Xiaodong Wang<sup>1</sup>, Chenfei Wu<sup>1</sup>, Shengming Yin, Minheng Ni, Jianfeng Wang, Linjie Li, Zhengyuan Yang, Fan Yang, Lijuan Wang, Zicheng Liu, Yuejian Fang, Nan Duan </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.10781"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-21</div>
+                            </div>
+                            <div class="paper-date">2023-02-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Boundary Guided Mixing Trajectory for Semantic Control with Diffusion Models  </div>
+                                <div> Ye Zhu, Yu Wu, Zhiwei Deng, Olga Russakovsky, Yan Yan </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.08357"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-16</div>
+                            </div>
+                            <div class="paper-date">2023-02-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation  </div>
+                                <div> Omer Bar-Tal<sup>1</sup>, Lior Yariv<sup>1</sup>, Yaron Lipman, Tali Dekel </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.08113"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://multidiffusion.github.io/"
+                                           class="link-primary">roject</a> &nbsp
+                                        <a href="https://github.com/omerbt/MultiDiffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-16</div>
+                            </div>
+                            <div class="paper-date">2023-02-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models  </div>
+                                <div> Chong Mou, Xintao Wang, Liangbin Xie, Jian Zhang, Zhongang Qi, Ying Shan, Xiaohu Qie </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.08453"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/TencentARC/T2I-Adapter"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-16</div>
+                            </div>
+                            <div class="paper-date">2023-02-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Text-driven Visual Synthesis with Latent Diffusion Prior  </div>
+                                <div> Ting-Hsuan Liao, Songwei Ge, Yiran Xu, Yao-Chih Lee, Badour AlBahar, Jia-Bin Huang </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.08510"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://latent-diffusion-prior.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-16</div>
+                            </div>
+                            <div class="paper-date">2023-02-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Exploring the Representation Manifolds of Stable Diffusion Through the Lens of Intrinsic Dimension  </div>
+                                <div> Henry Kvinge, Davis Brown, Charles Godfrey </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.09301"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-16</div>
+                            </div>
+                            <div class="paper-date">2023-02-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> PRedItOR: Text Guided Image Editing with Diffusion Prio  </div>
+                                <div> Hareesh Ravi, Sachin Kelkar, Midhun Harikumar, Ajinkya Kale </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.07979"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-15</div>
+                            </div>
+                            <div class="paper-date">2023-02-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Dataset Interfaces: Diagnosing Model Failures Using Controllable Counterfactual Generation  </div>
+                                <div> Joshua Vendrow<sup>1</sup>, Saachi Jain<sup>1</sup>, Logan Engstrom, Aleksander Madry </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.07865"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/MadryLab/dataset-interfaces"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-15</div>
+                            </div>
+                            <div class="paper-date">2023-02-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Universal Guidance for Diffusion Models  </div>
+                                <div> Arpit Bansal<sup>1</sup>, Hong-Min Chu<sup>1</sup>, Avi Schwarzschild, Soumyadip Sengupta, Micah Goldblum, Jonas Geiping, Tom Goldstein </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.07121"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/arpitbansal297/Universal-Guided-Diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-14</div>
+                            </div>
+                            <div class="paper-date">2023-02-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Text-Guided Scene Sketch-to-Photo Synthesis  </div>
+                                <div> AprilPyone MaungMaung, Makoto Shing, Kentaro Mitsui, Kei Sawada, Fumio Okura </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.06883"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-14</div>
+                            </div>
+                            <div class="paper-date">2023-02-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Analyzing Multimodal Objectives Through the Lens of Generative Diffusion Guidance  </div>
+                                <div> Chaerin Kong, Nojun Kwak </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.10305"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-10</div>
+                            </div>
+                            <div class="paper-date">2023-02-10</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Adding Conditional Control to Text-to-Image Diffusion Models  </div>
+                                <div> Lvmin Zhang, Maneesh Agrawala </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.05543"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/lllyasviel/ControlNet"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-10</div>
+                            </div>
+                            <div class="paper-date">2023-02-10</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Is This Loss Informative? Speeding Up Textual Inversion with Deterministic Objective Evaluation  </div>
+                                <div> Anton Voronov<sup>1</sup>, Mikhail Khoroshikh<sup>1</sup>, Artem Babenko, Max Ryabinin </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.04841"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-09</div>
+                            </div>
+                            <div class="paper-date">2023-02-09</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Zero-shot Generation of Coherent Storybook from Plain Text Story using Diffusion Models  </div>
+                                <div> Hyeonho Jeong, Gihyun Kwon, Jong Chul Ye </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.03900"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-08</div>
+                            </div>
+                            <div class="paper-date">2023-02-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> GLAZE: Protecting Artists from Style Mimicry by Text-to-Image Models  </div>
+                                <div> Shawn Shan, Jenna Cryan, Emily Wenger, Haitao Zheng, Rana Hanocka, Ben Y. Zhao </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.04222"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-08</div>
+                            </div>
+                            <div class="paper-date">2023-02-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Q-Diffusion: Quantizing Diffusion Models  </div>
+                                <div> Xiuyu Li, Long Lian, Yijiang Liu, Huanrui Yang, Zhen Dong, Daniel Kang, Shanghang Zhang, Kurt Keutzer </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.04304"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-08</div>
+                            </div>
+                            <div class="paper-date">2023-02-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery  </div>
+                                <div> Yuxin Wen<sup>1</sup>, Neel Jain<sup>1</sup>, John Kirchenbauer, Micah Goldblum, Jonas Geiping, Tom Goldstein </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.03668"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/YuxinWenRick/hard-prompts-made-easy"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-07</div>
+                            </div>
+                            <div class="paper-date">2023-02-07</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness  </div>
+                                <div> Felix Friedrich, Patrick Schramowski, Manuel Brack, Lukas Struppek, Dominik Hintersdorf, Sasha Luccioni, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.10893"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-07</div>
+                            </div>
+                            <div class="paper-date">2023-02-07</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Structure and Content-Guided Video Synthesis with Diffusion Models  </div>
+                                <div> Patrick Esser, Johnathan Chiu, Parmida Atighehchian, Jonathan Granskog, Anastasis Germanidis </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.03011"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://research.runwayml.com/gen1"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-06</div>
+                            </div>
+                            <div class="paper-date">2023-02-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Zero-shot Image-to-Image Translation  </div>
+                                <div> Gaurav Parmar, Krishna Kumar Singh, Richard Zhang, Yijun Li, Jingwan Lu, Jun-Yan Zhu </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.03027"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-06</div>
+                            </div>
+                            <div class="paper-date">2023-02-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Eliminating Prior Bias for Semantic Image Editing via Dual-Cycle Diffusion  </div>
+                                <div> Zuopeng Yang, Tianshu Chu, Xin Lin, Erdun Gao, Daqing Liu, Jie Yang, Chaoyue Wang </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02394"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-05</div>
+                            </div>
+                            <div class="paper-date">2023-02-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval  </div>
+                                <div> Kexun Zhang, Xianjun Yang, William Yang Wang, Lei Li </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02285"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-05</div>
+                            </div>
+                            <div class="paper-date">2023-02-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Mixture of Diffusers for scene composition and high resolution image generation  </div>
+                                <div> Álvaro Barbero Jiménez </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02412"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-05</div>
+                            </div>
+                            <div class="paper-date">2023-02-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Semantic-Guided Image Augmentation with Pre-trained Models  </div>
+                                <div> Bohan Li, Xinghao Wang, Xiao Xu, Yutai Hou, Yunlong Feng, Feng Wang, Wanxiang Che </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.02070"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-04</div>
+                            </div>
+                            <div class="paper-date">2023-02-04</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> TEXTure: Text-Guided Texturing of 3D Shapes  </div>
+                                <div> Elad Richardson<sup>1</sup>, Gal Metzer<sup>1</sup>, Yuval Alaluf, Raja Giryes, Daniel Cohen-Or </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.01721"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://texturepaper.github.io/TEXTurePaper/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/TEXTurePaper/TEXTurePaper"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-03</div>
+                            </div>
+                            <div class="paper-date">2023-02-03</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Dreamix: Video Diffusion Models are General Video Editors  </div>
+                                <div> Eyal Molad<sup>1</sup>, Eliahu Horwitz<sup>1</sup>, Dani Valevski<sup>1</sup>, Alex Rav Acha, Yossi Matias, Yael Pritch, Yaniv Leviathan, Yedid Hoshen </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.01329"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://dreamix-video-editing.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-02</div>
+                            </div>
+                            <div class="paper-date">2023-02-02</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Trash to Treasure: Using text-to-image models to inform the design of physical artefacts  </div>
+                                <div> Amy Smith<sup>1</sup>, Hope Schroeder<sup>1</sup>, Ziv Epstein, Michael Cook, Simon Colton, Andrew Lippman </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2302.00561"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-02-01</div>
+                            </div>
+                            <div class="paper-date">2023-02-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Zero3D: Semantic-Driven Multi-Category 3D Shape Generation  </div>
+                                <div> Bo Han, Yitong Liu, Yixuan Shen </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.13591"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-31</div>
+                            </div>
+                            <div class="paper-date">2023-01-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models  </div>
+                                <div> Hila Chefer<sup>1</sup>, Yuval Alaluf<sup>1</sup>, Yael Vinker, Lior Wolf, Daniel Cohen-Or </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.13826"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://attendandexcite.github.io/Attend-and-Excite/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/AttendAndExcite/Attend-and-Excite"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-31</div>
+                            </div>
+                            <div class="paper-date">2023-01-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis  </div>
+                                <div> Ming Tao, Bing-Kun Bao, Hao Tang, Changsheng Xu </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12959"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/tobran/GALIP"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-30</div>
+                            </div>
+                            <div class="paper-date">2023-01-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> PromptMix: Text-to-image diffusion models enhance the performance of lightweight networks  </div>
+                                <div> Arian Bakhtiarnia, Qi Zhang, Alexandros Iosifidis </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12914"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://gitlab.au.dk/maleci/promptmix"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-30</div>
+                            </div>
+                            <div class="paper-date">2023-01-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Shape-aware Text-driven Layered Video Editing  </div>
+                                <div> Yao-Chih Lee, Ji-Ze Genevieve Jang, Yi-Ting Chen, Elizabeth Qiu, Jia-Bin Huang </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.13173"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://text-video-edit.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-30</div>
+                            </div>
+                            <div class="paper-date">2023-01-30</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Towards Equitable Representation in Text-to-Image Synthesis Models with the Cross-Cultural Understanding Benchmark (CCUB) Dataset  </div>
+                                <div> Zhixuan Liu, Youeun Shin, Beverley-Claire Okogwu, Youngsik Yun, Lia Coleman, Peter Schaldenbrand, Jihie Kim, Jean Oh </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12073"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-28</div>
+                            </div>
+                            <div class="paper-date">2023-01-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SEGA: Instructing Diffusion using Semantic Dimensions  </div>
+                                <div> Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.12247"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-28</div>
+                            </div>
+                            <div class="paper-date">2023-01-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Text-To-4D Dynamic Scene Generation  </div>
+                                <div> Uriel Singer<sup>1</sup>, Shelly Sheynin<sup>1</sup>, Adam Polyak<sup>1</sup>, Oron Ashual, Iurii Makarov, Filippos Kokkinos, Naman Goyal, Andrea Vedaldi, Devi Parikh, Justin Johnson, Yaniv Taigman </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.11280"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-26</div>
+                            </div>
+                            <div class="paper-date">2023-01-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Guiding Text-to-Image Diffusion Model Towards Grounded Generation  </div>
+                                <div> Ziyi Li, Qinye Zhou, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang, Weidi Xie </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.05221"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://lipurple.github.io/Grounded_Diffusion/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-12</div>
+                            </div>
+                            <div class="paper-date">2023-01-12</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Visual Story Generation Based on Emotion and Keywords  </div>
+                                <div> Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si </div>
+                                <div>
+                                        AAAI 2022.
+
+                                        <a href="https://arxiv.org/abs/2301.02777"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-07</div>
+                            </div>
+                            <div class="paper-date">2023-01-07</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Muse: Text-To-Image Generation via Masked Generative Transformers  </div>
+                                <div> Huiwen Chang<sup>1</sup>, Han Zhang<sup>1</sup>, Jarred Barber, AJ Maschinot, Jose Lezama, Lu Jiang, Ming-Hsuan Yang, Kevin Murphy, William T. Freeman, Michael Rubinstein, Yuanzhen Li, Dilip Krishnan </div>
+                                <div>
+                                        arXiv 2023.
+
+                                        <a href="https://arxiv.org/abs/2301.00704"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://muse-model.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2023-01-02</div>
+                            </div>
+                            <div class="paper-date">2023-01-02</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Exploring Vision Transformers as Diffusion Learners  </div>
+                                <div> He Cao, Jianan Wang, Tianhe Ren, Xianbiao Qi, Yihao Chen, Yuan Yao, Lei Zhang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.13771"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-28</div>
+                            </div>
+                            <div class="paper-date">2022-12-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models  </div>
+                                <div> Jiale Xu, Xintao Wang, Weihao Cheng, Yan-Pei Cao, Ying Shan, Xiaohu Qie, Shenghua Gao </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.14704"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://bluestyle97.github.io/dream3d/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-28</div>
+                            </div>
+                            <div class="paper-date">2022-12-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation  </div>
+                                <div> Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.11565"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://tuneavideo.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-22</div>
+                            </div>
+                            <div class="paper-date">2022-12-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Optimizing Prompts for Text-to-Image Generation  </div>
+                                <div> Yaru Hao<sup>1</sup>, Zewen Chi<sup>1</sup>, Li Dong, Furu Wei </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.09611"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://huggingface.co/spaces/microsoft/Promptist"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/microsoft/LMOps/tree/main/promptist"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-19</div>
+                            </div>
+                            <div class="paper-date">2022-12-19</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models  </div>
+                                <div> Qiucheng Wu, Yujian Liu, Handong Zhao, Ajinkya Kale, Trung Bui, Tong Yu, Zhe Lin, Yang Zhang, Shiyu Chang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.08698"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/UCSB-NLP-Chang/DiffusionDisentanglement"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-16</div>
+                            </div>
+                            <div class="paper-date">2022-12-16</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> TeTIm-Eval: a novel curated evaluation data set for comparing text-to-image models  </div>
+                                <div> Federico A. Galatolo, Mario G. C. A. Cimino, Edoardo Cogotti </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.07839"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-15</div>
+                            </div>
+                            <div class="paper-date">2022-12-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Imagen Editor and EditBench: Advancing and Evaluating Text-Guided Image Inpainting  </div>
+                                <div> Su Wang<sup>1</sup>, Chitwan Saharia<sup>1</sup>, Ceslee Montgomery<sup>1</sup>, Jordi Pont-Tuset, Shai Noy, Stefano Pellegrini, Yasumasa Onoe, Sarah Laszlo, David J. Fleet, Radu Soricut, Jason Baldridge, Mohammad Norouzi, Peter Anderson, William Chan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.06909"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-13</div>
+                            </div>
+                            <div class="paper-date">2022-12-13</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> The Stable Artist: Steering Semantics in Diffusion Latent Space  </div>
+                                <div> Manuel Brack, Patrick Schramowski, Felix Friedrich, Dominik Hintersdorf, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.06013"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-12</div>
+                            </div>
+                            <div class="paper-date">2022-12-12</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis  </div>
+                                <div> Weixi Feng, Xuehai He, Tsu-Jui Fu, Varun Jampani, Arjun Akula, Pradyumna Narayana, Sugato Basu, Xin Eric Wang, William Yang Wang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.05032"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/weixi-feng/Structured-Diffusion-Guidance"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-09</div>
+                            </div>
+                            <div class="paper-date">2022-12-09</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model  </div>
+                                <div> Shaoan Xie, Zhifei Zhang, Zhe Lin, Tobias Hinz, Kun Zhang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.05034"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-09</div>
+                            </div>
+                            <div class="paper-date">2022-12-09</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Executing your Commands via Motion Diffusion in Latent Space  </div>
+                                <div> Xin Chen, Biao Jiang, Wen Liu, Zilong Huang, Bin Fu, Tao Chen, Jingyi Yu, Gang Yu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04048"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://chenxin.tech/mld/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion Guided Domain Adaptation of Image Generators  </div>
+                                <div> Kunpeng Song, Ligong Han, Bingchen Liu, Dimitris Metaxas, Ahmed Elgammal </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04473"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://styleganfusion.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Multi-Concept Customization of Text-to-Image Diffusion  </div>
+                                <div> Nupur Kumari, Bingliang Zhang, Richard Zhang, Eli Shechtman, Jun-Yan Zhu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04488"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://www.cs.cmu.edu/~custom-diffusion/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SINE: SINgle Image Editing with Text-to-Image Diffusion Models  </div>
+                                <div> Zhixing Zhang, Ligong Han, Arnab Ghosh, Dimitris Metaxas, Jian Ren </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04489"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://zhang-zx.github.io/SINE/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/zhang-zx/SINE"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation  </div>
+                                <div> Yen-Chi Cheng, Hsin-Ying Lee, Sergey Tulyakov, Alexander Schwing, Liangyan Gui </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04493"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://yccyenchicheng.github.io/SDFusion/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis  </div>
+                                <div> Rishabh Dabral, Muhammad Hamza Mughal, Vladislav Golyanik, Christian Theobalt </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.04495"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://vcai.mpi-inf.mpg.de/projects/MoFusion/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-08</div>
+                            </div>
+                            <div class="paper-date">2022-12-08</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Judge, Localize, and Edit: Ensuring Visual Commonsense Morality for Text-to-Image Generation  </div>
+                                <div> Seongbeom Park, Suhong Moon, Jinkyu Kim </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.03507"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-07</div>
+                            </div>
+                            <div class="paper-date">2022-12-07</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Magic: Multi Art Genre Intelligent Choreography Dataset and Network for 3D Dance Generation  </div>
+                                <div> Ronghui Li, Junfan Zhao, Yachao Zhang, Mingyang Su, Zeping Ren, Han Zhang, Xiu Li </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.03741"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-07</div>
+                            </div>
+                            <div class="paper-date">2022-12-07</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding  </div>
+                                <div> Gyeongman Kim, Hajin Shim, Hyunsu Kim, Yunjey Choi, Junho Kim, Eunho Yang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.02802"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-06</div>
+                            </div>
+                            <div class="paper-date">2022-12-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> M-VADER: A Model for Diffusion with Multimodal Context  </div>
+                                <div> Samuel Weinbach<sup>1</sup>, Marco Bellagente<sup>1</sup>, Constantin Eichenberg, Andrew Dai, Robert Baldock, Souradeep Nanda, Björn Deiseroth, Koen Oostermeijer, Hannah Teufel, Andres Felipe Cruz-Salinas </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.02936"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-06</div>
+                            </div>
+                            <div class="paper-date">2022-12-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ADIR: Adaptive Diffusion for Image Reconstruction  </div>
+                                <div> Shady Abu-Hussein, Tom Tirer, Raja Giryes </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.03221"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://shadyabh.github.io/ADIR/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-06</div>
+                            </div>
+                            <div class="paper-date">2022-12-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion-SDF: Text-to-Shape via Voxelized Diffusion  </div>
+                                <div> Muheng Li, Yueqi Duan, Jie Zhou, Jiwen Lu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.03293"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-06</div>
+                            </div>
+                            <div class="paper-date">2022-12-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> NeRDi: Single-View NeRF Synthesis with Language-Guided Diffusion as General Image Priors  </div>
+                                <div> Congyue Deng, Chiyu "Max'' Jiang, Charles R. Qi, Xinchen Yan, Yin Zhou, Leonidas Guibas, Dragomir Anguelov </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.03267"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-06</div>
+                            </div>
+                            <div class="paper-date">2022-12-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Shape-Guided Diffusion with Inside-Outside Attention  </div>
+                                <div> Dong Huk Park<sup>1</sup>, Grace Luo<sup>1</sup>, Clayton Toste, Samaneh Azadi, Xihui Liu, Maka Karalashvili, Anna Rohrbach, Trevor Darrell </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.00210"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://shape-guided-diffusion.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-01</div>
+                            </div>
+                            <div class="paper-date">2022-12-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Unite and Conquer: Cross Dataset Multimodal Synthesis using Diffusion Models  </div>
+                                <div> Nithin Gopalakrishnan Nair, Wele Gedara Chaminda Bandara, Vishal M. Patel </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2212.00793"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://nithin-gk.github.io/projectpages/Multidiff/index.html"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-12-01</div>
+                            </div>
+                            <div class="paper-date">2022-12-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DATID-3D: Diversity-Preserved Domain Adaptation Using Text-to-Image Diffusion for 3D Generative Model  </div>
+                                <div> Gwanghyun Kim, Se Young Chun </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.16374"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://datid-3d.github.io/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-29</div>
+                            </div>
+                            <div class="paper-date">2022-11-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SinDDM: A Single Image Denoising Diffusion Model  </div>
+                                <div> Vladimir Kulikov, Shahar Yadin, Matan Kleiner, Tomer Michaeli </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.16582"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://matankleiner.github.io/sinddm/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-29</div>
+                            </div>
+                            <div class="paper-date">2022-11-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Unified Discrete Diffusion for Simultaneous Vision-Language Generation  </div>
+                                <div> Minghui Hu, Chuanxia Zheng, Heliang Zheng, Tat-Jen Cham, Chaoyue Wang, Zuopeng Yang, Dacheng Tao, Ponnuthurai N. Suganthan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.14842"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-27</div>
+                            </div>
+                            <div class="paper-date">2022-11-27</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SpaText: Spatio-Textual Representation for Controllable Image Generation  </div>
+                                <div> Omri Avrahami, Thomas Hayes, Oran Gafni, Sonal Gupta, Yaniv Taigman, Devi Parikh, Dani Lischinski, Ohad Fried, Xi Yin </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.14305"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://omriavrahami.com/spatext/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-25</div>
+                            </div>
+                            <div class="paper-date">2022-11-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> 3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models  </div>
+                                <div> Gang Li, Heliang Zheng, Chaoyue Wang, Chang Li, Changwen Zheng, Dacheng Tao </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.14108"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-25</div>
+                            </div>
+                            <div class="paper-date">2022-11-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Shifted Diffusion for Text-to-image Generation  </div>
+                                <div> Yufan Zhou, Bingchen Liu, Yizhe Zhu, Xiao Yang, Changyou Chen, Jinhui Xu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.15388"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-24</div>
+                            </div>
+                            <div class="paper-date">2022-11-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Sketch-Guided Text-to-Image Diffusion Models  </div>
+                                <div> Andrey Voynov, Kfir Aberman, Daniel Cohen-Or </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.13752"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://sketch-guided-diffusion.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-24</div>
+                            </div>
+                            <div class="paper-date">2022-11-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SinDiffusion: Learning a Diffusion Model from a Single Natural Image  </div>
+                                <div> Weilun Wang, Jianmin Bao, Wengang Zhou, Dongdong Chen, Dong Chen, Lu Yuan, Houqiang Li </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.12445"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/WeilunWang/SinDiffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-22</div>
+                            </div>
+                            <div class="paper-date">2022-11-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Human Evaluation of Text-to-Image Models on a Multi-Task Benchmark  </div>
+                                <div> Vitali Petsiuk, Alexander E. Siemenn, Saisamrit Surbehera, Zad Chin, Keith Tyser, Gregory Hunter, Arvind Raghavan, Yann Hicke, Bryan A. Plummer, Ori Kerret, Tonio Buonassisi, Kate Saenko, Armando Solar-Lezama, Iddo Drori </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.12112"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-22</div>
+                            </div>
+                            <div class="paper-date">2022-11-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation  </div>
+                                <div> Narek Tumanyan<sup>1</sup>, Michal Geyer<sup>1</sup>, Shai Bagon, Tali Dekel </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.12572"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-22</div>
+                            </div>
+                            <div class="paper-date">2022-11-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> EDICT: Exact Diffusion Inversion via Coupled Transformations  </div>
+                                <div> Bram Wallace, Akash Gokul, Nikhil Naik </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.12446"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-22</div>
+                            </div>
+                            <div class="paper-date">2022-11-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models  </div>
+                                <div> Ajay Jain<sup>1</sup>, Amber Xie<sup>1</sup>, Pieter Abbeel </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.11319"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://ajayj.com/vectorfusion"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-21</div>
+                            </div>
+                            <div class="paper-date">2022-11-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Investigating Prompt Engineering in Diffusion Models  </div>
+                                <div> Sam Witteveen, Martin Andrews </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.15462"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-21</div>
+                            </div>
+                            <div class="paper-date">2022-11-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> SinFusion: Training Diffusion Models on a Single Image or Video  </div>
+                                <div> Yaniv Nikankin, Niv Haim, Michal Irani </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.11743"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-21</div>
+                            </div>
+                            <div class="paper-date">2022-11-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffStyler: Controllable Dual Diffusion for Text-Driven Image Stylization  </div>
+                                <div> Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Yong Zhang, Weiming Dong, Changsheng Xu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.10682"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-19</div>
+                            </div>
+                            <div class="paper-date">2022-11-19</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Invariant Learning via Diffusion Dreamed Distribution Shifts  </div>
+                                <div> Priyatham Kattakinda, Alexander Levine, Soheil Feizi </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.10370"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-18</div>
+                            </div>
+                            <div class="paper-date">2022-11-18</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Magic3D: High-Resolution Text-to-3D Content Creation  </div>
+                                <div> Chen-Hsuan Lin<sup>1</sup>, Jun Gao<sup>1</sup>, Luming Tang<sup>1</sup>, Towaki Takikawa<sup>1</sup>, Xiaohui Zeng<sup>1</sup>, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.10440"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://deepimagination.cc/Magic3D/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-18</div>
+                            </div>
+                            <div class="paper-date">2022-11-18</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> InstructPix2Pix: Learning to Follow Image Editing Instructions  </div>
+                                <div> Tim Brooks, Aleksander Holynski, Alexei A. Efros </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.09800"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-17</div>
+                            </div>
+                            <div class="paper-date">2022-11-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Null-text Inversion for Editing Real Images using Guided Diffusion Model  </div>
+                                <div> Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.09794"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-17</div>
+                            </div>
+                            <div class="paper-date">2022-11-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Versatile Diffusion: Text, Images and Variations All in One Diffusion Model  </div>
+                                <div> Xingqian Xu, Zhangyang Wang, Eric Zhang, Kai Wang, Humphrey Shi </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.08332"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/SHI-Labs/Versatile-Diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-15</div>
+                            </div>
+                            <div class="paper-date">2022-11-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Direct Inversion: Optimization-Free Text-Driven Real Image Editing with Diffusion Models  </div>
+                                <div> Adham Elarabawy, Harish Kamath, Samuel Denton </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.07825"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-15</div>
+                            </div>
+                            <div class="paper-date">2022-11-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Arbitrary Style Guidance for Enhanced Diffusion-Based Text-to-Image Generation  </div>
+                                <div> Zhihong Pan, Xin Zhou, Hao Tian </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.07751"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-14</div>
+                            </div>
+                            <div class="paper-date">2022-11-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models  </div>
+                                <div> Patrick Schramowski, Manuel Brack, Björn Deiseroth, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.05105"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/ml-research/safe-latent-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-09</div>
+                            </div>
+                            <div class="paper-date">2022-11-09</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Rickrolling the Artist: Injecting Invisible Backdoors into Text-Guided Image Generation Models  </div>
+                                <div> Lukas Struppek, Dominik Hintersdorf, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.02408"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/LukasStruppek/Rickrolling-the-Artist"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-04</div>
+                            </div>
+                            <div class="paper-date">2022-11-04</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> eDiffi: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers  </div>
+                                <div> Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat, Jiaming Song, Karsten Kreis, Miika Aittala, Timo Aila, Samuli Laine, Bryan Catanzaro, Tero Karras, Ming-Yu Liu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2211.01324"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://deepimagination.cc/eDiffi/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-11-02</div>
+                            </div>
+                            <div class="paper-date">2022-11-02</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> UPainting: Unified Text-to-Image Diffusion Generation with Cross-modal Guidance  </div>
+                                <div> Wei Li, Xue Xu, Xinyan Xiao, Jiachen Liu, Hu Yang, Guohao Li, Zhanpeng Wang, Zhifan Feng, Qiaoqiao She, Yajuan Lyu, Hua Wu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.16031"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-28</div>
+                            </div>
+                            <div class="paper-date">2022-10-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> MagicMix: Semantic Mixing with Diffusion Models  </div>
+                                <div> Jun Hao Liew, Hanshu Yan, Daquan Zhou, Jiashi Feng </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.16056"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://magicmix.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-28</div>
+                            </div>
+                            <div class="paper-date">2022-10-28</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts  </div>
+                                <div> Zhida Feng<sup>1</sup>, Zhenyu Zhang<sup>1</sup>, Xintong Yu<sup>1</sup>, Yewei Fang, Lanxin Li, Xuyi Chen, Yuxiang Lu, Jiaxiang Liu, Weichong Yin, Shikun Feng, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.15257"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-27</div>
+                            </div>
+                            <div class="paper-date">2022-10-27</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?  </div>
+                                <div> Hritik Bansal<sup>1</sup>, Da Yin<sup>1</sup>, Masoud Monajatipoor, Kai-Wei Chang </div>
+                                <div>
+                                        EMNLP 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.15230"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/Hritikbansal/entigen_emnlp"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-27</div>
+                            </div>
+                            <div class="paper-date">2022-10-27</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models  </div>
+                                <div> Zijie J. Wang, Evan Montoya, David Munechika, Haoyang Yang, Benjamin Hoover, Duen Horng Chau </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.14896"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://poloclub.github.io/diffusiondb/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-26</div>
+                            </div>
+                            <div class="paper-date">2022-10-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Lafite2: Few-shot Text-to-Image Generation  </div>
+                                <div> Yufan Zhou, Chunyuan Li, Changyou Chen, Jianfeng Gao, Jinhui Xu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.14124"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-25</div>
+                            </div>
+                            <div class="paper-date">2022-10-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> High-Resolution Image Editing via Multi-Stage Blended Diffusion  </div>
+                                <div> Johannes Ackermann, Minjun Li </div>
+                                <div>
+                                        NeurIPS Workshop 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.12965"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/pfnet-research/multi-stage-blended-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-24</div>
+                            </div>
+                            <div class="paper-date">2022-10-24</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> A Visual Tour Of Current Challenges In Multimodal Language Models  </div>
+                                <div> Shashank Sonkar, Naiming Liu, Richard G. Baraniuk </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.12565"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-22</div>
+                            </div>
+                            <div class="paper-date">2022-10-22</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Conditional Diffusion with Less Explicit Guidance via Model Predictive Control  </div>
+                                <div> Max W. Shen, Ehsan Hajiramezanali, Gabriele Scalia, Alex Tseng, Nathaniel Diamant, Tommaso Biancalani, Andreas Loukas </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.12192"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-21</div>
+                            </div>
+                            <div class="paper-date">2022-10-21</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Diffusion Models already have a Semantic Latent Space  </div>
+                                <div> Mingi Kwon, Jaeseok Jeong, Youngjung Uh </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.10960"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://kwonminki.github.io/Asyrp/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-20</div>
+                            </div>
+                            <div class="paper-date">2022-10-20</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffEdit: Diffusion-based semantic image editing with mask guidance  </div>
+                                <div> Guillaume Couairon, Jakob Verbeek, Holger Schwenk, Matthieu Cord </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.11427"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-20</div>
+                            </div>
+                            <div class="paper-date">2022-10-20</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Swinv2-Imagen: Hierarchical Vision Transformer Diffusion Models for Text-to-Image Generation  </div>
+                                <div> Ruijun Li, Weihua Li, Yi Yang, Hanyu Wei, Jianhua Jiang, Quan Bai </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.09549"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-18</div>
+                            </div>
+                            <div class="paper-date">2022-10-18</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation Model on a Single Image  </div>
+                                <div> Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.09477"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-18</div>
+                            </div>
+                            <div class="paper-date">2022-10-18</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Imagic: Text-Based Real Image Editing with Diffusion Models  </div>
+                                <div> Bahjat Kawar<sup>1</sup>, Shiran Zada<sup>1</sup>, Oran Lang, Omer Tov, Huiwen Chang, Tali Dekel, Inbar Mosseri, Michal Irani </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.09276"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-17</div>
+                            </div>
+                            <div class="paper-date">2022-10-17</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Leveraging Off-the-shelf Diffusion Model for Multi-attribute Fashion Image Manipulation  </div>
+                                <div> Chaerin Kong, DongHyeon Jeon, Ohjoon Kwon, Nojun Kwak </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.05872"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-12</div>
+                            </div>
+                            <div class="paper-date">2022-10-12</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Unifying Diffusion Models' Latent Space, with Applications to CycleDiffusion and Guidance  </div>
+                                <div> Chen Henry Wu, Fernando De la Torre </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.05559"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/ChenWu98/cycle-diffusion"
+                                           class="link-primary">Github-1</a> &nbsp
+                                        <a href="https://github.com/ChenWu98/unified-generative-zoo"
+                                           class="link-primary">Github-2</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-11</div>
+                            </div>
+                            <div class="paper-date">2022-10-11</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> clip2latent: Text driven sampling of a pre-trained StyleGAN using denoising diffusion and CLIP  </div>
+                                <div> Justin N. M. Pinkney, Chuan Li </div>
+                                <div>
+                                        BMVC 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.02347"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/justinpinkney/clip2latent"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-05</div>
+                            </div>
+                            <div class="paper-date">2022-10-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> LDEdit: Towards Generalized Text Guided Image Manipulation via Latent Diffusion Models  </div>
+                                <div> Paramanand Chandramouli, Kanchana Vaishnavi Gandikota </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.02249"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-05</div>
+                            </div>
+                            <div class="paper-date">2022-10-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics  </div>
+                                <div> Ivan Kapelyukh, Vitalis Vosylius, Edward Johns </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.02438"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-05</div>
+                            </div>
+                            <div class="paper-date">2022-10-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Imagen Video: High Definition Video Generation with Diffusion Models  </div>
+                                <div> Jonathan Ho<sup>1</sup>, William Chan<sup>1</sup>, Chitwan Saharia<sup>1</sup>, Jay Whang<sup>1</sup>, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.02303"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-05</div>
+                            </div>
+                            <div class="paper-date">2022-10-05</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Membership Inference Attacks Against Text-to-image Generation Models  </div>
+                                <div> Yixin Wu, Ning Yu, Zheng Li, Michael Backes, Yang Zhang </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2210.00968"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-10-03</div>
+                            </div>
+                            <div class="paper-date">2022-10-03</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Creative Painting with Latent Diffusion Models  </div>
+                                <div> Xianchao Wu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.14697"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-29</div>
+                            </div>
+                            <div class="paper-date">2022-09-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Re-Imagen: Retrieval-Augmented Text-to-Image Generator  </div>
+                                <div> Wenhu Chen, Hexiang Hu, Chitwan Saharia, William W. Cohen </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.14491"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-29</div>
+                            </div>
+                            <div class="paper-date">2022-09-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DreamFusion: Text-to-3D using 2D Diffusion  </div>
+                                <div> Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.14988"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://dreamfusion3d.github.io/"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-29</div>
+                            </div>
+                            <div class="paper-date">2022-09-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Make-A-Video: Text-to-Video Generation without Text-Video Data  </div>
+                                <div> Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.14792"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-29</div>
+                            </div>
+                            <div class="paper-date">2022-09-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion  </div>
+                                <div> Nisha Huang, Fan Tang, Weiming Dong, Changsheng Xu </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.13360"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/haha-lisa/MGAD-multimodal-guided-artwork-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-27</div>
+                            </div>
+                            <div class="paper-date">2022-09-27</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Personalizing Text-to-Image Generation via Aesthetic Gradients  </div>
+                                <div> Victor Gallego </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.12330"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/vicgalle/stable-diffusion-aesthetic-gradients"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-25</div>
+                            </div>
+                            <div class="paper-date">2022-09-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Best Prompts for Text-to-Image Models and How to Find Them  </div>
+                                <div> Nikita Pavlichenko, Dmitry Ustalov </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.11711"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-23</div>
+                            </div>
+                            <div class="paper-date">2022-09-23</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> The Biased Artist: Exploiting Cultural Biases via Homoglyphs in Text-Guided Image Generation Models  </div>
+                                <div> Lukas Struppek, Dominik Hintersdorf, Kristian Kersting </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.08891"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/LukasStruppek/The-Biased-Artist"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-19</div>
+                            </div>
+                            <div class="paper-date">2022-09-19</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models  </div>
+                                <div> Chen Henry Wu, Saman Motamed, Shaunak Srivastava, Fernando De la Torre </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2209.06970"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/ChenWu98/Generative-Visual-Prompt"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-09-14</div>
+                            </div>
+                            <div class="paper-date">2022-09-14</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation  </div>
+                                <div> Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2208.12242"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://dreambooth.github.io/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/Victarry/stable-dreambooth"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-08-25</div>
+                            </div>
+                            <div class="paper-date">2022-08-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models  </div>
+                                <div> Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Björn Ommer </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2207.13038"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/CompVis/latent-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-07-26</div>
+                            </div>
+                            <div class="paper-date">2022-07-26</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation  </div>
+                                <div> Ye Zhu, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, Yan Yan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.07771"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/L-YeZhu/CDCD"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-15</div>
+                            </div>
+                            <div class="paper-date">2022-06-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Blended Latent Diffusion  </div>
+                                <div> Omri Avrahami, Ohad Fried, Dani Lischinski </div>
+                                <div>
+                                        ACM 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.02779"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://omriavrahami.com/blended-latent-diffusion-page/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/omriav/blended-latent-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-06</div>
+                            </div>
+                            <div class="paper-date">2022-06-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Compositional Visual Generation with Composable Diffusion Models  </div>
+                                <div> Nan Liu<sup>1</sup>, Shuang Li<sup>1</sup>, Yilun Du<sup>1</sup>, Antonio Torralba, Joshua B. Tenenbaum </div>
+                                <div>
+                                        ECCV 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.01714"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-03</div>
+                            </div>
+                            <div class="paper-date">2022-06-03</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiVAE: Photorealistic Images Synthesis with Denoising Diffusion Decoder  </div>
+                                <div> Jie Shi<sup>1</sup>, Chenfei Wu<sup>1</sup>, Jian Liang, Xiang Liu, Nan Duan </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2206.00386"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-06-01</div>
+                            </div>
+                            <div class="paper-date">2022-06-01</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Text2Human: Text-Driven Controllable Human Image Generation  </div>
+                                <div> Yuming Jiang, Shuai Yang, Haonan Qiu, Wayne Wu, Chen Change Loy, Ziwei Liu </div>
+                                <div>
+                                        ACM 2022.
+
+                                        <a href="https://arxiv.org/abs/2205.15996"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/yumingj/Text2Human"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-05-31</div>
+                            </div>
+                            <div class="paper-date">2022-05-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Improved Vector Quantized Diffusion Models  </div>
+                                <div> Zhicong Tang, Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2205.16007"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/microsoft/VQ-Diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-05-31</div>
+                            </div>
+                            <div class="paper-date">2022-05-31</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding  </div>
+                                <div> Chitwan Saharia<sup>1</sup>, William Chan<sup>1</sup>, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi </div>
+                                <div>
+                                        NeurIPS 2022.
+
+                                        <a href="https://arxiv.org/abs/2205.11487"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/lucidrains/imagen-pytorch"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-05-23</div>
+                            </div>
+                            <div class="paper-date">2022-05-23</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Retrieval-Augmented Diffusion Models  </div>
+                                <div> Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2204.11824"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/lucidrains/retrieval-augmented-ddpm"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-04-25</div>
+                            </div>
+                            <div class="paper-date">2022-04-25</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Hierarchical Text-Conditional Image Generation with CLIP Latents  </div>
+                                <div> Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2204.06125"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/lucidrains/DALLE2-pytorch"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-04-13</div>
+                            </div>
+                            <div class="paper-date">2022-04-13</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> KNN-Diffusion: Image Generation via Large-Scale Retrieval  </div>
+                                <div> Oron Ashual, Shelly Sheynin, Adam Polyak, Uriel Singer, Oran Gafni, Eliya Nachmani, Yaniv Taigman </div>
+                                <div>
+                                        arXiv 2022.
+
+                                        <a href="https://arxiv.org/abs/2204.02849"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2022-04-06</div>
+                            </div>
+                            <div class="paper-date">2022-04-06</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> High-Resolution Image Synthesis with Latent Diffusion Models  </div>
+                                <div> Robin Rombach<sup>1</sup>, Andreas Blattmann<sup>1</sup>, Dominik Lorenz, Patrick Esser, Björn Ommer </div>
+                                <div>
+                                        CVPR 2022.
+
+                                        <a href="https://arxiv.org/abs/2112.10752"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/CompVis/latent-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-12-20</div>
+                            </div>
+                            <div class="paper-date">2021-12-20</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Tackling the Generative Learning Trilemma with Denoising Diffusion GANs  </div>
+                                <div> Zhisheng Xiao, Karsten Kreis, Arash Vahdat </div>
+                                <div>
+                                        ICLR 2022 (Spotlight).
+
+                                        <a href="https://arxiv.org/abs/2112.07804"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://nvlabs.github.io/denoising-diffusion-gan"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-12-15</div>
+                            </div>
+                            <div class="paper-date">2021-12-15</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> More Control for Free! Image Synthesis with Semantic Diffusion Guidance  </div>
+                                <div> Xihui Liu, Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, Humphrey Shi, Anna Rohrbach, Trevor Darrell </div>
+                                <div>
+                                        arXiv 2021.
+
+                                        <a href="https://arxiv.org/abs/2112.05744"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://xh-liu.github.io/sdg/"
+                                           class="link-primary">Project</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-12-10</div>
+                            </div>
+                            <div class="paper-date">2021-12-10</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Blended Diffusion for Text-driven Editing of Natural Images  </div>
+                                <div> Omri Avrahami, Dani Lischinski, Ohad Fried </div>
+                                <div>
+                                        CVPR 2022.
+
+                                        <a href="https://arxiv.org/abs/2111.14818"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://omriavrahami.com/blended-diffusion-page/"
+                                           class="link-primary">Project</a> &nbsp
+                                        <a href="https://github.com/omriav/blended-diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-11-29</div>
+                            </div>
+                            <div class="paper-date">2021-11-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> Vector Quantized Diffusion Model for Text-to-Image Synthesis  </div>
+                                <div> Shuyang Gu, Dong Chen, Jianmin Bao, Fang Wen, Bo Zhang, Dongdong Chen, Lu Yuan, Baining Guo </div>
+                                <div>
+                                        CVPR 2022.
+
+                                        <a href="https://arxiv.org/abs/2111.14822"
+                                           class="link-primary">Paper</a> &nbsp
+                                        <a href="https://github.com/microsoft/VQ-Diffusion"
+                                           class="link-primary">Github</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-11-29</div>
+                            </div>
+                            <div class="paper-date">2021-11-29</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start list-item-flex">
+                            <div class="ms-2 me-auto paper-main">
+                                <div class="fw-bold"> DiffusionCLIP: Text-guided Image Manipulation Using Diffusion Models  </div>
+                                <div> Gwanghyun Kim, Jong Chul Ye </div>
+                                <div>
+                                        CVPR 2022.
+
+                                        <a href="https://arxiv.org/abs/2110.02711"
+                                           class="link-primary">Paper</a> &nbsp
+                                </div>
+                                <div class="paper-date-inner">2021-10-06</div>
+                            </div>
+                            <div class="paper-date">2021-10-06</div>
+                        </li>
+                </ol>
+                <div class="mt-3 mb-3 text-center text-secondary">Counts - 144 &nbsp <a href="#">Back to
+                    top</a></div>
+            </main>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="sidebars.js"></script>
+<script>
+    function toggle_counter() {
+        const elements = document.getElementsByClassName("counter");
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].style.display === "none") {
+                console.log(elements[i].style.display)
+                elements[i].style.display = "block";
+            } else {
+                elements[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

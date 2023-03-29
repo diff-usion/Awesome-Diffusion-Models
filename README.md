@@ -101,7 +101,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
 **Diffusion Models as a kind of VAE** \
 *Angus Turner* \
 [[Website](https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html)] \
-29 June 2021
+29 Jun 2021
 
 **Generative Modeling by Estimating Gradients of the Data Distribution** \
 *Yang Song* \
@@ -130,12 +130,12 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 **Diffusion models from scratch in PyTorch** \
 *DeepFindr* \
 [[Video](https://www.youtube.com/watch?v=a4Yfz2FxXiY)] \
-18 July 2022
+18 Jul 2022
 
 **Diffusion Models | Paper Explanation | Math Explained** \
 *Outlier* \
 [[Video](https://www.youtube.com/watch?v=HoKDTa5jHvg)] \
-Jun 6 2022
+6 Jun 2022
 
 **What are Diffusion Models?** \
 *Ari Seff* \
@@ -152,12 +152,12 @@ Jun 6 2022
 **Denoising Diffusion-based Generative Modeling: Foundations and Applications** \
 *Karsten Kreis, Ruiqi Gao, Arash Vahdat* \
 [[Page](https://cvpr2022-tutorial-diffusion-models.github.io/)] \
-19 June 2022
+19 Jun 2022
 
 **Diffusion Probabilistic Models** \
 *Jascha Sohl-Dickstein, MIT 6.S192 - Lecture 22* \
 [[Video](https://www.youtube.com/watch?v=XCUlnHP1TNM)] \
-19 April 2022
+19 Apr 2022
 
 ## Tutorial and Jupyter Notebook
 
@@ -196,30 +196,39 @@ Jun 6 2022
 
 
 **Centipede Diffusion** \
+*Zalring* \
 [[Notebook](https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb)]
 
 **Deforum Stable Diffusion** \
+*deforum* \
 [[Notebook](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)]
 
 **Stable Diffusion Interpolation** \
+*None* \
 [[Notebook](https://colab.research.google.com/drive/1EHZtFjQoRr-bns1It5mTcOVyZzZD9bBc?usp=sharing)]
 
 **Keras Stable Diffusion: GPU starter example** \
+*None* \
 [[Notebook](https://colab.research.google.com/drive/1zVTa4mLeM_w44WaFwl7utTaa6JcaH1zK)]
 
 **Huemin Jax Diffusion** \
+*huemin-art* \
 [[Notebook](https://colab.research.google.com/github/huemin-art/jax-guided-diffusion/blob/v2.7/Huemin_Jax_Diffusion_2_7.ipynb)]
 
 **Disco Diffusion** \
+*alembics* \
 [[Notebook](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb)]
 
 **Simplified Disco Diffusion** \
+*entmike* \
 [[Notebook](https://colab.research.google.com/github/entmike/disco-diffusion-1/blob/main/Simplified_Disco_Diffusion.ipynb)]
 
 **WAS's Disco Diffusion - Portrait Generator Playground** \
+*WASasquatch* \
 [[Notebook](https://colab.research.google.com/github/WASasquatch/disco-diffusion-portrait-playground/blob/main/WAS's_Disco_Diffusion_v5_6_9_%5BPortrait_Generator_Playground%5D.ipynb)]
 
 **Diffusers - Hugging Face** \
+*huggingface* \
 [[Notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)] 
 
 
@@ -721,7 +730,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.01156)] \
 
 **DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models** \
 *Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu* \
-NeurIPS 2022 (Oral) [[Paper](https://arxiv.org/abs/2211.01095)] [[Github](https://github.com/LuChengTHU/dpm-solver)] \
+NeurIPS 2022 (Oral). [[Paper](https://arxiv.org/abs/2211.01095)] [[Github](https://github.com/LuChengTHU/dpm-solver)] \
 2 Nov 2022
 
 **Score-based Denoising Diffusion with Non-Isotropic Gaussian Noise Models** \
@@ -895,7 +904,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.13397)] [[Project](https://aalto
 **Diffusion models as plug-and-play priors** \
 *Alexandros Graikos, Nikolay Malkin, Nebojsa Jojic, Dimitris Samaras* \
 NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.09012)] [[Github](https://github.com/alexgraikos/diffusion_priors)] \
-17 June 2022
+17 Jun 2022
 
 **A Flexible Diffusion Model** \
 *Weitao Du, Tao Yang, He Zhang, Yuanqi Du* \
@@ -1220,7 +1229,7 @@ NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.03006)] \
 
 **Variational Diffusion Models** \
 *Diederik P. Kingma<sup>1</sup>, Tim Salimans<sup>1</sup>, Ben Poole, Jonathan Ho* \
-arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github]](https://github.com/google-research/vdm) \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github.com/google-research/vdm)] \
 1 Jul 2021 
 
 **Diffusion Priors In Variational Autoencoders** \
@@ -2837,7 +2846,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.02936)] \
 **Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding** \
 *Gyeongman Kim, Hajin Shim, Hyunsu Kim, Yunjey Choi, Junho Kim, Eunho Yang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.02802)] \
-6 Dec 202
+6 Dec 2022
 
 
 **Unite and Conquer: Cross Dataset Multimodal Synthesis using Diffusion Models** \
@@ -4702,7 +4711,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2301.05489)] \
 
 **Diffusion-based Data Augmentation for Skin Disease Classification: Impact Across Original Medical Datasets to Fully Synthetic Images** \
 *Mohamed Akrout<sup>1</sup>, Bálint Gyepesi<sup>1</sup>, Péter Holló, Adrienn Poór, Blága Kincső, Stephen Solis, Katrina Cirone, Jeremy Kawahara, Dekker Slade, Latif Abid, Máté Kovács, István Fazekas* \
-arXiv 2023/ [[Paper](https://arxiv.org/abs/2301.04802)] \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.04802)] \
 12 Jan 2023
 
 **Speech Driven Video Editing via an Audio-Conditioned Diffusion Model** \
@@ -5174,7 +5183,7 @@ ISMIR 2021. [[Paper](https://arxiv.org/abs/2103.16091)] [[Github](https://github
 
 **DiffWave: A Versatile Diffusion Model for Audio Synthesis** \
 *Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro* \
-ICLR 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Github](https://diffwave-demo.github.io/)] \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2009.09761)] [[Github](https://diffwave-demo.github.io/)] \
 21 Sep 2020 
 
 **WaveGrad: Estimating Gradients for Waveform Generation** \
@@ -5237,7 +5246,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.02527)] \
 
 **Analysing Diffusion-based Generative Approaches versus Discriminative Approaches for Speech Restoration** \
 *Jean-Marie Lemercier, Julius Richter, Simon Welker, Timo Gerkmann* \
-ICASSP [[Paper](https://arxiv.org/abs/2211.02397)] [[Project](https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/sgmse-multitask.html)] [[Github](https://github.com/sp-uhh/sgmse)] \
+ICASSP. [[Paper](https://arxiv.org/abs/2211.02397)] [[Project](https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/sgmse-multitask.html)] [[Github](https://github.com/sp-uhh/sgmse)] \
 4 Nov 2022
 
 **SRTNet: Time Domain Speech Enhancement Via Stochastic Refinement** \
@@ -5373,7 +5382,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12661)] [[Project](https://text-
 
 **AudioLDM: Text-to-Audio Generation with Latent Diffusion Models** \
 *Haohe Liu<sup>1</sup>, Zehua Chen<sup>1</sup>, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumbley* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12503)] [[Project](https://audioldm.github.io/)] [[Github(https://github.com/haoheliu/AudioLDM)] \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2301.12503)] [[Project](https://audioldm.github.io/)] [[Github](https://github.com/haoheliu/AudioLDM)] \
 29 Jan 2023
 
 **ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech** \
@@ -5435,7 +5444,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2201.11972)] [[Github](https://github
 **Guided-TTS:Text-to-Speech with Untranscribed Speech** \
 *Heeseung Kim, Sungwon Kim, Sungroh Yoon* \
 ICML 2021. [[Paper](https://arxiv.org/abs/2111.11755)] \
-32 Nov 2021
+30 Nov 2021
 
 
 
@@ -5909,7 +5918,7 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2209.00865)] \
 **Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models** \
 *Shitong Luo<sup>1</sup>, Yufeng Su<sup>1</sup>, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma* \
 BioRXiv 2022. [[Paper](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)] \
-11 July 2022
+11 Jul 2022
 
 **Data-driven discovery of novel 2D materials by deep generative models** \
 *Peder Lyngby, Kristian Sommer Thygesen* \
@@ -5924,7 +5933,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2206.11898)] \
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem** \
 *Brian L. Trippe<sup>1</sup>, Jason Yim<sup>1</sup>, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola* \
 CoRR 2022. [[Paper](https://arxiv.org/abs/2206.04119)] \
-8 Jun 2022'
+8 Jun 2022
 
 **Torsional Diffusion for Molecular Conformer Generation** \
 *Bowen Jing, Gabriele Corso, Regina Barzilay, Tommi S. Jaakkola* \
