@@ -294,6 +294,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**EGC: Image Generation and Classification via a Single Energy-Based Model** \
+*Qiushan Guo, Chuofan Ma, Yi Jiang, Zehuan Yuan, Yizhou Yu, Ping Luo* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2304.02012)] [[Github](https://github.com/GuoQiushan/EGC)] \
+11 Apr 2023
+
 **Token Merging for Fast Stable Diffusion** \
 *Daniel Bolya, Judy Hoffman* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17604)] [[Github](https://github.com/dbolya/tomesd)] \
