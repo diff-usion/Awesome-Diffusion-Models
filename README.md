@@ -1165,9 +1165,9 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.01490)] [[Github](https://github
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.13902)] \
 29 Apr 2022
 
-**Retrieval-Augmented Diffusion Models** \
-*Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Björn Ommer* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
+**Semi-Parametric Neural Image Synthesis** \
+*Andreas Blattmann<sup>1</sup>, Robin Rombach<sup>1</sup>, Kaan Oktay, Jonas Müller, Björn Ommer* \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.11824)] \
 25 Apr 2022
 
 
