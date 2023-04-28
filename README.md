@@ -6222,6 +6222,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02696)] \
 
 ### Text-to-Speech
 
+**TANGO: Text-to-Audio Generation using Instruction-Tuned LLM and Latent Diffusion Model** \
+*Deepanway Ghosal, Navonil Majumder, Ambuj Mehrish, Soujanya Poria* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2304.13731)] [[Project](https://tango-web.github.io/)] [[Github](https://github.com/declare-lab/tango)] \
+24 Apr 2023
+
 **DiffVoice: Text-to-Speech with Latent Diffusion** \
 *Zhijun Liu, Yiwei Guo, Kai Yu* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2304.11750)] \
