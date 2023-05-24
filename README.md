@@ -7351,7 +7351,7 @@ ICLR 2021. [[Paper](https://arxiv.org/abs/2101.12072)] [[Github](https://github.
 ### Imputation
 
 **PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation** \
-*Mingzhe Liu, Han Huang, Hao Feng, Leilei Sun, Bowen Du, Yanjie Fu* \
+*Mingzhe Liu<sup>1</sup>, Han Huang<sup>1</sup>, Hao Feng, Leilei Sun, Bowen Du, Yanjie Fu* \
 ICDE 2023. [[Paper](https://arxiv.org/abs/2302.09746)] [[Github](https://github.com/LMZZML/PriSTI)] \
 20 Feb 2023
 
@@ -7474,9 +7474,14 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2301.13629)] \
 ICLR 2023. [[Paper](https://arxiv.org/abs/2301.09474)] \
 23 Jan 2023
 
+**Conditional Diffusion Based on Discrete Graph Structures for Molecular Graph Generation** \
+*Han Huang, Leilei Sun, Bowen Du, Weifeng Lv* \
+AAAI 2023. [[Paper](https://arxiv.org/abs/2301.00427)] [[Github](https://github.com/GRAPH-0/CDGS)] \
+1 Jan 2023
+
 **GraphGDP: Generative Diffusion Processes for Permutation Invariant Graph Generation** \
 *Han Huang, Leilei Sun, Bowen Du, Yanjie Fu, Weifeng Lv* \
-IEEE ICDM 2022. [[Paper](https://arxiv.org/abs/2212.01842)] \
+IEEE ICDM 2022. [[Paper](https://arxiv.org/abs/2212.01842)] [[Github](https://github.com/GRAPH-0/GraphGDP)] \
 4 Dec 2022
 
 **NVDiff: Graph Generation through the Diffusion of Node Vectors** \
@@ -7505,6 +7510,11 @@ AISTATS 2021. [[Paper](https://arxiv.org/abs/2003.00638)] [[Github](https://gith
 2 Mar 2020
 
 ### Molecular and Material Generation
+
+**Learning Joint 2D & 3D Diffusion Models for Complete Molecule Generation** \
+*Han Huang, Leilei Sun, Bowen Du, Weifeng Lv* \
+arxiv 2023. [[Paper](https://arxiv.org/abs/2305.12347)] [[Github](https://github.com/GRAPH-0/JODO)] \
+21 May 2023
 
 **MolDiff: Addressing the Atom-Bond Inconsistency Problem in 3D Molecule Diffusion Generation** \
 *Xingang Peng, Jiaqi Guan, Qiang Liu, Jianzhu Ma* \
