@@ -32,6 +32,7 @@ This repository contains a collection of resources and papers on ***Diffusion Mo
     - [Text-to-Speech](#text-to-speech)
     - [Miscellany](#miscellany-1)
   - [Natural Language](#natural-language)
+  - [Point Process](#point-process)
   - [Tabular and Time Series](#tabular-and-time-series)
     - [Generation](#generation-2)
     - [Forecasting](#forecasting)
@@ -7251,6 +7252,12 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.01471)] \
 *Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forré, Max Welling* \
 NeurIPS 2021. [[Paper](https://arxiv.org/abs/2102.05379)] \
 10 Feb 2021
+
+## Point Process
+**Spatio-temporal Diffusion Point Processes** \
+*Yuan Yuan, Jingtao Ding, Chenyang Shao, Depeng Jin, Yong Li* \
+KDD 2023. [[Paper](https://arxiv.org/abs/2305.12403)] \
+31 May 2023
 
 ## Tabular and Time Series
 
