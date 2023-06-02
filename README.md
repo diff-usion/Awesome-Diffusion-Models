@@ -977,7 +977,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11058)] [[Github](https://github
 
 **Self-Guided Diffusion Models** \
 *Vincent Tao Hu<sup>1</sup>, David W Zhang<sup>1</sup>, Yuki M. Asano, Gertjan J. Burghouts, Cees G. M. Snoek* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2210.06462)] \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2210.06462)]  [[Project](http://taohu.me/sgdm/)]   \
 12 Oct 2022
 
 **GENIE: Higher-Order Denoising Diffusion Solvers** \
