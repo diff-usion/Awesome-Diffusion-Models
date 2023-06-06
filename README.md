@@ -444,7 +444,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2304.06025)] [[Project](https://grail
 
 **Reflected Diffusion Models** \
 *Aaron Lou, Stefano Ermon* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2304.04740)] \
+ICML 2023. [[Paper](https://arxiv.org/abs/2304.04740)] [[Project](https://aaronlou.com/blog/2023/reflected-diffusion/)] [[Github](https://github.com/louaaron/Reflected-Diffusion)] \
 10 Apr 2023
 
 **Binary Latent Diffusion** \
