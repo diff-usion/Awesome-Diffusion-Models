@@ -314,16 +314,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
-**DuDGAN: Improving Class-Conditional GANs via Dual-Diffusion** \
-*Taesun Yeom, Minhyeok Lee* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2305.14849)] \
-24 May 2023
-
-**Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps** \
-*Mingxiao Li, Tingyu Qu, Wei Sun, Marie-Francine Moens* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2305.15583)] \
-24 May 2023
-
 **Trans-Dimensional Generative Modeling via Jump Diffusion Models** \
 *Andrew Campbell, William Harvey, Christian Weilbach, Valentin De Bortoli, Tom Rainforth, Arnaud Doucet* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16261)] \
@@ -339,6 +329,16 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16269)] \
 *Jean-Yves Franceschi, Mike Gartrell, Ludovic Dos Santos, Thibaut Issenhuth, Emmanuel de Bézenac, Mickaël Chen, Alain Rakotomamonjy* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16150)] \
 25 May 2023
+
+**DuDGAN: Improving Class-Conditional GANs via Dual-Diffusion** \
+*Taesun Yeom, Minhyeok Lee* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2305.14849)] \
+24 May 2023
+
+**Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps** \
+*Mingxiao Li, Tingyu Qu, Wei Sun, Marie-Francine Moens* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2305.15583)] \
+24 May 2023
 
 
 **Robust Classification via a Single Diffusion Model** \
