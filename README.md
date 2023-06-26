@@ -1761,6 +1761,12 @@ ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.
 
 ### Classification
 
+**Conditional Generation from Unconditional Diffusion Models using Denoiser Representations** \
+*Alexandros Graikos, Srikar Yellapragada, Dimitris Samaras* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2306.01900)] \
+2 Jun 2023
+
+
 **DiffCLIP: Leveraging Stable Diffusion for Language Grounded 3D Classification** \
 *Sitian Shen, Zilin Zhu, Linqian Fan, Harry Zhang, Xinxiao Wu* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.15957)] \
@@ -3206,11 +3212,6 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.03284)] \
 *Muhammad Usman Akbar, Måns Larsson, Anders Eklund* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.02986)] \
 5 Jun 2023
-
-**Conditional Generation from Unconditional Diffusion Models using Denoiser Representations** \
-*Alexandros Graikos, Srikar Yellapragada, Dimitris Samaras* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.01900)] \
-2 Jun 2023
 
 
 **Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model** \
