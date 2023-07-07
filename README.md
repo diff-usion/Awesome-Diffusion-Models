@@ -9594,6 +9594,11 @@ KSEM 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_
 
 ### Generation
 
+**SwinGNN: Rethinking Permutation Invariance in Diffusion Models for Graph Generation** \
+*Qi Yan, Zhengyang Liang, Yang Song, Renjie Liao, Lele Wang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.01646)] [[Github](https://github.com/qiyan98/SwinGNN)] \
+4 Jul 2023
+
 **SaGess: Sampling Graph Denoising Diffusion Model for Scalable Graph Generation** \
 *Stratis Limnios, Praveen Selvaraj, Mihai Cucuringu, Carsten Maple, Gesine Reinert, Andrew Elliott* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.16827)] \
