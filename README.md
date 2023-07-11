@@ -236,6 +236,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 
 ## Survey
 
+**A Comprehensive Survey on Generative Diffusion Models for Structured Data** \
+*Heejoon Koo, To Eun Kim* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2306.04139)] \
+7 Jun 2023
+
 **On the Design Fundamentals of Diffusion Models: A Survey** \
 *Ziyi Chang, George A. Koulieris, Hubert P. H. Shum* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.04542)] \
