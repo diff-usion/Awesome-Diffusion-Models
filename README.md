@@ -461,9 +461,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.01148)] \
 1 Jun 2023
 
 
-**Addressing Negative Transfer in Diffusion Models** \ 
-*Hyojun Go, JinYoung Kim, Yunsung Lee, Seunghyun Lee, Shinhyeok Oh, Hyeongdon Moon, Seungtaek Choi* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.00354)] \ 
+**Addressing Negative Transfer in Diffusion Models** \
+*Hyojun Go, JinYoung Kim, Yunsung Lee, Seunghyun Lee, Shinhyeok Oh, Hyeongdon Moon, Seungtaek Choi* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2306.00354)] \
 1 Jun 2023
 
 **A Geometric Perspective on Diffusion Models** \
@@ -3913,9 +3913,9 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08228)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2212.07599)] \
 15 Dec 2022
 
-**Generating Realistic 3D Brain MRIs Using a Conditional Diffusion Probabilistic Model** \ 
-*Wei Peng, Ehsan Adeli, Qingyu Zhao, Kilian M. Pohl* \ 
-arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08034)] [[Github](https://github.com/Project-MONAI/GenerativeModels/tree/260-add-cdpm-model)] \ 
+**Generating Realistic 3D Brain MRIs Using a Conditional Diffusion Probabilistic Model** \
+*Wei Peng, Ehsan Adeli, Qingyu Zhao, Kilian M. Pohl* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2212.08034)] [[Github](https://github.com/Project-MONAI/GenerativeModels/tree/260-add-cdpm-model)] \
 15 Dec 2022
 
 
@@ -4531,7 +4531,7 @@ ICLR 2023. [[Paper](https://arxiv.org/abs/2306.00800)] \
 
 **Diffusion Brush: A Latent Diffusion Model-based Editing Tool for AI-generated Images** \
 *Peyman Gholami, Robert Xiao* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.00219)] \ 
+arXiv 2023. [[Paper](https://arxiv.org/abs/2306.00219)] \
 31 May 2023
 
 **Understanding and Mitigating Copying in Diffusion Models** \
@@ -4641,7 +4641,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2305.17431)] \
 27 May 2023
 
 
-**FISEdit: Accelerating Text-to-image Editing via Cache-enabled Sparse Diffusion Inference** \ 
+**FISEdit: Accelerating Text-to-image Editing via Cache-enabled Sparse Diffusion Inference** \
 *Zihao Yu, Haoyang Li, Fangcheng Fu, Xupeng Miao, Bin Cui* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.17423)] \
 27 May 2023
@@ -9599,6 +9599,11 @@ KSEM 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_
 
 ### Generation
 
+**SwinGNN: Rethinking Permutation Invariance in Diffusion Models for Graph Generation** \
+*Qi Yan, Zhengyang Liang, Yang Song, Renjie Liao, Lele Wang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.01646)] [[Github](https://github.com/qiyan98/SwinGNN)] \
+4 Jul 2023
+
 **SaGess: Sampling Graph Denoising Diffusion Model for Scalable Graph Generation** \
 *Stratis Limnios, Praveen Selvaraj, Mihai Cucuringu, Carsten Maple, Gesine Reinert, Andrew Elliott* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.16827)] \
@@ -10219,7 +10224,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2304.00917)]
 3 Apr 2023
 
 
-**Efficient Sampling of Stochastic Differential Equations with Positive Semi-Definite Models** \ 
+**Efficient Sampling of Stochastic Differential Equations with Positive Semi-Definite Models** \
 *Anant Raj, Umut Şimşekli, Alessandro Rudi* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17109)] \
 30 Mar 2023
