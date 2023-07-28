@@ -2108,6 +2108,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.08942)] \
 
 ### Segmentation
 
+**DDP: Diffusion Model for Dense Visual Prediction** \
+*Yuanfeng Ji, Zhe Chen, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo* \
+ICCV 2023. [[Paper](https://arxiv.org/pdf/2303.17559)] [[Github](https://github.com/JiYuanFeng/DDP)] \
+28 Jul 2023
+
 **Pre-Training with Diffusion models for Dental Radiography segmentation** \
 *Jérémy Rousseau, Christian Alaka, Emma Covili, Hippolyte Mayard, Laura Misrachi, Willy Au* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.14066)] \
