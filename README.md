@@ -2757,9 +2757,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.04946)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.03992)] \
 8 Jul 2023
 
-**IPO-LDM: Depth-aided 360-degree Indoor RGB Panorama Outpainting via Latent Diffusion Model** \ 
-*Tianhao Wu, Chuanxia Zheng, Tat-Jen Cham* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.03177)] [[Github](https://sm0kywu.github.io/ipoldm/)] \ 
+**IPO-LDM: Depth-aided 360-degree Indoor RGB Panorama Outpainting via Latent Diffusion Model** \
+*Tianhao Wu, Chuanxia Zheng, Tat-Jen Cham* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.03177)] [[Github](https://sm0kywu.github.io/ipoldm/)] \
 6 Jul 2023
 
 **Single Image LDR to HDR Conversion using Conditional Diffusion** \
@@ -3682,9 +3682,9 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.07636)] [[Project](https://itera
 
 
 
-**Pre-Training with Diffusion models for Dental Radiography segmentation** \ 
-*Jérémy Rousseau, Christian Alaka, Emma Covili, Hippolyte Mayard, Laura Misrachi, Willy Au* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.14066)] \ 
+**Pre-Training with Diffusion models for Dental Radiography segmentation** \
+*Jérémy Rousseau, Christian Alaka, Emma Covili, Hippolyte Mayard, Laura Misrachi, Willy Au* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.14066)] \
 26 Jul 2023
 
 
@@ -3748,9 +3748,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.06507)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.04946)] \
 11 Jul 2023
 
-**LLCaps: Learning to Illuminate Low-Light Capsule Endoscopy with Curved Wavelet Attention and Reverse Diffusion** \ 
-*Long Bai, Tong Chen, Yanan Wu, An Wang, Mobarakol Islam, Hongliang Ren* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.02452)] [[Github](https://github.com/longbai1006/LLCaps)] \ 
+**LLCaps: Learning to Illuminate Low-Light Capsule Endoscopy with Curved Wavelet Attention and Reverse Diffusion** \
+*Long Bai, Tong Chen, Yanan Wu, An Wang, Mobarakol Islam, Hongliang Ren* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.02452)] [[Github](https://github.com/longbai1006/LLCaps)] \
 5 Jul 2023
 
 **Synchronous Image-Label Diffusion Probability Model with Application to Stroke Lesion Segmentation on Non-contrast CT** \
@@ -4512,9 +4512,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13720)] \
 25 Jul 2023
 
 
-**Fashion Matrix: Editing Photos by Just Talking** \ 
-*Zheng Chong, Xujie Zhang, Fuwei Zhao, Zhenyu Xie, Xiaodan Liang* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13240)] [[Project](https://zheng-chong.github.io/FashionMatrix/)] [[Github](https://github.com/Zheng-Chong/FashionMatrix)] \ 
+**Fashion Matrix: Editing Photos by Just Talking** \
+*Zheng Chong, Xujie Zhang, Fuwei Zhao, Zhenyu Xie, Xiaodan Liang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13240)] [[Project](https://zheng-chong.github.io/FashionMatrix/)] [[Github](https://github.com/Zheng-Chong/FashionMatrix)] \
 25 Jul 2023
 
 **Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry** \
@@ -4562,7 +4562,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.10373)] [[Project](https://diffu
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.08597)] \
 17 Jul 2023
 
-**Not All Steps are Created Equal: Selective Diffusion Distillation for Image Manipulation** \ 
+**Not All Steps are Created Equal: Selective Diffusion Distillation for Image Manipulation** \
 *Luozhou Wang, Shuai Yang, Shu Liu, Ying-cong Chen* \
 ICCV 2023. [[Paper](https://arxiv.org/abs/2307.08448)] [[Github](https://github.com/AndysonYs/Selective-Diffusion-Distillation)] \
 17 Jul 2023
@@ -7878,9 +7878,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.12499)] \
 
 
 
-**Enhancing Adversarial Robustness via Score-Based Optimization** \ 
-*Boya Zhang, Weijian Luo, Zhihua Zhang* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.04333)] \ 
+**Enhancing Adversarial Robustness via Score-Based Optimization** \
+*Boya Zhang, Weijian Luo, Zhihua Zhang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.04333)] \
 10 Jul 2023
 
 **DIFFender: Diffusion-Based Adversarial Defense against Patch Attacks in the Physical World** \
@@ -10444,9 +10444,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.02707)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.00623)] \
 2 Jul 2023
 
-**Practical and Asymptotically Exact Conditional Sampling in Diffusion Models** \ 
-*Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunningham* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.17775)] [[Github](https://github.com/blt2114/twisted_diffusion_sampler)] \ 
+**Practical and Asymptotically Exact Conditional Sampling in Diffusion Models** \
+*Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunningham* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2306.17775)] [[Github](https://github.com/blt2114/twisted_diffusion_sampler)] \
 30 Jun 2023
 
 **Graph Denoising Diffusion for Inverse Protein Folding** \
