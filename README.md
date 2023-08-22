@@ -8126,7 +8126,7 @@ ICML 2021. [[Paper](https://arxiv.org/abs/2106.06041)] [[Github](https://github.
 
 **Not with my name! Inferring artists' names of input strings employed by Diffusion Models** \
 *Roberto Leotta, Oliver Giudice, Luca Guarnera, Sebastiano Battiato* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13527)] \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13527)] [[Github](https://github.com/ictlab-unict/not-with-my-name)] \
 25 Jul 2023
 
 
