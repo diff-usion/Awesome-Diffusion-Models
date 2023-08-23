@@ -4488,6 +4488,10 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 ### Multi-modal Learning
 
 
+**Learning to Generate Semantic Layouts for Higher Text-Image Correspondence in Text-to-Image Synthesis** \
+*Minho Park, Jooyeol Yun, Seunghwan Choi, Jaegul Choo* \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2308.08157)] [[Project](https://pmh9960.github.io/research/GCDP/)] [[Github](https://github.com/pmh9960/GCDP/)] \
+16 Aug 2023
 
 **VideoControlNet: A Motion-Guided Video-to-Video Translation Framework by Using Diffusion Model with ControlNet** \
 *Zhihao Hu, Dong Xu* \
