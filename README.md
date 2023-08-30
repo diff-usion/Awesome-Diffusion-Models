@@ -3800,7 +3800,10 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.12109)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.11984)] \
 21 Jun 2023
 
-
+**SANO: Score-Based Diffusion Model for Anomaly Localization in Dermatology** \
+*Alvaro Gonzalez-Jimenez, Simone Lionetti, Marc Pouly, Alexander A. Navarini* \
+CVPR Workshop 2023. [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/VAND/html/Gonzalez-Jimenez_SANO_Score-Based_Diffusion_Model_for_Anomaly_Localization_in_Dermatology_CVPRW_2023_paper.html)] \
+18 Jun 2023
 
 **Aligning Synthetic Medical Images with Clinical Knowledge using Human Feedback** \
 *Shenghuan Sun, Gregory M. Goldgof, Atul Butte, Ahmed M. Alaa* \
