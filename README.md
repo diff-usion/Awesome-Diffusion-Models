@@ -880,6 +880,10 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.05334)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.04772)] \
 8 Mar 2023
 
+**DLT: Conditioned layout generation with Joint Discrete-Continuous Diffusion Layout Transformer** \
+*Elad Levi, Eli Brosh, Mykola Mykhailych, Meir Perez* \
+ICCV 2023. [[Paper]](https://arxiv.org/abs/2303.03755) [[Project]](https://wix-incubator.github.io/DLT/)
+7 Mar 2023
 
 **TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation** \
 *David Berthelot, Arnaud Autef, Jierui Lin, Dian Ang Yap, Shuangfei Zhai, Siyuan Hu, Daniel Zheng, Walter Talbott, Eric Gu* \
