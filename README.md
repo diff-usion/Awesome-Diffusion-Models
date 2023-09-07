@@ -5047,9 +5047,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.10648)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2308.10718)] [[Project](https://concept-censorship.github.io/)] [[Github](https://github.com/concept-censorship/concept-censorship.github.io/tree/main/code)] \
 21 Aug 2023
 
-**AltDiffusion: A Multilingual Text-to-Image Diffusion Model** \ 
-*Fulong Ye, Guang Liu, Xinya Wu, Ledell Wu* \ 
-AAAI 2024. [[Paper](https://arxiv.org/abs/2308.09991)] [[Github](https://github.com/superhero-7/AltDiffuson)] \ 
+**AltDiffusion: A Multilingual Text-to-Image Diffusion Model** \
+*Fulong Ye, Guang Liu, Xinya Wu, Ledell Wu* \
+AAAI 2024. [[Paper](https://arxiv.org/abs/2308.09991)] [[Github](https://github.com/superhero-7/AltDiffuson)] \
 19 Aug 2023
 
 **DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability** \
@@ -5099,7 +5099,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.08947)] [[Project](https://ashmr
 
 **Learning to Generate Semantic Layouts for Higher Text-Image Correspondence in Text-to-Image Synthesis** \
 *Minho Park, Jooyeol Yun, Seunghwan Choi, Jaegul Choo* \
-ICCV 2023. [[Paper](https://arxiv.org/abs/2308.08157)] [[Project](https://pmh9960.github.io/research/GCDP/)] \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2308.08157)] [[Project](https://pmh9960.github.io/research/GCDP/)] [[Github](https://github.com/pmh9960/GCDP/)] \
 16 Aug 2023
 
 
@@ -7619,9 +7619,9 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09705)] \
 MICCAI 2023. [[Paper](https://arxiv.org/abs/2308.09223)] [[Github](https://github.com/hexiaoxiao-cs/DMCVR)] \
 18 Aug 2023
 
-**HumanLiff: Layer-wise 3D Human Generation with Diffusion Model** \ 
-*Shoukang Hu, Fangzhou Hong, Tao Hu, Liang Pan, Haiyi Mei, Weiye Xiao, Lei Yang, Ziwei Liu* \ 
-arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09712)] [[Project](https://skhu101.github.io/HumanLiff/)] \ 
+**HumanLiff: Layer-wise 3D Human Generation with Diffusion Model** \
+*Shoukang Hu, Fangzhou Hong, Tao Hu, Liang Pan, Haiyi Mei, Weiye Xiao, Lei Yang, Ziwei Liu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2308.09712)] [[Project](https://skhu101.github.io/HumanLiff/)] \
 18 Aug 2023
 
 
@@ -9037,7 +9037,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.08367)] \
 
 **Not with my name! Inferring artists' names of input strings employed by Diffusion Models** \
 *Roberto Leotta, Oliver Giudice, Luca Guarnera, Sebastiano Battiato* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13527)] \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2307.13527)] [[Github](https://github.com/ictlab-unict/not-with-my-name)] \
 25 Jul 2023
 
 
@@ -10171,7 +10171,7 @@ ACM Multimedia 2022. [[Paper](https://arxiv.org/abs/2207.06389)] [[Project](http
 
 **CARD: Classification and Regression Diffusion Models** \
 *Xizewen Han, Huangjie Zheng, Mingyuan Zhou* \
-NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.07275)]  \
+NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.07275)] [[Github](https://github.com/xzwhan/card)] \
 15 Jun 2022
 
 **Adversarial Audio Synthesis with Complex-valued Polynomial Networks** \
