@@ -2936,6 +2936,11 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2104.05358)] \
 
 ### Inverse Problems
 
+**A Structure-Guided Diffusion Model for Large-Hole Image Completion** \
+*Daichi Horita, Jiaolong Yang, Dong Chen, Yuki Koyama, Kiyoharu Aizawa, Nicu Sebe* \
+BMVC 2023. [[Paper](https://arxiv.org/abs/2211.10437)] \
+6 Sep 2023
+
 **Efficient Bayesian Computational Imaging with a Surrogate Score-Based Prior** \
 *Berthy T. Feng, Katherine L. Bouman* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2309.01949)] \
@@ -3784,12 +3789,6 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10655)] \
 **Patch-Based Denoising Diffusion Probabilistic Model for Sparse-View CT Reconstruction** \
 *Wenjun Xia, Wenxiang Cong, Ge Wang* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10388)] \
-18 Nov 2022
-
-
-**A Structure-Guided Diffusion Model for Large-Hole Diverse Image Completion** \
-*Daichi Horita, Jiaolong Yang, Dong Chen, Yuki Koyama, Kiyoharu Aizawa* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10437)] \
 18 Nov 2022
 
 
