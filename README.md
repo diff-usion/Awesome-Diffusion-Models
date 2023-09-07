@@ -4672,7 +4672,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.08863)] [[Github](https://github
 
 **Stochastic Segmentation with Conditional Categorical Diffusion Models** \
 *Lukas Zbinden, Lars Doorenbos, Theodoros Pissas, Raphael Sznitman, Pablo Márquez-Neila* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
 15 Mar 2023
 
 **Diffusion Models for Contrast Harmonization of Magnetic Resonance Images** \
