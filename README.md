@@ -6515,7 +6515,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2304.10261)] [[Github](https://github
 
 **UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer** \
 *Soon Yau Cheong, Armin Mustafa, Andrew Gilbert* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2304.08870)] [[Github](https://github.com/soon-yau/upgpt)] \
+ICCVW 2023. [[Paper](https://arxiv.org/abs/2304.08870)] [[Github](https://github.com/soon-yau/upgpt)] \
 18 Apr 2023
 
 **TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models** \
