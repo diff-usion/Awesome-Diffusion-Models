@@ -2050,6 +2050,11 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2307.16687)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.16424)] \
 31 Jul 2023
 
+**Generative Prompt Model for Weakly Supervised Object Localization** \
+*Yuzhong Zhao, Qixiang Ye, Weijia Wu, Chunhua Shen, Fang Wan* \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2307.09756)] [[Github](https://github.com/callsys/GenPromp)] \
+19 Jul 2023
+
 **Diffusion Models Beat GANs on Image Classification** \
 *Soumik Mukhopadhyay, Matthew Gwilliam, Vatsal Agarwal, Namitha Padmanabhan, Archana Swaminathan, Srinidhi Hegde, Tianyi Zhou, Abhinav Shrivastava* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.08702)] \
@@ -2463,7 +2468,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.09813)] \
 
 **Stochastic Segmentation with Conditional Categorical Diffusion Models** \
 *Lukas Zbinden, Lars Doorenbos, Theodoros Pissas, Raphael Sznitman, Pablo Márquez-Neila* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
 15 Mar 2023
 
 **DiffBEV: Conditional Diffusion Model for Bird's Eye View Perception** \
@@ -3072,6 +3077,14 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.02228)] \
 *Kyungryun Lee, Won-Ki Jeong* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2308.01594)] \
 3 Aug 2023
+
+
+
+**Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction** \
+*Muhammad U. Mirza, Onat Dalmaz, Hasan A. Bedel, Gokberk Elmas, Yilmaz Korkmaz, Alper Gungor, Salman UH Dar, Tolga Çukur* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2308.01096)] \
+2 Aug 2023
+
 
 **Ultrasound Image Reconstruction with Denoising Diffusion Restoration Models** \
 *Yuxin Zhang, Clément Huneau, Jérôme Idier, Diana Mateus* \
@@ -3789,7 +3802,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10388)] \
 
 **A Structure-Guided Diffusion Model for Large-Hole Diverse Image Completion** \
 *Daichi Horita, Jiaolong Yang, Dong Chen, Yuki Koyama, Kiyoharu Aizawa* \
-arXiv 2022. [[Paper](https://arxiv.org/abs/2211.10437)] \
+BMVC 2023. [[Paper](https://arxiv.org/abs/2211.10437)] \
 18 Nov 2022
 
 
@@ -3802,6 +3815,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09795)] \
 *Xin Wang, Jing-Ke Yan, Jing-Ye Cai, Jian-Hua Deng, Qin Qin, Qin Wang, Heng Xiao, Yao Cheng, Peng-Fei Ye* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2211.12845)] \
 16 Nov 2022
+
 
 
 **Learning to Kindle the Starlight** \
@@ -4232,6 +4246,12 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2308.01594)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2308.01328)] \
 2 Aug 2023
 
+**Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction** \
+*Muhammad U. Mirza, Onat Dalmaz, Hasan A. Bedel, Gokberk Elmas, Yilmaz Korkmaz, Alper Gungor, Salman UH Dar, Tolga Çukur* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2308.01096)] \
+2 Aug 2023
+
+
 **C-DARL: Contrastive diffusion adversarial representation learning for label-free blood vessel segmentation** \
 *Boah Kim, Yujin Oh, Bradford J. Wood, Ronald M. Summers, Jong Chul Ye* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2308.00193)] \
@@ -4366,6 +4386,10 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.12109)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.11984)] \
 21 Jun 2023
 
+**SANO: Score-Based Diffusion Model for Anomaly Localization in Dermatology** \
+*Alvaro Gonzalez-Jimenez, Simone Lionetti, Marc Pouly, Alexander A. Navarini* \
+CVPR Workshop 2023. [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/VAND/html/Gonzalez-Jimenez_SANO_Score-Based_Diffusion_Model_for_Anomaly_Localization_in_Dermatology_CVPRW_2023_paper.html)] \
+18 Jun 2023
 
 
 **Aligning Synthetic Medical Images with Clinical Knowledge using Human Feedback** \
@@ -4672,7 +4696,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2303.08863)] [[Github](https://github
 
 **Stochastic Segmentation with Conditional Categorical Diffusion Models** \
 *Lukas Zbinden, Lars Doorenbos, Theodoros Pissas, Raphael Sznitman, Pablo Márquez-Neila* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.08888)] [[Github](https://github.com/LarsDoorenbos/ccdm-stochastic-segmentation)] \
 15 Mar 2023
 
 **Diffusion Models for Contrast Harmonization of Magnetic Resonance Images** \
@@ -6515,7 +6539,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2304.10261)] [[Github](https://github
 
 **UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer** \
 *Soon Yau Cheong, Armin Mustafa, Andrew Gilbert* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2304.08870)] [[Github](https://github.com/soon-yau/upgpt)] \
+ICCV Workshop 2023. [[Paper](https://arxiv.org/abs/2304.08870)] [[Github](https://github.com/soon-yau/upgpt)] \
 18 Apr 2023
 
 **TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models** \
@@ -10286,7 +10310,7 @@ CVPR 2023. [[Paper](https://arxiv.org/abs/2303.05049)] \
 
 **DLT: Conditioned layout generation with Joint Discrete-Continuous Diffusion Layout Transformer** \
 *Elad Levi, Eli Brosh, Mykola Mykhailych, Meir Perez* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2303.03755)] \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.03755)] \
 7 Mar 2023
 
 **Diffusion in the Dark: A Diffusion Model for Low-Light Text Recognition** \
