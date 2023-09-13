@@ -6166,7 +6166,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16317)] [[Github](https://github
 
 **Break-A-Scene: Extracting Multiple Concepts from a Single Image** \
 *Omri Avrahami, Kfir Aberman, Ohad Fried, Daniel Cohen-Or, Dani Lischinski* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16311)] [[Project](https://omriavrahami.com/break-a-scene/)] \
+SIGGRAPH Asia 2023. [[Paper](https://arxiv.org/abs/2305.16311)] [[Project](https://omriavrahami.com/break-a-scene/)] [[Github](https://github.com/google/break-a-scene)] \
 25 May 2023
 
 **Diversify Your Vision Datasets with Automatic Diffusion-Based Augmentation** \
