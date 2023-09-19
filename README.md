@@ -580,7 +580,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.02316)] \
 
 **Conditional Generation from Unconditional Diffusion Models using Denoiser Representations** \
 *Alexandros Graikos, Srikar Yellapragada, Dimitris Samaras* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.01900)] \
+BMVC 2023. [[Paper](https://arxiv.org/abs/2306.01900)][[Github](https://github.com/cvlab-stonybrook/fewshot-conditional-diffusion)] \
 2 Jun 2023
 
 **Conditioning Diffusion Models via Attributes and Semantic Masks for Face Generation** \
@@ -2108,7 +2108,7 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.05423)] \
 
 **Conditional Generation from Unconditional Diffusion Models using Denoiser Representations** \
 *Alexandros Graikos, Srikar Yellapragada, Dimitris Samaras* \
-arXiv 2023. [[Paper](https://arxiv.org/abs/2306.01900)] \
+BMVC 2023. [[Paper](https://arxiv.org/abs/2306.01900)][[Github](https://github.com/cvlab-stonybrook/fewshot-conditional-diffusion)] \
 2 Jun 2023
 
 **DiffCLIP: Leveraging Stable Diffusion for Language Grounded 3D Classification** \
