@@ -2246,6 +2246,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.08942)] \
 
 ### Segmentation
 
+**Diffusion Model is Secretly a Training-free Open Vocabulary Semantic Segmenter** \
+*Jinglong Wang, Xiawei Li1, Jing Zhang, Qingyuan Xu, Qin Zhou, Qian Yu, Lu Sheng, Dong Xu2* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2309.02773)] \
+6 Sep 2023
+
 **GenSelfDiff-HIS: Generative Self-Supervision Using Diffusion for Histopathological Image Segmentation** \
 *Vishnuvardhan Purma, Suhas Srinath, Seshan Srirangarajan, Aanchal Kakkar, Prathosh A. P* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2309.01487)] [[Github](https://github.com/PurmaVishnuVardhanReddy/GenSelfDiff-HIS)] \
