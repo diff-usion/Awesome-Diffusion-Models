@@ -333,6 +333,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.02646)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 2 Sep 2022
 
+**A Survey on Video Diffusion Models** \
+*Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu and Yu-Gang Jiang*
+arXiv 2023. [[Paper](https://arxiv.org/pdf/2310.10647.pdf)] \
+16 Oct 2023
+
 ## Vision
 ### Generation
 
