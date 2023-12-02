@@ -196,6 +196,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 *acids-ircam* \
 [[Github](https://github.com/acids-ircam/diffusion_models)] 
 
+**PyTorch denoising diffusion demo** \
+*joseph-nagel* \
+[[Github](https://github.com/joseph-nagel/diffusion-demo)]
+
 
 **Centipede Diffusion** \
 *Zalring* \
