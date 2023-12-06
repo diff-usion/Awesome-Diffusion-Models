@@ -5728,6 +5728,10 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### Multi-modal Learning
 
+**DreamCreature: Crafting Photorealistic Virtual Creatures from Imagination** \
+*Kam Woh Ng, Xiatian Zhu, Yi-Zhe Song, Tao Xiang* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2311.15477)] [[Project](https://kamwoh.github.io/dreamcreature)] [[Github](https://github.com/kamwoh/dreamcreature)] \
+27 Nov 2023
 
 **IterInv: Iterative Inversion for Pixel-Level T2I Models** \
 *Chuanming Tang, Kai Wang, Joost van de Weijer* \
