@@ -110,6 +110,12 @@ Please refer to [this page](https://diff-usion.github.io/Awesome-Diffusion-Model
 [[Website](https://yang-song.github.io/blog/2021/score/)] \
 5 May 2021
 
+**An Introduction to Diffusion Models for Machine Learning** \
+*Akruti Acharya* \
+[[Website](https://encord.com/blog/diffusion-models/)]
+8 August 2023
+
+
 ## Introductory Papers
 
 **Understanding Diffusion Models: A Unified Perspective** \
