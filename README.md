@@ -831,6 +831,11 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.04990)] \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.04848)] \
 8 Jun 2023
 
+**Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models** \
+*Nan Liu, Yilun Du, Shuang Li, Joshua B. Tenenbaum, Antonio Torralba* \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2306.05357)] [[Website](https://energy-based-model.github.io/unsupervised-concept-discovery/)] [[Code](https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery)]\
+8 Jun 2023
+
 **Video Diffusion Models with Local-Global Context Guidance** \
 *Siyuan Yang, Lu Zhang, Yu Liu, Zhizhuo Jiang, You He* \
 IJCAI 2023. [[Paper](https://arxiv.org/abs/2306.02562)] [[Github](https://github.com/exisas/LGC-VD)] \
