@@ -11676,6 +11676,11 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2306.06138)] [[Github](https://github
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.05720)] \
 9 Jun 2023
 
+**Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models** \
+*Nan Liu, Yilun Du, Shuang Li, Joshua B. Tenenbaum, Antonio Torralba* \
+ICCV 2023. [[Paper](https://arxiv.org/abs/2306.05357)] [[Website](https://energy-based-model.github.io/unsupervised-concept-discovery/)] [[Code](https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery)]\
+8 Jun 2023
+
 **PriSampler: Mitigating Property Inference of Diffusion Models** \
 *Hailong Hu, Jun Pang* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.05208)] \
