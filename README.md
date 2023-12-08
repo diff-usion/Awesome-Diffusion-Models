@@ -5728,6 +5728,10 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 
 ### Multi-modal Learning
 
+**TokenCompose: Grounding Diffusion with Token-level Supervision** \
+*Zirui Wang, Zhizhou Sha, Zheng Ding, Yilin Wang, Zhuowen Tu* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2312.03626)] \
+6 Dec 2023
 
 **IterInv: Iterative Inversion for Pixel-Level T2I Models** \
 *Chuanming Tang, Kai Wang, Joost van de Weijer* \
