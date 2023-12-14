@@ -233,6 +233,10 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 *huggingface* \
 [[Notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)] 
 
+**MNISTDiffusion** \
+*Guocheng* \
+[[Github](https://github.com/bot66/MNISTDiffusion)] 
+
 
 # Papers
 
