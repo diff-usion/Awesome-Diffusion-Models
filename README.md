@@ -351,6 +351,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**The Chosen One: Consistent Characters in Text-to-Image Diffusion Models** \
+*Omri Avrahami, Amir Hertz, Yael Vinker, Moab Arar, Shlomi Fruchter, Ohad Fried, Daniel Cohen-Or, Dani Lischinski* \
+arXiv 2023. [[Paper](https://arxiv.org/abs/2311.10093)] [[Project](https://omriavrahami.com/the-chosen-one/)] [[Github](https://github.com/ZichengDuan/TheChosenOne)] \
+16 Nov 2023
+
 **DiffEnc: Variational Diffusion with a Learned Encoder** \
 *Beatrix M. G. Nielsen, Anders Christensen, Andrea Dittadi, Ole Winther* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19789)] \
