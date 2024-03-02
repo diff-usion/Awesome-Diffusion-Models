@@ -238,6 +238,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 
 ## Survey
 
+**Diffusion Model-Based Image Editing: A Survey** \
+*Yi Huang, Jiancheng Huang, Yifan Liu, Mingfu Yan, Jiaxi Lv, Jianzhuang Liu, Wei Xiong, He Zhang, Shifeng Chen, Liangliang Cao* \
+arXiv 2024. [[Paper](https://arxiv.org/abs/2402.17525)] \
+27 Feb 2024
+
 **A Survey on Video Diffusion Models** \
 *Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu and Yu-Gang Jiang*
 arXiv 2023. [[Paper](https://arxiv.org/pdf/2310.10647.pdf)] \
