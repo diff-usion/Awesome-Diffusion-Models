@@ -122,6 +122,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2101.03288)] \
 9 Jan 2021
 
+**Build a Text-to-Image Generator (from Scratch)** \
+*Mark Liu* \
+Manning Publications 2025. [[Book](https://www.manning.com/books/build-a-text-to-image-generator-from-scratch)] \
+Dec 2025
+
 ## Introductory Videos
 
 **:fast_forward: DiffusionFastForward** \
