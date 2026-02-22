@@ -351,6 +351,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**MOVA: Towards Scalable and Synchronized Video-Audio Generation** \
+*SII-OpenMOSS Team* \
+arXiv 2026. [[Paper](https://arxiv.org/abs/2602.08794)] [[Github](https://github.com/OpenMOSS/MOVA)] [[Project](https://mosi.cn/models/mova)] \
+14 Feb 2026
+
 **DiffEnc: Variational Diffusion with a Learned Encoder** \
 *Beatrix M. G. Nielsen, Anders Christensen, Andrea Dittadi, Ole Winther* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19789)] \
