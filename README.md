@@ -35,6 +35,9 @@ Please refer to [this page](https://diff-usion.github.io/Awesome-Diffusion-Model
     - [Miscellany](#miscellany-1)
   - [Natural Language](#natural-language)
   - [Tabular and Time Series](#tabular-and-time-series)
+
+**TabGAN: Synthetic Tabular Data Generation using GANs, Diffusion Models, and LLMs** \
+Insaf Ashrapov. *arXiv 2020*. [[Paper](https://arxiv.org/abs/2010.00638)] [[Code](https://github.com/Diyago/Tabular-data-generation)]
     - [Generation](#generation-2)
     - [Forecasting](#forecasting)
     - [Imputation](#imputation)
