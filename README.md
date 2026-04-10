@@ -15714,3 +15714,4 @@ arXiv 2021. [[Paper](https://arxiv.org/abs/2111.08177)] [[Github](https://github
 *Troy Luhman, Eric Luhman* \
 arXiv 2020. [[Paper](https://arxiv.org/abs/2011.06704)] [[Github](https://github.com/tcl9876/Diffusion-Handwriting-Generation)] \
 13 Nov 2020 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=diff-usion_Awesome-Diffusion-Models) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
