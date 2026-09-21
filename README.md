@@ -351,6 +351,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**DriveVA: Video Action Models are Zero-Shot Drivers** \
+*Mengmeng Liu, Diankun Zhang, Jiuming Liu, Jianfeng Cui, Hongwei Xie, Guang Chen, Hangjun Ye, Michael Ying Yang, Francesco Nex, Hao Cheng* \
+ECCV 2026. [[Paper](https://link.springer.com/chapter/10.1007/978-3-032-37718-0_19)] [[Code](https://github.com/xiaomi-mlab/DriveVA)] \
+12 Sep 2026
+
 **DiffEnc: Variational Diffusion with a Learned Encoder** \
 *Beatrix M. G. Nielsen, Anders Christensen, Andrea Dittadi, Ole Winther* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19789)] \
