@@ -5729,6 +5729,12 @@ MIA 2021. [[Paper](https://arxiv.org/abs/2110.05243)] [[Github](https://github.c
 ### Multi-modal Learning
 
 
+**MEND: RL For Flow Models via Proximal Velocity Matching** \
+*Shreshth Saini, Neil Birkbeck, Yilin Wang, Balu Adsumilli, Alan C. Bovik* \
+arXiv 2026. [[Paper](https://arxiv.org/abs/2610.05954)] [[Project](https://shreshthsaini.github.io/MEND-RL/)] [[Github](https://github.com/shreshthsaini/MEND-RL)] \
+05 Oct 2026
+
+
 **IterInv: Iterative Inversion for Pixel-Level T2I Models** \
 *Chuanming Tang, Kai Wang, Joost van de Weijer* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19540)] \
