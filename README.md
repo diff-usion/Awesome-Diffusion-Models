@@ -351,6 +351,21 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**Moonworks Lunara: Modeling Artistic Intelligence** \
+*Yan Wang, Yanzu Wang, Maitreyee Joshi, Samiha Sadeka, Partho Hassan, Reza Jarral, Sayeef Abdullah, Sabit Hassan* \
+arXiv 2026. [[Paper](https://arxiv.org/abs/2609.22272)] [[Dataset](https://huggingface.co/datasets/moonworks/lunara-art-eval)] \
+11 Sep 2026
+
+**Moonworks Lunara Aesthetic II: An Image Variation Dataset** \
+*Yan Wang, Partho Hassan, Samiha Sadeka, Nada Soliman, Sayeef Abdullah, Sabit Hassan* \
+arXiv 2026. [[Paper](https://arxiv.org/abs/2602.01666)] [[Dataset](https://huggingface.co/datasets/moonworks/lunara-aesthetic-image-variations)] \
+2 Feb 2026
+
+**Moonworks Lunara Aesthetic I: An Art Dataset** \
+*Yan Wang, Sayeef Abdullah, Partho Hassan, Sabit Hassan* \
+arXiv 2026. [[Paper](https://arxiv.org/abs/2601.07941)] [[Dataset](https://huggingface.co/datasets/moonworks/lunara-aesthetic)] \
+12 Jan 2026
+
 **DiffEnc: Variational Diffusion with a Learned Encoder** \
 *Beatrix M. G. Nielsen, Anders Christensen, Andrea Dittadi, Ole Winther* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19789)] \
