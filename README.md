@@ -13396,6 +13396,11 @@ SACAIR 2022. [[Paper](https://arxiv.org/abs/2210.07677)] [[Github](https://githu
 
 ## Natural Language
 
+**Empirical Analysis of Decoding Biases in Masked Diffusion Models** \
+*Pengcheng Huang, Tianming Liu, Zhenghao Liu, Yukun Yan, Shuo Wang, Tong Xiao, Zulong Chen, Maosong Sun* \
+ACL 2026 (Oral). [[Paper](https://arxiv.org/abs/2508.13021)] [[Project](https://passionate11.github.io/Uncode-project-page/)] [[Github](https://github.com/NEUIR/Uncode)] \
+18 Aug 2025
+
 **Discrete Diffusion Language Modeling by Estimating the Ratios of the Data Distribution** \
 *Aaron Lou, Chenlin Meng, Stefano Ermon* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.16834)] \
