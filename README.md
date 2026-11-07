@@ -351,6 +351,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00796)] \
 ## Vision
 ### Generation
 
+**Motion-aware generative frame interpolation** \
+*Guozhen Zhang, Yuhan Zhu, Yutao Cui, Xiaotong Zhao, Kai Ma, Limin Wang* \
+Science China Information Sciences 2026. [[Paper](https://link.springer.com/article/10.1007/s11432-025-4920-3)] [[arXiv](https://arxiv.org/abs/2501.03699)] [[Github](https://github.com/MCG-NJU/MoG-VFI)] \
+7 Jan 2025
+
 **DiffEnc: Variational Diffusion with a Learned Encoder** \
 *Beatrix M. G. Nielsen, Anders Christensen, Andrea Dittadi, Ole Winther* \
 arXiv 2023. [[Paper](https://arxiv.org/abs/2310.19789)] \
